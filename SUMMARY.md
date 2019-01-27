@@ -1,6 +1,6 @@
 # Summary
 
-* [About](./leetcode/README.md)
+* [About](./README.md)
 
 ## Leetcode
 
