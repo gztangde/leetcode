@@ -21,6 +21,8 @@
     "github-buttons",
     "editlink",
     "-highlight",
+    "prism",
+    "prism-themes",
     "bibtex-indexed-cite",
     "anchor-navigation-ex",
     "page-footer-ex",
@@ -45,6 +47,15 @@
         "size": "small",
         "count": true
       }]
+    },
+    "prism": {
+      "ignore": [
+        "mermaid",
+        "eval-js"
+      ],
+      "css": [
+        "prismjs/themes/prism-solarizedlight.css"
+      ]
     },
     "editlink": {
       "base": "https://github.com/guozetang/leetcode/blob/master",
