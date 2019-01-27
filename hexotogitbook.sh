@@ -16,7 +16,7 @@ WORK_DIR=$(dirname $(pwd))
 NOWTIME=$(TZ=UTC+5 date +%F\ %H:%M:%S)
 POST_DIR=$CURRENT_DIR/leetcode
 LEETCODE_POST=$CURRENT_DIR/SUMMARY.md
-ABOUT_POST=$CURRENT_DIR/leetcode/README.md
+ABOUT_POST=$CURRENT_DIR/README.md
 leetcode_post="Leetcode-[0-9]"
 difficulty_re="^\*\*Difficulty[:]?\*\*[ :]*\b(Easy|Medium|Hard)\b"
 category_re="^\*\*Category[:]?\*\*[ :]*[[:alpha:]]*"
