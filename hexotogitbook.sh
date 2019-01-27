@@ -55,10 +55,10 @@ for file in $POSTS; do
         # sed -i '/<!--/, /-->/d' $file
         if [ $num ] ; then
             # echo "$name($num) (../$linkname/) | $difficulty | $category | $codetime |"
-            new_file_name=$num-$name
-            new_file=$num-$name.md
+            new_file_name="$num. $name"
+            new_file=$linkname.md
             mv $file $new_file
-            echo "* [$new_file_name](./leetcode/$new_file)" >> $CURRENT_DIR/.temp
+            echo "$new_file_name](./$new_file)" >> $CURRENT_DIR/.temp
             # echo "$num | [$name](../$linkname/) | $difficulty | $category | $codetime |" >> $CURRENT_DIR/.temp
         fi
     fi
@@ -71,7 +71,7 @@ cat $CURRENT_DIR/.temp | sort -n >> $CURRENT_DIR/.temp2
 for line in $(cat $CURRENT_DIR/.temp2)
 do
     #echo "| ${line}"
-    echo "${line}" >> $LEETCODE_POST
+    echo "* [${line}" >> $LEETCODE_POST
     # post_num=$(($post_num+1))
 done
 

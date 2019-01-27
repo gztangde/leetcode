@@ -1,6 +1,6 @@
 #!/bin/bash
 rm -rf leetcode/*
-cp ./leet_bak/* leetcode/
+cp ./bak/* leetcode/
 rm SUMMARY.md
-cp SUMMARY_BAK.md SUMMARY.md
+cp SUMMARY_bak.md SUMMARY.md
 ./hexotogitbook.sh
