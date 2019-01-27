@@ -18,11 +18,9 @@
     "-search",
     "search-pro",
     "-sharing",
-    "disqus",
     "github-buttons",
     "editlink",
     "-highlight",
-    "prism",
     "bibtex-indexed-cite",
     "anchor-navigation-ex",
     "page-footer-ex",
@@ -39,9 +37,6 @@
     "anchor-navigation-ex": {
       "showLevel": false
     },
-    "disqus": {
-      "shortName": "Terry"
-    },
     "github-buttons": {
       "buttons": [{
         "user": "guozetang",
@@ -55,15 +50,6 @@
       "base": "https://github.com/guozetang/leetcode/blob/master",
       "label": "Edit",
       "multilingual": false
-    },
-    "prism": {
-      "ignore": [
-        "mermaid",
-        "eval-js"
-      ],
-      "css": [
-        "prismjs/themes/prism-solarizedlight.css"
-      ]
     },
     "page-footer-ex": {
       "copyright": "By [guozetang](https://github.com/guozetang)",
