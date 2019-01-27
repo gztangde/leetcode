@@ -2,6 +2,7 @@
   "title": "Leetcode",
   "author": "Guoze Tang",
   "description": "Leetcode",
+  "root":"./leetcode",
   "links": {
     "sidebar": {
       "Home": "http://guozet.me"

@@ -19,7 +19,6 @@ install:
 script:
   - chmod +x hexotogitbook.sh
   - ./hexotogitbook.sh
-  - mv leetcode/* .
   - gitbook build
 
 after_script:
