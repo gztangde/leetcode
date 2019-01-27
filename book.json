@@ -1,12 +1,17 @@
 {
   "title": "Leetcode",
   "author": "Guoze Tang",
-  "description": "leetCode",
+  "description": "Leetcode",
   "links": {
     "sidebar": {
       "Home": "http://guozet.me"
     },
     "gitbook": true
+  },
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+
   },
   "plugins": [
     "-lunr",
@@ -37,19 +42,19 @@
       "showLevel": false
     },
     "disqus": {
-      "shortName": "gitbook-template"
+      "shortName": "Terry"
     },
     "github-buttons": {
       "buttons": [{
-        "user": "riskers",
-        "repo": "gitbook-template",
+        "user": "guozetang",
+        "repo": "leetcode",
         "type": "star",
         "size": "small",
         "count": true
       }]
     },
     "editlink": {
-      "base": "https://github.com/riskers/gitbook-template/blob/master",
+      "base": "https://github.com/guozetang/leetcode/blob/master",
       "label": "Edit",
       "multilingual": false
     },
@@ -74,14 +79,6 @@
 
     "bibtex-indexed-cite": {
       "path": "/"
-    },
-    "donate": {
-      "wechat": "https://ws1.sinaimg.cn/large/8e495e65ly1fz0myv9povj20u00u0wfr.jpg",
-      "alipay": "https://ws1.sinaimg.cn/large/8e495e65ly1fz0myv9emlj20p011idib.jpg",
-      "title": "",
-      "button": "赏",
-      "alipayText": "支付宝打赏",
-      "wechatText": "微信打赏"
     }
   }
 }
