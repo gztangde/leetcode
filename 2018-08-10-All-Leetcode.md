@@ -1,3 +1,13 @@
+---
+title: Leetcode Solutions(Updating)
+date: 2018-08-17 01:02:39
+updated: 2018-09-09 20:18:54
+categories: Leetcode
+tags: Leetcode
+comments: false
+top: 99
+---
+
 ![](/images/in-post/2018-08-10-All-Leetcode/2019-01-09-19-22-01.png)
 
 I have solved **SOLVEDNUMBER / 980** problems. I use this page to record the questions which I did on the Leetcode.
