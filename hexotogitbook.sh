@@ -82,7 +82,7 @@ cat $CURRENT_DIR/.temp1 | sort -n >> $CURRENT_DIR/.temp3
 for line in $(cat $CURRENT_DIR/.temp3)
 do
     #echo "| ${line}"
-    echo "* [${line}" >> $ABOUT_POST
+    echo "| ${line}" >> $ABOUT_POST
     post_num=$(($post_num+1))
 done
 
