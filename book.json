@@ -58,9 +58,6 @@
       "label": "Edit",
       "multilingual": false
     },
-    "ga": {
-      "token": "UA-131910384-3"
-    },
     "prism": {
       "ignore": [
         "mermaid",
@@ -71,9 +68,9 @@
       ]
     },
     "page-footer-ex": {
-      "copyright": "By [riskers](https://github.com/riskers)，使用[知识共享 署名-相同方式共享 4.0协议](https://creativecommons.org/licenses/by-sa/4.0/)发布",
+      "copyright": "By [guozetang](https://github.com/guozetang)",
       "markdown": true,
-      "update_label": "此页面修订于：",
+      "update_label": "Updated：",
       "update_format": "YYYY-MM-DD HH:mm:ss"
     },
 
