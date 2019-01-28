@@ -4,7 +4,7 @@
 
 ## Array And Linked List
 
-* [Summary](./Leetcode-20-Valid-Parentheses.md)
+* [Summary](./summary/2019-01-26-Leetcode-Algorithm-Linked-List-Array.md)
 * [Array](./Leetcode-20-Valid-Parentheses.md)
   * [Remove Duplicates From Sorted Array](./Leetcode-26-Remove-Duplicates-From-Sorted-Array.md)
   * [Remove Duplicates From Sorted Array II](./Leetcode-80-Remove-Duplicates-From-Sorted-Array-II.md)
@@ -264,7 +264,6 @@
 * [Move Zeroes](./Leetcode-283-Move-Zeroes.md)
 * [Jewels and Stones](./Leetcode-771-Jewels-and-Stones.md)
 
-
 ## DFS
 
 * [Palindrome Partitioning](./Leetcode-131-Palindrome-Partitioning.md)
@@ -293,6 +292,7 @@
 
 ## Binary Search
 
+* [Summary](./summary/2019-01-15-Algorithms-Binary-Search.md)
 * [Online Election](./Leetcode-911-Online-Election.md)
 * [Preimage Size of Factorial Zeroes Function](./Leetcode-793-Preimage-Size-of-Factorial-Zeroes-Function.md)
 * [K th Smallest Prime Fraction](./Leetcode-786-K-th-Smallest-Prime-Fraction.md)
@@ -354,55 +354,28 @@
 * [Permutations](./Leetcode-46-Permutations.md)
 * [Permutations II](./Leetcode-47-Permutations-II.md)
 
-
 ## Others
 
-
-
 * [Valid Palindrome](./Leetcode-125-Valid-Palindrome.md)
-
 * [Find the Duplicate Number](./Leetcode-287-Find-the-Duplicate-Number.md)
 * [Find the Duplicate Number](./Leetcode-287-Find-the-Duplicate-Number.md)
-
-
 * [Ransom Note](./Leetcode-383-Ransom-Note.md)
 * [Mini Parser](./Leetcode-385-Mini-Parser.md)
-
-
-
-
-
-
 * [Longest Uncommon Subsequence I](./Leetcode-521-Longest-Uncommon-Subsequence-I.md)
 * [Longest Uncommon Subsequence II](./Leetcode-522-Longest-Uncommon-Subsequence-II.md)
-
 * [Complex Number Multiplication](./Leetcode-537-Complex-Number-Multiplication.md)
-
 * [Minimum Time Difference](./Leetcode-539-Minimum-Time-Difference.md)
-
 * [Optimal Division](./Leetcode-553-Optimal-Division.md)
-
-
-
-
-
 * [Permutation in String](./Leetcode-567-Permutation-in-String.md)
-
 * [Set Mismatch](./Leetcode-645-Set-Mismatch.md)
-
 * [Robot Return To Origin](./Leetcode-657-Robot-Return-To-Origin.md)
 * [Number of Longest Increasing Subsequence](./Leetcode-673-Number-of-Longest-Increasing-Subsequence.md)
 * [Valid Palindrome II](./Leetcode-680-Valid-Palindrome-II.md)
 * [1 bit and 2 bit characters](./Leetcode-717-1-bit-and-2-bit-characters.md)
-
 * [Find Pivot Index](./Leetcode-724-Find-Pivot-Index.md)
 * [Largest Number At Least Twice Of Others](./Leetcode-747-Largest-Number-At-Least-Twice-Of-Others.md)
-
 * [Rotated Digits](./Leetcode-788-Rotated-Digits.md)
 * [Unique Morse Code Words](./Leetcode-804-Unique-Morse-Code-Words.md)
 * [Most Common Word](./Leetcode-819-Most-Common-Word.md)
-
 * [Score Of Parentheses](./Leetcode-856-Score-Of-Parentheses.md)
-
 * [Find And Replace Pattern](./Leetcode-890-Find-And-Replace-Pattern.md)
-
