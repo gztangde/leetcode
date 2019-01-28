@@ -1,4 +1,4 @@
-# Summary
+## Summary
 
 * [All Leetcode Questions](./INDEX.md)
 
@@ -29,12 +29,26 @@
   * [Intersection-of-two-Arrays](./Leetcode-349-Intersection-of-two-Arrays.md)
   * [Intersection-Of-Two-Arrays-II](./Leetcode-350-Intersection-Of-Two-Arrays-II.md)
   * [Target-Sum](./Leetcode-494-Target-Sum.md)
+  * [Rotate-Array](./Leetcode-189-Rotate-Array.md)
+  * [Largest-Number](./Leetcode-179-Largest-Number.md)
+  * [First-Missing-Positive](./Leetcode-41-First-Missing-Positive.md)
+  * [Two-Sum-II-Input-Array-Is-Sorted](./Leetcode-167-Two-Sum-II-Input-Array-Is-Sorted.md)
+  * [Search-Insert-Position](./Leetcode-35-Search-Insert-Position.md)
+  * [Pascal-Triangle](./Leetcode-118-Pascal-Triangle.md)
+  * [Pascal-Triangle-II](./Leetcode-119-Pascal-Triangle-II.md)
+  * [Misssing-Number](./Leetcode-268-Misssing-Number.md)
+  * [Guess-Number-Higher-Or-Lower](./Leetcode-374-Guess-Number-Higher-Or-Lower.md)
+  * [Find-All-Duplicates-In-An-Array](./Leetcode-442-Find-All-Duplicates-In-An-Array.md)
+  * [Single-Element-in-a-Sorted-Array](./Leetcode-540-Single-Element-in-a-Sorted-Array.md)
+  * [Monotonic-Array](./Leetcode-896-Monotonic-Array.md)
+  * [Peak-Index-in-a-Mountain-Array](./Leetcode-852-Peak-Index-in-a-Mountain-Array.md)
 
 * [Linked List](./Leetcode-20-Valid-Parentheses.md)
   * [Remove-Nth-Node-From-End-Of-List](./Leetcode-19-Remove-Nth-Node-From-End-Of-List.md)
   * [Merge-K-Sorted-Lists](./Leetcode-23-Merge-K-Sorted-Lists.md)
   * [Sort-List](./Leetcode-148-Sort-List.md)
   * [Swap-Nodes-In-Pairs](./Leetcode-24-Swap-Nodes-In-Pairs.md)
+  * [Reverse-Linked-List](./Leetcode-206-Reverse-Linked-List.md)
   * [Reverse-Linked-List-II](./Leetcode-92-Reverse-Linked-List-II.md)
   * [Reverse-Nodes-In-K-Group](./Leetcode-25-Reverse-Nodes-In-K-Group.md)
   * [Populating-Next-Right-Pointers-In-Each-Node-II](./Leetcode-117-Populating-Next-Right-Pointers-In-Each-Node-II.md)
@@ -46,16 +60,25 @@
   * [Insertion-Sort-List](./Leetcode-147-Insertion-Sort-List.md)
   * [LRU-Cache](./Leetcode-146-LRU-Cache.md)
   * [Minimum-Index-Sum-of-Two-Lists](./Leetcode-599-Minimum-Index-Sum-of-Two-Lists.md)
+  * [Copy-List-With-Random-Pointer](./Leetcode-138-Copy-List-With-Random-Pointer.md)
 
 * [Matrix](./summary/summary.md)
   * [Set-Matrix-Zeroes](./Leetcode-73-Set-Matrix-Zeroes.md)
   * [Search-a-2D-Matrix](./Leetcode-74-Search-a-2D-Matrix.md)
   * [Sort-Colors](./Leetcode-75-Sort-Colors.md)
+  * [Flipping-an-Image](./Leetcode-832-Flipping-an-Image.md)
+  * [Rotate-Image](./Leetcode-48-Rotate-Image.md)
+  * [Spiral-Matrix](./Leetcode-54-Spiral-Matrix.md)
+  * [Spiral-Matrix-II](./Leetcode-59-Spiral-Matrix-II.md)
+  * [Kth-Smallest-Element-in-a-Sorted-Matrix](./Leetcode-378-Kth-Smallest-Element-in-a-Sorted-Matrix.md)
+  * [Kth-Smallest-Number-in-Multiplication-Table](./Leetcode-668-Kth-Smallest-Number-in-Multiplication-Table.md)
+  * [Transpose-Matrix](./Leetcode-867-Transpose-Matrix.md)
+  * [Toeplitz-Matrix](./Leetcode-766-Toeplitz-Matrix.md)
+  * [Reshape-the-Matrix](./Leetcode-566-Reshape-the-Matrix.md)
 
 ## String
 
 * [Summary](./Leetcode-20-Valid-Parentheses.md)
-* [Valid-Parentheses](./Leetcode-20-Valid-Parentheses.md)
 * [Implement-StrStr](./Leetcode-28-Implement-StrStr.md)
 * [Add-Binary](./Leetcode-67-Add-Binary.md)
 * [Longest-Palindromic-Substring](./Leetcode-5-Longest-Palindromic-Substring.md)
@@ -79,11 +102,23 @@
 * [Repeated-String-Match](./Leetcode-686-Repeated-String-Match.md)
 * [Count-Binary-Substrings](./Leetcode-696-Count-Binary-Substrings.md)
 * [Custom-Sort-String](./Leetcode-791-Custom-Sort-String.md)
+* [DI-String-Match](./Leetcode-942-DI-String-Match.md)
+* [Groups-Of-Special_equivalent-Strings](./Leetcode-893-Groups-Of-Special_equivalent-Strings.md)
+* [Buddy-Strings](./Leetcode-859-Buddy-Strings.md)
+* [Word-Search-II](./Leetcode-212-Word-Search-II.md)
+* [String-to-Integer](./Leetcode-8-String-to-Integer.md)
+* [Scramble-String](./Leetcode-87-Scramble-String.md)
+* [Length-of-Last-Word](./Leetcode-58-Length-of-Last-Word.md)
+* [Longest-Word-in-Dictionary](./Leetcode-720-Longest-Word-in-Dictionary.md)
+* [Delete-Operation-For-Two-String](./Leetcode-583-Delete-Operation-For-Two-String.md)
 
 ## Stack and Queue
 
 * [Implement-Stack-using-Queues](./Leetcode-225-Implement-Stack-using-Queues.md)
-  
+* [Valid-Parentheses](./Leetcode-20-Valid-Parentheses.md)
+* [Longest-Valid-Parentheses](./Leetcode-32-Longest-Valid-Parentheses.md)
+* [Evaluate-Reverse-Polish-Notation](./Leetcode-150-Evaluate-Reverse-Polish-Notation.md)
+
 ## Tree
 
 * [Tree Summary](./summary/2019-01-12-Leetcode-Tree-Summary.md)
@@ -105,6 +140,10 @@
   * [Binary-Tree-Paths](./Leetcode-257-Binary-Tree-Paths.md)
   * [Count-Complete-Tree-Nodes](./Leetcode-222-Count-Complete-Tree-Nodes.md)
   * [Binary-Tree-Right-Side-View](./Leetcode-199-Binary-Tree-Right-Side-View.md)
+  * [Maximum-Depth-of-N-ary-Tree](./Leetcode-559-Maximum-Depth-of-N-ary-Tree.md)
+  * [Average-of-Levels-in-Binary-Tree](./Leetcode-637-Average-of-Levels-in-Binary-Tree.md)
+  * [Construct-String-from-Binary-Tree](./Leetcode-606-Construct-String-from-Binary-Tree.md)
+  * [Diameter-of-Binary-Tree](./Leetcode-543-Diameter-of-Binary-Tree.md)
 
 * [Build Binary Tree](./summary/summary.md)
   * [Construct-Binary-Tree-From-Preorder-and-Inorder-Traversal](./Leetcode-105-Construct-Binary-Tree-From-Preorder-and-Inorder-Traversal.md)
@@ -112,6 +151,7 @@
   * [Invert-Binary-Tree](./Leetcode-226-Invert-Binary-Tree.md)
   * [Merge-Two-Binary-Trees](./Leetcode-617-Merge-Two-Binary-Trees.md)
   * [Maximum-Depth-of-Binary-Tree](./Leetcode-104-Maximum-Depth-of-Binary-Tree.md)
+  * [Univalued-Binary-Tree](./Leetcode-965-Univalued-Binary-Tree.md)
 
 * [Binary Search Tree](./summary/summary.md)
   * [Unique-Binary-Search-Trees](./Leetcode-96-Unique-Binary-Search-Trees.md)
@@ -122,6 +162,12 @@
   * [Kth-Smallest-Element-in-a-BST](./Leetcode-230-Kth-Smallest-Element-in-a-BST.md)
   * [Lowest-Common-Ancestor-of-a-Binary-Search-Tree](./Leetcode-235-Lowest-Common-Ancestor-of-a-Binary-Search-Tree.md)
   * [Lowest-Common-Ancestor-of-a-Binary-Tree](./Leetcode-236-Lowest-Common-Ancestor-of-a-Binary-Tree.md)
+  * [Unique-Binary-Search-Trees-II](./Leetcode-95-Unique-Binary-Search-Trees-II.md)
+  * [Delete-Node-in-a-BST](./Leetcode-450-Delete-Node-in-a-BST.md)
+  * [Find-Mode-in-Binary-Search-Tree](./Leetcode-501-Find-Mode-in-Binary-Search-Tree.md)
+  * [Trim-a-Binary-Search-Tree](./Leetcode-669-Trim-a-Binary-Search-Tree.md)
+  * [Increasing-Order-Search-Tree](./Leetcode-897-Increasing-Order-Search-Tree.md)
+  * [Distribute-Coins-in-Binary-Tree](./Leetcode-979-Distribute-Coins-in-Binary-Tree.md)
 
 * [Recursion(Binary Tree](./summary/summary.md)
   * [Minimum-Depth-of-Binary-Tree](./Leetcode-111-Minimum-Depth-of-Binary-Tree.md)
@@ -133,22 +179,53 @@
   * [Populating-Next-Right-Pointers-In-Each-Node](./Leetcode-116-Populating-Next-Right-Pointers-In-Each-Node.md)
   * [Sum-Root-to-Leaf-Numbers](./Leetcode-129-Sum-Root-to-Leaf-Numbers.md)
 
+## Math
+
+* [Palindrome-Number](./Leetcode-9-Palindrome-Number.md)
+* [Powerx-n](./Leetcode-50-Powerx-n.md)
+* [Sqrt-x-3](./Leetcode-69-Sqrt-x-3.md)
+* [Permutation-Sequence](./Leetcode-60-Permutation-Sequence.md)
+* [Gray-Code](./Leetcode-89-Gray-Code.md)
+* [Hamming-Distance](./Leetcode-461-Hamming-Distance.md)
+* [Powerful-Integers](./Leetcode-970-Powerful-Integers.md)
+* [Surface-Area-of-3D-Shapes](./Leetcode-892-Surface-Area-of-3D-Shapes.md)
+
 ## Sorting
 
 * [Summary](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
 * [Merge-Sorted-Array](./Leetcode-88-Merge-Sorted-Array.md)
 * [Merge-Two-Sorted-Lists](./Leetcode-21-Merge-Two-Sorted-Lists.md)
 
+## DFS
+
+* [Palindrome-Partitioning](./Leetcode-131-Palindrome-Partitioning.md)
+* [Palindrome-Partitioning-II](./Leetcode-132-Palindrome-Partitioning-II.md)
+* [Restore-IP-Addresses](./Leetcode-93-Restore-IP-Addresses.md)
+* [Combination-Sum](./Leetcode-39-Combination-Sum.md)
+* [Combination-Sum-II](./Leetcode-40-Combination-Sum-II.md)
+* [Combination-Sum-III](./Leetcode-216-Combination-Sum-III.md)
+* [Generate-Parentheses](./Leetcode-22-Generate-Parentheses.md)
+* [Word-Search](./Leetcode-79-Word-Search.md)
+* [Unique-Paths](./Leetcode-62-Unique-Paths.md)
+* [Unique-Paths-II](./Leetcode-63-Unique-Paths-II.md)
+* [Unique-Paths-III](./Leetcode-980-Unique-Paths-III.md)
+
+## BFS
+
+## Greed
+
+* [Jump-Game](./Leetcode-55-Jump-Game.md)
+* [Jump-Game-II](./Leetcode-45-Jump-Game-II.md)
+* [Best-Time-to-Buy-and-Sell-Stock](./Leetcode-121-Best-Time-to-Buy-and-Sell-Stock.md)
+* [Best-Time-To-Buy-and-Sell-Stock-II](./Leetcode-122-Best-Time-To-Buy-and-Sell-Stock-II.md)
+* [Best-Time-To-buy-and-sell-Stock-III](./Leetcode-123-Best-Time-To-buy-and-sell-Stock-III.md)
+* [Container-With-Most-Water](./Leetcode-11-Container-With-Most-Water.md)
+
 ## DP
 
 * [Triangle](./Leetcode-120-Triangle.md)
 * [Maximum-Subarray](./Leetcode-53-Maximum-Subarray.md)
-* [Palindrome-Partitioning](./Leetcode-131-Palindrome-Partitioning.md)
-* [Palindrome-Partitioning-II](./Leetcode-132-Palindrome-Partitioning-II.md)
 * [Maximal-Rectangle](./Leetcode-85-Maximal-Rectangle.md)
-* [Best-Time-to-Buy-and-Sell-Stock](./Leetcode-121-Best-Time-to-Buy-and-Sell-Stock.md)
-* [Best-Time-To-Buy-and-Sell-Stock-II](./Leetcode-122-Best-Time-To-Buy-and-Sell-Stock-II.md)
-* [Best-Time-To-buy-and-sell-Stock-III](./Leetcode-123-Best-Time-To-buy-and-sell-Stock-III.md)
 * [House-Robber](./Leetcode-198-House-Robber.md)
 * [Word-Break](./Leetcode-139-Word-Break.md)
 * [First-Bad-Version](./Leetcode-278-First-Bad-Version.md)
@@ -156,63 +233,51 @@
 * [Decode-Ways](./Leetcode-91-Decode-Ways.md)
 * [Distinct-Subsequences](./Leetcode-115-Distinct-Subsequences.md)
 * [Can-I-Win](./Leetcode-464-Can-I-Win.md)
+* [Trapping-Rain-Water](./Leetcode-42-Trapping-Rain-Water.md)
 
 ## Graph
 
 * [Clone-Graph](./Leetcode-133-Clone-Graph.md)
 
+## Design
+
+* [Task-Scheduler](./Leetcode-621-Task-Scheduler.md)
+* [My-Calendar-I](./Leetcode-729-My-Calendar-I.md)
+* [Student-Attendance-Record-I](./Leetcode-551-Student-Attendance-Record-I.md)
+
 ## Others
 
-* [String-to-Integer](./Leetcode-8-String-to-Integer.md)
-* [Palindrome-Number](./Leetcode-9-Palindrome-Number.md)
-* [Container-With-Most-Water](./Leetcode-11-Container-With-Most-Water.md)
-* [Generate-Parentheses](./Leetcode-22-Generate-Parentheses.md)
-* [Longest-Valid-Parentheses](./Leetcode-32-Longest-Valid-Parentheses.md)
-* [Search-Insert-Position](./Leetcode-35-Search-Insert-Position.md)
+
+
+
+
+
 * [Valid-Sudoku](./Leetcode-36-Valid-Sudoku.md)
-* [Combination-Sum](./Leetcode-39-Combination-Sum.md)
-* [Combination-Sum-II](./Leetcode-40-Combination-Sum-II.md)
-* [First-Missing-Positive](./Leetcode-41-First-Missing-Positive.md)
-* [Trapping-Rain-Water](./Leetcode-42-Trapping-Rain-Water.md)
-* [Jump-Game-II](./Leetcode-45-Jump-Game-II.md)
 * [Permutations](./Leetcode-46-Permutations.md)
 * [Permutations-II](./Leetcode-47-Permutations-II.md)
-* [Rotate-Image](./Leetcode-48-Rotate-Image.md)
-* [Powerx-n](./Leetcode-50-Powerx-n.md)
-
-* [Spiral-Matrix](./Leetcode-54-Spiral-Matrix.md)
-* [Jump-Game](./Leetcode-55-Jump-Game.md)
-* [Length-of-Last-Word](./Leetcode-58-Length-of-Last-Word.md)
-* [Spiral-Matrix-II](./Leetcode-59-Spiral-Matrix-II.md)
-* [Permutation-Sequence](./Leetcode-60-Permutation-Sequence.md)
 * [Rotate-List](./Leetcode-61-Rotate-List.md)
-* [Unique-Paths](./Leetcode-62-Unique-Paths.md)
-* [Unique-Paths-II](./Leetcode-63-Unique-Paths-II.md)
 * [Minimum-Path-Sum](./Leetcode-64-Minimum-Path-Sum.md)
 * [Plus-One](./Leetcode-66-Plus-One.md)
-* [Sqrt-x-3](./Leetcode-69-Sqrt-x-3.md)
+
 * [Climbing-Stairs](./Leetcode-70-Climbing-Stairs.md)
 * [Edit-Distance](./Leetcode-72-Edit-Distance.md)
-
-
 * [Combinations](./Leetcode-77-Combinations.md)
 * [Subsets](./Leetcode-78-Subsets.md)
-* [Word-Search](./Leetcode-79-Word-Search.md)
+
 * [Largest-Rectangle-in-histogram](./Leetcode-84-Largest-Rectangle-in-histogram.md)
 
 * [Partition-List](./Leetcode-86-Partition-List.md)
-* [Scramble-String](./Leetcode-87-Scramble-String.md)
-* [Gray-Code](./Leetcode-89-Gray-Code.md)
+
+
 * [Subset-II](./Leetcode-90-Subset-II.md)
 
 
-* [Restore-IP-Addresses](./Leetcode-93-Restore-IP-Addresses.md)
-
-* [Unique-Binary-Search-Trees-II](./Leetcode-95-Unique-Binary-Search-Trees-II.md)
 
 
-* [Pascal-Triangle](./Leetcode-118-Pascal-Triangle.md)
-* [Pascal-Triangle-II](./Leetcode-119-Pascal-Triangle-II.md)
+
+
+
+
 
 
 * [Valid-Palindrome](./Leetcode-125-Valid-Palindrome.md)
@@ -220,24 +285,22 @@
 
 * [Gas-Station](./Leetcode-134-Gas-Station.md)
 
-* [Copy-List-With-Random-Pointer](./Leetcode-138-Copy-List-With-Random-Pointer.md)
 
 
-* [Evaluate-Reverse-Polish-Notation](./Leetcode-150-Evaluate-Reverse-Polish-Notation.md)
+
 * [Min-Stack](./Leetcode-155-Min-Stack.md)
-* [Two-Sum-II-Input-Array-Is-Sorted](./Leetcode-167-Two-Sum-II-Input-Array-Is-Sorted.md)
+
 * [Excel-Sheet-Column-Title](./Leetcode-168-Excel-Sheet-Column-Title.md)
 * [Majority-Element](./Leetcode-169-Majority-Element.md)
 * [Excel-Sheet-Column-Number](./Leetcode-171-Excel-Sheet-Column-Number.md)
 * [Factorial-Trailing-Zeroes](./Leetcode-172-Factorial-Trailing-Zeroes.md)
 * [Dungeon-Game](./Leetcode-174-Dungeon-Game.md)
-* [Largest-Number](./Leetcode-179-Largest-Number.md)
-* [Rotate-Array](./Leetcode-189-Rotate-Array.md)
 
 
-* [Reverse-Linked-List](./Leetcode-206-Reverse-Linked-List.md)
-* [Word-Search-II](./Leetcode-212-Word-Search-II.md)
-* [Combination-Sum-III](./Leetcode-216-Combination-Sum-III.md)
+
+
+
+
 * [Contains-Duplicate](./Leetcode-217-Contains-Duplicate.md)
 
 
@@ -248,7 +311,7 @@
 * [Different-Ways-to-Add-Parentheses](./Leetcode-241-Different-Ways-to-Add-Parentheses.md)
 * [Valid-Anagram](./Leetcode-242-Valid-Anagram.md)
 
-* [Misssing-Number](./Leetcode-268-Misssing-Number.md)
+
 * [H-Index](./Leetcode-274-H-Index.md)
 * [H-Index-II](./Leetcode-275-H-Index-II.md)
 
@@ -262,8 +325,8 @@
 
 
 * [Count-Numbers-with-Unique-Digits](./Leetcode-357-Count-Numbers-with-Unique-Digits.md)
-* [Guess-Number-Higher-Or-Lower](./Leetcode-374-Guess-Number-Higher-Or-Lower.md)
-* [Kth-Smallest-Element-in-a-Sorted-Matrix](./Leetcode-378-Kth-Smallest-Element-in-a-Sorted-Matrix.md)
+
+
 * [Ransom-Note](./Leetcode-383-Ransom-Note.md)
 * [Mini-Parser](./Leetcode-385-Mini-Parser.md)
 * [First-Unique-Character-In-A-String](./Leetcode-387-First-Unique-Character-In-A-String.md)
@@ -272,17 +335,16 @@
 * [Queue-Reconstruction-by-Height](./Leetcode-406-Queue-Reconstruction-by-Height.md)
 
 
-* [Find-All-Duplicates-In-An-Array](./Leetcode-442-Find-All-Duplicates-In-An-Array.md)
+
 
 * [Find-All-Numbers-Disappeared-In-An-Array](./Leetcode-448-Find-All-Numbers-Disappeared-In-An-Array.md)
 * [Serialize-and-Deserialize-BST](./Leetcode-449-Serialize-and-Deserialize-BST.md)
-* [Delete-Node-in-a-BST](./Leetcode-450-Delete-Node-in-a-BST.md)
 
-* [Hamming-Distance](./Leetcode-461-Hamming-Distance.md)
+
 
 * [Max-Consecutive-Ones](./Leetcode-485-Max-Consecutive-Ones.md)
 
-* [Find-Mode-in-Binary-Search-Tree](./Leetcode-501-Find-Mode-in-Binary-Search-Tree.md)
+
 * [Relative-Ranks](./Leetcode-506-Relative-Ranks.md)
 * [Find-Bottom-Left-Tree-Value](./Leetcode-513-Find-Bottom-Left-Tree-Value.md)
 * [Find-Largest-Value-in-Each-Tree-Row](./Leetcode-515-Find-Largest-Value-in-Each-Tree-Row.md)
@@ -293,53 +355,49 @@
 * [Complex-Number-Multiplication](./Leetcode-537-Complex-Number-Multiplication.md)
 * [Convert-BST-to-Greater-Tree](./Leetcode-538-Convert-BST-to-Greater-Tree.md)
 * [Minimum-Time-Difference](./Leetcode-539-Minimum-Time-Difference.md)
-* [Single-Element-in-a-Sorted-Array](./Leetcode-540-Single-Element-in-a-Sorted-Array.md)
 
-* [Diameter-of-Binary-Tree](./Leetcode-543-Diameter-of-Binary-Tree.md)
-* [Student-Attendance-Record-I](./Leetcode-551-Student-Attendance-Record-I.md)
+
+
 * [Optimal-Division](./Leetcode-553-Optimal-Division.md)
 
-* [Maximum-Depth-of-N-ary-Tree](./Leetcode-559-Maximum-Depth-of-N-ary-Tree.md)
 * [Subarray-Sum-Equals-K](./Leetcode-560-Subarray-Sum-Equals-K.md)
 * [Array-Partition-I](./Leetcode-561-Array-Partition-I.md)
 * [Binary-Tree-Tilt](./Leetcode-563-Binary-Tree-Tilt.md)
-* [Reshape-the-Matrix](./Leetcode-566-Reshape-the-Matrix.md)
+
 * [Permutation-in-String](./Leetcode-567-Permutation-in-String.md)
 * [Subtree-of-Another-Tree](./Leetcode-572-Subtree-of-Another-Tree.md)
-* [Delete-Operation-For-Two-String](./Leetcode-583-Delete-Operation-For-Two-String.md)
 
 
-* [Construct-String-from-Binary-Tree](./Leetcode-606-Construct-String-from-Binary-Tree.md)
+
+
 * [Find-Duplicate-File-in-System](./Leetcode-609-Find-Duplicate-File-in-System.md)
 
-* [Task-Scheduler](./Leetcode-621-Task-Scheduler.md)
-* [Average-of-Levels-in-Binary-Tree](./Leetcode-637-Average-of-Levels-in-Binary-Tree.md)
+
+
 * [Set-Mismatch](./Leetcode-645-Set-Mismatch.md)
 
 * [Robot-Return-To-Origin](./Leetcode-657-Robot-Return-To-Origin.md)
-* [Kth-Smallest-Number-in-Multiplication-Table](./Leetcode-668-Kth-Smallest-Number-in-Multiplication-Table.md)
-* [Trim-a-Binary-Search-Tree](./Leetcode-669-Trim-a-Binary-Search-Tree.md)
+
+
 * [Second-Minimum-Node-In-a-Binary-Tree](./Leetcode-671-Second-Minimum-Node-In-a-Binary-Tree.md)
 * [Number-of-Longest-Increasing-Subsequence](./Leetcode-673-Number-of-Longest-Increasing-Subsequence.md)
 * [Longest-Continuous-Increasing-Subsequence](./Leetcode-674-Longest-Continuous-Increasing-Subsequence.md)
 * [Valid-Palindrome-II](./Leetcode-680-Valid-Palindrome-II.md)
-
 * [Longest-Univalue-Path](./Leetcode-687-Longest-Univalue-Path.md)
-
 * [Degree-of-an-Array](./Leetcode-697-Degree-of-an-Array.md)
 * [To-Lower-Case](./Leetcode-709-To-Lower-Case.md)
 * [1-bit-and-2-bit-characters](./Leetcode-717-1-bit-and-2-bit-characters.md)
 * [Find-K-th-Smallest-Pair-Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
 * [Find-K-th-Smallest-Pair-Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
-* [Longest-Word-in-Dictionary](./Leetcode-720-Longest-Word-in-Dictionary.md)
+
 * [Find-Pivot-Index](./Leetcode-724-Find-Pivot-Index.md)
 * [Number-of-Atoms](./Leetcode-726-Number-of-Atoms.md)
-* [My-Calendar-I](./Leetcode-729-My-Calendar-I.md)
+
 * [Parse-Lisp-Expression](./Leetcode-736-Parse-Lisp-Expression.md)
 * [Find-Smallest-Letter-Greater-Than-Target](./Leetcode-744-Find-Smallest-Letter-Greater-Than-Target.md)
 * [Min-Cost-Climbing-Stairs](./Leetcode-746-Min-Cost-Climbing-Stairs.md)
 * [Largest-Number-At-Least-Twice-Of-Others](./Leetcode-747-Largest-Number-At-Least-Twice-Of-Others.md)
-* [Toeplitz-Matrix](./Leetcode-766-Toeplitz-Matrix.md)
+
 * [Jewels-and-Stones](./Leetcode-771-Jewels-and-Stones.md)
 * [Letter-Case-Permutation](./Leetcode-784-Letter-Case-Permutation.md)
 * [K-th-Smallest-Prime-Fraction](./Leetcode-786-K-th-Smallest-Prime-Fraction.md)
@@ -351,19 +409,19 @@
 * [Most-Common-Word](./Leetcode-819-Most-Common-Word.md)
 * [Goat-Latin](./Leetcode-824-Goat-Latin.md)
 * [Positions-of-Large-Groups](./Leetcode-830-Positions-of-Large-Groups.md)
-* [Flipping-an-Image](./Leetcode-832-Flipping-an-Image.md)
-* [Peak-Index-in-a-Mountain-Array](./Leetcode-852-Peak-Index-in-a-Mountain-Array.md)
+
+
 * [Score-Of-Parentheses](./Leetcode-856-Score-Of-Parentheses.md)
-* [Buddy-Strings](./Leetcode-859-Buddy-Strings.md)
-* [Transpose-Matrix](./Leetcode-867-Transpose-Matrix.md)
+
+
 * [Uncommon-Words-from-Two-Sentences](./Leetcode-884-Uncommon-Words-from-Two-Sentences.md)
 * [Spiral-Matrix-III](./Leetcode-885-Spiral-Matrix-III.md)
 * [Fair-Candy-Swap](./Leetcode-888-Fair-Candy-Swap.md)
 * [Find-And-Replace-Pattern](./Leetcode-890-Find-And-Replace-Pattern.md)
-* [Surface-Area-of-3D-Shapes](./Leetcode-892-Surface-Area-of-3D-Shapes.md)
-* [Groups-Of-Special_equivalent-Strings](./Leetcode-893-Groups-Of-Special_equivalent-Strings.md)
-* [Monotonic-Array](./Leetcode-896-Monotonic-Array.md)
-* [Increasing-Order-Search-Tree](./Leetcode-897-Increasing-Order-Search-Tree.md)
+
+
+
+
 * [Sort-Array-By-Parity](./Leetcode-905-Sort-Array-By-Parity.md)
 * [Smallest-Range-I](./Leetcode-908-Smallest-Range-I.md)
 * [Online-Election](./Leetcode-911-Online-Election.md)
@@ -375,17 +433,17 @@
 * [Number-of-Recent-Calls](./Leetcode-933-Number-of-Recent-Calls.md)
 * [Reorder-Log-Files](./Leetcode-937-Reorder-Log-Files.md)
 * [Valid-Mountain-Array](./Leetcode-941-Valid-Mountain-Array.md)
-* [DI-String-Match](./Leetcode-942-DI-String-Match.md)
+
 * [Largest-Time-for-Given-Digits](./Leetcode-949-Largest-Time-for-Given-Digits.md)
 * [Flip-Equivalent-Binary-Trees](./Leetcode-951-Flip-Equivalent-Binary-Trees.md)
 * [Verifying-an-Alien-Dictionary](./Leetcode-953-Verifying-an-Alien-Dictionary.md)
 * [N-Repeated-Element-in-Size-2N-Array](./Leetcode-961-N-Repeated-Element-in-Size-2N-Array.md)
 * [Least-Operators-to-Express-Number](./Leetcode-964-Least-Operators-to-Express-Number.md)
-* [Univalued-Binary-Tree](./Leetcode-965-Univalued-Binary-Tree.md)
-* [Powerful-Integers](./Leetcode-970-Powerful-Integers.md)
+
+
 * [K-Closest-Points-to-Origin](./Leetcode-973-K-Closest-Points-to-Origin.md)
 * [Largest-Perimeter-Triangle](./Leetcode-976-Largest-Perimeter-Triangle.md)
 * [Squares-of-a-Sorted-Array](./Leetcode-977-Squares-of-a-Sorted-Array.md)
 * [Longest-Turbulent-Subarray](./Leetcode-978-Longest-Turbulent-Subarray.md)
-* [Distribute-Coins-in-Binary-Tree](./Leetcode-979-Distribute-Coins-in-Binary-Tree.md)
-* [Unique-Paths-III](./Leetcode-980-Unique-Paths-III.md)
+
+
