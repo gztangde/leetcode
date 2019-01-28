@@ -51,6 +51,15 @@
   * [Excel Sheet Column Title](./Leetcode-168-Excel-Sheet-Column-Title.md)
   * [Excel Sheet Column Number](./Leetcode-171-Excel-Sheet-Column-Number.md)
   * [Max Consecutive Ones](./Leetcode-485-Max-Consecutive-Ones.md)
+  * [Subsets](./Leetcode-78-Subsets.md)
+  * [TODO:Subset II](./Leetcode-90-Subset-II.md)
+  * [Combinations](./Leetcode-77-Combinations.md)
+  * [Subarray Sum Equals K](./Leetcode-560-Subarray-Sum-Equals-K.md)
+  * [Array Partition I](./Leetcode-561-Array-Partition-I.md)
+  * [Longest Turbulent Subarray](./Leetcode-978-Longest-Turbulent-Subarray.md)
+  * [Valid Mountain Array](./Leetcode-941-Valid-Mountain-Array.md)
+  * [Partition Array into Disjoint Intervals](./Leetcode-915-Partition-Array-into-Disjoint-Intervals.md)
+  * [Fair Candy Swap](./Leetcode-888-Fair-Candy-Swap.md)
 
 * [Linked List](./Leetcode-20-Valid-Parentheses.md)
   * [Remove Nth Node From End Of List](./Leetcode-19-Remove-Nth-Node-From-End-Of-List.md)
@@ -131,6 +140,11 @@
 * [Positions of Large Groups](./Leetcode-830-Positions-of-Large-Groups.md)
 * [Number of Matching Subsequences](./Leetcode-792-Number-of-Matching-Subsequences.md)
 * [To Lower Case](./Leetcode-709-To-Lower-Case.md)
+* [Detect Capital](./Leetcode-520-Detect-Capital.md)
+* [Longest Word in Dictionary through Deleting](./Leetcode-524-Longest-Word-in-Dictionary-through-Deleting.md)
+* [Reorder Log Files](./Leetcode-937-Reorder-Log-Files.md)
+* [Reverse Only Letters](./Leetcode-917-Reverse-Only-Letters.md)
+* [Goat Latin](./Leetcode-824-Goat-Latin.md)
 
 ## Stack and Queue
 
@@ -174,6 +188,7 @@
   * [Find Bottom Left Tree Value](./Leetcode-513-Find-Bottom-Left-Tree-Value.md)
   * [Find Largest Value in Each Tree Row](./Leetcode-515-Find-Largest-Value-in-Each-Tree-Row.md)
   * [Flip Equivalent Binary Trees](./Leetcode-951-Flip-Equivalent-Binary-Trees.md)
+  * [Binary Tree Tilt](./Leetcode-563-Binary-Tree-Tilt.md)
 
 * [Build Binary Tree](./summary/summary.md)
   * [Construct Binary Tree From Preorder and Inorder Traversal](./Leetcode-105-Construct-Binary-Tree-From-Preorder-and-Inorder-Traversal.md)
@@ -227,6 +242,7 @@
 * [Smallest Range I](./Leetcode-908-Smallest-Range-I.md)
 * [Factorial Trailing Zeroes](./Leetcode-172-Factorial-Trailing-Zeroes.md)
 * [Plus One](./Leetcode-66-Plus-One.md)
+* [Largest Perimeter Triangle](./Leetcode-976-Largest-Perimeter-Triangle.md)
 
 ## Bit-Manipulation
 
@@ -246,6 +262,8 @@
 * [Sort Array By Parity](./Leetcode-905-Sort-Array-By-Parity.md)
 * [Sort Array By Parity II](./Leetcode-922-Sort-Array-By-Parity-II.md)
 * [Move Zeroes](./Leetcode-283-Move-Zeroes.md)
+* [Jewels and Stones](./Leetcode-771-Jewels-and-Stones.md)
+
 
 ## DFS
 
@@ -280,8 +298,8 @@
 * [K th Smallest Prime Fraction](./Leetcode-786-K-th-Smallest-Prime-Fraction.md)
 * [Find Smallest Letter Greater Than Target](./Leetcode-744-Find-Smallest-Letter-Greater-Than-Target.md)
 * [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
-
-
+* [Relative Ranks](./Leetcode-506-Relative-Ranks.md)
+* [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
 
 ## DP
 
@@ -313,6 +331,7 @@
 ## Divide-And-Conquer
 
 * [Burst Balloons](./Leetcode-312-Burst-Balloons.md)
+* [K Closest Points to Origin](./Leetcode-973-K-Closest-Points-to-Origin.md)
 
 ## Recursion
 
@@ -330,23 +349,16 @@
 * [Find Duplicate File in System](./Leetcode-609-Find-Duplicate-File-in-System.md)
 * [Parse Lisp Expression](./Leetcode-736-Parse-Lisp-Expression.md)
 
-## Others
+## BackTracking
 
 * [Permutations](./Leetcode-46-Permutations.md)
 * [Permutations II](./Leetcode-47-Permutations-II.md)
 
 
+## Others
 
 
 
-
-* [Combinations](./Leetcode-77-Combinations.md)
-* [Subsets](./Leetcode-78-Subsets.md)
-
-
-
-
-* [Subset II](./Leetcode-90-Subset-II.md)
 * [Valid Palindrome](./Leetcode-125-Valid-Palindrome.md)
 
 * [Find the Duplicate Number](./Leetcode-287-Find-the-Duplicate-Number.md)
@@ -359,20 +371,20 @@
 
 
 
-* [Relative Ranks](./Leetcode-506-Relative-Ranks.md)
-* [Detect Capital](./Leetcode-520-Detect-Capital.md)
+
+
 * [Longest Uncommon Subsequence I](./Leetcode-521-Longest-Uncommon-Subsequence-I.md)
 * [Longest Uncommon Subsequence II](./Leetcode-522-Longest-Uncommon-Subsequence-II.md)
-* [Longest Word in Dictionary through Deleting](./Leetcode-524-Longest-Word-in-Dictionary-through-Deleting.md)
+
 * [Complex Number Multiplication](./Leetcode-537-Complex-Number-Multiplication.md)
 
 * [Minimum Time Difference](./Leetcode-539-Minimum-Time-Difference.md)
 
 * [Optimal Division](./Leetcode-553-Optimal-Division.md)
 
-* [Subarray Sum Equals K](./Leetcode-560-Subarray-Sum-Equals-K.md)
-* [Array Partition I](./Leetcode-561-Array-Partition-I.md)
-* [Binary Tree Tilt](./Leetcode-563-Binary-Tree-Tilt.md)
+
+
+
 
 * [Permutation in String](./Leetcode-567-Permutation-in-String.md)
 
@@ -380,52 +392,17 @@
 
 * [Robot Return To Origin](./Leetcode-657-Robot-Return-To-Origin.md)
 * [Number of Longest Increasing Subsequence](./Leetcode-673-Number-of-Longest-Increasing-Subsequence.md)
-
 * [Valid Palindrome II](./Leetcode-680-Valid-Palindrome-II.md)
-
-
-
 * [1 bit and 2 bit characters](./Leetcode-717-1-bit-and-2-bit-characters.md)
-* [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
-
 
 * [Find Pivot Index](./Leetcode-724-Find-Pivot-Index.md)
 * [Largest Number At Least Twice Of Others](./Leetcode-747-Largest-Number-At-Least-Twice-Of-Others.md)
 
-* [Jewels and Stones](./Leetcode-771-Jewels-and-Stones.md)
-
-
 * [Rotated Digits](./Leetcode-788-Rotated-Digits.md)
-
-
-
 * [Unique Morse Code Words](./Leetcode-804-Unique-Morse-Code-Words.md)
 * [Most Common Word](./Leetcode-819-Most-Common-Word.md)
-* [Goat Latin](./Leetcode-824-Goat-Latin.md)
-
-
 
 * [Score Of Parentheses](./Leetcode-856-Score-Of-Parentheses.md)
-* [Fair Candy Swap](./Leetcode-888-Fair-Candy-Swap.md)
+
 * [Find And Replace Pattern](./Leetcode-890-Find-And-Replace-Pattern.md)
-
-* [Partition Array into Disjoint Intervals](./Leetcode-915-Partition-Array-into-Disjoint-Intervals.md)
-* [Reverse Only Letters](./Leetcode-917-Reverse-Only-Letters.md)
-
-
-
-* [Reorder Log Files](./Leetcode-937-Reorder-Log-Files.md)
-* [Valid Mountain Array](./Leetcode-941-Valid-Mountain-Array.md)
-
-
-
-
-
-
-
-* [K Closest Points to Origin](./Leetcode-973-K-Closest-Points-to-Origin.md)
-* [Largest Perimeter Triangle](./Leetcode-976-Largest-Perimeter-Triangle.md)
-
-* [Longest Turbulent Subarray](./Leetcode-978-Longest-Turbulent-Subarray.md)
-
 
