@@ -1,6 +1,7 @@
 #!/bin/bash
 
 git_push() {
+  mv leetcode/_book .
   cd _book
   git init
   git remote add origin https://${REF}
