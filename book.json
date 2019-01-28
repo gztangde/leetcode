@@ -45,7 +45,7 @@
       "defineWord": ["Gitbook Use"]
     },
     "anchor-navigation-ex": {
-      "showLevel": false
+      "showLevel": true
     },
     "github-buttons": {
       "buttons": [{
