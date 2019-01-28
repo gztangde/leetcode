@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git_push() {
-  cd ./leetcode/_book
+  cd ./_book
   git init
   git remote add origin https://${REF}
   git add .
