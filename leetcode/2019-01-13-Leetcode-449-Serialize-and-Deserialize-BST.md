@@ -37,10 +37,4 @@ Design an algorithm to serialize and deserialize a  **binary search tree**. Ther
 
 ```
 
-<!-- 
-------------
 
-# Leetcode Question Summary
-
-
------------- -->

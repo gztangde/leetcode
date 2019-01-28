@@ -70,10 +70,4 @@ class MinStack {
 };
 ```
 
-<!-- 
-------------
 
-# Leetcode Question Summary
-
-
------------- -->

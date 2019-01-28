@@ -76,10 +76,4 @@ class Solution {
 
 <!-- TODO: Try to use hash table to solve this problem. -->
 
-<!-- 
-------------
 
-# Leetcode Question Summary
-
-
------------- -->

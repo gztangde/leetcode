@@ -76,10 +76,4 @@ class TopVotedCandidate {
 };
 ```
 
-<!-- 
-------------
 
-# Leetcode Question Summary
-
-
------------- -->

@@ -93,10 +93,4 @@ class Solution {
 <!-- TODO:Think about the different way to solve this problem.
 For example: Binary-Search -->
 
-<!-- 
-------------
 
-# Leetcode Question Summary
-
-
------------- -->

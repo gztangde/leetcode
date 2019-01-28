@@ -115,10 +115,4 @@ class Solution {
 ## Solution 2: 动态规划
 
 <!-- TODO: You need to find this solution to do this side. -->
-<!-- 
-------------
 
-# Leetcode Question Summary
-
-
------------- -->

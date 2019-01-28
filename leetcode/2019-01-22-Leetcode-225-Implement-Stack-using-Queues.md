@@ -82,10 +82,4 @@ class MyStack {
 };
 ```
 
-<!-- 
-------------
 
-# Leetcode Question Summary
-
-
------------- -->

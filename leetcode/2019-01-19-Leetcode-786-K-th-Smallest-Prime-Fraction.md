@@ -57,10 +57,4 @@ What is the  `K`-th smallest fraction considered? Return your answer as an array
 
 ```
 
-<!-- 
-------------
 
-# Leetcode Question Summary
-
-
------------- -->

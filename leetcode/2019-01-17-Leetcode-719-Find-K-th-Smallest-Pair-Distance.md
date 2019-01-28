@@ -56,10 +56,4 @@ The first way, we can think about use the **Brute Force/bucket sorting** .
 
 ```
 
-<!-- 
-------------
 
-# Leetcode Question Summary
-
-
------------- -->

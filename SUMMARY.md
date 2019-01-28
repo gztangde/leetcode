@@ -81,6 +81,7 @@
   * [Toeplitz-Matrix](./Leetcode-766-Toeplitz-Matrix.md)
   * [Reshape-the-Matrix](./Leetcode-566-Reshape-the-Matrix.md)
   * [Spiral-Matrix-III](./Leetcode-885-Spiral-Matrix-III.md)
+  * [Valid-Sudoku](./Leetcode-36-Valid-Sudoku.md)
 
 ## String
 
@@ -136,9 +137,9 @@
 
 * [Tree Summary](./summary/2019-01-12-Leetcode-Tree-Summary.md)
 * [Traversal](./summary/summary.md)
-  * [Binary-Tree-Preorder-Traversal](./Leetcode-144-Binary-Tree-Preorder-Traversal.md)
-  * [Binary-Tree-Inorder-Traversal](./Leetcode-94-Binary-Tree-Inorder-Traversal.md)
-  * [Binary-Tree-Postorder-Travesal](./Leetcode-145-Binary-Tree-Postorder-Travesal.md)
+  * [Preorder Traversal](./Leetcode-144-Binary-Tree-Preorder-Traversal.md)
+  * [Inorder Traversal](./Leetcode-94-Binary-Tree-Inorder-Traversal.md)
+  * [Postorder Travesal](./Leetcode-145-Binary-Tree-Postorder-Travesal.md)
   * [N-ary-Tree-Preorder-Traversal](./Leetcode-589-N-ary-Tree-Preorder-Traversal.md)
   * [N-ary-Tree-Postorder-Traversal](./Leetcode-590-N-ary-Tree-Postorder-Traversal.md)
   * [Binary-Tree-Level-Order-Traversal](./Leetcode-102-Binary-Tree-Level-Order-Traversal.md)
@@ -225,7 +226,7 @@
 * [Valid-Anagram](./Leetcode-242-Valid-Anagram.md)
 * [Sort-Array-By-Parity](./Leetcode-905-Sort-Array-By-Parity.md)
 * [Sort-Array-By-Parity-II](./Leetcode-922-Sort-Array-By-Parity-II.md)
-
+* [Move-Zeroes](./Leetcode-283-Move-Zeroes.md)
 
 ## DFS
 
@@ -290,12 +291,6 @@
 
 ## Others
 
-
-
-
-
-
-* [Valid-Sudoku](./Leetcode-36-Valid-Sudoku.md)
 * [Permutations](./Leetcode-46-Permutations.md)
 * [Permutations-II](./Leetcode-47-Permutations-II.md)
 * [Rotate-List](./Leetcode-61-Rotate-List.md)
@@ -310,19 +305,7 @@
 * [Largest-Rectangle-in-histogram](./Leetcode-84-Largest-Rectangle-in-histogram.md)
 
 * [Partition-List](./Leetcode-86-Partition-List.md)
-
-
 * [Subset-II](./Leetcode-90-Subset-II.md)
-
-
-
-
-
-
-
-
-
-
 * [Valid-Palindrome](./Leetcode-125-Valid-Palindrome.md)
 
 
@@ -333,18 +316,11 @@
 * [Excel-Sheet-Column-Title](./Leetcode-168-Excel-Sheet-Column-Title.md)
 * [Excel-Sheet-Column-Number](./Leetcode-171-Excel-Sheet-Column-Number.md)
 * [Factorial-Trailing-Zeroes](./Leetcode-172-Factorial-Trailing-Zeroes.md)
-* [Move-Zeroes](./Leetcode-283-Move-Zeroes.md)
+
 * [Find-the-Duplicate-Number](./Leetcode-287-Find-the-Duplicate-Number.md)
 * [Find-the-Duplicate-Number](./Leetcode-287-Find-the-Duplicate-Number.md)
-
-
-
-
-
 
 * [Count-Numbers-with-Unique-Digits](./Leetcode-357-Count-Numbers-with-Unique-Digits.md)
-
-
 * [Ransom-Note](./Leetcode-383-Ransom-Note.md)
 * [Mini-Parser](./Leetcode-385-Mini-Parser.md)
 
@@ -354,11 +330,7 @@
 
 
 * [Max-Consecutive-Ones](./Leetcode-485-Max-Consecutive-Ones.md)
-
-
 * [Relative-Ranks](./Leetcode-506-Relative-Ranks.md)
-
-
 * [Detect-Capital](./Leetcode-520-Detect-Capital.md)
 * [Longest-Uncommon-Subsequence-I](./Leetcode-521-Longest-Uncommon-Subsequence-I.md)
 * [Longest-Uncommon-Subsequence-II](./Leetcode-522-Longest-Uncommon-Subsequence-II.md)
@@ -366,8 +338,6 @@
 * [Complex-Number-Multiplication](./Leetcode-537-Complex-Number-Multiplication.md)
 
 * [Minimum-Time-Difference](./Leetcode-539-Minimum-Time-Difference.md)
-
-
 
 * [Optimal-Division](./Leetcode-553-Optimal-Division.md)
 
@@ -412,10 +382,6 @@
 
 
 * [Score-Of-Parentheses](./Leetcode-856-Score-Of-Parentheses.md)
-
-
-
-
 * [Fair-Candy-Swap](./Leetcode-888-Fair-Candy-Swap.md)
 * [Find-And-Replace-Pattern](./Leetcode-890-Find-And-Replace-Pattern.md)
 * [Online-Election](./Leetcode-911-Online-Election.md)

@@ -79,10 +79,4 @@ class Solution {
 ```
 
 <!-- TODO: There are about five solutions for this problem. you can find these information from the websit: https://zxi.mytechroad.com/blog/dynamic-programming/leetcode-494-target-sum/ -->
-<!-- 
-------------
 
-# Leetcode Question Summary
-
-
------------- -->

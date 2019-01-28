@@ -52,10 +52,4 @@ The integer division should truncate toward zero.
 
 ```
 
-<!-- 
-------------
 
-# Leetcode Question Summary
-
-
------------- -->

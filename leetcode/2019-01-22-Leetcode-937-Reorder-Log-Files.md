@@ -53,10 +53,4 @@ Return the final order of the logs.
 
 ```
 
-<!-- 
-------------
 
-# Leetcode Question Summary
-
-
------------- -->

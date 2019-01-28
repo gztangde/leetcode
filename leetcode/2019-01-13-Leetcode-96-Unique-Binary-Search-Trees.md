@@ -38,10 +38,4 @@ Given  _n_, how many structurally unique  **BST's**  (binary search trees) that 
 
 ```
 
-<!-- 
-------------
 
-# Leetcode Question Summary
-
-
------------- -->
