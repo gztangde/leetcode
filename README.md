@@ -1,8 +1,8 @@
 ![](/images/in-post/2018-08-10-All-Leetcode/2019-01-09-19-22-01.png)
 
-I have solved **SOLVEDNUMBER / 980** problems. I use this page to record the questions which I did on the Leetcode.
+I have solved **306 / 980** problems. I use this page to record the questions which I did on the Leetcode.
 
-**Last Updated:** UPDATETIMESTAMP
+**Last Updated:** 2019-01-27 23:56:50
 
 **Data Structure Summary:** Array(Matrix, Numbers), String, [Tree](../Leetcode-Tree-Summary/), Hash Table, Graph, Stack and Queue, [Linked List](../Leetcode-Algorithm-Linked-List/), Bit Manipulation
 

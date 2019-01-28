@@ -6,6 +6,7 @@
   "collapsible_menu": true,
   "level_number": false,
   "author": "Guoze Tang",
+  "language": "en",
   "description": "Leetcode",
   "links": {
     "sidebar": {
@@ -20,9 +21,9 @@
     "-sharing",
     "github-buttons",
     "editlink",
-    "-highlight",
     "prism",
     "prism-themes",
+    "-highlight",
     "bibtex-indexed-cite",
     "anchor-navigation-ex",
     "page-footer-ex",
