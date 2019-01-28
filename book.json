@@ -1,5 +1,10 @@
 {
-  "title": "Leetcode",
+  "variables": {
+    "title": "Leetcode",
+    "theme": "theme-gray"
+  },
+  "collapsible_menu": true,
+  "level_number": false,
   "author": "Guoze Tang",
   "description": "Leetcode",
   "links": {
