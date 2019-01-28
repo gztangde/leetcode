@@ -27,6 +27,7 @@ If there are several possible values for _h_, the maximum one is taken as the h-
 - Could you solve it in logarithmic time complexity?
 
 **Difficulty**:Medium
+
 **Category**:Array
 
 <!-- more -->

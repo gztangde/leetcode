@@ -25,6 +25,7 @@ Given two sorted integer arrays  _nums1_  and  _nums2_, merge  _nums2_  into  _n
 > **Output:** [1,2,2,3,5,6]
 
 **Difficulty**:Easy
+
 **Category**:Array, Two Pointers
 
 <!-- more -->

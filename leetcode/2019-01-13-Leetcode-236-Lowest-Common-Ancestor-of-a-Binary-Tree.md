@@ -38,6 +38,7 @@ Given the following binary tree: root = [3,5,1,6,2,0,8,null,null,7,4]
 - p and q are different and both values will exist in the binary tree.
 
 **Difficulty**:Medium
+
 **Category**:Tree
 
 <!-- more -->

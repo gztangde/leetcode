@@ -27,6 +27,7 @@ You may assume the integer does not contain any leading zero, except the number 
 **Explanation:** The array represents the integer 4321.
 
 **Difficulty**:Easy
+
 **Category**:Array, Math
 
 <!--more-->

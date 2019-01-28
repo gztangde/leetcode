@@ -48,6 +48,7 @@ If there are multiple answers, you may return any one of them. It is guaranteed 
 - It is guaranteed there exists an answer.
 
 **Difficulty**:Easy
+
 **Category**:Array
 
 <!-- more -->

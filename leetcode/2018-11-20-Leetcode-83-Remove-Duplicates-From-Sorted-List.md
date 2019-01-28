@@ -23,6 +23,7 @@ Given a sorted linked list, delete all duplicates such that each element appear 
 > **Output:** 1->2->3
 
 **Difficulty**:Easy
+
 **Category**:Linked List
 
 <!-- more -->

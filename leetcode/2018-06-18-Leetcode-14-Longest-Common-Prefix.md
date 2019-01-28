@@ -21,6 +21,7 @@ If there is no common prefix, return an empty string  `""`.
 **Explanation:** There is no common prefix among the input strings.
 
 **Difficulty**:Easy
+
 **Category**:
 <!--more-->
 *****

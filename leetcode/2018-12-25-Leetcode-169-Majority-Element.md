@@ -25,6 +25,7 @@ You may assume that the array is non-empty and the majority element always exist
 > **Output:** 2
 
 **Difficulty**:Easy
+
 **Category**:Array
 
 <!-- more -->

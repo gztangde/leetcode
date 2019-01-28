@@ -29,6 +29,7 @@ Implement  [pow(_x_,  _n_)](http://www.cplusplus.com/reference/valarray/pow/), w
 - _n_  is a 32-bit signed integer, within the range [−231, 231 − 1]
 
 **Difficulty**:Medium
+
 **Category**:Math, Binary-Search
 
 <!-- more -->

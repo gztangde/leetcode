@@ -20,6 +20,7 @@ Return the minimum cuts needed for a palindrome partitioning of  _s_.
 > **Explanation:** The palindrome partitioning ["aa","b"] could be produced using 1 cut.
 
 **Difficulty**:Hard
+
 **Category**:Dynamic-Programming
 
 <!-- more -->

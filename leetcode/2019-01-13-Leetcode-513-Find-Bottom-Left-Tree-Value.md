@@ -17,6 +17,7 @@ Given a binary tree, find the leftmost value in the last row of the tree.
 ![](/images/in-post/2019-01-13-Leetcode-513-Find-Bottom-Left-Tree-Value/2019-01-13-19-09-07.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree, Depth-First-Search, Breadth-First-Search
 
 <!-- more -->

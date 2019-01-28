@@ -40,6 +40,7 @@ You need to help them find out their  **common interest**  with the  **least lis
 4. No duplicates in both lists.
 
 **Difficulty**:Easy
+
 **Category**:Hash-Table
 
 <!-- more -->

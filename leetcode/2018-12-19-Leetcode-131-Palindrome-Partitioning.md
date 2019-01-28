@@ -19,6 +19,7 @@ Return all possible palindrome partitioning of  _s_.
 ![](/images/in-post/2018-12-19-Leetcode-131-Palindrome-Partitioning/2018-12-19-16-11-07.png)
 
 **Difficulty**:Medium
+
 **Category**:Backtracking
 
 <!-- more -->

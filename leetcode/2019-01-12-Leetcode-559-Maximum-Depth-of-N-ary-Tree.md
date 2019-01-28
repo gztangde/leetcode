@@ -21,6 +21,7 @@ For example, given a  `3-ary`  tree:
 ![](/images/in-post/2019-01-12-Leetcode-559-Maximum-Depth-of-N-ary-Tree/2019-01-12-17-54-38.png)
 
 **Difficulty**:Easy
+
 **Category**:Tree, Depth-First-Search, Breadth-First-Search
 
 <!-- more -->

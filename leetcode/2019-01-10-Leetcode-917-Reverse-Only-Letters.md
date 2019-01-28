@@ -34,6 +34,7 @@ Given a string  `S`, return the "reversed" string where all characters that are 
 3. `S`  doesn't contain  `\`  or  `"`
 
 **Difficulty**:Easy
+
 **Category**:String
 
 <!-- more -->

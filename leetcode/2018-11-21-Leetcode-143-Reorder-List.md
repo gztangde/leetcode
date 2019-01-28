@@ -24,6 +24,7 @@ You may  **not**  modify the values in the list's nodes, only nodes itself may b
 > Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
 
 **Difficulty**:Medium
+
 **Category**:Linked List
 
 <!-- more -->

@@ -21,6 +21,7 @@ You have to rotate the image  [**in-place**](https://en.wikipedia.org/wiki/In-pl
 ![](/images/in-post/2018-11-19-Leetcode-48-Rotate-Image/2018-11-19-17-05-13.png)
 
 **Difficulty**:Medium
+
 **Category**:Array  
 
 <!-- more -->

@@ -46,6 +46,7 @@ Return a list of coordinates representing the positions of the grid in the order
 4. `0 <= c0 < C`
 
 **Difficulty**:Medium
+
 **Category**:Math
 
 <!-- more -->

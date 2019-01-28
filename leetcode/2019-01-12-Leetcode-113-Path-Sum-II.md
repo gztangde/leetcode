@@ -23,6 +23,7 @@ Given the below binary tree and  `sum = 22`,
 ![](/images/in-post/2019-01-12-Leetcode-113-Path-Sum-II/2019-01-12-20-17-39.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree, Depth-first Search
 
 <!-- more -->

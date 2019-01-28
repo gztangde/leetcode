@@ -43,6 +43,7 @@ Return the  **length**  of a maximum size turbulent subarray of A.
 2. `0 <= A[i] <= 10^9`
 
 **Difficulty**:Medium
+
 **Category**:Array
 
 <!-- more -->

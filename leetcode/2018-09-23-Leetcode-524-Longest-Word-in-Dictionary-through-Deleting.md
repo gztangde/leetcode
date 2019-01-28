@@ -27,6 +27,7 @@ Given a string and a string dictionary, find the longest string in the dictionar
 3. The length of all the strings in the input won't exceed 1,000.
 
 **Difficulty**:Medium
+
 **Category**:String
 
 <!--more-->

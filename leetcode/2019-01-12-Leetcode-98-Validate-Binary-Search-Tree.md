@@ -26,6 +26,7 @@ Assume a BST is defined as follows:
 ![](/images/in-post/2019-01-12-Leetcode-98-Validate-Binary-Search-Tree/2019-01-12-22-59-53.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree, Depth-First-Search
 
 <!-- more -->

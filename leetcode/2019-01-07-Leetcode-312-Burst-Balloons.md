@@ -26,6 +26,7 @@ Find the maximum coins you can collect by bursting the balloons wisely.
 > **Explanation:**` nums = [3,1,5,8] --> [3,5,8] -->   [3,8]   -->  [8]  --> [] coins =  3*1*5      +  3*5*8    +  1*3*8      + 1*8*1   = 167
 
 **Difficulty**:Hard
+
 **Category**:Dynamic-Programming, Divide-And-Conquer
 
 <!-- more -->

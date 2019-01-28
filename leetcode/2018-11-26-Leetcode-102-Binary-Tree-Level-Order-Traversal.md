@@ -15,6 +15,7 @@ Given a binary tree, return the level order traversal of its nodes' values. (ie,
 ![](/images/in-post/leetcode/2018-11-26-00-10-57.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree, Breadith-first Search
 
 <!-- more -->

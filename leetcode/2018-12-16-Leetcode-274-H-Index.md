@@ -19,6 +19,7 @@ According to the  [definition of h-index on Wikipedia](https://en.wikipedia.org/
 **Note:** If there are several possible values for  _h_, the maximum one is taken as the h-index.
 
 **Difficulty**:Medium
+
 **Category**:Hash-Table, Sort
 
 <!-- more -->

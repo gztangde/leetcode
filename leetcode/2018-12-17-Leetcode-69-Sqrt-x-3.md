@@ -30,6 +30,7 @@ Since the return type is an integer, the decimal digits are truncated and only t
 ----------
 
 **Difficulty**:Easy
+
 **Category**:Math, Binary-Search
 
 <!-- more -->

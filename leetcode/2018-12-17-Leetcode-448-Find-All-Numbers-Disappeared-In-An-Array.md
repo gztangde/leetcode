@@ -24,6 +24,7 @@ Could you do it without extra space and in O(_n_) runtime? You may assume the re
 > [5,6]
 
 **Difficulty**:Easy
+
 **Category**:Array
 
 <!-- more -->

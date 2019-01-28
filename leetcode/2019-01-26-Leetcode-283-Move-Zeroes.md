@@ -26,6 +26,7 @@ Given an array  `nums`, write a function to move all  `0`'s to the end of it whi
 2. Minimize the total number of operations.
 
 **Difficulty**:Medium
+
 **Category**:Array, Two Points
 
 <!-- more -->

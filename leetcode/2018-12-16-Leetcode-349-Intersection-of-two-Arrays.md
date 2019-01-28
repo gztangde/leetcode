@@ -24,6 +24,7 @@ Given two arrays, write a function to compute their intersection.
 > **Output:** [9,4]
 
 **Difficulty**:Easy
+
 **Category**:Hash-Table, Sort, Two-Points, Binary-Search
 
 <!-- more -->

@@ -31,6 +31,7 @@ What should we return when  `needle`  is an empty string? This is a great questi
 For the purpose of this problem, we will return 0 when  `needle`  is an empty string. This is consistent to C's [strstr()](http://www.cplusplus.com/reference/cstring/strstr/)  and Java's [indexOf()](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#indexOf(java.lang.String)).
 
 **Difficulty**:Easy
+
 **Category**:String, Two Points
 
 <!-- more -->

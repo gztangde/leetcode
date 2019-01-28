@@ -19,6 +19,7 @@ Given a binary tree and a sum, determine if the tree has a root-to-leaf path suc
 ![](/images/in-post/2019-01-12-Leetcode-112-Path-Sum/2019-01-12-18-23-19.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree, Depth-First-Search
 
 <!-- more -->

@@ -15,6 +15,7 @@ Given a binary tree, return the preorder traversal of its nodes' values.
 ![](/images/in-post/2018-11-22-Leetcode-144-Binary-Tree-Preorder-Traversal/2018-11-22-13-54-20.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree, Stack
 
 <!-- more -->

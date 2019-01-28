@@ -20,6 +20,7 @@ Given  _n_  non-negative integers representing the histogram's bar height where 
 > **Output:** 10
 
 **Difficulty**:Medium
+
 **Category**:Array, Stack
 
 <!-- more -->

@@ -31,6 +31,7 @@ Given a list of non-negative integers representing the amount of money of each h
              > Total amount you can rob = 2 + 9 + 1 = 12.
 
 **Difficulty**:Easy
+
 **Category**:Dynamic-Programming
 
 <!-- more -->

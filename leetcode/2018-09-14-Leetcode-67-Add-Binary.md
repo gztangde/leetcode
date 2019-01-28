@@ -22,6 +22,7 @@ The input strings are both  **non-empty**  and contains only characters  `1`  or
 > **Output:** "10101"
 
 **Difficulty**:Easy
+
 **Category**:String
 <!--more-->
 ******

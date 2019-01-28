@@ -27,6 +27,7 @@ If the target is not found in the array, return  `[-1, -1]`.
 > **Output:** [-1,-1]
 
 **Difficulty**:Medium
+
 **Category**:Array, Binary-Search
 
 <!-- more -->

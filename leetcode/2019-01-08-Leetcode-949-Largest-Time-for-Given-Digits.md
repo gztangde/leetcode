@@ -32,6 +32,7 @@ Return the answer as a string of length 5. If no valid time can be made, return 
 2. `0 <= A[i] <= 9`
   
 **Difficulty**:Easy
+
 **Category**:Math
 
 <!-- more -->

@@ -26,6 +26,7 @@ An obstacle and empty space is marked as  `1`  and  `0`  respectively in the gri
 ![](/images/in-post/2018-12-22-Leetcode-63-Unique-Paths-II/2018-12-23-00-47-20.png)
 
 **Difficulty**:Medium
+
 **Category**:Array, Dynamic-Programming
 
 <!-- more -->

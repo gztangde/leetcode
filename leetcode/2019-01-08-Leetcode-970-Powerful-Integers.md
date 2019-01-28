@@ -41,6 +41,7 @@ You may return the answer in any order. In your answer, each value should occur 
 - `0 <= bound <= 10^6`
 
 **Difficulty**:Easy
+
 **Category**:Math
 
 <!-- more -->

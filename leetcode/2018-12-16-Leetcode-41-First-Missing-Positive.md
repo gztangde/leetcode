@@ -28,6 +28,7 @@ Given an unsorted integer array, find the smallest missing positive integer.
 > Output: 1
 
 **Difficulty**:Medium
+
 **Category**:Array
 
 <!-- more -->

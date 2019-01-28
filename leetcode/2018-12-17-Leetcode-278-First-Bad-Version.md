@@ -25,6 +25,7 @@ You are given an API  `bool isBadVersion(version)`  which will return whether  `
 > Then 4 is the first bad version.
 
 **Difficulty**:Easy
+
 **Category**:Binary-Search
 
 <!-- more -->

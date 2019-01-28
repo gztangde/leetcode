@@ -19,6 +19,7 @@ Given a binary tree, imagine yourself standing on the  _right_  side of it, retu
 ![](/images/in-post/2019-01-12-Leetcode-199-Binary-Tree-Right-Side-View/2019-01-12-22-19-46.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree, Depth-First-Search, Breadth-First-Search
 
 <!-- more -->

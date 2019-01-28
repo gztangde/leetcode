@@ -20,6 +20,7 @@ Determine the maximum amount of money the thief can rob tonight without alerting
 ![](/images/in-post/2019-01-14-Leetcode-337-House-Robber-III/2019-01-14-14-27-51.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree, Depth-First-Search
 
 <!-- more -->

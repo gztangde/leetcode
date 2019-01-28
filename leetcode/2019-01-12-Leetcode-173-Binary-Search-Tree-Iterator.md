@@ -28,6 +28,7 @@ Calling  `next()`  will return the next smallest number in the BST.
 - You may assume that `next()` call will always be valid, that is, there will be at least a next smallest number in the BST when  `next()`  is called.
 
 **Difficulty**:Medium
+
 **Category**:Stack, Tree, Design
 
 <!-- more -->

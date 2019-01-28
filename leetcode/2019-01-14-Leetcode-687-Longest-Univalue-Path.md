@@ -22,6 +22,7 @@ Given a binary tree, find the length of the longest path where each node in the 
 **Note:**  The given binary tree has not more than 10000 nodes. The height of the tree is not more than 1000.
 
 **Difficulty**:Easy
+
 **Category**:Tree, Recursion
 
 <!-- more -->

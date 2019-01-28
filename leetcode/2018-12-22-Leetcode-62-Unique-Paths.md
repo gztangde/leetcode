@@ -38,6 +38,7 @@ Above is a 7 x 3 grid. How many possible unique paths are there?
 > **Output:** 28
 
 **Difficulty**:Medium
+
 **Category**:Array, Dynamic-Programming
 
 <!-- more -->

@@ -37,6 +37,7 @@ Return the final order of the logs.
 3. `logs[i]`  is guaranteed to have an identifier, and a word after the identifier.
 
 **Difficulty**:Easy
+
 **Category**:String
 
 <!-- more -->

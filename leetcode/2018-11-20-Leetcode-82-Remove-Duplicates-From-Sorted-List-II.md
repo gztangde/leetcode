@@ -23,6 +23,7 @@ Given a sorted linked list, delete all nodes that have duplicate numbers, leavin
 > **Output:** 2->3
 
 **Difficulty**:Medium
+
 **Category**:Linked List
 
 <!-- more -->

@@ -37,6 +37,7 @@ Return the  **length**  of  `left`  after such a partitioning(分割). It is gua
 3. It is guaranteed there is at least one way to partition  `A`  as described.
 
 **Difficulty**:Medium
+
 **Category**:Array
 
 <!-- more -->

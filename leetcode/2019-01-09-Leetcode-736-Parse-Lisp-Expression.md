@@ -70,6 +70,7 @@ The syntax for these expressions is given as follows.
 - The answer and all intermediate calculations of that answer are guaranteed to fit in a 32-bit integer.
 
 **Difficulty**:Hard
+
 **Category**:String
 
 <!-- more -->

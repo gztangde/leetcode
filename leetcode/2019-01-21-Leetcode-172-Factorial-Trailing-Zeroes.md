@@ -27,6 +27,7 @@ Given an integer  _n_, return the number of trailing zeroes in  _n_!.
 > **Explanation:** 5! = 120, one trailing zero.
 
 **Difficulty**:Easy
+
 **Category**:Math
 
 <!-- more -->

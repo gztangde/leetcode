@@ -22,6 +22,7 @@ The maximum depth is the number of nodes along the longest path from the root no
 ![](/images/in-post/2019-01-12-Leetcode-104-Maximum-Depth-of-Binary-Tree/2019-01-12-16-22-58.png)
 
 **Difficulty**:Easy
+
 **Category**:Tree, Depth-first-Search
 
 <!-- more -->

@@ -60,6 +60,7 @@ Given tree t:
 Return **false**.
 
 **Difficulty**:Easy
+
 **Category**:Tree
 
 <!-- more -->

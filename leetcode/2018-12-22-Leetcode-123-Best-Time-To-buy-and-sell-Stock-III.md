@@ -35,6 +35,7 @@ Design an algorithm to find the maximum profit. You may complete at most  _two_ 
 > **Explanation:** In this case, no transaction is done, i.e. max profit = 0.
 
 **Difficulty**:Hard
+
 **Category**:Dynamic-Programming
 
 <!-- more -->

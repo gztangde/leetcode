@@ -38,6 +38,7 @@ Visually, the graph looks like the following:
 **Note**: The information about the tree serialization is only meant so that you can understand error output if you get a wrong answer. You don't need to understand the serialization to solve the problem.
 
 **Difficulty**:Medium
+
 **Category**:Depth-First-Search, Breadth-First-Search, Graph
 
 <!-- more -->

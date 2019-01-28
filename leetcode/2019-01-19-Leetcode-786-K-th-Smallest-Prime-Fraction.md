@@ -35,6 +35,7 @@ What is the  `K`-th smallest fraction considered? Return your answer as an array
 - `K`  will be between  `1`  and  `A.length * (A.length - 1) / 2`.
 
 **Difficulty**:Hard
+
 **Category**:Binary-Search, Heap
 
 <!-- more -->

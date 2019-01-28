@@ -28,6 +28,7 @@ You call a pre-defined API  `guess(int num)`  which returns 3 possible results (
 > **Output:** 6
 
 **Difficulty**:Easy
+
 **Category**:Binary-Search
 
 <!-- more -->

@@ -33,6 +33,7 @@ We should return its level order traversal:
 2.  The total number of nodes is at most  `5000`.
 
 **Difficulty**:Easy
+
 **Category**:Tree
 
 <!-- more -->

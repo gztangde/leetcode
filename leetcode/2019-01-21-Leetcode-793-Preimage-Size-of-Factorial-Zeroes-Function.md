@@ -31,6 +31,7 @@ For example,  `f(3) = 0`  because 3! = 6 has no zeroes at the end, while  `f(11)
 - `K`  will be an integer in the range  `[0, 10^9]`.
 
 **Difficulty**:Hard
+
 **Category**:Binary-Search
 
 <!-- more -->

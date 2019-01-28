@@ -56,6 +56,7 @@ Given a binary search tree and the lowest and highest boundaries as  `L`  and  `
 ```
 
 **Difficulty**:Easy
+
 **Category**:Tree
 
 <!-- more -->

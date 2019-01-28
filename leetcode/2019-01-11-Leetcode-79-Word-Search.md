@@ -20,6 +20,7 @@ The word can be constructed from letters of sequentially adjacent cell, where "a
 ![](/images/in-post/2019-01-11-Leetcode-79-Word-Search/2019-01-11-10-15-35.png)
 
 **Difficulty**:Medium
+
 **Category**: Array, Backtracking
 
 <!-- more -->

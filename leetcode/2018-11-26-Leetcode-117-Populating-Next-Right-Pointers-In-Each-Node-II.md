@@ -35,6 +35,7 @@ Given the following binary tree,
 ![](/images/in-post/2018-11-26-Leetcode-117-Populating-Next-Right-Pointers-In-Each-Node-II/2018-11-26-18-52-35.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree, Depth-First-Search
 
 <!-- more -->

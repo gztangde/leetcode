@@ -18,6 +18,7 @@ Write an efficient algorithm that searches for a value in an  _m_  x  _n_  matri
 ![](/images/in-post/2018-12-17-Leetcode-74-Search-a-2D-Matrix/2018-12-17-16-10-27.png)
 
 **Difficulty**:Medium
+
 **Category**:Array, Binary-Search
 
 <!-- more -->

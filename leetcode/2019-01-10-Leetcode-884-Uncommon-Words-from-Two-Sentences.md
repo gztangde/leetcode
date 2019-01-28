@@ -35,6 +35,7 @@ You may return the list in any order.
 3.  `A`  and  `B`  both contain only spaces and lowercase letters.
 
 **Difficulty**:Medium
+
 **Category**:Hash-Table
 
 <!-- more -->

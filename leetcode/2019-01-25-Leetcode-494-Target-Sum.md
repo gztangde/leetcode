@@ -41,6 +41,7 @@ There are 5 ways to assign symbols to make the sum of nums be target 3.
 3. Your output answer is guaranteed to be fitted in a 32-bit integer.
 
 **Difficulty**:Medium
+
 **Category**:Dynamic-Programming, Depth-First-Search
 
 <!-- more -->

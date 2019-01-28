@@ -15,6 +15,7 @@ Given a binary tree, check whether it is a mirror of itself (ie, symmetric aroun
 ![](/images/in-post/2018-11-26-Leetcode-101-Symmetrix-Tree/2018-11-26-18-20-59.png)
 
 **Difficulty**:Easy
+
 **Category**:Tree, Depth-First-Search, Breadth-First-Search
 
 <!-- more -->

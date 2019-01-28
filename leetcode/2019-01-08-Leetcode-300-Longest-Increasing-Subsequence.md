@@ -25,6 +25,7 @@ Given an unsorted array of integers, find the length of longest increasing subse
 **Follow up:**  Could you improve it to O(_n_  log  _n_) time complexity?
 
 **Difficulty**:Medium
+
 **Category**:Dynamic-Programming, Binary-Search
 
 <!-- more -->

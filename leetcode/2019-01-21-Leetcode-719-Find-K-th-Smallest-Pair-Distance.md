@@ -36,6 +36,7 @@ Given an integer array, return the k-th smallest  **distance**  among all the pa
 3. `1 <= k <= len(nums) * (len(nums) - 1) / 2`.
 
 **Difficulty**:Hard
+
 **Category**:Array, Binary-Search, Heap
 
 <!-- more -->

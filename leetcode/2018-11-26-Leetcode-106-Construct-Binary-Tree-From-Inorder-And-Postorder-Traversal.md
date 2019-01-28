@@ -15,6 +15,7 @@ Given inorder and postorder traversal of a tree, construct the binary tree.
 ![](/images/in-post/2018-11-26-Leetcode-106-Construct-Binary-Tree-From-Inorder-And-Postorder-Traversal/2018-11-26-21-29-15.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree, Array, Depth-first-Search
 
 <!-- more -->

@@ -27,6 +27,7 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 **Output:** 99
 
 **Difficulty**:Medium
+
 **Category**:Bit Manipulation  
 
 <!-- more -->

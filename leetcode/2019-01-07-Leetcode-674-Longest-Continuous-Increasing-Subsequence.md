@@ -27,6 +27,7 @@ Given an unsorted array of integers, find the length of longest  `continuous`  i
 **Note:**  Length of the array will not exceed 10,000.
 
 **Difficulty**:Easy
+
 **Category**:Array, DP
 
 <!-- more -->

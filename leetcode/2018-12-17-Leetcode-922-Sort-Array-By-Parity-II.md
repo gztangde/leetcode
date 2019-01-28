@@ -29,6 +29,7 @@ You may return any answer array that satisfies this condition.
 3. `0 <= A[i] <= 1000`
 
 **Difficulty**:Easy
+
 **Category**:Array, Sort
 
 <!-- more -->

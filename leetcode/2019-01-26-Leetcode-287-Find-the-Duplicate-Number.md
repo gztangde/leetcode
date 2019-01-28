@@ -31,6 +31,7 @@ Given an array  _nums_  containing  _n_  + 1 integers where each integer is betw
 4. There is only one duplicate number in the array, but it could be repeated more than once.
 
 **Difficulty**:Medium
+
 **Category**:
 
 <!-- more -->

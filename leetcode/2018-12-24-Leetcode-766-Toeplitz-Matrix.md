@@ -28,6 +28,7 @@ Now given an  `M x N`  matrix, return `True` if and only if the matrix is  _Toep
 2. What if the matrix is so large that you can only load up a partial row into the memory at once?
 
 **Difficulty**:Easy
+
 **Category**:Array
 
 <!-- more -->

@@ -40,6 +40,7 @@ If there is no answer, return the empty string.
 - The length of  `words[i]`  will be in the range  `[1, 30]`.
 
 **Difficulty**:Easy
+
 **Category**:Hash-Table, Trie
 
 <!-- more -->

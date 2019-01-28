@@ -27,6 +27,7 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 **Output:** 4
 
 **Difficulty**:Medium
+
 **Category**:HashTable, BitManipulation
 
 <!-- more -->

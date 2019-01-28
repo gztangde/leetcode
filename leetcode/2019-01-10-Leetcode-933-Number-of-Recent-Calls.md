@@ -33,6 +33,7 @@ It is guaranteed that every call to  `ping`  uses a strictly larger value of `t`
 3.  Each call to ping will have  `1 <= t <= 10^9`.
 
 **Difficulty**:Easy
+
 **Category**:Queue
 
 <!-- more -->

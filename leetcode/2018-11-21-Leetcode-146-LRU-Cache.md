@@ -30,6 +30,7 @@ Could you do both operations in  **O(1)**  time complexity?
 > cache.get(4);       // returns 4
 
 **Difficulty**:Medium
+
 **Category**:Design
 
 <!-- more -->

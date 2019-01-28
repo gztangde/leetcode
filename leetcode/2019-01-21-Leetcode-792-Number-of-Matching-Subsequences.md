@@ -30,6 +30,7 @@ words = ["a", "bb", "acd", "ace"]
 - The length of  `words[i]`  will be in the range of  `[1, 50]`.
 
 **Difficulty**:Medium
+
 **Category**:String, HashTable
 
 <!-- more -->

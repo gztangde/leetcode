@@ -25,6 +25,7 @@ Given a string containing just the characters  `'('`  and  `')'`, find the lengt
 > **Explanation:** The longest valid parentheses substring is `"()()"`
 
 **Difficulty**:Hard
+
 **Category**:Dynamic Programming, String
 
 <!-- more -->

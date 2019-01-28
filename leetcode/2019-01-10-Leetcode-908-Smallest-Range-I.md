@@ -39,6 +39,7 @@ Return the smallest possible difference between the maximum value of  `B` and th
 3.  `0 <= K <= 10000`
 
 **Difficulty**:Easy
+
 **Category**:Math
 
 <!-- more -->

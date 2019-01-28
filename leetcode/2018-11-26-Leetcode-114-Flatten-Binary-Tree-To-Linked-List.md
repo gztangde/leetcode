@@ -15,6 +15,7 @@ Given a binary tree, flatten it to a linked list in-place.
 ![](/images/in-post/2018-11-26-Leetcode-114-Flatten-Binary-Tree-To-Linked-List/2018-11-26-18-30-40.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree, Depth-first-Search
 
 <!-- more -->

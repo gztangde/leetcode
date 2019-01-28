@@ -18,6 +18,7 @@ Reverse a singly linked list.
 > **Output:** 5->4->3->2->1->NULL
 
 **Difficulty**:Easy
+
 **Category**:Linked List
 
 <!-- more -->

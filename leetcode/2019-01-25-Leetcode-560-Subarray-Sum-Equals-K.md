@@ -28,6 +28,7 @@ Given an array of integers and an integer  **k**, you need to find the total num
 2. The range of numbers in the array is [-1000, 1000] and the range of the integer  **k**  is [-1e7, 1e7].
 
 **Difficulty**:Medium
+
 **Category**:Array, Hash-Table
 
 <!-- more -->

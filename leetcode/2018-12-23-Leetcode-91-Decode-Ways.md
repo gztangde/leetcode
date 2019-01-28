@@ -32,6 +32,7 @@ Given a  **non-empty**  string containing only digits, determine the total numbe
 > **Explanation:** It could be decoded as "BZ" (2 26), "VF" (22 6), or "BBF" (2 2 6).
 
 **Difficulty**:Medium
+
 **Category**:String, Dynamic-Programming
 
 <!-- more -->

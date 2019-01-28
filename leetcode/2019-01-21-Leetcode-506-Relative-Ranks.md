@@ -27,6 +27,7 @@ Given scores of  **N**  athletes, find their relative ranks and the people with 
 2.  All the scores of athletes are guaranteed to be unique.
 
 **Difficulty**:Easy
+
 **Category**:Binary-Search
 
 <!-- more -->

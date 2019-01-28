@@ -38,6 +38,7 @@ Your class will be called like this: `MyCalendar cal = new MyCalendar();`  `MyCa
 - In calls to  `MyCalendar.book(start, end)`,  `start`  and  `end`are integers in the range  `[0, 10^9]`.
 
 **Difficulty**:Medium
+
 **Category**:Array, Range, Binary-Search
 
 <!-- more -->

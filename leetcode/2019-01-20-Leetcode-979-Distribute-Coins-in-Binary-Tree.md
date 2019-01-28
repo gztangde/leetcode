@@ -54,6 +54,7 @@ Return the number of moves required to make every node have exactly one coin.
 2.  `0 <= node.val <= N`
 
 **Difficulty**:Hard
+
 **Category**:Tree, Depth-First-Search
 
 <!-- more -->

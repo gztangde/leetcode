@@ -24,6 +24,7 @@ Given a binary array, find the maximum number of consecutive 1s in this array.
 - The length of input array is a positive integer and will not exceed 10,000
 
 **Difficulty**:Easy
+
 **Category**:Array
 
 <!-- more -->

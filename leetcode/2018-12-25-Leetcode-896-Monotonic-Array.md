@@ -47,6 +47,7 @@ Return  `true`  if and only if the given array  `A`  is monotonic.
 2. `-100000 <= A[i] <= 100000`
 
 **Difficulty**:Easy
+
 **Category**:Array
 
 <!-- more -->

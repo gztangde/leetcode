@@ -53,6 +53,7 @@ Given a formula, output the count of all elements as a string in the following f
 - `formula`  will only consist of letters, digits, and round parentheses, and is a valid formula as defined in the problem.
 
 **Difficulty**:Hard
+
 **Category**:Hash-Table, Stack, Recursion
 
 <!-- more -->

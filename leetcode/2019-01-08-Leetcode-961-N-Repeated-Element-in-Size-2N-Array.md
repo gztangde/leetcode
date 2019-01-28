@@ -36,6 +36,7 @@ Return the element repeated  `N`  times.
 3. `A.length`  is even
 
 **Difficulty**:Easy
+
 **Category**:Hash-Table
 
 <!-- more -->

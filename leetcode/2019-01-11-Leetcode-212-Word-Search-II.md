@@ -20,6 +20,7 @@ Each word must be constructed from letters of sequentially adjacent cell, where 
 ![](/images/in-post/2019-01-11-Leetcode-212-Word-Search-II/2019-01-11-10-26-30.png)
 
 **Difficulty**:Hard
+
 **Category**:Backtracking, Trie
 
 <!-- more -->

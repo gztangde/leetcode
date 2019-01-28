@@ -23,6 +23,7 @@ Given an integer array  `nums`, find the contiguous subarray (containing at leas
 If you have figured out the O(_n_) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 
 **Difficulty**:Easy
+
 **Category**:Array, Divide-and-Conquer, Dynamic-Programming
 
 <!-- more -->

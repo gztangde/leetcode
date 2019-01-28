@@ -17,6 +17,7 @@ Given a Binary Search Tree (BST), convert it to a Greater Tree such that every k
 ![](/images/in-post/2019-01-13-Leetcode-538-Convert-BST-to-Greater-Tree/2019-01-13-19-24-27.png)
 
 **Difficulty**:Easy
+
 **Category**:Tree
 
 <!-- more -->

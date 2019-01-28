@@ -23,6 +23,7 @@ A subsequence of a string is a new string which is formed from the original stri
 ![](/images/in-post/2018-12-23-Leetcode-115-Distinct-Subsequences/2018-12-24-10-37-53.png)
 
 **Difficulty**:Hard
+
 **Category**:String, Dynamic-Programming
 
 <!-- more -->

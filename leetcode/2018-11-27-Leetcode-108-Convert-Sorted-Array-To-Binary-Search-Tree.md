@@ -17,6 +17,7 @@ For this problem, a height-balanced binary tree is defined as a binary tree in w
 ![](/images/in-post/2018-11-27-Leetcode-108-Convert-Sorted-Array-To-Binary-Search-Tree/2018-11-27-16-06-04.png)
 
 **Difficulty**:Easy
+
 **Category**:Tree, Depth-first-Search
 
 <!-- more -->

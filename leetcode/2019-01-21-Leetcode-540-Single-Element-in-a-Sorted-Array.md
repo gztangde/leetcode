@@ -27,6 +27,7 @@ Given a sorted array consisting of only integers where every element appears twi
 **Note:**  Your solution should run in O(log n) time and O(1) space.
 
 **Difficulty**:Medium
+
 **Category**:Binary-Search
 
 <!-- more -->

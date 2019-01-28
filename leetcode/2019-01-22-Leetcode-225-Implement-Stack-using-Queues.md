@@ -37,6 +37,7 @@ stack.empty(); // returns false
 - You may assume that all operations are valid (for example, no pop or top operations will be called on an empty stack).
 
 **Difficulty**:Easy
+
 **Category**:Stack, Design
 
 <!-- more -->

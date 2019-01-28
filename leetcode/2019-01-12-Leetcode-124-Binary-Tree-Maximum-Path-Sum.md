@@ -19,6 +19,7 @@ For this problem, a path is defined as any sequence of nodes from some starting 
 ![](/images/in-post/2019-01-12-Leetcode-124-Binary-Tree-Maximum-Path-Sum/2019-01-12-21-02-38.png)
 
 **Difficulty**:Hard
+
 **Category**:Tree, Depth-First-Search
 
 <!-- more -->

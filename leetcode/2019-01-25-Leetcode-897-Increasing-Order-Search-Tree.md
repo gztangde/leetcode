@@ -55,6 +55,7 @@ Given a tree, rearrange the tree in  **in-order**  so that the leftmost node in 
 2. Each node will have a unique integer value from 0 to 1000.
 
 **Difficulty**:Easy
+
 **Category**:Tree, Depth-First-Search
 
 <!-- more -->

@@ -32,6 +32,7 @@ Find the letter that was added in  **_t_**.
 > 'e' is the letter that was added.
 
 **Difficulty**:Easy
+
 **Category**:Hash-Table, Bit-Manipulation
 
 <!-- more -->

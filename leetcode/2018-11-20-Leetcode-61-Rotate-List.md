@@ -31,6 +31,7 @@ Given a linked list, rotate the list to the right by  _k_  places, where  _k_  i
 > rotate 4 steps to the right: `2->0->1->NULL`
 
 **Difficulty**:Medium
+
 **Category**:Linked List, Two Points
 
 <!-- more -->

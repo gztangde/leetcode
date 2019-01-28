@@ -17,6 +17,7 @@ Find the sum of all left leaves in a given binary tree.
 ![](/images/in-post/2019-01-13-Leetcode-404-Sum-of-Left-Leaves/2019-01-13-13-52-50.png)
 
 **Difficulty**:Easy
+
 **Category**:Tree
 
 <!-- more -->

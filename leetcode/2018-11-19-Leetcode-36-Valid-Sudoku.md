@@ -63,6 +63,7 @@ The Sudoku board could be partially filled, where empty cells are filled with th
 - The given board size is always  `9x9`.
 
 **Difficulty**:Medium
+
 **Category**:HashTable  
 
 <!-- more -->

@@ -43,6 +43,7 @@ If it is impossible to form any triangle of non-zero area, return  `0`.
 2.  `1 <= A[i] <= 10^6`
 
 **Difficulty**:Easy
+
 **Category**:Array, Math
 
 <!-- more -->

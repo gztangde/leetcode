@@ -34,6 +34,7 @@ You need to return the  **least**  number of intervals the CPU will take to fini
 2. The integer n is in the range [0, 100].
 
 **Difficulty**:Medium
+
 **Category**:Array, Greedy, Queue
 
 <!-- more -->

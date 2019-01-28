@@ -27,6 +27,7 @@ Given an unsorted array of integers, find the number of longest increasing subse
 **Note:**  Length of the given array will be not exceed 2000 and the answer is guaranteed to be fit in 32-bit signed int.
 
 **Difficulty**:Medium
+
 **Category**:Dynamic-Programming
 
 <!-- more -->

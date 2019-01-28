@@ -22,6 +22,7 @@ Write a function that takes a string as input and returns the string reversed.
 > Output: "amanaP :lanac a ,nalp a ,nam A"
 
 **Difficulty**:Easy
+
 **Category**:
 
 <!--more-->

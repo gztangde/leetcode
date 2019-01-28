@@ -17,6 +17,7 @@ Two binary trees are considered the same if they are structurally identical and 
 ![](/images/in-post/2018-11-26-Leetcode-100-Same-Tree/2018-11-26-00-40-18.png)
 
 **Difficulty**:Easy
+
 **Category**:Tree, Depth-first-Search
 
 <!-- more -->

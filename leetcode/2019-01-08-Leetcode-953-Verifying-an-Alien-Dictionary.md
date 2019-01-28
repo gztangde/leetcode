@@ -39,6 +39,7 @@ Given a sequence of  `words` written in the alien language, and the  `order`  of
 4. All characters in  `words[i]`  and  `order`  are english lowercase letters.
 
 **Difficulty**:Easy
+
 **Category**:Hash-Table
 
 <!-- more -->

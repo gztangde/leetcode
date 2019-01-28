@@ -34,6 +34,7 @@ Given two arrays, write a function to compute their intersection.
 - What if elements of  _nums2_  are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?
 
 **Difficulty**:Easy
+
 **Category**:Hash-Table, Two-Points, Binary-Search, Sort
 
 <!-- more -->

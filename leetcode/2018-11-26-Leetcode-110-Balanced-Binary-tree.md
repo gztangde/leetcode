@@ -19,6 +19,7 @@ For this problem, a height-balanced binary tree is defined as:
 ![](/images/in-post/2018-11-26-Leetcode-110-Balanced-Binary-tree/2018-11-26-00-45-30.png)
 
 **Difficulty**:Easy
+
 **Category**:Tree, Depth-First-Search
 
 <!-- more -->

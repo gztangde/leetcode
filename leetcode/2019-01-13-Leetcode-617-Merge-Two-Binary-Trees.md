@@ -21,6 +21,7 @@ You need to merge them into a new binary tree. The merge rule is that if two nod
 **Note:** The merging process must start from the root nodes of both trees.
 
 **Difficulty**:Easy
+
 **Category**:Tree
 
 <!-- more -->

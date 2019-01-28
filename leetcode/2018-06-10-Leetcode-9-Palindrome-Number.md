@@ -26,6 +26,7 @@ Determine whether an integer is a palindrome. An integer is a palindrome when it
 Could you solve it without converting the integer to a string?
 
 **Difficulty**:Easy
+
 **Category**:Math
 <!--more-->
 *****

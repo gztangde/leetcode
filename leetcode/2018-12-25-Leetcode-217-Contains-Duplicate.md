@@ -30,6 +30,7 @@ Your function should return true if any value appears at least twice in the arra
 > **Output:** true
 
 **Difficulty**:Easy
+
 **Category**:Array, Hash-Table
 
 <!-- more -->

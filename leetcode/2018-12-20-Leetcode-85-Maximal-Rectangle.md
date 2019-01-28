@@ -15,6 +15,7 @@ Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle con
 ![](/images/in-post/2018-12-20-Leetcode-85-Maximal-Rectangle/2018-12-20-18-34-36.png)
 
 **Difficulty**:Hard
+
 **Category**:Array, Hash-Table, Dynamic-Programming, Stack
 
 <!-- more -->

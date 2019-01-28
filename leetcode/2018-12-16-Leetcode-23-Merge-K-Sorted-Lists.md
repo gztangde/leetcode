@@ -13,6 +13,7 @@ top:
 ![](/images/in-post/2018-12-16-Leetcode-23-Merge-K-Sorted-Lists/2018-12-16-14-24-04.png)
 
 **Difficulty**:Hard
+
 **Category**:Linked-List, Divide-and-Conquer, Heap
 
 <!-- more -->

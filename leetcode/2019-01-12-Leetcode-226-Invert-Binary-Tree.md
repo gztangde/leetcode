@@ -23,6 +23,7 @@ This problem was inspired by  [this original tweet](https://twitter.com/mxcl/sta
 > Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so f*** off.
 
 **Difficulty**:Medium
+
 **Category**:Tree
 
 <!-- more -->

@@ -40,6 +40,7 @@ Given two strings  _s1_  and  _s2_  of the same length, determine if  _s2_  is a
 > **Output:** false
 
 **Difficulty**:Hard
+
 **Category**:String, Dynamic-Programming
 
 <!-- more -->

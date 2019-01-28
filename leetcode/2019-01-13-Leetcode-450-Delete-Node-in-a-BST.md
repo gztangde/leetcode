@@ -24,6 +24,7 @@ Basically, the deletion can be divided into two stages:
 ![](/images/in-post/2019-01-13-Leetcode-450-Delete-Node-in-a-BST/2019-01-13-16-46-24.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree
 
 <!-- more -->

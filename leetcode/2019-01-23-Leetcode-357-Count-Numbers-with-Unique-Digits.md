@@ -24,6 +24,7 @@ Given a  **non-negative**  integer n, count all numbers with unique digits, x, w
              > excluding `11,22,33,44,55,66,77,88,99`
 
 **Difficulty**:Medium
+
 **Category**:Math, Dynamic-Programming, Backtracking
 
 <!-- more -->

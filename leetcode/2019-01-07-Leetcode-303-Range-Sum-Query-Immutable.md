@@ -25,6 +25,7 @@ Given an integer array  _nums_, find the sum of the elements between indices  _i
 2. There are many calls to  _sumRange_  function.
 
 **Difficulty**:Easy
+
 **Category**:Dynamic-Programming
 
 <!-- more -->

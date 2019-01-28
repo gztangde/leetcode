@@ -33,6 +33,7 @@ Return  **any**  permutation  `A`  of  `[0, 1, ..., N]`  such that for all  `i =
 > **Output:** [3,2,0,1]
 
 **Difficulty**:Easy
+
 **Category**:Math
 
 <!-- more -->

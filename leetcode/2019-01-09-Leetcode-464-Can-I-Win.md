@@ -37,6 +37,7 @@ You can always assume that  `maxChoosableInteger`  will not be larger than 20 an
 > Same with other integers chosen by the first player, the second player will always win.
 
 **Difficulty**:Medium
+
 **Category**:Dynamic-Programming, Minimax
 
 <!-- more -->

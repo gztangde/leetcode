@@ -38,6 +38,7 @@ The final answer should be in lexicographic order.
 > **Output:** [[3,5],[6,9],[12,14]]
 
 **Difficulty**:Easy
+
 **Category**:Array
 
 <!-- more -->

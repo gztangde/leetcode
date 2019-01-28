@@ -43,6 +43,7 @@ The order of elements can be changed. It doesn't matter what you leave beyond th
 > }
 
 **Difficulty**:Easy
+
 **Category**:Array, Two Points
 
 <!-- more -->

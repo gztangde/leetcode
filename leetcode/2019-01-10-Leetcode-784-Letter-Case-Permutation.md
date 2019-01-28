@@ -28,6 +28,7 @@ Given a string S, we can transform every letter individually to be lowercase or 
 - `S`  will consist only of letters or digits.
 
 **Difficulty**:Easy
+
 **Category**:Backtracking, Bit-Manipulation
 
 <!-- more -->

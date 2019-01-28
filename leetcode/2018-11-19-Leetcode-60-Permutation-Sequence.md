@@ -39,6 +39,7 @@ Given  _n_  and  _k_, return the  _k_th  permutation sequence.
 > **Output:** "2314"
 
 **Difficulty**:Medium
+
 **Category**:Math, Backtracking  
 
 <!-- more -->

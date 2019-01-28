@@ -20,6 +20,7 @@ You should preserve the original relative order of the nodes in each of the two 
 > **Output:** 1->2->2->4->3->5
 
 **Difficulty**:Medium
+
 **Category**:Linked List, Two Pointers
 
 <!-- more -->

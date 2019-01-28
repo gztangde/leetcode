@@ -50,6 +50,7 @@ Return  `true`  if and only if you can choose `X >= 2`  such that it is possible
 2.  `0 <= deck[i] < 10000`
 
 **Difficulty**:Easy
+
 **Category**:Array, Math
 
 <!-- more -->

@@ -60,6 +60,7 @@ Note that the starting and ending square can be anywhere in the grid.
 
 
 **Difficulty**:Hard
+
 **Category**:Dynamic-Programming, Backtracking
 
 <!-- more -->

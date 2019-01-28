@@ -15,6 +15,7 @@ Given a binary tree, return the postorder traversal of its nodes' values.
 ![](/images/in-post/2018-11-22-Leetcode-145-Binary-Tree-Postorder-Travesal/2018-11-25-23-35-50.png)
 
 **Difficulty**:Hard
+
 **Category**:Tree, Hard
 
 <!-- more -->

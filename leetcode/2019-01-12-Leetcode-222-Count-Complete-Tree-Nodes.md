@@ -23,6 +23,7 @@ In a complete binary tree every level, except possibly the last, is completely f
 ![](/images/in-post/2019-01-12-Leetcode-222-Count-Complete-Tree-Nodes/2019-01-12-22-31-07.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree, Binary-Search
 
 <!-- more -->

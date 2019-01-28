@@ -43,6 +43,7 @@ For example:
 > **Output:** 701
 
 **Difficulty**:Easy
+
 **Category**:Math
 
 <!-- more -->

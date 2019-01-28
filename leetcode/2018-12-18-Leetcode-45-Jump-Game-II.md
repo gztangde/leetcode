@@ -27,6 +27,7 @@ Your goal is to reach the last index in the minimum number of jumps.
 You can assume that you can always reach the last index.
 
 **Difficulty**:Hard
+
 **Category**:Greedy, Array
 
 <!-- more -->

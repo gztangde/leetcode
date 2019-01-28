@@ -32,6 +32,7 @@ The letters in  `J`  are guaranteed distinct, and all characters in  `J`  and  `
 - The characters in  `J`  are distinct.
 
 **Difficulty**:Easy
+
 **Category**:Hash-Table
 
 <!-- more -->

@@ -30,6 +30,7 @@ You may assume the string contains only lowercase alphabets.
 What if the inputs contain unicode characters? How would you adapt your solution to such case?
 
 **Difficulty**:Easy
+
 **Category**:Sort, Hash-Table
 
 <!-- more -->

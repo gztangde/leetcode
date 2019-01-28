@@ -18,6 +18,7 @@ Given a  _m_  x  _n_  grid filled with non-negative numbers, find a path from to
 ![](/images/in-post/2018-12-22-Leetcode-64-Minimum-Path-Sum/2018-12-22-23-47-20.png)
 
 **Difficulty**:Medium
+
 **Category**:Array, Dynamic-Programming
 
 <!-- more -->

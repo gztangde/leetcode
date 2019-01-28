@@ -39,6 +39,7 @@ You have the following 3 operations permitted on a word:
 > exection -> execution (insert 'u')
 
 **Difficulty**:Hard
+
 **Category**:String, Dynamic-Programming
 
 <!-- more -->

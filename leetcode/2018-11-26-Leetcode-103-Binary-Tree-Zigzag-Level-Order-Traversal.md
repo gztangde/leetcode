@@ -15,6 +15,7 @@ Given a binary tree, return the zigzag level order traversal of its nodes' value
 ![](/images/in-post/2018-11-26-Leetcode-103-Binary-Tree-Zigzag-Level-Order-Traversal/2018-11-26-00-28-31.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree, Stack, Breadth-first Search
 
 <!-- more -->

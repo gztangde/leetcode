@@ -28,6 +28,7 @@ Given an array  `nums`  representing the data status of this set after the error
 2. The given array's numbers won't have any order.
 
 **Difficulty**:Easy
+
 **Category**:Hash-Table, Math
 
 <!-- more -->

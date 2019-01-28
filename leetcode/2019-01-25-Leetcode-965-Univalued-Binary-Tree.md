@@ -36,6 +36,7 @@ Return  `true` if and only if the given tree is univalued.
 2.  Each node's value will be an integer in the range  `[0, 99]`.
 
 **Difficulty**:Easy
+
 **Category**:Tree
 
 <!-- more -->

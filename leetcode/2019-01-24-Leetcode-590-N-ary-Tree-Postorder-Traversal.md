@@ -20,6 +20,7 @@ For example, given a  `3-ary`  tree:
 ![](/images/in-post/2019-01-24-Leetcode-590-N-ary-Tree-Postorder-Traversal/2019-01-24-23-21-11.png)
 
 **Difficulty**:Easy
+
 **Category**:Tree
 
 <!-- more -->

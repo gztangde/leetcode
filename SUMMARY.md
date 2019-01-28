@@ -47,6 +47,10 @@
   * [Contains Duplicate](./Leetcode-217-Contains-Duplicate.md)
   * [Squares of a Sorted Array](./Leetcode-977-Squares-of-a-Sorted-Array.md)
   * [N Repeated Element in Size 2N Array](./Leetcode-961-N-Repeated-Element-in-Size-2N-Array.md)
+  * [Degree of an Array](./Leetcode-697-Degree-of-an-Array.md)
+  * [Excel Sheet Column Title](./Leetcode-168-Excel-Sheet-Column-Title.md)
+  * [Excel Sheet Column Number](./Leetcode-171-Excel-Sheet-Column-Number.md)
+  * [Max Consecutive Ones](./Leetcode-485-Max-Consecutive-Ones.md)
 
 * [Linked List](./Leetcode-20-Valid-Parentheses.md)
   * [Remove Nth Node From End Of List](./Leetcode-19-Remove-Nth-Node-From-End-Of-List.md)
@@ -66,6 +70,8 @@
   * [LRU Cache](./Leetcode-146-LRU-Cache.md)
   * [Minimum Index Sum of Two Lists](./Leetcode-599-Minimum-Index-Sum-of-Two-Lists.md)
   * [Copy List With Random Pointer](./Leetcode-138-Copy-List-With-Random-Pointer.md)
+  * [Rotate List](./Leetcode-61-Rotate-List.md)
+  * [Partition List](./Leetcode-86-Partition-List.md)
 
 * [Matrix](./summary/summary.md)
   * [Set Matrix Zeroes](./Leetcode-73-Set-Matrix-Zeroes.md)
@@ -123,12 +129,16 @@
 * [First Unique Character In A String](./Leetcode-387-First-Unique-Character-In-A-String.md)
 * [Uncommon Words from Two Sentences](./Leetcode-884-Uncommon-Words-from-Two-Sentences.md)
 * [Positions of Large Groups](./Leetcode-830-Positions-of-Large-Groups.md)
+* [Number of Matching Subsequences](./Leetcode-792-Number-of-Matching-Subsequences.md)
+* [To Lower Case](./Leetcode-709-To-Lower-Case.md)
 
 ## Stack and Queue
 
 * [Implement Stack using Queues](./Leetcode-225-Implement-Stack-using-Queues.md)
+* [Min Stack](./Leetcode-155-Min-Stack.md)
 * [Valid Parentheses](./Leetcode-20-Valid-Parentheses.md)
 * [Longest Valid Parentheses](./Leetcode-32-Longest-Valid-Parentheses.md)
+* [Largest Rectangle in histogram](./Leetcode-84-Largest-Rectangle-in-histogram.md)
 * [Evaluate Reverse Polish Notation](./Leetcode-150-Evaluate-Reverse-Polish-Notation.md)
 * [Number of Recent Calls](./Leetcode-933-Number-of-Recent-Calls.md)
 * [Queue Reconstruction by Height](./Leetcode-406-Queue-Reconstruction-by-Height.md)
@@ -200,6 +210,7 @@
   * [Path Sum III](./Leetcode-437-Path-Sum-III.md)
   * [Populating Next Right Pointers In Each Node](./Leetcode-116-Populating-Next-Right-Pointers-In-Each-Node.md)
   * [Sum Root to Leaf Numbers](./Leetcode-129-Sum-Root-to-Leaf-Numbers.md)
+  * [Longest Univalue Path](./Leetcode-687-Longest-Univalue-Path.md)
 
 ## Math
 
@@ -214,6 +225,13 @@
 * [Largest Time for Given Digits](./Leetcode-949-Largest-Time-for-Given-Digits.md)
 * [X of a Kind in a Deck of Cards](./Leetcode-914-X-of-a-Kind-in-a-Deck-of-Cards.md)
 * [Smallest Range I](./Leetcode-908-Smallest-Range-I.md)
+* [Factorial Trailing Zeroes](./Leetcode-172-Factorial-Trailing-Zeroes.md)
+* [Plus One](./Leetcode-66-Plus-One.md)
+
+## Bit-Manipulation
+
+* [Letter Case Permutation](./Leetcode-784-Letter-Case-Permutation.md)
+* [Find the Difference](./Leetcode-389-Find-the-Difference.md)
 
 ------------
 
@@ -253,6 +271,17 @@
 * [Best Time To Buy and Sell Stock II](./Leetcode-122-Best-Time-To-Buy-and-Sell-Stock-II.md)
 * [Best Time To buy and sell Stock III](./Leetcode-123-Best-Time-To-buy-and-sell-Stock-III.md)
 * [Container With Most Water](./Leetcode-11-Container-With-Most-Water.md)
+* [Gas Station](./Leetcode-134-Gas-Station.md)
+
+## Binary Search
+
+* [Online Election](./Leetcode-911-Online-Election.md)
+* [Preimage Size of Factorial Zeroes Function](./Leetcode-793-Preimage-Size-of-Factorial-Zeroes-Function.md)
+* [K th Smallest Prime Fraction](./Leetcode-786-K-th-Smallest-Prime-Fraction.md)
+* [Find Smallest Letter Greater Than Target](./Leetcode-744-Find-Smallest-Letter-Greater-Than-Target.md)
+* [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
+
+
 
 ## DP
 
@@ -274,10 +303,20 @@
 * [Different Ways to Add Parentheses](./Leetcode-241-Different-Ways-to-Add-Parentheses.md)
 * [Least Operators to Express Number](./Leetcode-964-Least-Operators-to-Express-Number.md)
 * [House Robber III](./Leetcode-337-House-Robber-III.md)
+* [Min Cost Climbing Stairs](./Leetcode-746-Min-Cost-Climbing-Stairs.md)
+* [Longest Continuous Increasing Subsequence](./Leetcode-674-Longest-Continuous-Increasing-Subsequence.md)
+* [Minimum Path Sum](./Leetcode-64-Minimum-Path-Sum.md)
+* [Climbing Stairs](./Leetcode-70-Climbing-Stairs.md)
+* [Edit Distance](./Leetcode-72-Edit-Distance.md)
+* [Count Numbers with Unique Digits](./Leetcode-357-Count-Numbers-with-Unique-Digits.md)
 
 ## Divide-And-Conquer
 
 * [Burst Balloons](./Leetcode-312-Burst-Balloons.md)
+
+## Recursion
+
+* [Number of Atoms](./Leetcode-726-Number-of-Atoms.md)
 
 ## Graph
 
@@ -289,48 +328,37 @@
 * [My Calendar I](./Leetcode-729-My-Calendar-I.md)
 * [Student Attendance Record I](./Leetcode-551-Student-Attendance-Record-I.md)
 * [Find Duplicate File in System](./Leetcode-609-Find-Duplicate-File-in-System.md)
+* [Parse Lisp Expression](./Leetcode-736-Parse-Lisp-Expression.md)
 
 ## Others
 
 * [Permutations](./Leetcode-46-Permutations.md)
 * [Permutations II](./Leetcode-47-Permutations-II.md)
-* [Rotate List](./Leetcode-61-Rotate-List.md)
-* [Minimum Path Sum](./Leetcode-64-Minimum-Path-Sum.md)
-* [Plus One](./Leetcode-66-Plus-One.md)
 
-* [Climbing Stairs](./Leetcode-70-Climbing-Stairs.md)
-* [Edit Distance](./Leetcode-72-Edit-Distance.md)
+
+
+
+
+
 * [Combinations](./Leetcode-77-Combinations.md)
 * [Subsets](./Leetcode-78-Subsets.md)
 
-* [Largest Rectangle in histogram](./Leetcode-84-Largest-Rectangle-in-histogram.md)
 
-* [Partition List](./Leetcode-86-Partition-List.md)
+
+
 * [Subset II](./Leetcode-90-Subset-II.md)
 * [Valid Palindrome](./Leetcode-125-Valid-Palindrome.md)
 
-
-* [Gas Station](./Leetcode-134-Gas-Station.md)
-
-* [Min Stack](./Leetcode-155-Min-Stack.md)
-
-* [Excel Sheet Column Title](./Leetcode-168-Excel-Sheet-Column-Title.md)
-* [Excel Sheet Column Number](./Leetcode-171-Excel-Sheet-Column-Number.md)
-* [Factorial Trailing Zeroes](./Leetcode-172-Factorial-Trailing-Zeroes.md)
-
 * [Find the Duplicate Number](./Leetcode-287-Find-the-Duplicate-Number.md)
 * [Find the Duplicate Number](./Leetcode-287-Find-the-Duplicate-Number.md)
 
-* [Count Numbers with Unique Digits](./Leetcode-357-Count-Numbers-with-Unique-Digits.md)
+
 * [Ransom Note](./Leetcode-383-Ransom-Note.md)
 * [Mini Parser](./Leetcode-385-Mini-Parser.md)
 
-* [Find the Difference](./Leetcode-389-Find-the-Difference.md)
 
 
 
-
-* [Max Consecutive Ones](./Leetcode-485-Max-Consecutive-Ones.md)
 * [Relative Ranks](./Leetcode-506-Relative-Ranks.md)
 * [Detect Capital](./Leetcode-520-Detect-Capital.md)
 * [Longest Uncommon Subsequence I](./Leetcode-521-Longest-Uncommon-Subsequence-I.md)
@@ -352,30 +380,25 @@
 
 * [Robot Return To Origin](./Leetcode-657-Robot-Return-To-Origin.md)
 * [Number of Longest Increasing Subsequence](./Leetcode-673-Number-of-Longest-Increasing-Subsequence.md)
-* [Longest Continuous Increasing Subsequence](./Leetcode-674-Longest-Continuous-Increasing-Subsequence.md)
+
 * [Valid Palindrome II](./Leetcode-680-Valid-Palindrome-II.md)
-* [Longest Univalue Path](./Leetcode-687-Longest-Univalue-Path.md)
-* [Degree of an Array](./Leetcode-697-Degree-of-an-Array.md)
-* [To Lower Case](./Leetcode-709-To-Lower-Case.md)
+
+
+
 * [1 bit and 2 bit characters](./Leetcode-717-1-bit-and-2-bit-characters.md)
 * [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
-* [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
+
 
 * [Find Pivot Index](./Leetcode-724-Find-Pivot-Index.md)
-* [Number of Atoms](./Leetcode-726-Number-of-Atoms.md)
-
-* [Parse Lisp Expression](./Leetcode-736-Parse-Lisp-Expression.md)
-* [Find Smallest Letter Greater Than Target](./Leetcode-744-Find-Smallest-Letter-Greater-Than-Target.md)
-* [Min Cost Climbing Stairs](./Leetcode-746-Min-Cost-Climbing-Stairs.md)
 * [Largest Number At Least Twice Of Others](./Leetcode-747-Largest-Number-At-Least-Twice-Of-Others.md)
 
 * [Jewels and Stones](./Leetcode-771-Jewels-and-Stones.md)
-* [Letter Case Permutation](./Leetcode-784-Letter-Case-Permutation.md)
-* [K th Smallest Prime Fraction](./Leetcode-786-K-th-Smallest-Prime-Fraction.md)
+
+
 * [Rotated Digits](./Leetcode-788-Rotated-Digits.md)
 
-* [Number of Matching Subsequences](./Leetcode-792-Number-of-Matching-Subsequences.md)
-* [Preimage Size of Factorial Zeroes Function](./Leetcode-793-Preimage-Size-of-Factorial-Zeroes-Function.md)
+
+
 * [Unique Morse Code Words](./Leetcode-804-Unique-Morse-Code-Words.md)
 * [Most Common Word](./Leetcode-819-Most-Common-Word.md)
 * [Goat Latin](./Leetcode-824-Goat-Latin.md)
@@ -385,7 +408,7 @@
 * [Score Of Parentheses](./Leetcode-856-Score-Of-Parentheses.md)
 * [Fair Candy Swap](./Leetcode-888-Fair-Candy-Swap.md)
 * [Find And Replace Pattern](./Leetcode-890-Find-And-Replace-Pattern.md)
-* [Online Election](./Leetcode-911-Online-Election.md)
+
 * [Partition Array into Disjoint Intervals](./Leetcode-915-Partition-Array-into-Disjoint-Intervals.md)
 * [Reverse Only Letters](./Leetcode-917-Reverse-Only-Letters.md)
 

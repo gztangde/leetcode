@@ -26,6 +26,7 @@ Write a function that takes a string as input and reverse only the vowels of a s
 The vowels does not include the letter "y".
 
 **Difficulty**:Easy
+
 **Category**:  
 <!--more-->
 ******

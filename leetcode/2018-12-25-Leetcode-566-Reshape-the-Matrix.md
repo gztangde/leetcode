@@ -49,6 +49,7 @@ If the 'reshape' operation with given parameters is possible and legal, output t
 2. The given r and c are all positive.
 
 **Difficulty**:Easy
+
 **Category**:Array
 
 <!-- more -->

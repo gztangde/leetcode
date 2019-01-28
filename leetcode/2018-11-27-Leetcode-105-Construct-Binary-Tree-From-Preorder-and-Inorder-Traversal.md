@@ -15,6 +15,7 @@ Given preorder and inorder traversal of a tree, construct the binary tree.
 ![](/images/in-post/leetcode/2018-11-27-13-44-09.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree, Array, Depth-first-Search
 
 <!-- more -->

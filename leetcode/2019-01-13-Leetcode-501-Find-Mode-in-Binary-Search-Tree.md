@@ -32,6 +32,7 @@ return  `[2]`.
 **Follow up:**  Could you do that without using any extra space? (Assume that the implicit stack space incurred due to recursion does not count).
 
 **Difficulty**:Easy
+
 **Category**:Tree
 
 <!-- more -->

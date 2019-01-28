@@ -24,6 +24,7 @@ Given an array of  **2n**  integers, your task is to group these integers into  
 2. All the integers in the array will be in the range of [-10000, 10000].
 
 **Difficulty**:Easy
+
 **Category**:Array
 
 <!-- more -->

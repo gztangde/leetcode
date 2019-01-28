@@ -37,6 +37,7 @@ Votes cast at time  `t`  will count towards our query. In the case of a tie, the
 5. `TopVotedCandidate.q(int t)`  is always called with  `t >= times[0]`.
 
 **Difficulty**:Medium
+
 **Category**:Binary-Search
 
 <!-- more -->

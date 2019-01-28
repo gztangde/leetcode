@@ -16,6 +16,7 @@ Follow up:
 Can you solve it without using extra space?
 
 **Difficulty**:Easy
+
 **Category**:Linked List, Two Points
 
 <!-- more -->

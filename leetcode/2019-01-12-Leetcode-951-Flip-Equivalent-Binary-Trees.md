@@ -21,6 +21,7 @@ Write a function that determines whether two binary trees are  _flip equivalent_
 ![](/images/in-post/2019-01-12-Leetcode-951-Flip-Equivalent-Binary-Trees/2019-01-12-20-06-17.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree
 
 <!-- more -->

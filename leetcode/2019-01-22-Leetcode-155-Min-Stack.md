@@ -32,6 +32,7 @@ Design a stack that supports push, pop, top, and retrieving the minimum element 
 > minStack.getMin();   --> Returns -2.
 
 **Difficulty**:Easy
+
 **Category**:Stack, Design
 
 <!-- more -->

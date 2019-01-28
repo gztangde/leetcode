@@ -25,6 +25,7 @@ The tree has no more than 1,000 nodes and the values are in the range -1,000,000
 ![](/images/in-post/2019-01-13-Leetcode-437-Path-Sum-III/2019-01-13-14-19-46.png)
 
 **Difficulty**:Easy
+
 **Category**:Tree
 
 <!-- more -->

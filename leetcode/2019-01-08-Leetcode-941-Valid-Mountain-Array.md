@@ -40,6 +40,7 @@ Recall that A is a mountain array if and only if:
 2. `0 <= A[i] <= 10000`
 
 **Difficulty**:Easy
+
 **Category**:Math
 
 <!-- more -->

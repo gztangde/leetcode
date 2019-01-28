@@ -40,6 +40,7 @@ Note that an empty string is also considered valid.
 > **Output:** true
 
 **Difficulty**:Easy
+
 **Category**:Stack, String
 
 <!--more-->

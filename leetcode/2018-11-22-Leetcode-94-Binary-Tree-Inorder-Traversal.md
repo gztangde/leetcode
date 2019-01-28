@@ -13,6 +13,7 @@ top:
 ![](/images/in-post/2018-11-22-Leetcode-94-Binary-Tree-Inorder-Traversal/2018-11-22-14-27-48.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree, Stack, Hash Table
 
 <!-- more -->

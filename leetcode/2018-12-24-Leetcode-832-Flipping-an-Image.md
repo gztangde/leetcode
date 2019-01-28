@@ -36,6 +36,7 @@ To invert an image means that each  `0`  is replaced by  `1`, and each  `1`  is 
 - `0 <= A[i][j] <= 1`
 
 **Difficulty**:Medium
+
 **Category**:Array
 
 <!-- more -->

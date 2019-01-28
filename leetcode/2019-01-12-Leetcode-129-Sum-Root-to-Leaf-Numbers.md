@@ -23,6 +23,7 @@ Find the total sum of all root-to-leaf numbers.
 ![](/images/in-post/2019-01-12-Leetcode-129-Sum-Root-to-Leaf-Numbers/2019-01-12-21-22-20.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree, Depth-First-Search
 
 <!-- more -->

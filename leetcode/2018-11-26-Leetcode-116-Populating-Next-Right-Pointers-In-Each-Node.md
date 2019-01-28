@@ -33,6 +33,7 @@ Initially, all next pointers are set to  `NULL`.
 ![](/images/in-post/2018-11-26-Leetcode-116-Populating-Next-Right-Pointers-In-Each-Node/2018-11-26-20-24-54.png)
 
 **Difficulty**:Medium
+
 **Category**:Tree, Depth-First-Search
 
 <!-- more -->

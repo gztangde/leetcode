@@ -44,6 +44,7 @@ You examine the  `typed` characters of the keyboard. Return  `True`  if it is po
 3.  The characters of  `name`  and  `typed`  are lowercase letters.
 
 **Difficulty**:Easy
+
 **Category**:Two-Points, String
 
 <!-- more -->

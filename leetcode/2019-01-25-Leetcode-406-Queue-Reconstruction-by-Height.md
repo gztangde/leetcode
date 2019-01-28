@@ -25,6 +25,7 @@ The number of people is less than 1,100.
 > [[5,0], [7,0], [5,2], [6,1], [4,4], [7,1]]
 
 **Difficulty**:Medium
+
 **Category**:Greedy
 
 <!-- more -->

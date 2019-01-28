@@ -33,6 +33,7 @@ Your task is to find the smallest possible length of a (contiguous) subarray of 
 - `nums[i]`  will be an integer between 0 and 49,999.
 
 **Difficulty**:Easy
+
 **Category**:Array
 
 <!-- more -->

@@ -26,6 +26,7 @@ The outputs [4,2,3,1], [2,4,1,3], and [4,2,1,3] would also be accepted.
 2. `0 <= A[i] <= 5000`
 
 **Difficulty**:Easy
+
 **Category**:Array
 
 <!-- more -->

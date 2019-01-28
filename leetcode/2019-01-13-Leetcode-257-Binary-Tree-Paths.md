@@ -22,6 +22,7 @@ Given a binary tree, return all root-to-leaf paths.
 ![](/images/in-post/2019-01-13-Leetcode-257-Binary-Tree-Paths/2019-01-13-00-23-59.png)
 
 **Difficulty**:Easy
+
 **Category**:Tree, DFS
 
 <!-- more -->

@@ -23,6 +23,7 @@ The minimum depth is the number of nodes along the shortest path from the root n
 ![](/images/in-post/2019-01-12-Leetcode-111-Minimum-Depth-of-Binary-Tree/2019-01-12-17-35-28.png)
 
 **Difficulty**:Easy
+
 **Category**:Tree, Depth-first-Search, Breadth-First-Search
 
 <!-- more -->

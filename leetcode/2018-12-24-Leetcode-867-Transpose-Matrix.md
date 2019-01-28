@@ -30,6 +30,7 @@ The transpose of a matrix is the matrix flipped over it's main diagonal, switchi
 2. `1 <= A[0].length <= 1000`
 
 **Difficulty**:Easy
+
 **Category**:Array
 
 <!-- more -->

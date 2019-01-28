@@ -34,6 +34,7 @@ Given a  **non-empty**  string  _s_  and a dictionary  _wordDict_  containing a 
 > **Output:** false
 
 **Difficulty**:Medium
+
 **Category**:Dynamic-Programming
 
 

@@ -30,6 +30,7 @@ For example, given the dungeon below, the initial health of the knight must be a
 - Any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned.
 
 **Difficulty**:Hard
+
 **Category**:Binary-Search, Dynamic-Programming
 
 <!-- more -->

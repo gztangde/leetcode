@@ -43,6 +43,7 @@ You may return the answer in any order. The answer is guaranteed to be unique (e
 3. `-10000 < points[i][1] < 10000`
 
 **Difficulty**:Easy
+
 **Category**:Math, Divide-And-Conquer, Sort
 
 <!-- more -->

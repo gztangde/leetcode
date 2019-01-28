@@ -47,6 +47,7 @@ Return the total surface area of the resulting shapes.
 - `0 <= grid[i][j] <= 50`
 
 **Difficulty**:Medium
+
 **Category**:Math, Geometry
 
 <!-- more -->

@@ -24,6 +24,7 @@ Algorithm of Insertion Sort:**
 3. It repeats until no input elements remain.
 
 **Difficulty**:Medium
+
 **Category**:Linked-List, Sort
 
 <!-- more -->

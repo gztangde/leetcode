@@ -24,6 +24,7 @@ Could you do it without extra space and in O(_n_) runtime?
 > [2,3]
 
 **Difficulty**:Medium
+
 **Category**:Array
 
 <!-- more -->
