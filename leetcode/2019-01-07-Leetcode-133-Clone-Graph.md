@@ -54,10 +54,3 @@ Visually, the graph looks like the following:
 ```cpp
 
 ```
-
-------------
-
-# Leetcode Question Summary
-
-
-------------

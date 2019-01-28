@@ -76,7 +76,6 @@
   * [Palindrome Linked List](./Leetcode-234-Palindrome-Linked-List.md)
   * [Reorder List](./Leetcode-143-Reorder-List.md)
   * [Insertion Sort List](./Leetcode-147-Insertion-Sort-List.md)
-  * [LRU Cache](./Leetcode-146-LRU-Cache.md)
   * [Minimum Index Sum of Two Lists](./Leetcode-599-Minimum-Index-Sum-of-Two-Lists.md)
   * [Copy List With Random Pointer](./Leetcode-138-Copy-List-With-Random-Pointer.md)
   * [Rotate List](./Leetcode-61-Rotate-List.md)
@@ -348,6 +347,7 @@
 * [Student Attendance Record I](./Leetcode-551-Student-Attendance-Record-I.md)
 * [Find Duplicate File in System](./Leetcode-609-Find-Duplicate-File-in-System.md)
 * [Parse Lisp Expression](./Leetcode-736-Parse-Lisp-Expression.md)
+* [LRU Cache](./Leetcode-146-LRU-Cache.md)
 
 ## BackTracking
 

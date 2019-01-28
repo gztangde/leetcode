@@ -50,9 +50,3 @@ Your task is to find the smallest possible length of a (contiguous) subarray of 
 
 ```
 
-------------
-
-# Leetcode Question Summary
-
-
-------------
