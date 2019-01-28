@@ -23,7 +23,8 @@ install:
 script:
   # - chmod +x ./scripts/hexotogitbook.sh
   # - ./scripts/hexotogitbook.sh
-  - gitbook build ./leetcode/ --output=./
+  - mv ./leetcode/* .
+  - gitbook build
 
 after_script:
   - chmod +x ./scripts/build.sh
