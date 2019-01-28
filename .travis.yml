@@ -5,6 +5,10 @@ node_js:
   - "10"
 cache: npm
 
+branches:
+  only:
+    - master
+
 notifications:
   email:
     recipients:
@@ -17,22 +21,14 @@ install:
   - gitbook install
 
 script:
-  - chmod +x hexotogitbook.sh
-  - ./hexotogitbook.sh
+  - chmod +x ./scripts/hexotogitbook.sh
+  - ./scripts/hexotogitbook.sh
   - mv ./leetcode/* .
   - gitbook build
 
 after_script:
-  - cd _book
-  - git init
-  - git remote add origin https://${REF}
-  - git add .
-  - git commit -m "Updated By Travis-CI With Build $TRAVIS_BUILD_NUMBER For Github Pages"
-  - git push --force --quiet "https://${TOKEN}@${REF}" master:gh-pages
-
-branches:
-  only:
-    - master
+  - chmod +x ./scripts/build.sh
+  - ./scripts/build.sh
 
 env:
   global:
