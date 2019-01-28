@@ -37,6 +37,9 @@
     "expandable-chapters-small"
   ],
   "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
     "search-pro": {
       "cutWordLib": "nodejieba",
       "defineWord": ["Gitbook Use"]
