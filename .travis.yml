@@ -13,13 +13,14 @@ notifications:
     on_failure: always
 
 install:
-  - npm run gitbook:install
+  - npm install -g gitbook-cli
+  - gitbook install
 
 script:
   - chmod +x hexotogitbook.sh
   - ./hexotogitbook.sh
   - mv ./leetcode/* .
-  - npm run gitbook:build
+  - gitbook build
 
 after_script:
   - cd _book
