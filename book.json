@@ -15,7 +15,7 @@
     "gitbook": true
   },
   "structure": {
-    "readme": "README.md",
+    "readme": "INDEX.md",
     "summary": "SUMMARY.md"
   },
   "plugins": [

@@ -16,7 +16,7 @@ WORK_DIR=$(dirname $(pwd))
 NOWTIME=$(TZ=UTC+5 date +%F\ %H:%M:%S)
 POST_DIR=$CURRENT_DIR/leetcode
 LEETCODE_POST=$CURRENT_DIR/SUMMARY.md
-ABOUT_POST=$CURRENT_DIR/README.md
+ABOUT_POST=$CURRENT_DIR/INDEX.md
 leetcode_post="Leetcode-[0-9]"
 difficulty_re="^\*\*Difficulty[:]?\*\*[ :]*\b(Easy|Medium|Hard)\b"
 category_re="^\*\*Category[:]?\*\*[ :]*[[:alpha:]]*"
@@ -51,8 +51,8 @@ for file in $POSTS; do
         fi
 
         sed -i '/^---$/,/^---$/d' $file
-        sed -i '/^<!--.*-->$/d' $file
-        sed -i '/^<!--/, /-->$/d' $file
+        # sed -i '/^<!--.*-->$/d' $file
+        # sed -i '/^<!--/, /-->$/d' $file
         # sed -i '/<!--/, /-->/d' $file
         if [ $num ] ; then
             # echo "$name($num) (../$linkname/) | $difficulty | $category | $codetime |"
@@ -67,15 +67,15 @@ for file in $POSTS; do
 done
 
 
-post_num=0
-IFS=$'\n'
-cat $CURRENT_DIR/.temp | sort -n >> $CURRENT_DIR/.temp2
-for line in $(cat $CURRENT_DIR/.temp2)
-do
-    #echo "| ${line}"
-    echo "* [${line}" >> $LEETCODE_POST
-    # post_num=$(($post_num+1))
-done
+# post_num=0
+# IFS=$'\n'
+# cat $CURRENT_DIR/.temp | sort -n >> $CURRENT_DIR/.temp2
+# for line in $(cat $CURRENT_DIR/.temp2)
+# do
+#     #echo "| ${line}"
+#     echo "* [${line}" >> $LEETCODE_POST
+#     # post_num=$(($post_num+1))
+# done
 
 IFS=$'\n'
 cat $CURRENT_DIR/.temp1 | sort -n >> $CURRENT_DIR/.temp3

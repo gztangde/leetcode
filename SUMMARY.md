@@ -1,8 +1,9 @@
 # Summary
 
-* [About](./README.md)
+* [About](./INDEX.md)
 
 ## Leetcode
+
 * [1. Two-Sum](./Leetcode-1-Two-Sum.md)
 * [2. Add-Two-Numbers](./Leetcode-2-Add-Two-Numbers.md)
 * [3. Longgest-Substring-Without-Repeating-Characters](./Leetcode-3-Longgest-Substring-Without-Repeating-Characters.md)
