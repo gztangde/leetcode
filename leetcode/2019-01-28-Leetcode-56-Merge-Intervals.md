@@ -35,9 +35,13 @@ Given a collection of intervals, merge all overlapping intervals.
 
 # Analyze
 
+一开始,我使用两重循环的方式来解决这个问题,但是很耗时间,需要考虑使用其他的方式(solution 1).
+
 ------------
 
 # Solution
+
+## Solution 1: 暴力枚举的方式
 
 ```cpp
 // Runtime: 44ms (> 8.37%)

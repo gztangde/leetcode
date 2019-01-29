@@ -37,6 +37,9 @@
     "expandable-chapters-small"
   ],
   "pluginsConfig": {
+    "disqus": {
+      "shortName": "guozet-me"
+    },
     "theme-default": {
       "showLevel": true
     },
