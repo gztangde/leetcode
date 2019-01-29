@@ -34,7 +34,7 @@ Given two sorted integer arrays  _nums1_  and  _nums2_, merge  _nums2_  into  _n
 
 # Solution
 
-## Solution1
+## Solution1: Two Points
 
 ```cpp
 class Solution {
@@ -42,7 +42,6 @@ class Solution {
   void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
     if (n == 0) return;
     vector<int> temp = nums1;
-    std::cout << "Size:" << nums1.size() << std::endl;
     int index = 0;
     int p = 0, q = 0;
     for (int i = 0; i < m + n; ++i) {
@@ -58,20 +57,18 @@ class Solution {
 };
 ```
 
-## Solution2
+## Solution2: Two Points, 倒过来处理
 
 ```cpp
 class Solution {
  public:
   void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
     int p_a = m - 1, p_b = n - 1, p_merge = m + n - 1;
-    while (p_a >= 0 && p_b >= 0) {
+    while (p_a >= 0 && p_b >= 0) 
       nums1[p_merge--] = nums1[p_a] >= nums2[p_b] ? nums1[p_a--] : nums2[p_b--];
-    }
 
-    while (p_b >= 0) {
+    while (p_b >= 0) 
       nums1[p_merge--] = nums2[p_b--];
-    }
   }
 };
 ```

@@ -37,6 +37,12 @@ Given a collection of intervals, merge all overlapping intervals.
 
 一开始,我使用两重循环的方式来解决这个问题,但是很耗时间,需要考虑使用其他的方式(solution 1).
 
+根据博客:[花花酱 LeetCode 56. Merge Intervals](https://zxi.mytechroad.com/blog/geometry/leetcode-56-merge-intervals/)
+
+![](/images/2019-01-29-00-12-33.png)
+
+进行优化,先按照`start`数值的大小进行排序.
+
 ------------
 
 # Solution
@@ -67,7 +73,7 @@ class Solution {
 };
 ```
 
-## Solution 2
+## Solution 2: 先排序, Lamda function
 
 ```cpp
 class Solution {
@@ -78,11 +84,10 @@ class Solution {
     vector<Interval> ans{vals[0]};
 
     for (int i = 1; i < vals.size(); ++i) {
-      if (ans.back().end < vals[i].start) {
+      if (ans.back().end < vals[i].start)
         ans.emplace_back(vals[i]);
-      } else {
+      else
         ans.back().end = max(ans.back().end, vals[i].end);
-      }
     }
     return ans;
   }
