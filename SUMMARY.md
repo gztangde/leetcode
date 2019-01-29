@@ -6,6 +6,10 @@
 
 * [Summary](./summary/2019-01-26-Leetcode-Algorithm-Linked-List-Array.md)
 * [Array](./Leetcode-20-Valid-Parentheses.md)
+  * [Two Sum-HashTable](./Leetcode-1-Two-Sum.md)
+  * [3Sum](./Leetcode-15-3Sum.md)
+  * [3Sum Closest](./Leetcode-16-3Sum-Closest.md)
+  * [4Sum](./Leetcode-18-4Sum.md)
   * [Remove Duplicates From Sorted Array](./Leetcode-26-Remove-Duplicates-From-Sorted-Array.md)
   * [Remove Duplicates From Sorted Array II](./Leetcode-80-Remove-Duplicates-From-Sorted-Array-II.md)
   * [Longest Consecutive Sequence](./Leetcode-128-Longest-Consecutive-Sequence.md)
@@ -15,10 +19,6 @@
   * [Remove Duplicates From Sorted List](./Leetcode-83-Remove-Duplicates-From-Sorted-List.md)
   * [Median of Two Sorted Arrays](./Leetcode-4-Median-of-Two-Sorted-Arrays.md)
   * [Remove Element](./Leetcode-27-Remove-Element.md)
-  * [Two Sum](./Leetcode-1-Two-Sum.md)
-  * [3Sum](./Leetcode-15-3Sum.md)
-  * [3Sum Closest](./Leetcode-16-3Sum-Closest.md)
-  * [4Sum](./Leetcode-18-4Sum.md)
   * [Single Number](./Leetcode-136-Single-Number.md)
   * [Single Number II](./Leetcode-137-Single-Number-II.md)
   * [Add Two Numbers](./Leetcode-2-Add-Two-Numbers.md)
@@ -147,9 +147,9 @@
 
 ## Stack and Queue
 
+* [Valid Parentheses](./Leetcode-20-Valid-Parentheses.md)
 * [Implement Stack using Queues](./Leetcode-225-Implement-Stack-using-Queues.md)
 * [Min Stack](./Leetcode-155-Min-Stack.md)
-* [Valid Parentheses](./Leetcode-20-Valid-Parentheses.md)
 * [Longest Valid Parentheses](./Leetcode-32-Longest-Valid-Parentheses.md)
 * [Largest Rectangle in histogram](./Leetcode-84-Largest-Rectangle-in-histogram.md)
 * [Evaluate Reverse Polish Notation](./Leetcode-150-Evaluate-Reverse-Polish-Notation.md)
@@ -329,6 +329,7 @@
 
 ## Divide-And-Conquer
 
+* [Merge K Sorted Lists](./Leetcode-23-Merge-K-Sorted-Lists.md)
 * [Burst Balloons](./Leetcode-312-Burst-Balloons.md)
 * [K Closest Points to Origin](./Leetcode-973-K-Closest-Points-to-Origin.md)
 
@@ -379,3 +380,7 @@
 * [Most Common Word](./Leetcode-819-Most-Common-Word.md)
 * [Score Of Parentheses](./Leetcode-856-Score-Of-Parentheses.md)
 * [Find And Replace Pattern](./Leetcode-890-Find-And-Replace-Pattern.md)
+
+## New Problems
+
+* [Leetcode 56. Merge Intervals](./Leetcode-56-Merge-Intervals.md)

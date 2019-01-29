@@ -75,3 +75,45 @@ class Solution {
   }
 };
 ```
+
+换一种方式,判断是否满足全部也可以,但是这样时间复杂度是`O(n)`
+
+```cpp
+class Solution {
+ public:
+  bool isValid(string s) {
+    stack<char> s_;
+    for (int i = 0; i < s.length(); ++i) {
+      if (s_.empty()) {
+        s_.push(s[i]);
+        continue;
+      }
+      if (s_.top() == '(' && s[i] == ')')
+        s_.pop();
+      else if (s_.top() == '[' && s[i] == ']')
+        s_.pop();
+      else if (s_.top() == '{' && s[i] == '}')
+        s_.pop();
+      else
+        s_.push(s[i]);
+    }
+
+    if (s_.empty()) return true;
+    return false;
+  }
+};
+```
+
+------
+
+# Similar Questions
+
+* [Different Ways to Add Parentheses](./Leetcode-241-Different-Ways-to-Add-Parentheses.md)
+* [Longest Valid Parentheses](./Leetcode-32-Longest-Valid-Parentheses.md)
+* [Generate Parentheses](./Leetcode-22-Generate-Parentheses.md)
+
+-------
+
+# updated
+
+* 01/28/2019 Add the second Solution
