@@ -66,3 +66,27 @@ class Solution {
   }
 };
 ```
+
+## Solution 2
+
+```cpp
+class Solution {
+ public:
+  vector<Interval> merge(vector<Interval>& vals) {
+    if (vals.empty()) return {};
+    sort(vals.begin(), vals.end(), [](Interval& a, Interval& b) { return a.start < b.start; });
+    vector<Interval> ans{vals[0]};
+
+    for (int i = 1; i < vals.size(); ++i) {
+      if (ans.back().end < vals[i].start) {
+        ans.emplace_back(vals[i]);
+      } else {
+        ans.back().end = max(ans.back().end, vals[i].end);
+      }
+    }
+    return ans;
+  }
+};
+```
+
+<!-- TODO: Read some book which talk about the lamda function. -->

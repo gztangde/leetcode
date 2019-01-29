@@ -32,4 +32,4 @@ after_script:
 
 env:
   global:
-    - REF=github.com/guozetang/leetcode.git # 设置 github 地址
+    - REF=github.com/guozetang/leetcode.git
