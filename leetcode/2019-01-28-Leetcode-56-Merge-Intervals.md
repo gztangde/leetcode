@@ -11,9 +11,23 @@ top:
 
 # Question
 
+Given a collection of intervals, merge all overlapping intervals.
+
+**Example 1:**
+
+> **Input:** [[1,3],[2,6],[8,10],[15,18]]
+> **Output:** [[1,6],[8,10],[15,18]]
+> **Explanation:** Since intervals [1,3] and [2,6] overlaps, merge them into [1,6].
+
+**Example 2:**
+
+> **Input:** [[1,4],[4,5]]
+> **Output:** [[1,5]]
+> **Explanation:** Intervals [1,4] and [4,5] are considered overlapping.
+
 **Difficulty**:Medium
 
-**Category**:
+**Category**:Array, Sort
 
 <!-- more -->
 
@@ -26,5 +40,25 @@ top:
 # Solution
 
 ```cpp
-
+// Runtime: 44ms (> 8.37%)
+class Solution {
+ public:
+  vector<Interval> merge(vector<Interval>& vals) {
+    if (vals.empty()) return {};
+    for (int j = 0; j < vals.size() - 1; ++j) {
+      int len = vals.size();
+      for (int i = j + 1; i < vals.size(); ++i) {
+        Interval& p = vals[j];
+        if (max(p.start, vals[i].start) <= min(p.end, vals[i].end)) {
+          p.start = min(p.start, vals[i].start);
+          p.end = max(p.end, vals[i].end);
+          vals.erase(vals.begin() + i);
+          i--;
+        }
+      }
+      if (vals.size() < len) --j;
+    }
+    return vals;
+  }
+};
 ```
