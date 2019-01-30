@@ -146,7 +146,7 @@ void shell_sort(vector<int> &nums) {
 > 希尔排序的时间复杂度受步长的影响，具体分析在[维基百科](https://zh.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F#.E6.AD.A5.E9.95.BF.E5.BA.8F.E5.88.97)。
 
 
-## 5. 归并排序（Merge Sort）
+## 5. 归并排序（Merge Sort - Divide and COnquer）
 
 归并排序是采用分治法（Divide and Conquer）的一个典型例子。这个排序的特点是把一个数组打散成小数组，然后再把小数组拼凑再排序，直到最终数组有序。
 
@@ -240,6 +240,10 @@ void quick_sort(vector<int> &nums, int b, int e) {
 ```
 
 > 快速排序也是一个不稳定排序，时间复杂度看维基百科。空间复杂度是O(n)。
+
+## Bubble sort(Iterative Refinement)
+
+
 
 ## 7. 堆排序（Heap Sort）
 

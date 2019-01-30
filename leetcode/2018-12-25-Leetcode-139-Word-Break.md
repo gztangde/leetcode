@@ -9,6 +9,7 @@ top:
 ---
 
 # Question
+
 Given a  **non-empty**  string  _s_  and a dictionary  _wordDict_  containing a list of  **non-empty**  words, determine if  _s_  can be segmented into a space-separated sequence of one or more dictionary words.
 
 **Note:**
@@ -37,7 +38,6 @@ Given a  **non-empty**  string  _s_  and a dictionary  _wordDict_  containing a 
 
 **Category**:Dynamic-Programming
 
-
 <!-- more -->
 
 ------------
@@ -48,6 +48,56 @@ Given a  **non-empty**  string  _s_  and a dictionary  _wordDict_  containing a 
 
 # Solution
 
-```cpp
+# Solution１:Error--Time Limit Exceeded---DFS
 
+```cpp
+// 时间复杂度：　O(２＾ｎ)
+// 空间复杂度：　Ｏ(n)
+class Solution {
+ public:
+  bool wordBreak(string s, vector<string>& wordDict) {
+    unordered_set<string> dict(wordDict.begin(), wordDict.end());
+    return dfs(s, dict, 0, 0);
+  }
+
+  bool dfs(const string& s, unordered_set<string>& dict, size_t start, size_t cur) {
+    // 1) Output node
+    if (cur == s.size()) {
+      if (dict.find(s.substr(start, cur - start + 1)) != dict.end())
+        return true;
+      else
+        return false;
+    }
+    if (dict.find(s.substr(start, cur - start + 1)) != dict.end())
+      if (dfs(s, dict, cur + 1, cur + 1)) return true;
+
+    if (dfs(s, dict, start, cur + 1)) return true;
+    return false;
+  }
+};
+```
+
+## Solution 2: 动态规划: DP
+
+```cpp
+// Runtime: 4ms
+// f[i] is mean the word can divide at the i index position.
+class Solution {
+ public:
+  bool wordBreak(string s, vector<string>& wordDict) {
+    unordered_set<string> w_(wordDict.begin(), wordDict.end());
+    int len = s.size();
+    vector<bool> f(len + 1, false);
+    f[0] = true;
+    for (int i = 1; i <= len; ++i) {
+      for (int j = i - 1; j >= 0; --j) {
+        if (f[j] && w_.find(s.substr(j, i - j)) != w_.end()) {
+          f[i] = true;
+          break;
+        }
+      }
+    }
+    return f[len];
+  }
+};
 ```
