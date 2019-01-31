@@ -145,8 +145,7 @@ void shell_sort(vector<int> &nums) {
 
 > 希尔排序的时间复杂度受步长的影响，具体分析在[维基百科](https://zh.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F#.E6.AD.A5.E9.95.BF.E5.BA.8F.E5.88.97)。
 
-
-## 5. 归并排序（Merge Sort - Divide and COnquer）
+## 5. 归并排序（Merge Sort - Divide and Conquer）
 
 归并排序是采用分治法（Divide and Conquer）的一个典型例子。这个排序的特点是把一个数组打散成小数组，然后再把小数组拼凑再排序，直到最终数组有序。
 
@@ -187,41 +186,17 @@ void merge_sort(vector<int> &nums, int b, int e, vector<int> &temp) {
 
 在merge_array过程中，实际的操作是当前两个子数组的长度，即2m。又因为打散数组是二分的，最终循环执行数是logn。所以这个算法最终时间复杂度是O(nlogn)，空间复杂度是O(n)。
 
+## 6. 快速排序（Quick Sort - Divide and Conquer）
 
-## 6. 快速排序（Quick Sort）
-
-快速排序也是利用分治法实现的一个排序算法。快速排序和归并排序不同，它不是一半一半的分子数组，而是选择一个基准数，把比这个数小的挪到左边，把比这个数大的移到右边。然后不断对左右两部分也执行相同步骤，直到整个数组有序。
+快速排序也是利用分治法实现的一个排序算法。快速排序和归并排序不同，它不是一半一半的分子数组，而是选择一个**基准数**，把比这个数小的挪到左边，把比这个数大的移到右边。然后**不断对左右两部分也执行相同步骤，直到整个数组有序**。 因此快速排序又可以称之为: 划分交换排序(Partition-Exchange Sort).
 
 **步骤**
 
-1.  用一个基准数将数组分成两个子数组
-2.  将大于基准数的移到右边，小于的移到左边
-3.  递归的对子数组重复执行1，2，直到整个数组有序
+1. 用一个基准数将数组分成两个子数组
+2. 将大于基准数的移到右边，小于的移到左边
+3. 递归的对子数组重复执行1，2，直到整个数组有序
 
-```cpp
-void quick_sort(vector<int> &nums, int b, int e, vector<int> &temp) {
-  int m = (b + e) / 2;
-  if (m != b) {
-    int lb = b, rb = e - 1;
-
-    for (int i = b; i < e; i++) {
-      if (i == m) continue;
-      if (nums[i] < nums[m])
-        temp[lb++] = nums[i];
-      else
-        temp[rb--] = nums[i];
-    }
-    temp[lb] = nums[m];
-
-    for (int i = b; i < e; i++) nums[i] = temp[i];
-
-    quick_sort(nums, b, lb, temp);
-    quick_sort(nums, lb + 1, e, temp);
-  }
-}
-```
-
-解法2: 不需要辅助空间
+解法: 不需要辅助空间
 
 ```cpp
 void quick_sort(vector<int> &nums, int b, int e) {
@@ -240,6 +215,7 @@ void quick_sort(vector<int> &nums, int b, int e) {
 ```
 
 > 快速排序也是一个不稳定排序，时间复杂度看维基百科。空间复杂度是O(n)。
+> 参考博客: [白话经典算法系列之六 快速排序 快速搞定](https://blog.csdn.net/MoreWindows/article/details/6684558)
 
 ## Bubble sort(Iterative Refinement)
 
