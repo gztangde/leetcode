@@ -1,66 +1,41 @@
-class MyCircularDeque {
+class MyCircularQueue {
  public:
-  /** Initialize your data structure here. Set the size of the deque to be k. */
-  MyCircularDeque(int n) {
-    buffer = vector<int>(k, 0);
-    cnt = 0;
-    k = k;
-    front = k - 1;
-    rear = 0;
-  }
+  /** Initialize your data structure here. Set the size of the queue to be k. */
+  MyCircularQueue(int k) : buffer(k, -1), cnt(0), n(k), front(k - 1), rear(k - 1) {}
 
-  /** Adds an item at the front of Deque. Return true if the operation is successful. */
-  bool insertFront(int value) {
-    if (cnt == k) return false;
-    buffer[front--] = value;
-    front = (front + k) % k;
+  /** Insert an element into the circular queue. Return true if the operation is successful. */
+  bool enQueue(int value) {
+    if (cnt == n) return false;
+    buffer[rear--] = value;
+    rear = (rear + n) % n;
     ++cnt;
     return true;
   }
 
-  /** Adds an item at the rear of Deque. Return true if the operation is successful. */
-  bool insertLast(int value) {
-    if (cnt == k) return false;
-    buffer[rear] = value;
-    rear = (rear + 1) % k;
-    ++cnt;
-    return true;
-  }
-
-  /** Deletes an item from the front of Deque. Return true if the operation is successful. */
-  bool deleteFront() {
+  /** Delete an element from the circular queue. Return true if the operation is successful. */
+  bool deQueue() {
     if (cnt == 0) return false;
-    front = (front - 1) % k;
-    return true;
-  }
-
-  /** Deletes an item from the rear of Deque. Return true if the operation is successful. */
-  bool deleteLast() {
-    if (cnt == 0) return false;
-    rear = (rear - 1 + k) % k;
+    front = (front - 1) % n;
     --cnt;
     return true;
   }
 
-  int getFront() {
-    return cnt == 0 ? false : buffer[(front + 1) % k];
-  }
+  /** Get the front item from the queue. */
+  int Front() { return cnt == 0 ? -1 : buffer[front]; }
 
-  int getRear() {
-    if (cnt == 0) return false;
-    return buffer[(rear - 1 + k) % k];
-  }
+  /** Get the last item from the queue. */
+  int Rear() { return cnt == 0 ? -1 : buffer[(rear + 1) % n]; }
 
-  /** Checks whether the circular deque is empty or not. */
+  /** Checks whether the circular queue is empty or not. */
   bool isEmpty() { return cnt == 0; }
 
-  /** Checks whether the circular deque is full or not. */
-  bool isFull() { return cnt == k; }
+  /** Checks whether the circular queue is full or not. */
+  bool isFull() { return cnt == n; }
 
  private:
   vector<int> buffer;
   int cnt;
-  int k;
+  int n;
   int front;
   int rear;
 };
