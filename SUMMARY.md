@@ -263,6 +263,8 @@
 * [Move Zeroes](./Leetcode-283-Move-Zeroes.md)
 * [Jewels and Stones](./Leetcode-771-Jewels-and-Stones.md)
 * [Sort Colors](./Leetcode-75-Sort-Colors.md)
+* [Pancake Sorting](./Leetcode-969-Pancake-Sorting.md)
+* [Reorganize String](./Leetcode-767-Reorganize-String.md)
 
 ## DFS
 
@@ -390,3 +392,6 @@
 * [Leetcode 324. Wiggle Sort II](./Leetcode-324-Wiggle-Sort-II.md)
 * [Leetcode 347. Top K Frequent Elements](./Leetcode-347-Top-K-Frequent-Elements.md)
 * [Leetcode 451. Sort Characters By Frequency](./Leetcode-451-Sort-Characters-By-Frequency.md)
+
+* [Leetcode 164. Maximum Gap](./Leetcode-164-Maximum-Gap.md)
+* [Leetcode 164. Maximum Gap](./Leetcode-164-Maximum-Gap.md)

@@ -274,6 +274,7 @@ void max_heapify(vector<int> &nums, int beg, int end) {
 **相关问题**
 
 * [Kth-Largest-Element-in-an-Array](../Leetcode-215-Kth-Largest-Element-in-an-Array/)
+* [Leetcode 767. Reorganize String](../Leetcode-767-Reorganize-String.md)
 
 > 堆执行一次调整需要O(logn)的时间，在排序过程中需要遍历所有元素执行堆调整，所以最终时间复杂度是O(nlogn)。空间复杂度是O(n)。
 
@@ -311,3 +312,4 @@ void max_heapify(vector<int> &nums, int beg, int end) {
 - [Sort Lists](../Leetcode-148-Sort-List/)
 - [First Missing Positive](../Leetcode-41-First-Missing-Positive/)
 - [Sort Colors](../Leetcode-75-Sort-Colors/)
+- [Leetcode 969. Pancake Sorting](../Leetcode-969-Pancake-Sorting.md)
