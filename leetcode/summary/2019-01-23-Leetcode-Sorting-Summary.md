@@ -284,7 +284,22 @@ void max_heapify(vector<int> &nums, int beg, int end) {
 这时间上是简易版的桶排序，试想一下，如果要排序的范围是0-100万，使用桶排序方法进行排序，那么我们要准备100万个桶，这显然对于计算机的开销肯定很大，所以，桶排序在有这时间最快的优势，同时也有这及其耗费内存的缺点。
 
 **相关问题**
-[Leetcode-347-Top-K-Frequent-Elements](../Leetcode-347-Top-K-Frequent-Elements/)
+
+* [Leetcode-347-Top-K-Frequent-Elements](../Leetcode-347-Top-K-Frequent-Elements/)
+* [Leetcode 451. Sort Characters By Frequency](../Leetcode-451-Sort-Characters-By-Frequency.md)
+
+
+## 9. 荷兰国旗问题
+
+荷兰国旗包含三种颜色：红、白、蓝。
+
+有三种颜色的球，算法的目标是将这三种球按颜色顺序正确地排列。
+
+它其实是三向切分快速排序的一种变种，在三向切分快速排序中，每次切分都将数组分成三个区间：小于切分元素、等于切分元素、大于切分元素，而该算法是将数组分成三个区间：等于红色、等于白色、等于蓝色
+
+**相关问题**
+
+* [Sort Colors](../Leetcode-75-Sort-Colors.md)
 
 
 # Related Problems

@@ -42,16 +42,35 @@ Here, we will use the integers 0, 1, and 2 to represent the color red, white, an
 
 # Solution
 
+# Solution 1
+
 ```cpp
 class Solution {
  public:
   void sortColors(vector<int>& nums) {
     int count[3] = {0};
-
     for (auto i : nums) count[i]++;
-
     for (int i = 0, index = 0; i < 3; ++i) {
       for (int j = 0; j < count[i]; ++j) nums[index++] = i;
+    }
+  }
+};
+```
+
+# Solution 2: 颜色问题, 分成三个部分排序
+
+```cpp
+class Solution {
+ public:
+  void sortColors(vector<int>& nums) {
+    int left = -1, mid = 0, right = nums.size();
+    while (mid < right) {
+      if (nums[mid] == 0) {
+        swap(nums[++left], nums[mid++]);
+      } else if (nums[mid] == 2) {
+        swap(nums[--right], nums[mid]);
+      } else
+        ++mid;
     }
   }
 };

@@ -84,7 +84,6 @@
 * [Matrix](./summary/summary.md)
   * [Set Matrix Zeroes](./Leetcode-73-Set-Matrix-Zeroes.md)
   * [Search a 2D Matrix](./Leetcode-74-Search-a-2D-Matrix.md)
-  * [Sort Colors](./Leetcode-75-Sort-Colors.md)
   * [Flipping an Image](./Leetcode-832-Flipping-an-Image.md)
   * [Rotate Image](./Leetcode-48-Rotate-Image.md)
   * [Spiral Matrix](./Leetcode-54-Spiral-Matrix.md)
@@ -263,6 +262,7 @@
 * [Sort Array By Parity II](./Leetcode-922-Sort-Array-By-Parity-II.md)
 * [Move Zeroes](./Leetcode-283-Move-Zeroes.md)
 * [Jewels and Stones](./Leetcode-771-Jewels-and-Stones.md)
+* [Sort Colors](./Leetcode-75-Sort-Colors.md)
 
 ## DFS
 
@@ -389,3 +389,4 @@
 
 * [Leetcode 324. Wiggle Sort II](./Leetcode-324-Wiggle-Sort-II.md)
 * [Leetcode 347. Top K Frequent Elements](./Leetcode-347-Top-K-Frequent-Elements.md)
+* [Leetcode 451. Sort Characters By Frequency](./Leetcode-451-Sort-Characters-By-Frequency.md)
