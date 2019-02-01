@@ -397,3 +397,5 @@
 
 * [Leetcode 509. Fibonacci Number](./Leetcode-509-Fibonacci-Number.md)
 * [Leetcode 622. Design Circular Queue](./Leetcode-622-Design-Circular-Queue.md)
+* [Leetcode 641. Design Circular Deque](./Leetcode-641-Design-Circular-Deque.md)
+* [Leetcode 862. Shortest Subarray with Sum at Least K](./Leetcode-862-Shortest-Subarray-with-Sum-at-Least-K.md)
