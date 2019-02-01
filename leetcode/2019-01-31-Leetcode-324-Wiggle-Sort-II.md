@@ -31,9 +31,13 @@ Can you do it in O(n) time and/or in-place with O(1) extra space?
 
 **Difficulty**:Medium
 
-**Category**:
+**Category**:Sort
 
 <!-- more -->
+
+<!-- TODO: Write this post -->
+
+https://leetcode.com/problems/wiggle-sort-ii/
 
 ------------
 

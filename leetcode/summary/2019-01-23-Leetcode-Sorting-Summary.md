@@ -188,6 +188,8 @@ void merge_sort(vector<int> &nums, int b, int e, vector<int> &temp) {
 
 ## 6. 快速排序（Quick Sort - Divide and Conquer）
 
+Get the kth element.
+
 快速排序也是利用分治法实现的一个排序算法。快速排序和归并排序不同，它不是一半一半的分子数组，而是选择一个**基准数**，把比这个数小的挪到左边，把比这个数大的移到右边。然后**不断对左右两部分也执行相同步骤，直到整个数组有序**。 因此快速排序又可以称之为: 划分交换排序(Partition-Exchange Sort).
 
 **步骤**
@@ -217,7 +219,6 @@ void quick_sort(vector<int> &nums, int b, int e) {
 > 快速排序也是一个不稳定排序，时间复杂度看维基百科。空间复杂度是O(n)。
 > 参考博客: [白话经典算法系列之六 快速排序 快速搞定](https://blog.csdn.net/MoreWindows/article/details/6684558)
 
-## Bubble sort(Iterative Refinement)
 
 ## 7. 堆排序（Heap Sort -- Top K elements）
 
@@ -275,6 +276,16 @@ void max_heapify(vector<int> &nums, int beg, int end) {
 * [Kth-Largest-Element-in-an-Array](../Leetcode-215-Kth-Largest-Element-in-an-Array/)
 
 > 堆执行一次调整需要O(logn)的时间，在排序过程中需要遍历所有元素执行堆调整，所以最终时间复杂度是O(nlogn)。空间复杂度是O(n)。
+
+## 8. Bubble sort(Iterative Refinement)
+
+桶排序，也叫做箱排序，是一种排序算法，也是排序算法中最快、最简单的排序算法。其中的思想是我们首先要知道所有待排序的范围，然后需要有在这个范围的同样数量的桶，接着把元素放到对应的桶中，最后按顺序输出。
+
+这时间上是简易版的桶排序，试想一下，如果要排序的范围是0-100万，使用桶排序方法进行排序，那么我们要准备100万个桶，这显然对于计算机的开销肯定很大，所以，桶排序在有这时间最快的优势，同时也有这及其耗费内存的缺点。
+
+**相关问题**
+[Leetcode-347-Top-K-Frequent-Elements](../Leetcode-347-Top-K-Frequent-Elements/)
+
 
 # Related Problems
 
