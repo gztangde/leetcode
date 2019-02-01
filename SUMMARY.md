@@ -253,9 +253,10 @@
 
 * [Summary](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
 * [Top K Frequent Elements](./Leetcode-347-Top-K-Frequent-Elements.md)
-* [Leetcode 451. Sort Characters By Frequency](./Leetcode-451-Sort-Characters-By-Frequency.md)
-* [Kth Largest Element in an Array](./Leetcode-215-Kth-Largest-Element-in-an-Array.md)
-* [Merge Sorted Array](./Leetcode-88-Merge-Sorted-Array.md)
+* [Buble Sort](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
+  * [Sort Characters By Frequency](./Leetcode-451-Sort-Characters-By-Frequency.md)
+  * [Kth Largest Element in an Array](./Leetcode-215-Kth-Largest-Element-in-an-Array.md)
+  * [Merge Sorted Array](./Leetcode-88-Merge-Sorted-Array.md)
 * [Merge Two Sorted Lists](./Leetcode-21-Merge-Two-Sorted-Lists.md)
 * [H Index](./Leetcode-274-H-Index.md)
 * [H Index II](./Leetcode-275-H-Index-II.md)
@@ -393,6 +394,5 @@
 * [Find And Replace Pattern](./Leetcode-890-Find-And-Replace-Pattern.md)
 
 ## New Problems
-
 
 * [Leetcode 509. Fibonacci Number](./Leetcode-509-Fibonacci-Number.md)
