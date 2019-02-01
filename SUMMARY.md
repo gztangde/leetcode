@@ -252,6 +252,8 @@
 ## Sorting
 
 * [Summary](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
+* [Top K Frequent Elements](./Leetcode-347-Top-K-Frequent-Elements.md)
+* [Leetcode 451. Sort Characters By Frequency](./Leetcode-451-Sort-Characters-By-Frequency.md)
 * [Kth Largest Element in an Array](./Leetcode-215-Kth-Largest-Element-in-an-Array.md)
 * [Merge Sorted Array](./Leetcode-88-Merge-Sorted-Array.md)
 * [Merge Two Sorted Lists](./Leetcode-21-Merge-Two-Sorted-Lists.md)
@@ -265,6 +267,11 @@
 * [Sort Colors](./Leetcode-75-Sort-Colors.md)
 * [Pancake Sorting](./Leetcode-969-Pancake-Sorting.md)
 * [Reorganize String](./Leetcode-767-Reorganize-String.md)
+* [Maximum Gap](./Leetcode-164-Maximum-Gap.md)
+* [Wiggle Sort II](./Leetcode-324-Wiggle-Sort-II.md)
+* [Random Pick with Blacklist](./Leetcode-710-Random-Pick-with-Blacklist.md)
+* [Insert Interval](./Leetcode-57-Insert-Interval.md)
+* [Merge Intervals](./Leetcode-56-Merge-Intervals.md)
 
 ## DFS
 
@@ -352,6 +359,7 @@
 * [Find Duplicate File in System](./Leetcode-609-Find-Duplicate-File-in-System.md)
 * [Parse Lisp Expression](./Leetcode-736-Parse-Lisp-Expression.md)
 * [LRU Cache](./Leetcode-146-LRU-Cache.md)
+* [Random Pick with Blacklist](./Leetcode-710-Random-Pick-with-Blacklist.md)
 
 ## BackTracking
 
@@ -386,13 +394,5 @@
 
 ## New Problems
 
-* [Leetcode 56. Merge Intervals](./Leetcode-56-Merge-Intervals.md)
+
 * [Leetcode 509. Fibonacci Number](./Leetcode-509-Fibonacci-Number.md)
-
-* [Leetcode 324. Wiggle Sort II](./Leetcode-324-Wiggle-Sort-II.md)
-* [Leetcode 347. Top K Frequent Elements](./Leetcode-347-Top-K-Frequent-Elements.md)
-* [Leetcode 451. Sort Characters By Frequency](./Leetcode-451-Sort-Characters-By-Frequency.md)
-
-* [Leetcode 164. Maximum Gap](./Leetcode-164-Maximum-Gap.md)
-* [Leetcode 164. Maximum Gap](./Leetcode-164-Maximum-Gap.md)
-* [Leetcode 710. Random Pick with Blacklist](./Leetcode-710-Random-Pick-with-Blacklist.md)
