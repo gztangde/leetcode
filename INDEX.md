@@ -2,7 +2,7 @@
 
 I have solved **SOLVEDNUMBER / 980** problems. I use this page to record the questions which I did on the Leetcode.
 
-**Last Updated:** 2019-01-27 23:56:50
+**Last Updated:** UPDATETIMESTAMP
 
 **Data Structure Summary:** Array(Matrix, Numbers), String, [Tree](./summary/Leetcode-Tree-Summary/), Hash Table, Graph, Stack and Queue, [Linked List](./summary/Leetcode-Algorithm-Linked-List-Array/), Bit Manipulation
 
