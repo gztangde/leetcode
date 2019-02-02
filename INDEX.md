@@ -4,9 +4,9 @@ I have solved **SOLVEDNUMBER / 980** problems. I use this page to record the que
 
 **Last Updated:** UPDATETIMESTAMP
 
-**Data Structure Summary:** Array(Matrix, Numbers), String, [Tree](./summary/Leetcode-Tree-Summary/), Hash Table, Graph, Stack and Queue, [Linked List](./summary/Leetcode-Algorithm-Linked-List-Array/), Bit Manipulation
+**Data Structure Summary:** Array(Matrix, Numbers), String, [Tree](./summary/2019-01-12-Leetcode-Tree-Summary/), Hash Table, Graph, Stack and Queue, [Linked List](./summary/2019-01-26-Leetcode-Algorithm-Linked-List-Array/), Bit Manipulation
 
-**Algorithm Summary:** [Binary-Search](./summary/Algorithms-Binary-Search/), Greedy, [Sorting](../Leetcode-Leetcode-Sorting-Summary/), Dynamic-Programming, Math, Two Points, Recursion, Divide-And-Conquer, Combinations and Permutations
+**Algorithm Summary:** [Binary-Search](./summary/2019-01-15-Algorithms-Binary-Search/), Greedy, [Sorting](../Leetcode-Leetcode-Sorting-Summary/), Dynamic-Programming, Math, Two Points, Recursion, Divide-And-Conquer, Combinations and Permutations
 
 > This table include: Question Number, Questions Name, Question Difficulty, Question Type, And when I did it.
 
