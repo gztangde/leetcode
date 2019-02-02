@@ -401,3 +401,4 @@
 
 * [Leetcode 509. Fibonacci Number](./Leetcode-509-Fibonacci-Number.md)
 * [Leetcode 739. Daily Temperatures](./Leetcode-739-Daily-Temperatures.md)
+* [Leetcode 946. Validate Stack Sequences](./Leetcode-946-Validate-Stack-Sequences.md)
