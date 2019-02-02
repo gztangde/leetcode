@@ -65,3 +65,27 @@ class Solution {
   }
 };
 ```
+
+## Solution 2: Stack
+
+```cpp
+class Solution {
+ public:
+  vector<int> nextGreaterElements(vector<int>& nums) {
+    int n = nums.size();
+    vector<int> r(n, -1);
+    stack<int> s;
+    for (int i = 0; i < 2 * n; ++i) {
+      // Deal with the element;
+      int temp = nums[i % n];
+      while (!s.empty() && temp > nums[s.top()]) {
+        r[s.top()] = temp;
+        s.pop();
+      }
+      // save the element;
+      if (i < n) s.push(i);
+    }
+    return r;
+  }
+};
+```
