@@ -403,3 +403,4 @@
 * [Leetcode 739. Daily Temperatures](./Leetcode-739-Daily-Temperatures.md)
 * [Leetcode 946. Validate Stack Sequences](./Leetcode-946-Validate-Stack-Sequences.md)
 * [Leetcode 503. Next Greater Element II](./Leetcode-503-Next-Greater-Element-II.md)
+* [Leetcode 636. Exclusive Time of Functions](./Leetcode-636-Exclusive-Time-of-Functions.md)
