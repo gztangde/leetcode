@@ -50,7 +50,12 @@
       "defineWord": ["Gitbook Use"]
     },
     "anchor-navigation-ex": {
-      "showLevel": false
+      "showLevel": false,
+      "isRewritePageTitle": true,
+      "isShowTocTitleIcon": true,
+      "tocLevel1Icon": "fa fa-hand-o-right",
+      "tocLevel2Icon": "fa fa-hand-o-right",
+      "tocLevel3Icon": "fa fa-hand-o-right"
     },
     "github-buttons": {
       "buttons": [{
