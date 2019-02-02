@@ -89,3 +89,34 @@ class Solution {
   }
 };
 ```
+
+优化, 参考了网上博客文章:
+
+可以使用`sscanf`函数, 一次得到三个变量的数值.
+
+```cpp
+// Runtime: 16 ms, faster than 95.40% of C++ online submissions for Exclusive Time of Functions.
+// Memory Usage: 827.4 KB, less than 11.11% of C++ online submissions for Exclusive Time of Functions.
+class Solution {
+ public:
+  vector<int> exclusiveTime(int n, vector<string>& logs) {
+    vector<int> ans(n, 0);
+    stack<int> sta;
+    int idx = 0, time = 0;
+    char type[10];
+    int pretime = 0;
+    for (auto& s : logs) {
+      sscanf(s.c_str(), "%d:%[^:]:%d", &idx, type, &time);
+      if (!sta.empty()) ans[sta.top()] += time - pretime;
+      pretime = time;
+      if (type[0] == 's') sta.push(idx);
+      else {
+        ++ans[sta.top()];
+        sta.pop();
+        ++pretime;
+      }
+    }
+    return ans;
+  }
+};
+```
