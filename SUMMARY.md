@@ -147,6 +147,7 @@
 ## Stack and Queue
 
 * [Valid Parentheses](./Leetcode-20-Valid-Parentheses.md)
+* [Minimum Add to Make Parentheses Valid](./Leetcode-921-Minimum-Add-to-Make-Parentheses-Valid.md)
 * [Implement Stack using Queues](./Leetcode-225-Implement-Stack-using-Queues.md)
 * [Min Stack](./Leetcode-155-Min-Stack.md)
 * [Longest Valid Parentheses](./Leetcode-32-Longest-Valid-Parentheses.md)
@@ -154,6 +155,9 @@
 * [Evaluate Reverse Polish Notation](./Leetcode-150-Evaluate-Reverse-Polish-Notation.md)
 * [Number of Recent Calls](./Leetcode-933-Number-of-Recent-Calls.md)
 * [Queue Reconstruction by Height](./Leetcode-406-Queue-Reconstruction-by-Height.md)
+* [Shortest Subarray with Sum at Least K](./Leetcode-862-Shortest-Subarray-with-Sum-at-Least-K.md)
+* [Design Circular Queue](./Leetcode-622-Design-Circular-Queue.md)
+* [Design Circular Deque](./Leetcode-641-Design-Circular-Deque.md)
 
 ## Tree
 
@@ -253,7 +257,7 @@
 
 * [Summary](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
 * [Top K Frequent Elements](./Leetcode-347-Top-K-Frequent-Elements.md)
-* [Buble Sort](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
+* [Bubble Sort](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
   * [Sort Characters By Frequency](./Leetcode-451-Sort-Characters-By-Frequency.md)
   * [Kth Largest Element in an Array](./Leetcode-215-Kth-Largest-Element-in-an-Array.md)
   * [Merge Sorted Array](./Leetcode-88-Merge-Sorted-Array.md)
@@ -396,7 +400,3 @@
 ## New Problems
 
 * [Leetcode 509. Fibonacci Number](./Leetcode-509-Fibonacci-Number.md)
-* [Leetcode 622. Design Circular Queue](./Leetcode-622-Design-Circular-Queue.md)
-* [Leetcode 641. Design Circular Deque](./Leetcode-641-Design-Circular-Deque.md)
-* [Leetcode 862. Shortest Subarray with Sum at Least K](./Leetcode-862-Shortest-Subarray-with-Sum-at-Least-K.md)
-* [Leetcode 921. Minimum Add to Make Parentheses Valid](./Leetcode-921-Minimum-Add-to-Make-Parentheses-Valid.md)
