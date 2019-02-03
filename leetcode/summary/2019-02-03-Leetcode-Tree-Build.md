@@ -58,12 +58,13 @@ TreeNode* sortedListToBst(ListNode* head, int len) {
 [Construct Binary Tree From Preorder and Inorder Traversal](../Leetcode-105-Construct-Binary-Tree-From-Preorder-and-Inorder-Traversal/)和题目[Construct Binary Tree From Inorder And Postorder Traversal](../Leetcode-106-Construct-Binary-Tree-From-Inorder-And-Postorder-Traversal/) 是比较一样的.
 
 如果给定了`先序`和`中序`，并且里面的元素不重复，可以得到这样几个条件：
+
 * 先序的第一个元素一定是跟
 * 可以更加先序里面的根节点到中序里面找到对应的节点，因为没有重复元素
 * 根据中序里面找到的根节点可以将其分为左右两个部分，分别对左右两个部分递归调用原函数
 
 如果题目给定了`后序`和`中序`，并且里面的元素不重复，可以得到这样几个条件：
 
-- 后序的最后一个元素一定是跟节点
-- 可以在后序里面的根节点到中序里面找到对应的节点，因为没有重复元素
-- 根据中序里面找到的根节点可以将其分为左右两个部分，分别对左右两个部分递归调用原函数
+* 后序的最后一个元素一定是跟节点
+* 可以在后序里面的根节点到中序里面找到对应的节点，因为没有重复元素
+* 根据中序里面找到的根节点可以将其分为左右两个部分，分别对左右两个部分递归调用原函数
