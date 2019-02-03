@@ -405,3 +405,7 @@
 * [Leetcode 503. Next Greater Element II](./Leetcode-503-Next-Greater-Element-II.md)
 * [Leetcode 636. Exclusive Time of Functions](./Leetcode-636-Exclusive-Time-of-Functions.md)
 * [Leetcode 975. Odd Even Jump](./Leetcode-975-Odd-Even-Jump.md)
+* [Leetcode 985. Sum of Even Numbers After Queries](./Leetcode-985-Sum-of-Even-Numbers-After-Queries.md)
+* [Leetcode 986. Interval List Intersections](./Leetcode-986-Interval-List-Intersections.md)
+* [Leetcode 987. Vertical Order Traversal of a Binary Tree](./Leetcode-987-Vertical-Order-Traversal-of-a-Binary-Tree.md)
+* [Leetcode 988. Smallest String Starting From Leaf](./Leetcode-988-Smallest-String-Starting-From-Leaf.md)
