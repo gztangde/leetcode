@@ -124,7 +124,6 @@
 * [DI String Match](./Leetcode-942-DI-String-Match.md)
 * [Groups Of Special_equivalent Strings](./Leetcode-893-Groups-Of-Special_equivalent-Strings.md)
 * [Buddy Strings](./Leetcode-859-Buddy-Strings.md)
-* [Word Search II](./Leetcode-212-Word-Search-II.md)
 * [String to Integer](./Leetcode-8-String-to-Integer.md)
 * [Scramble String](./Leetcode-87-Scramble-String.md)
 * [Length of Last Word](./Leetcode-58-Length-of-Last-Word.md)
@@ -278,8 +277,10 @@
 * [Maximum Gap](./Leetcode-164-Maximum-Gap.md)
 * [Wiggle Sort II](./Leetcode-324-Wiggle-Sort-II.md)
 * [Random Pick with Blacklist](./Leetcode-710-Random-Pick-with-Blacklist.md)
-* [Insert Interval](./Leetcode-57-Insert-Interval.md)
-* [Merge Intervals](./Leetcode-56-Merge-Intervals.md)
+* Interval
+  * [Insert Interval](./Leetcode-57-Insert-Interval.md)
+  * [Merge Intervals](./Leetcode-56-Merge-Intervals.md)
+  * [Interval List Intersections](./Leetcode-986-Interval-List-Intersections.md)
 
 ## Binary Search
 
@@ -307,6 +308,7 @@
 * [Combination Sum III](./Leetcode-216-Combination-Sum-III.md)
 * [Generate Parentheses](./Leetcode-22-Generate-Parentheses.md)
 * [Word Search](./Leetcode-79-Word-Search.md)
+* [Word Search II](./Leetcode-212-Word-Search-II.md)
 * [Unique Paths](./Leetcode-62-Unique-Paths.md)
 * [Unique Paths II](./Leetcode-63-Unique-Paths-II.md)
 * [Unique Paths III](./Leetcode-980-Unique-Paths-III.md)
@@ -414,5 +416,4 @@
 * [Leetcode 636. Exclusive Time of Functions](./Leetcode-636-Exclusive-Time-of-Functions.md)
 * [Leetcode 975. Odd Even Jump](./Leetcode-975-Odd-Even-Jump.md)
 * [Leetcode 985. Sum of Even Numbers After Queries](./Leetcode-985-Sum-of-Even-Numbers-After-Queries.md)
-* [Leetcode 986. Interval List Intersections](./Leetcode-986-Interval-List-Intersections.md)
 
