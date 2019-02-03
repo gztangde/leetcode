@@ -41,15 +41,6 @@ Given preorder and inorder traversal of a tree, construct the binary tree.
 **Solution 1:**递归方案
 
 ```cpp
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
 class Solution {
  public:
   TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {

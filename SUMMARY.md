@@ -1,6 +1,8 @@
 ## Summary
 
 * [All Leetcode Questions](./INDEX.md)
+* [Tree Summary](./summary/2019-01-12-Leetcode-Tree-Summary.md)
+  * [Build Binary Tree](./summary/2019-02-03-Leetcode-Tree-Build.md.md)
 
 ## Array And Linked List
 
@@ -192,7 +194,9 @@
   * [Flip Equivalent Binary Trees](./Leetcode-951-Flip-Equivalent-Binary-Trees.md)
   * [Binary Tree Tilt](./Leetcode-563-Binary-Tree-Tilt.md)
 
-* [Build Binary Tree](./summary/summary.md)
+* [Build Binary Tree](./summary/2019-02-03-Leetcode-Tree-Build.md.md)
+  * [Convert Sorted Array To Binary Search Tree](./Leetcode-108-Convert-Sorted-Array-To-Binary-Search-Tree.md)
+  * [Convert Sorted List to Binary Search Tree](./Leetcode-109-Convert-Sorted-List-to-Binary-Search-Tree.md)
   * [Construct Binary Tree From Preorder and Inorder Traversal](./Leetcode-105-Construct-Binary-Tree-From-Preorder-and-Inorder-Traversal.md)
   * [Construct Binary Tree From Inorder And Postorder Traversal](./Leetcode-106-Construct-Binary-Tree-From-Inorder-And-Postorder-Traversal.md)
   * [Invert Binary Tree](./Leetcode-226-Invert-Binary-Tree.md)
@@ -205,8 +209,6 @@
 * [Binary Search Tree](./summary/summary.md)
   * [Unique Binary Search Trees](./Leetcode-96-Unique-Binary-Search-Trees.md)
   * [Validate Binary Search Tree](./Leetcode-98-Validate-Binary-Search-Tree.md)
-  * [Convert Sorted Array To Binary Search Tree](./Leetcode-108-Convert-Sorted-Array-To-Binary-Search-Tree.md)
-  * [Convert Sorted List to Binary Search Tree](./Leetcode-109-Convert-Sorted-List-to-Binary-Search-Tree.md)
   * [Recover Binary Search Tree](./Leetcode-99-Recover-Binary-Search-Tree.md)
   * [Kth Smallest Element in a BST](./Leetcode-230-Kth-Smallest-Element-in-a-BST.md)
   * [Lowest Common Ancestor of a Binary Search Tree](./Leetcode-235-Lowest-Common-Ancestor-of-a-Binary-Search-Tree.md)
