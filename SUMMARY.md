@@ -2,7 +2,7 @@
 
 * [All Leetcode Questions](./INDEX.md)
 * [Tree Summary](./summary/2019-01-12-Leetcode-Tree-Summary.md)
-  * [Build Binary Tree](./summary/2019-02-03-Leetcode-Tree-Build.md.md)
+  * [Build Binary Tree](./summary/2019-02-03-Leetcode-Tree-Build.md)
 
 ## Array And Linked List
 
@@ -83,13 +83,13 @@
   * [Rotate List](./Leetcode-61-Rotate-List.md)
   * [Partition List](./Leetcode-86-Partition-List.md)
 
-* [Matrix](./summary/summary.md)
+* [Matrix](./summary/2019-02-03-Leetcode-Matrix-Summary.md)
+  * [Spiral Matrix](./Leetcode-54-Spiral-Matrix.md)
+  * [Spiral Matrix II](./Leetcode-59-Spiral-Matrix-II.md)
+  * [Rotate Image](./Leetcode-48-Rotate-Image.md)
   * [Set Matrix Zeroes](./Leetcode-73-Set-Matrix-Zeroes.md)
   * [Search a 2D Matrix](./Leetcode-74-Search-a-2D-Matrix.md)
   * [Flipping an Image](./Leetcode-832-Flipping-an-Image.md)
-  * [Rotate Image](./Leetcode-48-Rotate-Image.md)
-  * [Spiral Matrix](./Leetcode-54-Spiral-Matrix.md)
-  * [Spiral Matrix II](./Leetcode-59-Spiral-Matrix-II.md)
   * [Kth Smallest Element in a Sorted Matrix](./Leetcode-378-Kth-Smallest-Element-in-a-Sorted-Matrix.md)
   * [Kth Smallest Number in Multiplication Table](./Leetcode-668-Kth-Smallest-Number-in-Multiplication-Table.md)
   * [Transpose Matrix](./Leetcode-867-Transpose-Matrix.md)
@@ -194,7 +194,7 @@
   * [Flip Equivalent Binary Trees](./Leetcode-951-Flip-Equivalent-Binary-Trees.md)
   * [Binary Tree Tilt](./Leetcode-563-Binary-Tree-Tilt.md)
 
-* [Build Binary Tree](./summary/2019-02-03-Leetcode-Tree-Build.md.md)
+* [Build Binary Tree](./summary/2019-02-03-Leetcode-Tree-Build.md)
   * [Convert Sorted Array To Binary Search Tree](./Leetcode-108-Convert-Sorted-Array-To-Binary-Search-Tree.md)
   * [Convert Sorted List to Binary Search Tree](./Leetcode-109-Convert-Sorted-List-to-Binary-Search-Tree.md)
   * [Construct Binary Tree From Preorder and Inorder Traversal](./Leetcode-105-Construct-Binary-Tree-From-Preorder-and-Inorder-Traversal.md)
@@ -411,3 +411,4 @@
 * [Leetcode 986. Interval List Intersections](./Leetcode-986-Interval-List-Intersections.md)
 * [Leetcode 987. Vertical Order Traversal of a Binary Tree](./Leetcode-987-Vertical-Order-Traversal-of-a-Binary-Tree.md)
 * [Leetcode 988. Smallest String Starting From Leaf](./Leetcode-988-Smallest-String-Starting-From-Leaf.md)
+* [](./Leetcode-Leetcode-Matrix-Summary.md)
