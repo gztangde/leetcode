@@ -3,6 +3,8 @@
 * [All Leetcode Questions](./INDEX.md)
 * [Tree Summary](./summary/2019-01-12-Leetcode-Tree-Summary.md)
   * [Build Binary Tree](./summary/2019-02-03-Leetcode-Tree-Build.md)
+* [Sorting](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
+* [Binary Search](./summary/2019-01-15-Algorithms-Binary-Search.md)
 
 ## Array And Linked List
 
