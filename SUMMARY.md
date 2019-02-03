@@ -15,8 +15,6 @@
   * [Remove Duplicates From Sorted Array](./Leetcode-26-Remove-Duplicates-From-Sorted-Array.md)
   * [Remove Duplicates From Sorted Array II](./Leetcode-80-Remove-Duplicates-From-Sorted-Array-II.md)
   * [Longest Consecutive Sequence](./Leetcode-128-Longest-Consecutive-Sequence.md)
-  * [Search In Rotated Sorted Array](./Leetcode-33-Search-In-Rotated-Sorted-Array.md)
-  * [Search In Rotated Sorted Array II](./Leetcode-81-Search-In-Rotated-Sorted-Array-II.md)
   * [Remove Duplicates From Sorted List II](./Leetcode-82-Remove-Duplicates-From-Sorted-List-II.md)
   * [Remove Duplicates From Sorted List](./Leetcode-83-Remove-Duplicates-From-Sorted-List.md)
   * [Median of Two Sorted Arrays](./Leetcode-4-Median-of-Two-Sorted-Arrays.md)
@@ -35,7 +33,6 @@
   * [Largest Number](./Leetcode-179-Largest-Number.md)
   * [First Missing Positive](./Leetcode-41-First-Missing-Positive.md)
   * [Two Sum II Input Array Is Sorted](./Leetcode-167-Two-Sum-II-Input-Array-Is-Sorted.md)
-  * [Search Insert Position](./Leetcode-35-Search-Insert-Position.md)
   * [Pascal Triangle](./Leetcode-118-Pascal-Triangle.md)
   * [Pascal Triangle II](./Leetcode-119-Pascal-Triangle-II.md)
   * [Misssing Number](./Leetcode-268-Misssing-Number.md)
@@ -92,7 +89,6 @@
     * [Flipping an Image](./Leetcode-832-Flipping-an-Image.md)
     * [Transpose Matrix](./Leetcode-867-Transpose-Matrix.md)
   * [Set Matrix Zeroes](./Leetcode-73-Set-Matrix-Zeroes.md)
-  * [Search a 2D Matrix](./Leetcode-74-Search-a-2D-Matrix.md)
   * [Kth Smallest Element in a Sorted Matrix](./Leetcode-378-Kth-Smallest-Element-in-a-Sorted-Matrix.md)
   * [Kth Smallest Number in Multiplication Table](./Leetcode-668-Kth-Smallest-Number-in-Multiplication-Table.md)
   * [Toeplitz Matrix](./Leetcode-766-Toeplitz-Matrix.md)
@@ -241,7 +237,6 @@
 
 * [Palindrome Number](./Leetcode-9-Palindrome-Number.md)
 * [Powerx n](./Leetcode-50-Powerx-n.md)
-* [Sqrt x 3](./Leetcode-69-Sqrt-x-3.md)
 * [Permutation Sequence](./Leetcode-60-Permutation-Sequence.md)
 * [Gray Code](./Leetcode-89-Gray-Code.md)
 * [Hamming Distance](./Leetcode-461-Hamming-Distance.md)
@@ -286,6 +281,22 @@
 * [Insert Interval](./Leetcode-57-Insert-Interval.md)
 * [Merge Intervals](./Leetcode-56-Merge-Intervals.md)
 
+## Binary Search
+
+* [Summary](./summary/2019-01-15-Algorithms-Binary-Search.md)
+* [Search In Rotated Sorted Array](./Leetcode-33-Search-In-Rotated-Sorted-Array.md)
+* [Search In Rotated Sorted Array II](./Leetcode-81-Search-In-Rotated-Sorted-Array-II.md)
+* [Search Insert Position](./Leetcode-35-Search-Insert-Position.md)
+* [Online Election](./Leetcode-911-Online-Election.md)
+* [Preimage Size of Factorial Zeroes Function](./Leetcode-793-Preimage-Size-of-Factorial-Zeroes-Function.md)
+* [K th Smallest Prime Fraction](./Leetcode-786-K-th-Smallest-Prime-Fraction.md)
+* [Find Smallest Letter Greater Than Target](./Leetcode-744-Find-Smallest-Letter-Greater-Than-Target.md)
+* [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
+* [Relative Ranks](./Leetcode-506-Relative-Ranks.md)
+* [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
+* [Search a 2D Matrix](./Leetcode-74-Search-a-2D-Matrix.md)
+* [Sqrt x 3](./Leetcode-69-Sqrt-x-3.md)
+
 ## DFS
 
 * [Palindrome Partitioning](./Leetcode-131-Palindrome-Partitioning.md)
@@ -311,17 +322,6 @@
 * [Best Time To buy and sell Stock III](./Leetcode-123-Best-Time-To-buy-and-sell-Stock-III.md)
 * [Container With Most Water](./Leetcode-11-Container-With-Most-Water.md)
 * [Gas Station](./Leetcode-134-Gas-Station.md)
-
-## Binary Search
-
-* [Summary](./summary/2019-01-15-Algorithms-Binary-Search.md)
-* [Online Election](./Leetcode-911-Online-Election.md)
-* [Preimage Size of Factorial Zeroes Function](./Leetcode-793-Preimage-Size-of-Factorial-Zeroes-Function.md)
-* [K th Smallest Prime Fraction](./Leetcode-786-K-th-Smallest-Prime-Fraction.md)
-* [Find Smallest Letter Greater Than Target](./Leetcode-744-Find-Smallest-Letter-Greater-Than-Target.md)
-* [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
-* [Relative Ranks](./Leetcode-506-Relative-Ranks.md)
-* [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
 
 ## DP
 

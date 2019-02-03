@@ -88,3 +88,38 @@ The lower_bound function will return the first index of i, such that A[i] >= x, 
 It is not way to find the real number to fit the requrtment. So, we can find the number the first time bigger than the input.
 
 ![](/images/in-post/2019-01-15-Algorithms-Binary-Search/2019-01-15-22-47-51.png)
+
+# Analyze Relative Questions
+
+二分查找算法在实际使用中可能会出现各种变体，我们要抓住`有序`的特点，一旦发现输入有`有序`的特点，我们就可以考虑是否可以运用二分查找算法来解决该问题。
+
+**Questions:**
+
+* [Search In Rotated Sorted Array](../Leetcode-33-Search-In-Rotated-Sorted-Array/)
+* [Search In Rotated Sorted Array II](../Leetcode-81-Search-In-Rotated-Sorted-Array-II/)
+* [Search Insert Position](../Leetcode-35-Search-Insert-Position/)
+* [Online Election](../Leetcode-911-Online-Election/)
+* [Preimage Size of Factorial Zeroes Function](../Leetcode-793-Preimage-Size-of-Factorial-Zeroes-Function/)
+* [K th Smallest Prime Fraction](../Leetcode-786-K-th-Smallest-Prime-Fraction/)
+* [Find Smallest Letter Greater Than Target](../Leetcode-744-Find-Smallest-Letter-Greater-Than-Target/)
+* [Find K th Smallest Pair Distance](../Leetcode-719-Find-K-th-Smallest-Pair-Distance/)
+* [Relative Ranks](../Leetcode-506-Relative-Ranks/)
+* [Find K th Smallest Pair Distance](../Leetcode-719-Find-K-th-Smallest-Pair-Distance/)
+* [Search a 2D Matrix](../Leetcode-74-Search-a-2D-Matrix/)
+* [Sqrt x 3](../Leetcode-69-Sqrt-x-3/)
+
+## 基本类型
+
+* [Search Insert Position](../Leetcode-35-Search-Insert-Position/) 是基本思路的应用.
+
+##　数值处理相关题目
+
+* [Sqrt x 3](../Leetcode-69-Sqrt-x-3/)
+
+## 二维空间应用
+
+* [Search a 2D Matrix](../Leetcode-74-Search-a-2D-Matrix/)
+
+## 部分有序（变体）
+
+[Search In Rotated Sorted Array](../Leetcode-33-Search-In-Rotated-Sorted-Array/) 和 [Search In Rotated Sorted Array II](../Leetcode-81-Search-In-Rotated-Sorted-Array-II/)
