@@ -84,18 +84,19 @@
   * [Partition List](./Leetcode-86-Partition-List.md)
 
 * [Matrix](./summary/2019-02-03-Leetcode-Matrix-Summary.md)
-  * [Spiral Matrix](./Leetcode-54-Spiral-Matrix.md)
-  * [Spiral Matrix II](./Leetcode-59-Spiral-Matrix-II.md)
-  * [Rotate Image](./Leetcode-48-Rotate-Image.md)
+  * Spiral And Flip
+    * [Spiral Matrix](./Leetcode-54-Spiral-Matrix.md)
+    * [Spiral Matrix II](./Leetcode-59-Spiral-Matrix-II.md)
+    * [Spiral Matrix III](./Leetcode-885-Spiral-Matrix-III.md)
+    * [Rotate Image](./Leetcode-48-Rotate-Image.md)
+    * [Flipping an Image](./Leetcode-832-Flipping-an-Image.md)
+    * [Transpose Matrix](./Leetcode-867-Transpose-Matrix.md)
   * [Set Matrix Zeroes](./Leetcode-73-Set-Matrix-Zeroes.md)
   * [Search a 2D Matrix](./Leetcode-74-Search-a-2D-Matrix.md)
-  * [Flipping an Image](./Leetcode-832-Flipping-an-Image.md)
   * [Kth Smallest Element in a Sorted Matrix](./Leetcode-378-Kth-Smallest-Element-in-a-Sorted-Matrix.md)
   * [Kth Smallest Number in Multiplication Table](./Leetcode-668-Kth-Smallest-Number-in-Multiplication-Table.md)
-  * [Transpose Matrix](./Leetcode-867-Transpose-Matrix.md)
   * [Toeplitz Matrix](./Leetcode-766-Toeplitz-Matrix.md)
   * [Reshape the Matrix](./Leetcode-566-Reshape-the-Matrix.md)
-  * [Spiral Matrix III](./Leetcode-885-Spiral-Matrix-III.md)
   * [Valid Sudoku](./Leetcode-36-Valid-Sudoku.md)
 
 ## String

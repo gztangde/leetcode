@@ -48,28 +48,18 @@ class Solution {
     int c = m > n ? (n + 1) / 2 : (m + 1) / 2;
 
     for (int i = 0; i < c; ++i, p -= 2, q -= 2) {
-      // Up side
-      for (int row_up = i; row_up <= i + q - 1; ++row_up) {
+      for (int row_up = i; row_up <= i + q - 1; ++row_up)  // up
         res.emplace_back(matrix[i][row_up]);
-      }
 
-      // Right side
-      // Begin with i+1
-      for (int row_right = i + 1; row_right <= i + p - 1; ++row_right) {
+      for (int row_right = i + 1; row_right <= i + p - 1; ++row_right)  // right
         res.emplace_back(matrix[row_right][i + q - 1]);
-      }
 
       if (p == 1 || q == 1) break;
-      // Bottom side
-      for (int row_bottom = n - i - 2; row_bottom >= i; --row_bottom) {
+      for (int row_bottom = n - i - 2; row_bottom >= i; --row_bottom)  // Bottom
         res.emplace_back(matrix[i + p - 1][row_bottom]);
-      }
 
-      // Left side
-      for (int row_left = m - i - 2; row_left > i; --row_left) {
+      for (int row_left = m - i - 2; row_left > i; --row_left)  // Lift
         res.emplace_back(matrix[row_left][i]);
-      }
-
     }
     return res;
   }
