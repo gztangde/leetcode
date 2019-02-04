@@ -65,3 +65,5 @@ class Solution {
 # Related Question
 
 * [Leetcode 72. Edit Distance](./Leetcode-72-Edit-Distance/)
+* [Leetcode 712. Minimum ASCII Delete Sum for Two Strings](./Leetcode-712-Minimum-ASCII-Delete-Sum-for-Two-Strings/)
+* [Leetcode 583. Delete Operation for Two Strings](./Leetcode-583-Delete-Operation-for-Two-Strings/)
