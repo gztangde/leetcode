@@ -418,4 +418,8 @@
 * [Leetcode 636. Exclusive Time of Functions](./Leetcode-636-Exclusive-Time-of-Functions.md)
 * [Leetcode 975. Odd Even Jump](./Leetcode-975-Odd-Even-Jump.md)
 * [Leetcode 985. Sum of Even Numbers After Queries](./Leetcode-985-Sum-of-Even-Numbers-After-Queries.md)
-
+* [Leetcode 682. Baseball Game](./Leetcode-682-Baseball-Game.md)
+* [Leetcode 929. Unique Email Addresses](./Leetcode-929-Unique-Email-Addresses.md)
+* [Leetcode 791. Custom Sort String](./Leetcode-791-Custom-Sort-String.md)
+* [Leetcode 937. Reorder Log Files](./Leetcode-937-Reorder-Log-Files.md)
+* [Leetcode 761. Special Binary String](./Leetcode-761-Special-Binary-String.md)
