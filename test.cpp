@@ -1,22 +1,18 @@
 class Solution {
  public:
-  vector<vector<int>> generateMatrix(int n) {
-    vector<vector<int>> res(n, vector<int>(n, 0));
-    int val = 1, c = (n + 1) / 2, p = n;
-
-    for (int i = 0; i < c; ++i, p -= 2) {
-      for (int row_up = i; row_up <= i + p - 1; ++row_up)  //UP
-        res[i][row_up] = val++;
-
-      for (int row_right = i + 1; row_right <= i + p - 1; ++row_right) //Right
-        res[row_right][i + p - 1] = val++;
-
-      for (int row_bottom = n - i - 2; row_bottom >= i; --row_bottom) //Bottom
-        res[i + p - 1][row_bottom] = val++;
-  
-      for (int row_left = n - i - 2; row_left > i; --row_left) { //Left
-        res[row_left][i] = val++;
+  string makeLargestSpecial(string S) {
+    int cnt = 0, i = 0;
+    vector<string> v;
+    string ans = "";
+    for (int j = 0; j < S.size(); ++j) {
+      cnt += (S[j] == '1') ? 1 : -1;
+      if (cnt == 0) {
+        v.push_back('1' + makeLargestSpecial(S.substr(i + 1, j - i - 1)) + '0');
+        i = j + 1;
+      }
     }
-    return res;
+    sort(v.begin(), v.end(), greater<string>());
+    for (int i = 0; i < v.size(); ++i) ans += v[i];
+    return ans;
   }
 };

@@ -423,3 +423,5 @@
 * [Leetcode 791. Custom Sort String](./Leetcode-791-Custom-Sort-String.md)
 * [Leetcode 937. Reorder Log Files](./Leetcode-937-Reorder-Log-Files.md)
 * [Leetcode 761. Special Binary String](./Leetcode-761-Special-Binary-String.md)
+* [Leetcode 49. Group Anagrams](./Leetcode-49-Group-Anagrams.md)
+* [Leetcode 583. Delete Operation for Two Strings](./Leetcode-583-Delete-Operation-for-Two-Strings.md)
