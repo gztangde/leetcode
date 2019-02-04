@@ -429,3 +429,4 @@
 * [Leetcode 761. Special Binary String](./Leetcode-761-Special-Binary-String.md)
 * [Leetcode 49. Group Anagrams](./Leetcode-49-Group-Anagrams.md)
 
+* [Leetcode 833. Find And Replace in String](./Leetcode-833-Find-And-Replace-in-String.md)
