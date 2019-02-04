@@ -329,6 +329,10 @@
 
 ## DP
 
+* Two Words Distance
+  * [Edit Distance](./Leetcode-72-Edit-Distance.md)
+  * [Leetcode 583. Delete Operation for Two Strings](./Leetcode-583-Delete-Operation-for-Two-Strings.md)
+  * [Leetcode 712. Minimum ASCII Delete Sum for Two Strings](./Leetcode-712-Minimum-ASCII-Delete-Sum-for-Two-Strings.md)
 * [Triangle](./Leetcode-120-Triangle.md)
 * [Maximum Subarray](./Leetcode-53-Maximum-Subarray.md)
 * [Maximal Rectangle](./Leetcode-85-Maximal-Rectangle.md)
@@ -351,8 +355,8 @@
 * [Longest Continuous Increasing Subsequence](./Leetcode-674-Longest-Continuous-Increasing-Subsequence.md)
 * [Minimum Path Sum](./Leetcode-64-Minimum-Path-Sum.md)
 * [Climbing Stairs](./Leetcode-70-Climbing-Stairs.md)
-* [Edit Distance](./Leetcode-72-Edit-Distance.md)
 * [Count Numbers with Unique Digits](./Leetcode-357-Count-Numbers-with-Unique-Digits.md)
+
 
 ## Divide-And-Conquer
 
@@ -424,5 +428,4 @@
 * [Leetcode 937. Reorder Log Files](./Leetcode-937-Reorder-Log-Files.md)
 * [Leetcode 761. Special Binary String](./Leetcode-761-Special-Binary-String.md)
 * [Leetcode 49. Group Anagrams](./Leetcode-49-Group-Anagrams.md)
-* [Leetcode 583. Delete Operation for Two Strings](./Leetcode-583-Delete-Operation-for-Two-Strings.md)
-* [Leetcode 712. Minimum ASCII Delete Sum for Two Strings](./Leetcode-712-Minimum-ASCII-Delete-Sum-for-Two-Strings.md)
+
