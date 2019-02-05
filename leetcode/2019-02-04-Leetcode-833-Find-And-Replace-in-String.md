@@ -37,9 +37,9 @@ All these operations occur simultaneously. It's guaranteed that there won't be a
 
 Notes:
 
-1.  `0 <= indexes.length = sources.length = targets.length <= 100`
-2.  `0 < indexes[i] < S.length <= 1000`
-3.  All characters in given inputs are lowercase letters.
+1. `0 <= indexes.length = sources.length = targets.length <= 100`
+2. `0 < indexes[i] < S.length <= 1000`
+3. All characters in given inputs are lowercase letters.
 
 **Difficulty**:Medium
 
