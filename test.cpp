@@ -1,22 +1,32 @@
 class Solution {
- public:
-  int minimumDeleteSum(string s1, string s2) {
-    const size_t m = s1.length();
-    const size_t n = s2.length();
-    int f[m + 1][n + 1];
-    f[0][0] = 0;
-    for (size_t i = 1; i <= m; ++i) f[i][0] = f[i - 1][0] + s1[i - 1];
-    for (size_t j = 1; j <= n; ++j) f[0][j] = f[0][j - 1] + s2[j - 1];
+public:
+  vector<int> smallestRange(vector<vector<int>>& nums) {
+    vector<int> ans;
+    vector<pair<int, int>> v;
+    unordered_map<int, int> m;
+    int n = nums.size();
+    for (int i = 0; i < n; ++i) 
+      for (int& num : nums[i])
+        v.push_back({num, i});
 
-    for (size_t i = 1; i <= m; ++i) {
-      for (size_t j = 1; j <= n; ++j) {
-        if (s1[i - 1] == s2[j - 1]) {
-          f[i][j] = f[i - 1][j - 1];
-        } else {
-          f[i][j] = min(f[i - 1][j] + s1[i - 1], f[i][j - 1] + s2[j - 1]);
+    sort(v.begin(), v.end());
+    int left = 0, len = v.size(), cnt = 0, diff = INT_MAX;
+    for (int right = 0; right < len; ++right) {
+      pair<int, int> r_num = v[right], l_num = v[left];
+      if (m[r_num.second] == 0) cnt++;
+      ++m[r_num.second];
+      
+      while(cnt == n && left <= right) {
+        r_num = v[right];
+        l_num = v[left];
+        if (diff > r_num.first - l_num.first) {
+          diff = r_num.first - l_num.first;
+          ans = {l_num.first, r_num.first};
         }
+        if(--m[l_num.second] == 0) --cnt;
+        ++left;
       }
     }
-    return f[m][n];
+    return ans;
   }
 };

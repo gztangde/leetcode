@@ -430,3 +430,6 @@
 * [Leetcode 49. Group Anagrams](./Leetcode-49-Group-Anagrams.md)
 
 * [Leetcode 833. Find And Replace in String](./Leetcode-833-Find-And-Replace-in-String.md)
+* [Leetcode 984. String Without AAA or BBB](./Leetcode-984-String-Without-AAA-or-BBB.md)
+* [Leetcode 632. Smallest Range](./Leetcode-632-Smallest-Range.md)
+* [Leetcode 76. Minimum Window Substring](./Leetcode-76-Minimum-Window-Substring.md)
