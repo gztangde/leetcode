@@ -435,3 +435,4 @@
 * [Leetcode 76. Minimum Window Substring](./Leetcode-76-Minimum-Window-Substring.md)
 * [Leetcode 209. Minimum Size Subarray Sum](./Leetcode-209-Minimum-Size-Subarray-Sum.md)
 * [Leetcode 718. Maximum Length of Repeated Subarray](./Leetcode-718-Maximum-Length-of-Repeated-Subarray.md)
+* [Leetcode 763. Partition Labels](./Leetcode-763-Partition-Labels.md)
