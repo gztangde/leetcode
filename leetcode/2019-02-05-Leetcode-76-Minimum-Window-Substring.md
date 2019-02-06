@@ -25,7 +25,7 @@ Given a string S and a string T, find the minimum window in S which will contain
 
 **Difficulty**:Medium
 
-**Category**:
+**Category**:Hard
 
 <!-- more -->
 
@@ -38,9 +38,29 @@ Given a string S and a string T, find the minimum window in S which will contain
 # Solution
 
 ```cpp
-
+class Solution {
+ public:
+  string minWindow(string s, string t) {
+    vector<int> r(128, 0);
+    string ans;
+    for (char& c : t) ++r[c];
+    int left = 0, cnt = 0, n = t.length(), diff = INT_MAX;
+    for (int right = 0; right < s.size(); ++right) {
+      if (--r[s[right]] >= 0) cnt++;
+      while (cnt == n) {
+        if (diff > right - left + 1) {
+          diff = right - left + 1;
+          ans = s.substr(left, diff);
+        }
+        if (++r[s[left]] > 0) --cnt;
+        ++left;
+      }
+    }
+    return ans;
+  }
+};
 ```
 
 # Relative Questions
 
-* [leetcode/2019-02-05-Leetcode-632-Smallest-Range.md](./Leetcode-632-Smallest-Range/)
+* [Leetcode 632. Smallest Range](./Leetcode-632-Smallest-Range/)
