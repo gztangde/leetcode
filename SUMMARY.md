@@ -441,3 +441,4 @@
 * [Leetcode 581. Shortest Unsorted Continuous Subarray](./Leetcode-581-Shortest-Unsorted-Continuous-Subarray.md)
 * [Leetcode 260. Single Number III](./Leetcode-260-Single-Number-III.md)
 * [Leetcode 190. Reverse Bits](./Leetcode-190-Reverse-Bits.md)
+* [Leetcode 231. Power of Two](./Leetcode-231-Power-of-Two.md)
