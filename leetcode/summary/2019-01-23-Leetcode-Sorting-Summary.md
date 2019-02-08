@@ -162,11 +162,8 @@ void merge_array(vector<int> &nums, int b, int m, int e, vector<int> &temp) {
       temp[tb++] = nums[lb++];
     else
       temp[tb++] = nums[rb++];
-
   while (lb < m) temp[tb++] = nums[lb++];
-
   while (rb < e) temp[tb++] = nums[rb++];
-
   for (int i = b; i < e; i++) nums[i] = temp[i];
 }
 
@@ -185,6 +182,8 @@ void merge_sort(vector<int> &nums, int b, int e, vector<int> &temp) {
 **复杂度分析**
 
 在merge_array过程中，实际的操作是当前两个子数组的长度，即2m。又因为打散数组是二分的，最终循环执行数是logn。所以这个算法最终时间复杂度是O(nlogn)，空间复杂度是O(n)。
+
+归并排序中, 我们可以考虑不申请空间的实现方式. 
 
 ## 6. 快速排序（Quick Sort - Divide and Conquer）
 

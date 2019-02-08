@@ -48,6 +48,10 @@ The above arrows point to positions where the corresponding bits are different.
 
 # Solution
 
+## Solution 1
+
+对两个数进行异或操作，位级表示不同的那一位为 1，统计有多少个 1 即可。
+
 ```cpp
 class Solution {
  public:
@@ -62,4 +66,20 @@ class Solution {
 };
 ```
 
+## Solution 2
 
+使用 z&(z-1) 去除 z 位级表示最低的那一位。
+
+```cpp
+class Solution {
+ public:
+  int hammingDistance(int x, int y) {
+    int c = x ^ y, ans = 0;
+    while (c > 0) {
+      c &=  (c - 1);
+      ++ans;
+    }
+    return ans;
+  }
+};
+```

@@ -21,7 +21,6 @@
   * [Remove Duplicates From Sorted List](./Leetcode-83-Remove-Duplicates-From-Sorted-List.md)
   * [Median of Two Sorted Arrays](./Leetcode-4-Median-of-Two-Sorted-Arrays.md)
   * [Remove Element](./Leetcode-27-Remove-Element.md)
-  * [Single Number](./Leetcode-136-Single-Number.md)
   * [Single Number II](./Leetcode-137-Single-Number-II.md)
   * [Add Two Numbers](./Leetcode-2-Add-Two-Numbers.md)
   * [Reverse Integer](./Leetcode-7-Reverse-Integer.md)
@@ -240,7 +239,6 @@
 * [Powerx n](./Leetcode-50-Powerx-n.md)
 * [Permutation Sequence](./Leetcode-60-Permutation-Sequence.md)
 * [Gray Code](./Leetcode-89-Gray-Code.md)
-* [Hamming Distance](./Leetcode-461-Hamming-Distance.md)
 * [Powerful Integers](./Leetcode-970-Powerful-Integers.md)
 * [Surface Area of 3D Shapes](./Leetcode-892-Surface-Area-of-3D-Shapes.md)
 * [Largest Time for Given Digits](./Leetcode-949-Largest-Time-for-Given-Digits.md)
@@ -252,6 +250,9 @@
 
 ## Bit-Manipulation
 
+* [Summary](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
+* [Single Number](./Leetcode-136-Single-Number.md)
+* [Hamming Distance](./Leetcode-461-Hamming-Distance.md)
 * [Letter Case Permutation](./Leetcode-784-Letter-Case-Permutation.md)
 * [Find the Difference](./Leetcode-389-Find-the-Difference.md)
 
@@ -437,3 +438,5 @@
 * [Leetcode 718. Maximum Length of Repeated Subarray](./Leetcode-718-Maximum-Length-of-Repeated-Subarray.md)
 * [Leetcode 763. Partition Labels](./Leetcode-763-Partition-Labels.md)
 * [Leetcode 844. Backspace String Compare](./Leetcode-844-Backspace-String-Compare.md)
+* [Leetcode 581. Shortest Unsorted Continuous Subarray](./Leetcode-581-Shortest-Unsorted-Continuous-Subarray.md)
+* [Leetcode 260. Single Number III](./Leetcode-260-Single-Number-III.md)

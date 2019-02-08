@@ -58,5 +58,34 @@ Given two strings `S` and  `T`, return if they are equal when both are typed int
 # Solution
 
 ```cpp
-
+class Solution {
+ public:
+  bool backspaceCompare(string S, string T) {
+    stack<char> l, r;
+    for (char& c : S) {
+      if (c >= 'a' && c <= 'z')
+        r.push(c);
+      else {
+        if (!r.empty()) r.pop();
+      }
+    }
+    for (char& c : T) {
+      if (c >= 'a' && c <= 'z')
+        l.push(c);
+      else {
+        if (!l.empty()) l.pop();
+      }
+    }
+    if (l.size() != l.size())
+      return false;
+    else {
+      while (!l.empty() && l.top() == r.top()) {
+        l.pop();
+        r.pop();
+      }
+      if (!l.empty() || !r.empty()) return false;
+    }
+    return true;
+  }
+};
 ```
