@@ -40,10 +40,27 @@ Given a positive integer, output its complement number. The complement strategy 
 
 # Analyze
 
+This idea is come from the [leetcode discuss](https://leetcode.com/problems/number-complement/discuss/96017/3-line-C%2B%2B). The actual process for the solution like:
+
+```
+num           = 00000101
+mask          = 11111000
+mask ^ num    = 11111101
+~(mask ^ num) = 00000010
+```
+
 ------------
 
 # Solution
 
 ```cpp
-
+class Solution {
+ public:
+  int findComplement(int num) {
+    int mask = ~0;
+    int bit = 0;
+    while (mask & num) mask &= ~(1 << bit++);
+    return ~(mask ^ num);
+  }
+};
 ```
