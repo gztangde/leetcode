@@ -43,7 +43,7 @@ The binary representation of 10 is: 1010.
 
 **Difficulty**:Medium
 
-**Category**:
+**Category**:Bit-Manipulation
 
 <!-- more -->
 
