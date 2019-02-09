@@ -442,3 +442,5 @@
 * [Leetcode 260. Single Number III](./Leetcode-260-Single-Number-III.md)
 * [Leetcode 190. Reverse Bits](./Leetcode-190-Reverse-Bits.md)
 * [Leetcode 231. Power of Two](./Leetcode-231-Power-of-Two.md)
+* [Leetcode 342. Power of Four](./Leetcode-342-Power-of-Four.md)
+* [Leetcode 693. Binary Number with Alternating Bits](./Leetcode-693-Binary-Number-with-Alternating-Bits.md)
