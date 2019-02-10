@@ -101,9 +101,8 @@ int fibonacci(int n) {
 
 # Relative Question
 
-- Q1. Climbing Stairs / Triple Step (Leetcode 70: [Climbing-Stairs](../Leetcode-70-Climbing-Stairs/))
-- Q2. Robot in a Grid.[Leetcode 64. Unique Paths](../Leetcode-62-Unique-Paths/)]
-  Imagine a robot sitting on the upper left hand corner of an NxN grid. The robot can only move in two directions: right and down. How many possible paths are there for the robot?
+- Q1. Climbing Stairs / Triple Step ([Leetcode 70. Climbing-Stairs](../Leetcode-70-Climbing-Stairs/))
+- Q2. Robot in a Grid. Imagine a robot sitting on the upper left hand corner of an NxN grid. The robot can only move in two directions: right and down. How many possible paths are there for the robot? [Leetcode 64. Unique Paths](../Leetcode-62-Unique-Paths/)]  
 - Q3. Magic Index:
 - Q4. Power set: Write a method that returns all subsets of a set.
 - Q5. Recursive Multiply
