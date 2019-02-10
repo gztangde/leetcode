@@ -130,3 +130,21 @@ class Solution {
   }
 };
 ```
+
+------
+
+## Other Question
+
+如果將这个题目稍微修改一下:
+
+**Triple Step:** A child is running up a staircase with n steps and can hop either 1 step, 2 steps, or 3 steps at a time. Implement a method to count how many possible ways the child can run up the stairs.
+
+Let's think about: What is the lastest step that is done: The very last step: 3-step hop, a 2-step hop, or 1-step hop.
+
+How many ways then are there to get up to the n-th step? We can get up to the n-th step by any of the following.
+
+* Going to the (n -1)-st step and hopping 1 step;
+* Goint to the (n-2)nd step and hopping 2 steps;
+* Going to the (n-3)rd step and hopping 3 steps;
+
+Then, **We just need to add the number of these paths together.**

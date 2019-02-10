@@ -45,15 +45,13 @@ Above is a 7 x 3 grid. How many possible unique paths are there?
 
 ------------
 
-# Analyze
-
-------------
-
 # Solution
 
-## Solution 1
+## Solution 1: Recursive(递归) Time Limit Exceeded
 
-超出了时间限制：
+首先我们想到的是使用递归来求解该问题, 对于矩阵中的格子(i, j)，假设从(1, 1)到它的路径数量为path(i, j), 递归公式为 `path(i, j) = path(i-1, j) + path(i, j-1)`.
+
+很好理解，因为机器人只能向右或向下运动，因此它只能是从(i-1, j)或(i, j-1) 运动到(i, j)的，所以路径数量也就是到达这两个格子的路径数量之和。而递归终止条件是 `m == 0 || n == 0`.
 
 ```cpp
 class Solution {
@@ -66,10 +64,11 @@ class Solution {
 };
 ```
 
-## Solution 2
+## Solution 2: DP
+
+**Buttom-Up Dynamic Programming** 转变为动态规划来求解, 使用 `f[i]`表示在每一行的第 `i` 个位置可能存在的前进路线的方式, 这就可以使用 `f[j] = f[j] + f[j - 1];` 来表示在每一行的第 `j` 个位置的路径可能数量.
 
 ```cpp
-// f[i][j]=f[i-1][j]+f[i][j-1]
 class Solution {
  public:
   int uniquePaths(int m, int n) {
@@ -77,7 +76,6 @@ class Solution {
     f[0] = 1;
     for (unsigned int i = 0; i < m; ++i) {
       for (unsigned int j = 1; j < n; ++j) {
-        // f[i][j]=f[i-1][j]+f[i][j-1]
         f[j] = f[j] + f[j - 1];
       }
     }
@@ -86,22 +84,9 @@ class Solution {
 };
 ```
 
-## Solution 3
+上面不使用 vector也是可以的, 可使用数组.
 
 ```cpp
-// f[i][j]=f[i-1][j]+f[i][j-1]
-class Solution {
- public:
-  int uniquePaths(int m, int n) {
-    int f[n];
-    fill_n(&f[0], n, 0);
-    f[0] = 1;
-    for (unsigned int i = 0; i < m; ++i) {
-      for (unsigned int j = 1; j < n; ++j) {
-        f[j] = f[j] + f[j - 1];
-      }
-    }
-    return f[n - 1];
-  }
-};
+int f[n];
+fill_n(&f[0], n, 0);
 ```
