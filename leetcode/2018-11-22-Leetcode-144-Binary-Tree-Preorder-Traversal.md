@@ -71,7 +71,7 @@ class Solution {
 
 # Solution
 
-**Solution 2**：非递归的实现方式，使用栈进行实现。
+## Solution 1: Stack
 
 ```cpp
 class Solution {
@@ -93,7 +93,7 @@ class Solution {
 };
 ```
 
-**Solution 2**:非递归的另外一种实现方式。
+非递归, 使用栈的另外一种实现方式。
 
 ```cpp
 class Solution {
@@ -140,7 +140,7 @@ void _PreOrderNR(pNode _pRoot) {
 }
 ```
 
-## Solution 3: 非递归(不使用堆栈) -- Morris Traversal, O(1)空间复杂度
+## Solution 2: 非递归(不使用堆栈) -- Morris Traversal, O(1)空间复杂度
 
 参考博客:[Morris Traversal方法遍历二叉树（非递归，不用栈，O(1)空间）](http://www.cnblogs.com/AnnieKim/archive/2013/06/15/morristraversal.html)
 
