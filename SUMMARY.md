@@ -255,6 +255,15 @@
 * [Hamming Distance](./Leetcode-461-Hamming-Distance.md)
 * [Letter Case Permutation](./Leetcode-784-Letter-Case-Permutation.md)
 * [Find the Difference](./Leetcode-389-Find-the-Difference.md)
+* [Reverse Bits](./Leetcode-190-Reverse-Bits.md)
+* [Power of Two](./Leetcode-231-Power-of-Two.md)
+* [Power of Four](./Leetcode-342-Power-of-Four.md)
+* [Binary Number with Alternating Bits](./Leetcode-693-Binary-Number-with-Alternating-Bits.md)
+* [Number Complement](./Leetcode-476-Number-Complement.md)
+* [Sum of Two Integers](./Leetcode-371-Sum-of-Two-Integers.md)
+* [Maximum Product of Word Lengths](./Leetcode-318-Maximum-Product-of-Word-Lengths.md)
+* [Counting Bits](./Leetcode-338-Counting-Bits.md)
+* [Add Two Numbers II](./Leetcode-445-Add-Two-Numbers-II.md)
 
 ------------
 
@@ -440,12 +449,3 @@
 * [Leetcode 844. Backspace String Compare](./Leetcode-844-Backspace-String-Compare.md)
 * [Leetcode 581. Shortest Unsorted Continuous Subarray](./Leetcode-581-Shortest-Unsorted-Continuous-Subarray.md)
 * [Leetcode 260. Single Number III](./Leetcode-260-Single-Number-III.md)
-* [Leetcode 190. Reverse Bits](./Leetcode-190-Reverse-Bits.md)
-* [Leetcode 231. Power of Two](./Leetcode-231-Power-of-Two.md)
-* [Leetcode 342. Power of Four](./Leetcode-342-Power-of-Four.md)
-* [Leetcode 693. Binary Number with Alternating Bits](./Leetcode-693-Binary-Number-with-Alternating-Bits.md)
-* [Leetcode 476. Number Complement](./Leetcode-476-Number-Complement.md)
-* [Leetcode 371. Sum of Two Integers](./Leetcode-371-Sum-of-Two-Integers.md)
-* [Leetcode 318. Maximum Product of Word Lengths](./Leetcode-318-Maximum-Product-of-Word-Lengths.md)
-* [Leetcode 338. Counting Bits](./Leetcode-338-Counting-Bits.md)
-* [Leetcode 445. Add Two Numbers II](./Leetcode-445-Add-Two-Numbers-II.md)
