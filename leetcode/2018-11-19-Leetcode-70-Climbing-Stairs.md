@@ -177,7 +177,7 @@ int countWays(int n) {
 
 Like the Fibonacci problem, the runtime of this algorithm is exponential($O(3^n)$).
 
-**Add Memoization in this Solution:**
+## Solution 2: Add Memoization in this Solution 1
 
 The previous solution for countWays is called many times for the same values, which is unnecessary. We need to fix it.
 
