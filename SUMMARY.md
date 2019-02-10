@@ -366,7 +366,7 @@
 * [Minimum Path Sum](./Leetcode-64-Minimum-Path-Sum.md)
 * [Climbing Stairs](./Leetcode-70-Climbing-Stairs.md)
 * [Count Numbers with Unique Digits](./Leetcode-357-Count-Numbers-with-Unique-Digits.md)
-
+* [Numbers With Same Consecutive Differences](./Leetcode-967-Numbers-With-Same-Consecutive-Differences.md)
 
 ## Divide-And-Conquer
 
@@ -448,4 +448,6 @@
 * [Leetcode 763. Partition Labels](./Leetcode-763-Partition-Labels.md)
 * [Leetcode 844. Backspace String Compare](./Leetcode-844-Backspace-String-Compare.md)
 * [Leetcode 581. Shortest Unsorted Continuous Subarray](./Leetcode-581-Shortest-Unsorted-Continuous-Subarray.md)
-* [Leetcode 260. Single Number III](./Leetcode-260-Single-Number-III.md)
+* [Leetcode 260. Single Number III](./Leetcode-260-Single-Number-III.md)* [Leetcode 992. Subarrays with K Different Integers](./Leetcode-992-Subarrays-with-K-Different-Integers.md)
+* [Leetcode 989. Add to Array Form of Integer](./Leetcode-989-Add-to-Array-Form-of-Integer.md)
+* [Leetcode 990. Satisfiability of Equality Equations](./Leetcode-990-Satisfiability-of-Equality-Equations.md)
