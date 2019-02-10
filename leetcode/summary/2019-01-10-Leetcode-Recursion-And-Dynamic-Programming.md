@@ -13,7 +13,7 @@ A good candidate for recursion:
 
 ## How to approach
 
-Three of the most common approaches to develop an algorithm are `bottom-up`, `Top-Down-Approach` and 'Half-and-half'.
+Three of the most common approaches to develop an algorithm are `bottom-up`, `Top-Down-Approach` and `Half-and-half`.
 
 **Bottom-Up approach**
 
@@ -80,6 +80,26 @@ int fibonacci(int n) {
   for(int i = 2; i < n; i++){
     momo[i] = memo[i - 1] + memo[i - 2];
   }
-  return memo[n - 1] + memo[i - 2]
+  return memo[n - 1] + memo[n - 2];
 }
 ```
+
+We don't need the meno[n], we use a, b:
+
+```cpp
+int fibonacci(int n) {
+  if (n == 0) return 0;
+  int a = 0, b = 1;
+  for (int i = 2; i < n; i++) {
+    int c = a + b;
+    a = b;
+    b = c;
+  }
+  return a + b;
+}
+```
+
+# Relative Question
+
+- Q1. Climbing Stairs / Triple Step (Leetcode 70: [Climbing-Stairs](../Leetcode-70-Climbing-Stairs/))
+-
