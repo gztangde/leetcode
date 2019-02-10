@@ -43,6 +43,8 @@ Given a non negative integer number  **num**. For every numbers  **i**  in the r
 
 # Solution
 
+## Solution 1
+
 ```cpp
 class Solution {
  public:
@@ -52,6 +54,21 @@ class Solution {
     for (int i = 0; i < num + 1; ++i) {
       bit = i;
       ans[i] = (bit.count());
+    }
+    return ans;
+  }
+};
+```
+
+## Solution 2
+
+```cpp
+class Solution {
+ public:
+  vector<int> countBits(int num) {
+    vector<int> ans(num + 1, 0);
+    for (int i = 1; i <= num; i++) {
+      ans[i] = ans[i & (i - 1)] + 1;
     }
     return ans;
   }
