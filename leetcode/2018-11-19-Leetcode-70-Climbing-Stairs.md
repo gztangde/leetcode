@@ -73,6 +73,7 @@ class Solution {
   int climbStairs(int n, vector<int>& rec) {
     if (n == 0) return 1;
     if (n < 0) return 0;
+  
     if (rec[n] == 0) {
       rec[n] = climbStairs(n - 1, rec) + climbStairs(n - 2, rec);
     }
@@ -148,3 +149,55 @@ How many ways then are there to get up to the n-th step? We can get up to the n-
 * Going to the (n-3)rd step and hopping 3 steps;
 
 Then, **We just need to add the number of these paths together.**
+
+# Solution
+
+## Solution 1: Brute Force Solution
+
+First, the fairly straightforward algorithm to implement recursively, followed logic:
+
+```
+countWays(n-1) + countWays(n-2) + countWays(n-3)
+```
+
+> There is a quesiton: what is countWays(0)? Is it 1 or )
+> It's a lot earier to define it as 1.
+
+Implementation code.
+
+```cpp
+int countWays(int n) {
+  if(n < 0) return 0;
+  else if (n == 0) return 1;
+  else {
+    return countWays(n - 1) + countWays(n - 2) + countWays(n - 3);
+  }
+}
+```
+
+Like the Fibonacci problem, the runtime of this algorithm is exponential($O(3^n)$).
+
+**Add Memoization in this Solution:**
+
+The previous solution for countWays is called many times for the same values, which is unnecessary. We need to fix it.
+
+```cpp
+class Solution {
+ public:
+  int climbStairs(int n) {
+    vector<int> rec(n + 1, -1);
+    return countWays(n, rec);
+  }
+
+ private:
+  int countWays(int n, vector<int>& rec) {
+    if (n < 0) return 0;
+    else if (n == 0) return 1;
+    else if (rec[n] > -1) {
+      return rec[n];
+    } else {
+      rec[n] = climbStairs(n - 1, rec) + climbStairs(n - 2, rec) + climbStairs(n - 3, rec);
+      return rec[n];
+    }
+};
+```
