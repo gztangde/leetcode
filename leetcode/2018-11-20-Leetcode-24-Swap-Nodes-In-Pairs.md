@@ -36,14 +36,6 @@ Given `1->2->3->4`, you should return the list as `2->1->4->3`.
 # Solution
 
 ```cpp
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
 class Solution {
  public:
   ListNode* swapPairs(ListNode* head) {

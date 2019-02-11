@@ -25,7 +25,6 @@ Example:
 >  []
 > ]
 
-
 **Difficulty**:Medium
 
 **Category**:  
@@ -33,25 +32,26 @@ Example:
 *****
 
 # Analyze
+
 求子集集合的问题，我们可以每次处理一个元素，将当前的元素加到之前存在的所有子集里面，这样能够很方便的处理。
 
 # Solution
 
-```c++
+```cpp
 // Non-recursion
 class Solution {
-public:
-    vector<vector<int> > subsets(vector<int> &S) {
-        vector<vector<int> > res(1);
-        sort(S.begin(), S.end());
-        for (int i = 0; i < S.size(); ++i) {
-            int len = res.size();
-            for (int j = 0; j < len; ++j) {
-                res.push_back(res[j]);
-                res.back().push_back(S[i]);
-            }
-        }
-        return res;
+ public:
+  vector<vector<int> > subsets(vector<int> &S) {
+    vector<vector<int> > res(1);
+    sort(S.begin(), S.end());
+    for (int i = 0; i < S.size(); ++i) {
+      int len = res.size();
+      for (int j = 0; j < len; ++j) {
+        res.push_back(res[j]);
+        res.back().push_back(S[i]);
+      }
     }
+    return res;
+  }
 };
 ```

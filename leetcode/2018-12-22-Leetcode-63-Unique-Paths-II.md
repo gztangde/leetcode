@@ -33,11 +33,20 @@ An obstacle and empty space is marked as  `1`  and  `0`  respectively in the gri
 
 ------------
 
+
 # Analyze
 
-------------
+As the above picture, the only way to move to spot (r, c) is by moving to one of the adjacent spots (r-1, c) or (r, c-1). So, we need to find a path to either (r-1, c) or (r, c- 1).
+
+> How do we find a path to those spots? To find a path to (r-1, c) or (r, c - 1), we neet to move to one of its adjacent cells. However, it may come from (r-2, c), (r-1, c-1) , (r-1, c-1) and (r, c-2). And the (r-1, c-1) will be used twice.
+
+Work backwards. Starting from the last cell, we try to find a path to each of its adjacent cells. Use recursive.
+
+---------
 
 # Solution
+
+## Solution: DP
 
 ```cpp
 class Solution {
