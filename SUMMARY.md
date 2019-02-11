@@ -6,6 +6,7 @@
 * [Sorting](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
 * [Binary Search](./summary/2019-01-15-Algorithms-Binary-Search.md)
 * [Recursion And Dynamic Programming](./summary/2019-01-10-Leetcode-Recursion-And-Dynamic-Programming.md)
+* [Arrays and Strings](./summary/2019-02-10-Leetcode-Arrays-And-Strings-Summary.md)
 
 ## Array And Linked List
 
@@ -144,7 +145,7 @@
 * [Reverse Only Letters](./Leetcode-917-Reverse-Only-Letters.md)
 * [Goat Latin](./Leetcode-824-Goat-Latin.md)
 
-## Stack and Queue
+## Stack & Queue
 
 * [Valid Parentheses](./Leetcode-20-Valid-Parentheses.md)
 * [Minimum Add to Make Parentheses Valid](./Leetcode-921-Minimum-Add-to-Make-Parentheses-Valid.md)
@@ -159,7 +160,7 @@
 * [Design Circular Queue](./Leetcode-622-Design-Circular-Queue.md)
 * [Design Circular Deque](./Leetcode-641-Design-Circular-Deque.md)
 
-## Tree
+## Tree, Tries & Graph
 
 * [Tree Summary](./summary/2019-01-12-Leetcode-Tree-Summary.md)
 * [Traversal](./summary/summary.md)
@@ -234,6 +235,10 @@
   * [Smallest String Starting From Leaf](./Leetcode-988-Smallest-String-Starting-From-Leaf.md)
   * [Binary Tree Maximum Path Sum](./Leetcode-124-Binary-Tree-Maximum-Path-Sum.md)
 
+## Graph
+
+* [Clone Graph](./Leetcode-133-Clone-Graph.md)
+
 ## Math
 
 * [Palindrome Number](./Leetcode-9-Palindrome-Number.md)
@@ -268,7 +273,7 @@
 
 ------------
 
-## Sorting
+## Sorting(Merge, Quick)
 
 * [Summary](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
 * [Top K Frequent Elements](./Leetcode-347-Top-K-Frequent-Elements.md)
@@ -311,7 +316,7 @@
 * [Search a 2D Matrix](./Leetcode-74-Search-a-2D-Matrix.md)
 * [Sqrt x 3](./Leetcode-69-Sqrt-x-3.md)
 
-## DFS
+## Depth-First-Search
 
 * [Palindrome Partitioning](./Leetcode-131-Palindrome-Partitioning.md)
 * [Palindrome Partitioning II](./Leetcode-132-Palindrome-Partitioning-II.md)
@@ -326,7 +331,9 @@
 * [Unique Paths II](./Leetcode-63-Unique-Paths-II.md)
 * [Unique Paths III](./Leetcode-980-Unique-Paths-III.md)
 
-## BFS
+## Breadth-First-Search
+
+----
 
 ## Greed
 
@@ -379,9 +386,7 @@
 
 * [Number of Atoms](./Leetcode-726-Number-of-Atoms.md)
 
-## Graph
 
-* [Clone Graph](./Leetcode-133-Clone-Graph.md)
 
 ## Design
 

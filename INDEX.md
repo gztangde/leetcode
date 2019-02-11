@@ -4,9 +4,19 @@ I have solved **SOLVEDNUMBER / 980** problems. I use this page to record the que
 
 **Last Updated:** UPDATETIMESTAMP
 
-**Data Structure Summary:** Array(Matrix, Numbers), String, [Tree](./summary/2019-01-12-Leetcode-Tree-Summary/), Hash Table, Graph, Stack and Queue, [Linked List](./summary/2019-01-26-Leetcode-Algorithm-Linked-List-Array/), Bit Manipulation
+Here's a list of absolute, must-have knowledge. For each of these topics, make sure you understand how to use and implement then and, where applicable, the space and time 
 
-**Algorithm Summary:** [Binary-Search](./summary/2019-01-15-Algorithms-Binary-Search/), Greedy, [Sorting](../Leetcode-Leetcode-Sorting-Summary/), Dynamic-Programming, Math, Two Points, Recursion, Divide-And-Conquer, Combinations and Permutations
+| Data Structures                                                           | Algorithm                                                       | Concepts              |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------- | --------------------- |
+| Vector/Array/Matrix, string                                               | Breadth-First Search                                            | Bit Manipulation      |
+| [Linked-List](./summary/2019-01-26-Leetcode-Algorithm-Linked-List-Array/) | Depth-First Search                                              | Memory(Stack vs Heap) |
+| [Tree](./summary/2019-01-12-Leetcode-Tree-Summary/), Tries, & Graphs      | [Binary-Search](./summary/2019-01-15-Algorithms-Binary-Search/) | Recursion             |
+| Stack & Queues                                                            | [Sort](../Leetcode-Leetcode-Sorting-Summary/)                   | Dynamic Programming   |
+| Hash-Table                                                                | Merge Sorting                                                   | Big O time & Space    |
+| Heaps                                                                     | Quick Sorting                                                   | Greedy                |
+|                                                                           |                                                                 | Divide-And-Conquer    |
+
+Other algorithm will include: Math, Two Points, Recursion, Divide-And-Conquer, Combinations and Permutations
 
 > This table include: Question Number, Questions Name, Question Difficulty, Question Type, And when I did it.
 
@@ -24,5 +34,5 @@ table th:nth-of-type(2) {
 </style>
 
 <!--more-->
-| # | Title                                                                                                             | Difficulty   | Topics   | Times   |
-| :--- | :---------------------------------------------------------------------------------------------------------------- | :----- | :----- | :--------- |
+| #    | Title | Difficulty | Topics | Times |
+| :--- | :---- | :--------- | :----- | :---- |
