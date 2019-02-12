@@ -9,10 +9,22 @@ notshow: true
 top:
 ---
 
-> All the pictures in this post are coming from the video: 
-> [花花酱 LeetCode Binary Search - 刷题找工作 SP5](https://www.youtube.com/watch?v=v57lNF2mb_s) 
+> All the pictures in this post are coming from the video:
+> [花花酱 LeetCode Binary Search - 刷题找工作 SP5](https://www.youtube.com/watch?v=v57lNF2mb_s)
 
 # Summary
+
+Binary search is an efficient algorithm for finding an item from a sorted list of items. It **works by repeatedly dividing in half the portion of the list that could contain the item,** until you've narrowed down the possible locations to just one.
+
+> For example, binary search in the guessing game. Here, try it for a number from 1 to 300. You should need no more than 9 guesses.
+
+Here's a step-by-step description of using binary search to play the guessing game:
+1. Let min = 1 min=1 and max = nmax=n.
+2. Guess the average of maxmax and minmin, rounded down so that it is an integer.
+3. If you guessed the number, stop. You found it!
+4. If the guess was too low, set minmin to be one larger than the guess.
+5. If the guess was too high, set maxmax to be one smaller than the guess.
+6. Go back to step two.
 
 The feature for the Binary Search is: **Fast, Fast, Fast**. O(log(n))
 

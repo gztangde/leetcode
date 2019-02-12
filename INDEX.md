@@ -4,7 +4,22 @@ I have solved **SOLVEDNUMBER / 980** problems. I use this page to record the que
 
 **Last Updated:** UPDATETIMESTAMP
 
-Here's a list of absolute, must-have knowledge. For each of these topics, make sure you understand how to use and implement then and, where applicable, the space and time 
+Here's a list of absolute, must-have knowledge. For each of these topics, make sure you understand **how to use and implement then and, where applicable, the space and time**.
+
+<style>
+table th:nth-of-type(1) {
+    width: 30%;
+}
+
+table th:nth-of-type(2) {
+    width: 30%;
+}
+
+table th:nth-of-type(3) {
+    width: 40%;
+}
+
+</style>
 
 | Data Structures                                                           | Algorithm                                                       | Concepts              |
 | ------------------------------------------------------------------------- | --------------------------------------------------------------- | --------------------- |
