@@ -49,6 +49,8 @@ Return the element repeated  `N`  times.
 
 # Solution
 
+## Solution 1: Ust Set
+
 ```cpp
 class Solution {
  public:
@@ -59,6 +61,53 @@ class Solution {
         return A[i];
       else
         rec.insert(A[i]);
+    }
+  }
+};
+```
+
+## Solution 2: Use Hash-Table
+
+```cpp
+class Solution {
+ public:
+  int repeatedNTimes(vector<int>& A) {
+    int n = A.size();
+    unordered_map<int, int> m;
+    for (int& a : A) {
+      if (++m[a] >= n / 2) return a;
+    }
+    return 0;
+  }
+};
+```
+
+## Solution 3: Use array
+
+This solution come from https://leetcode.com/yubowenok/
+
+> Runtime: 52 ms, faster than 36.81% of C++ online submissions for N-Repeated Element in Size 2N Array.
+> Memory Usage: 11.1 MB, less than 0.94% of C++ online submissions for N-Repeated Element in Size 2N Array.
+
+```cpp
+typedef long long ll;
+typedef vector<int> VI;
+typedef pair<int,int> PII;
+
+#define REP(i,s,t) for(int i=(s);i<(t);i++)
+#define FILL(x,v) memset(x,v,sizeof(x))
+
+const int INF = (int)1E9;
+#define MAXN 10005
+
+int cnt[MAXN];
+class Solution {
+public:
+  int repeatedNTimes(vector<int>& A) {
+    FILL(cnt, 0);
+    int n = A.size() / 2, ans = -1;
+    REP(i,0,2*n) {
+      if (++cnt[A[i]] >= n) return A[i];
     }
   }
 };
