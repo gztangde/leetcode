@@ -8,30 +8,35 @@ typedef pair<int, int> PII;
 const int INF = (int)1E9;
 #define MAXN 100005
 
-int rep[26];
+int s[MAXN];
+
+void add(int k, int v) {
+  k++;
+  for (; k < MAXN; k += -k & k) s[k] = min(s[k], v);
+}
+
+int get(int k) {
+  if (k < 0) return INF;
+  k++;
+  int ans = INF;
+  for (; k; k -= -k & k) ans = min(ans, s[k]);
+  return ans;
+}
 
 class Solution {
  public:
-  bool equationsPossible(vector<string>& equations) {
-    REP(i, 0, 26) rep[i] = i;
-    REP(i, 0, equations.size()) {
-      int a = equations[i][0] - 'a', b = equations[i][3] - 'a', eq = equations[i][1] == '=';
-      if (eq) unionset(a, b);
-    }
-    REP(i, 0, equations.size()) {
-      int a = equations[i][0] - 'a', b = equations[i][3] - 'a', eq = equations[i][1] == '=';
-      if (!eq) {
-        if (find(a) == find(b)) return false;
+  int maxWidthRamp(vector<int>& A) {
+    int n = A.size();
+    REP(i, 0, MAXN) s[i] = INF;
+    int ans = 0;
+    REP(i, 1, n + 1) {
+      int v = A[i - 1];
+      int idx = get(v);
+      if (idx != INF && idx >= 1) {
+        ans = max(ans, i - idx);
       }
+      add(v, i);
     }
-    return true;
-  }
-
- private:
-  int find(int x) { return rep[x] == x ? x : rep[x] = find(rep[x]); }
-  void unionset(int x, int y) {
-    int rx = find(x), ry = find(y);
-    if (rx == ry) return;
-    rep[rx] = ry;
+    return ans;
   }
 };

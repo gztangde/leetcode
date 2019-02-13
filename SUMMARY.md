@@ -1,6 +1,7 @@
 ## Summary
 
 * [All Leetcode Questions](./INDEX.md)
+* [Leetcode Template](./summary/2019-01-13-Leetcode-Template-Summary.md)
 * [Tree Summary](./summary/2019-01-12-Leetcode-Tree-Summary.md)
   * [Build Binary Tree](./summary/2019-02-03-Leetcode-Tree-Build.md)
 * [Sorting](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
@@ -457,3 +458,4 @@
 * [Leetcode 260. Single Number III](./Leetcode-260-Single-Number-III.md)* [Leetcode 992. Subarrays with K Different Integers](./Leetcode-992-Subarrays-with-K-Different-Integers.md)
 * [Leetcode 989. Add to Array Form of Integer](./Leetcode-989-Add-to-Array-Form-of-Integer.md)
 * [Leetcode 990. Satisfiability of Equality Equations](./Leetcode-990-Satisfiability-of-Equality-Equations.md)
+* [Leetcode 962. Maximum Width Ramp](./Leetcode-962-Maximum-Width-Ramp.md)
