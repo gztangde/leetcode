@@ -86,10 +86,6 @@ class Solution {
           }
         }
       }
-      // for (auto cell : cells) {
-      //   std::cout << cell << ", ";
-      // }
-      // std::cout << std::endl;
     }
     return cells;
   }
