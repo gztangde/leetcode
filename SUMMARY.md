@@ -13,6 +13,11 @@
 
 * [Summary](./summary/2019-01-26-Leetcode-Algorithm-Linked-List-Array.md)
 * [Array](./Leetcode-20-Valid-Parentheses.md)
+  * Subarray
+    * [Subarray Sum Equals K](./Leetcode-560-Subarray-Sum-Equals-K.md)
+    * [Longest Turbulent Subarray](./Leetcode-978-Longest-Turbulent-Subarray.md)
+    * [Minimum Size Subarray Sum](./Leetcode-209-Minimum-Size-Subarray-Sum.md)
+    * [Subarray Sums Divisible by K](./Leetcode-974-Subarray-Sums-Divisible-by-K.md)
   * [Two Sum-HashTable](./Leetcode-1-Two-Sum.md)
   * [3Sum](./Leetcode-15-3Sum.md)
   * [3Sum Closest](./Leetcode-16-3Sum-Closest.md)
@@ -57,9 +62,7 @@
   * [Subsets](./Leetcode-78-Subsets.md)
   * [TODO:Subset II](./Leetcode-90-Subset-II.md)
   * [Combinations](./Leetcode-77-Combinations.md)
-  * [Subarray Sum Equals K](./Leetcode-560-Subarray-Sum-Equals-K.md)
   * [Array Partition I](./Leetcode-561-Array-Partition-I.md)
-  * [Longest Turbulent Subarray](./Leetcode-978-Longest-Turbulent-Subarray.md)
   * [Valid Mountain Array](./Leetcode-941-Valid-Mountain-Array.md)
   * [Partition Array into Disjoint Intervals](./Leetcode-915-Partition-Array-into-Disjoint-Intervals.md)
   * [Fair Candy Swap](./Leetcode-888-Fair-Candy-Swap.md)
@@ -450,7 +453,6 @@
 * [Leetcode 984. String Without AAA or BBB](./Leetcode-984-String-Without-AAA-or-BBB.md)
 * [Leetcode 632. Smallest Range](./Leetcode-632-Smallest-Range.md)
 * [Leetcode 76. Minimum Window Substring](./Leetcode-76-Minimum-Window-Substring.md)
-* [Leetcode 209. Minimum Size Subarray Sum](./Leetcode-209-Minimum-Size-Subarray-Sum.md)
 * [Leetcode 718. Maximum Length of Repeated Subarray](./Leetcode-718-Maximum-Length-of-Repeated-Subarray.md)
 * [Leetcode 763. Partition Labels](./Leetcode-763-Partition-Labels.md)
 * [Leetcode 844. Backspace String Compare](./Leetcode-844-Backspace-String-Compare.md)
@@ -462,3 +464,4 @@
 * [Leetcode 963. Minimum Area Rectangle II](./Leetcode-963-Minimum-Area-Rectangle-II.md)
 * [Leetcode 958. Check Completeness of a Binary Tree](./Leetcode-958-Check-Completeness-of-a-Binary-Tree.md)
 * [Leetcode 957. Prison Cells After N Days](./Leetcode-957-Prison-Cells-After-N-Days.md)
+
