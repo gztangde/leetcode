@@ -1,64 +1,33 @@
-typedef long long ll;
-typedef vector<int> VI;
-typedef pair<int, int> PII;
-
-#define REP(i, s, t) for (int i = (s); i < (t); i++)
-#define FILL(x, v) memset(x, v, sizeof(x))
-
-const int INF = (int)2E9;
-#define MAXN 100005
-
 class Solution {
  public:
-  ll dist(vector<vector<int>>& pts, int i, int j) {
-    ll dx = pts[i][0] - pts[j][0];
-    ll dy = pts[i][1] - pts[j][1];
-    return dx * dx + dy * dy;
-  }
   double minAreaFreeRect(vector<vector<int>>& points) {
     int n = points.size();
-    double ans = 1e18;
-    bool found = false;
-    REP(i, 0, n) {
-      REP(j, i + 1, n) {
-        REP(k, j + 1, n) {
-          REP(t, k + 1, n) {
-            ll a = dist(points, i, j);
-            ll b = dist(points, i, k);
-            ll c = dist(points, i, t);
-            ll d = dist(points, j, k);
-            //后面藏歌是对角线
-            ll e = dist(points, j, t);
-            ll f = dist(points, k, t);
-            vector<ll> es({a, b, c, d, e, f});
-            sort(es.begin(), es.end());
-            if (es[0] != es[1] || es[2] != es[3] || es[4] != es[5] || es[0] + es[2] != es[4]) continue;
-            
-            vector<ll> ss({es[0], es[2], es[4]});
-            vector<ll> ei({a, b, c});
+    bool find = false;
+    double ans = INT_MAX;
+    vector<vector<int>>& P = points;
+    for (int a = 0; a < n; ++a)
+      for (int b = 0; b < n; ++b)
+        for (int c = 0; c < n; ++c)
+          for (int d = 0; d < n; ++d) {
+            if (a == b || a == c || a == d || b == c || b == d || c == d) continue;
+            if (P[a][0] - P[b][0] != P[d][0] - P[c][0]) continue;
+            // Deal with the parallel sides
+            if (P[a][1] - P[b][1] != P[d][1] - P[c][1]) continue;
 
-            sort(ei.begin(), ei.end());
-            if (ei != ss) continue;
+            double x1 = P[a][0] - P[b][0];
+            double x2 = P[c][0] - P[b][0];
+            double y1 = P[a][1] - P[b][1];
+            double y2 = P[c][1] - P[b][1];
 
-            vector<ll> ej({a, d, e});
-            sort(ej.begin(), ej.end());
-            if (ej != ss) continue;
-
-            vector<ll> ek({b, d, f});
-            sort(ek.begin(), ek.end());
-            if (ek != ss) continue;
-
-            vector<ll> et({c, e, f});
-            sort(et.begin(), et.end());
-            if (et != ss) continue;
-
-            found = true;
-            ans = min(ans, sqrt(es[0]) * sqrt(es[2]));
+            if (x1 * x2 + y1 * y2 == 0) {
+              double area = abs(x1 * y2 - x2 * y1);
+              if (area > 0 && area < ans) {
+                find = true;
+                ans = area;
+              }
+            }
           }
-        }
-      }
-    }
-    if (!found) return 0;
+    if (!find) return 0;
     return ans;
   }
 };

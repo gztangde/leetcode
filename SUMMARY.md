@@ -460,3 +460,4 @@
 * [Leetcode 990. Satisfiability of Equality Equations](./Leetcode-990-Satisfiability-of-Equality-Equations.md)
 * [Leetcode 962. Maximum Width Ramp](./Leetcode-962-Maximum-Width-Ramp.md)
 * [Leetcode 963. Minimum Area Rectangle II](./Leetcode-963-Minimum-Area-Rectangle-II.md)
+* [Leetcode 958. Check Completeness of a Binary Tree](./Leetcode-958-Check-Completeness-of-a-Binary-Tree.md)
