@@ -43,3 +43,22 @@ void rprintf(const char *fmt, Iter begin, Iter end) {
   putchar('\n');
 }
 ```
+
+如果你并不知道你需要申请的 `int` 类型在机器上的空间大小的话, 就需要使用 `sizeof` 函数来判断.
+
+```cpp
+int *c = (int*)malloc(100 * sizeof(int))
+```
+
+Stack 的应用, 在递归的时候就会使用到这种情况.
+
+Programming Practice:
+
+The interviewer says: "Write for me a program in C++ that takes as input a list of names, and prints out each name that appears in the list multiple times."
+
+在使用 Linked List 的时候,不要使用下面这种方式, 这样会导致内存泄露
+
+```cpp
+Node* temp = new Node;
+temp = n;
+```
