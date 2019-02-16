@@ -87,3 +87,10 @@ class Solution {
 ```
 
 当然,我们將`if (numsMap.find(diff) != numsMap.end())` 修改为`if (m_.count(diff))`也是可以的,都是判断在`HashTable`里面是否有该元素.
+
+## Solution 2
+
+这道题目我们可以选择先进行排序的方式来处理:
+
+* Step 1: **Sort** the numbers (We'll soon see how this can be done in $O(N \log N)$ time).
+* Step 2: For each number X in the array, use `Binary Search` to see `42 - X` is also present in the array. Total Time: $N * O(\log n) = O(N \log N)$.

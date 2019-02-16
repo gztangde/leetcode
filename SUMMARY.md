@@ -304,6 +304,8 @@
   * [Merge Intervals](./Leetcode-56-Merge-Intervals.md)
   * [Interval List Intersections](./Leetcode-986-Interval-List-Intersections.md)
 
+------------
+
 ## Binary Search
 
 * [Summary](./summary/2019-01-15-Algorithms-Binary-Search.md)
