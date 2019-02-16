@@ -62,3 +62,30 @@ The interviewer says: "Write for me a program in C++ that takes as input a list 
 Node* temp = new Node;
 temp = n;
 ```
+
+在使用 Linked List 的时候, 应该检查当前结点, 不要使用下一个结点作为检查
+
+```cpp
+while(temp->next != nullptr) {
+  temp = temp->next;
+}
+这种写的办法, 如果Linked list 是空的话, 这样代码会崩溃. 应该写成:
+
+while(temp != nullptr) {
+
+}
+```
+
+如何测试你的代码的运行时间:
+
+```bash
+seq 20000 > | input : time ./a.out < input
+```
+
+
+Computer sciencist Abstraction
+
+* Don't think about everything at once.
+* Don't worry about irrelevant low-level details when thinking about a high-level idea.
+* However, this doesn't mean you can ignore the low-level details -- these may have a large impact on performance, and can sometimes cause unexpected behavior.
+* It often helps to know as much of technology **Stack** as possible ...
