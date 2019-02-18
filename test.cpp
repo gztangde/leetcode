@@ -1,22 +1,40 @@
-unordered_map<int, int> count;
-unordered_map<int, unordered_set<int>> cand;
-int res = 0;
-int numSquarefulPerms(vector<int> &A) {
-  for (int &a : A) count[a]++;
-  for (auto &i : count) {
-    for (auto &j : count) {
-      int x = i.first, y = j.first, s = sqrt(x + y);
-      if (s * s == x + y) cand[x].insert(y);
-    }
-  }
-  for (auto e : count) dfs(e.first, A.size() - 1);
-  return res;
-}
+class Solution {
+ public:
+  int numSquarefulPerms(vector<int>& A) {
+    const int n = A.size();
+    // For deduplication.
+    std::sort(begin(A), end(A));
+    // g[i][j] == 1 if A[i], A[j] are squareful.
+    vector<vector<int>> g(n, vector<int>(n, 0));
+    // dp[s][i] := number of ways to reach state s and ends with node i.
+    vector<vector<int>> dp(1 << n, vector<int>(n));
 
-void dfs(int x, int left) {
-  count[x]--;
-  if (!left) res++;
-  for (int y : cand[x])
-    if (count[y] > 0) dfs(y, left - 1);
-  count[x]++;
-}
+    for (int i = 0; i < n; ++i) {
+      for (int j = 0; j < n; ++j) {
+        if (i == j) continue;
+        int r = sqrt(A[i] + A[j]);
+        if (r * r == A[i] + A[j]) g[i][j] = 1;
+      }
+    }
+
+    // For the same numbers, only the first one can be the starting point.
+    for (int i = 0; i < n; ++i)
+      if (i == 0 || A[i] != A[i - 1]) dp[(1 << i)][i] = 1;
+
+    int ans = 0;
+    for (int s = 0; s < (1 << n); ++s)
+      for (int i = 0; i < n; ++i) {
+        if (!dp[s][i]) continue;
+        for (int j = 0; j < n; ++j) {
+          if (!g[i][j]) continue;
+          if (s & (1 << j)) continue;
+          // Only the first one can be used as the dest.
+          if (j > 0 && !(s & (1 << (j - 1))) && A[j - 1] == A[j]) continue;
+          dp[s | (1 << j)][j] += dp[s][i];
+        }
+      }
+
+    for (int i = 0; i < n; ++i) ans += dp[(1 << n) - 1][i];
+    return ans;
+  }
+};
