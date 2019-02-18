@@ -77,3 +77,75 @@ class Solution {
   }
 };
 ```
+
+## Solution 1: DFS
+
+```cpp
+// Runtime: 32 ms, faster than 72.85% of C++ online submissions for Permutations II.
+// Memory Usage: 10 MB, less than 100.00% of C++ online submissions for Permutations II.
+class Solution {
+ public:
+  vector<vector<int>> permuteUnique(vector<int>& nums) {
+    vector<vector<int>> ans;
+    sort(nums.begin(), nums.end());
+    vector<int> out;
+    vector<int> used(nums.size(), 0);
+    permuteUniqueDFS(nums, used, out, ans);
+    return ans;
+  }
+
+ private:
+  void permuteUniqueDFS(vector<int>& nums, vector<int>& used, vector<int>& out, vector<vector<int>>& ans) {
+    if (out.size() == nums.size()) {
+      ans.emplace_back(out);
+      return;
+    }
+
+    for (int i = 0; i < nums.size(); ++i) {
+      if (used[i]) continue;
+      // Same number can be only used once at each depth.
+      if (i > 0 && nums[i] == nums[i - 1] && !used[i - 1]) continue;
+      used[i] = 1;
+      out.emplace_back(nums[i]);
+      permuteUniqueDFS(nums, used, out, ans);
+      out.pop_back();
+      used[i] = 0;
+    }
+  }
+};
+```
+
+## Solution 2: 迭代
+
+```cpp
+// Runtime: 28 ms, faster than 100.00% of C++ online submissions for Permutations II.
+// Memory Usage: 9.8 MB, less than 100.00% of C++ online submissions for Permutations II.
+class Solution {
+ public:
+  vector<vector<int>> permuteUnique(vector<int>& nums) {
+    sort(nums.begin(), nums.end());
+    vector<vector<int>> res;
+    do {
+      res.emplace_back(nums);
+    } while (nextPermutation(nums, 0, nums.size() - 1));
+    return res;
+  }
+
+ private:
+  bool nextPermutation(vector<int>& v, int left, int right) {
+    if (left >= right) return false;
+
+    int i, j;
+    i = right - 1;
+    while (i >= left && v[i] >= v[i + 1]) --i;
+    if (i < left) return false;
+
+    j = right;
+    while (v[i] >= v[j]) --j;
+
+    std::swap(v[i], v[j]);
+    std::reverse(v.begin() + i + 1, v.begin() + right + 1);
+    return true;
+  }
+};
+```

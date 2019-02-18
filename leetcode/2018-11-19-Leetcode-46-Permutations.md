@@ -80,3 +80,67 @@ class Solution {
   }
 };
 ```
+
+## Solution 1: DFS
+
+```cpp
+// Runtime: 16 ms, faster than 100.00% of C++ online submissions for Permutations.
+// Memory Usage: 9.4 MB, less than 100.00% of C++ online submissions for Permutations.
+class Solution {
+ public:
+  vector<vector<int>> permute(vector<int>& nums) {
+    vector<vector<int>> ans;
+    vector<int> out;
+    permuteDFS(nums, out, ans);
+    return ans;
+  }
+
+ private:
+  void permuteDFS(vector<int>& nums, vector<int>& out, vector<vector<int>>& ans) {
+    if (out.size() == nums.size()) {
+      ans.emplace_back(out);
+      return;
+    }
+
+    for (int& num : nums) {
+      if (find(out.begin(), out.end(), num) != out.end()) continue;
+      out.emplace_back(num);
+      permuteDFS(nums, out, ans);
+      out.pop_back();
+    }
+  }
+};
+```
+
+下面这种解法, 不使用中间变量的方式来完成:(前提是给的数据是没有重复的元素的)
+
+```cpp
+// Runtime: 16 ms, faster than 100.00% of C++ online submissions for Permutations.
+// Memory Usage: 9.3 MB, less than 100.00% of C++ online submissions for Permutations.
+
+class Solution {
+ public:
+  vector<vector<int> > permute(vector<int> &num) {
+    vector<vector<int> > ans;
+    permuteRecursive(num, 0, ans);
+    return ans;
+  }
+
+  // permute num[begin..end]
+  // invariant: num[0..begin-1] have been fixed/permuted
+  void permuteRecursive(vector<int> &num, int begin, vector<vector<int> > &ans) {
+    if (begin >= num.size()) {
+      // one permutation instance
+      ans.emplace_back(num);
+      return;
+    }
+
+    for (int i = begin; i < num.size(); i++) {
+      swap(num[begin], num[i]);
+      permuteRecursive(num, begin + 1, ans);
+      // reset
+      swap(num[begin], num[i]);
+    }
+  }
+};
+```

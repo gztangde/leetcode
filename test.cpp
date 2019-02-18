@@ -1,13 +1,33 @@
+// Runtime: 28 ms, faster than 100.00% of C++ online submissions for Permutations II.
+// Memory Usage: 9.8 MB, less than 100.00% of C++ online submissions for Permutations II.
 class Solution {
  public:
-  int subarraysDivByK(vector<int>& A, int K) {
-    vector<int> count(K);
-    count[0] = 1;
-    int prefix = 0, res = 0;
-    for (int a : A) {
-      prefix = (prefix + a % K + K) % K;
-      res += count[prefix]++;
-    }
+  vector<vector<int>> permuteUnique(vector<int>& nums) {
+    sort(nums.begin(), nums.end());
+    int n = nums.size();
+    vector<vector<int>> res;
+    do {
+      res.push_back(nums);
+    } while (nextPermutation(nums, 0, n - 1));
     return res;
+  }
+
+ private:
+  bool nextPermutation(vector<int>& v, int left, int right) {
+    if (left >= right) return false;
+
+    int i, j;
+    i = right - 1;
+    while (i >= left && v[i] >= v[i + 1]) {
+      --i;
+    }
+    if (i < left) return false;
+
+    j = right;
+    while (v[i] >= v[j]) --j;
+
+    std::swap(v[i], v[j]);
+    std::reverse(v.begin() + i + 1, v.begin() + right + 1);
+    return true;
   }
 };
