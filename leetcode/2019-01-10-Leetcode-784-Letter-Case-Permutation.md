@@ -41,25 +41,59 @@ Given a string S, we can transform every letter individually to be lowercase or 
 
 # Solution
 
+##　Solution 1: DFS
+
 ```cpp
-// Runtime: 4ms
+// Runtime: 16 ms, faster than 100.00% of C++ online submissions for Letter Case Permutation.
+// Memory Usage: 12.9 MB, less than 100.00% of C++ online submissions for Letter Case Permutation.
 class Solution {
  public:
   vector<string> letterCasePermutation(string S) {
     vector<string> ans;
-    lcp(S, 0, ans);
+    letterCasePermutationDFS(S, 0, ans);
+    return ans;
+  }
+  void letterCasePermutationDFS(string& S, int index, vector<string>& ans) {
+    if (index == S.length()) {
+      ans.emplace_back(S);
+      return;
+    }
+    letterCasePermutationDFS(S, index + 1, ans);
+    if (!isalpha(S[index])) return;
+    isupper(S[index]) ? S[index] = std::tolower(S[index]) : S[index] = std::toupper(S[index]);
+    letterCasePermutationDFS(S, index + 1, ans);
+  }
+};
+```
+
+后面这一种解法对字母大小写转换的地方做了一些改变： 来源于博客：[花花酱 LeetCode 784. Letter Case Permutation](https://zxi.mytechroad.com/blog/searching/leetcode-784-letter-case-permutation/)
+
+ASCII:
+* Uppercase A-Z: 65 - 90
+* Lowercase a-z: 97 - 122
+
+`a` - `A` = 32, `a` ^ (1 << 5) = `A`;
+
+```cpp
+class Solution {
+ public:
+  vector<string> letterCasePermutation(string S) {
+    vector<string> ans;
+    dfs(S, 0, ans);
     return ans;
   }
 
-  void lcp(string& s, int p, vector<string>& ans) {
-    if (p == s.length()) {
-      ans.emplace_back(s);
+ private:
+  void dfs(string& S, int s, vector<string>& ans) {
+    if (s == S.length()) {
+      ans.push_back(S);
       return;
     }
-    lcp(s, p + 1, ans);
-    if (!isalpha(s[p])) return;
-    isupper(s[p]) ? s[p] = std::tolower(s[p]) : s[p] = std::toupper(s[p]);
-    lcp(s, p + 1, ans);
+    dfs(S, s + 1, ans);
+    if (!isalpha(S[s])) return;
+    S[s] ^= (1 << 5);
+    dfs(S, s + 1, ans);
+    S[s] ^= (1 << 5);
   }
 };
 ```
