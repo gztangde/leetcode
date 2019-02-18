@@ -2,6 +2,8 @@
 
 ## Leetcode 17. Letter Combinations of a Phone Number
 
+这就是一对一翻译的情况，没有特殊处理
+
 ```cpp
 class Solution {
  public:
@@ -27,35 +29,9 @@ class Solution {
 };
 ```
 
-## Leetcode 39. Combination Sum
-
-```cpp
-class Solution {
- public:
-  vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-    if (candidates.empty()) return {{}};
-    sort(candidates.begin(), candidates.end());
-    vector<vector<int>> ans;
-    vector<int> out;
-    combinationSumDFS(candidates, target, 0, out, ans);
-    return ans;
-  }
-  void combinationSumDFS(vector<int>& candidates, int target, int index, vector<int>& out, vector<vector<int>>& ans) {
-    if (target == 0) {
-      ans.emplace_back(out);
-      return;
-    }
-    for (int i = index; i < candidates.size(); ++i) {
-      if (candidates[i] > target) break;
-      out.push_back(candidates[i]);
-      combinationSumDFS(candidates, target - candidates[i], i, out, ans);
-      out.pop_back();
-    }
-  }
-};
-```
-
 ## Leetcode 77. Combinations
+
+计算一个数组里面可能的所有组合，这道题目唯一的要求就是同一个位置的数据不出现多遍就好
 
 ```cpp
 // Runtime: 104 ms, faster than 71.52% of C++ online submissions for Combinations.
@@ -85,7 +61,39 @@ class Solution {
 };
 ```
 
+## Leetcode 39. Combination Sum
+
+同一个数据可以多次使用
+
+```cpp
+class Solution {
+ public:
+  vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+    if (candidates.empty()) return {{}};
+    sort(candidates.begin(), candidates.end());
+    vector<vector<int>> ans;
+    vector<int> out;
+    combinationSumDFS(candidates, target, 0, out, ans);
+    return ans;
+  }
+  void combinationSumDFS(vector<int>& candidates, int target, int index, vector<int>& out, vector<vector<int>>& ans) {
+    if (target == 0) {
+      ans.emplace_back(out);
+      return;
+    }
+    for (int i = index; i < candidates.size(); ++i) {
+      if (candidates[i] > target) break;
+      out.push_back(candidates[i]);
+      combinationSumDFS(candidates, target - candidates[i], i, out, ans);
+      out.pop_back();
+    }
+  }
+};
+```
+
 ## Leetcode 40. Combination Sum II
+
+同一个数据不可以多次使用
 
 ```cpp
 class Solution {
@@ -116,6 +124,8 @@ class Solution {
 ```
 
 ## Leetcode 216. Combination Sum III
+
+Given that only numbers from 1 to 9 can be used and each combination should be a unique set of numbers. (The solution set must not contain duplicate combinations.)
 
 ```cpp
 class Solution {

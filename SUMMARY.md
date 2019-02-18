@@ -405,8 +405,6 @@
 
 * [Number of Atoms](./Leetcode-726-Number-of-Atoms.md)
 
-
-
 ## Design
 
 * [Task Scheduler](./Leetcode-621-Task-Scheduler.md)
