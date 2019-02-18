@@ -319,6 +319,8 @@
   * [Permutations](./Leetcode-46-Permutations.md)
   * [Permutations II](./Leetcode-47-Permutations-II.md)
   * [Letter Case Permutation](./Leetcode-784-Letter-Case-Permutation.md)
+  * [Find the Shortest Superstring](./Leetcode-943-Find-the-Shortest-Superstring.md)
+  * [Number of Squareful Arrays](./Leetcode-996-Number-of-Squareful-Arrays.md)
 
 ## Depth-First-Search
 
@@ -477,5 +479,4 @@
 * [Leetcode 993. Cousins in Binary Tree](./Leetcode-993-Cousins-in-Binary-Tree.md)
 * [Leetcode 994. Rotting Oranges](./Leetcode-994-Rotting-Oranges.md)
 
-* [Leetcode 943. Find the Shortest Superstring](./Leetcode-943-Find-the-Shortest-Superstring.md)
-* [Leetcode 996. Number of Squareful Arrays](./Leetcode-996-Number-of-Squareful-Arrays.md)
+
