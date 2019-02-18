@@ -66,3 +66,77 @@ class Solution {
   }
 };
 ```
+
+## Solution 1: DFS
+
+这种解法的难点在于要保证没有重复数据的情况出现, 这就要求, 不能有后面的数字又重新来前面的数据来计算和的情况.
+
+```cpp
+// Runtime: 20 ms, faster than 75.37% of C++ online submissions for Combination Sum.
+// Memory Usage: 10.3 MB, less than 100.00% of C++ online submissions for Combination Sum.
+class Solution {
+ public:
+  vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+    if (candidates.empty()) return {{}};
+    sort(candidates.begin(), candidates.end());
+    vector<vector<int>> ans;
+    vector<int> out;
+    combinationSumDFS(candidates, target, 0, out, ans);
+    return ans;
+  }
+  void combinationSumDFS(vector<int>& candidates, int target, int index, vector<int>& out, vector<vector<int>>& ans) {
+    if (target == 0) {
+      ans.emplace_back(out);
+      return;
+    }
+    if (target < 0) return;
+    for (int i = index; i < candidates.size(); ++i) {
+      int x = candidates[i];
+      out.push_back(x);
+      combinationSumDFS(candidates, target - x, i, out, ans);
+      out.pop_back();
+    }
+  }
+};
+```
+
+这道题目也可以不先排序也是可以的的, 能够得到一样的结果
+
+```cpp
+// Runtime: 20 ms, faster than 75.37% of C++ online submissions for Combination Sum.
+// Memory Usage: 10.3 MB, less than 100.00% of C++ online submissions for Combination Sum.
+class Solution {
+ public:
+  vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+    if (candidates.empty()) return {{}};
+    vector<vector<int>> ans;
+    vector<int> out;
+    combinationSumDFS(candidates, target, 0, out, ans);
+    return ans;
+  }
+  void combinationSumDFS(vector<int>& candidates, int target, int index, vector<int>& out, vector<vector<int>>& ans) {
+    if (target == 0) {
+      ans.emplace_back(out);
+      return;
+    }
+    if (target < 0) return;
+    for (int i = index; i < candidates.size(); ++i) {
+      int x = candidates[i];
+      out.push_back(x);
+      combinationSumDFS(candidates, target - x, i, out, ans);
+      out.pop_back();
+    }
+  }
+};
+```
+
+在循环计算的时候可以换一种处理方式
+
+```cpp
+for (int i = index; i < candidates.size(); ++i) {
+  if (candidates[i] > target) break;
+  out.push_back(candidates[i]);
+  combinationSumDFS(candidates, target - candidates[i], i, out, ans);
+  out.pop_back();
+}
+```

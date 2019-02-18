@@ -45,7 +45,7 @@ Each number in  `candidates` may only be used  **once**  in the combination.
 
 # Solution
 
-···cpp
+```cpp
 class Solution {
  public:
   vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
@@ -65,6 +65,38 @@ class Solution {
       temp.emplace_back(candidates[i]);
       findcombinationSum(candidates, target - candidates[i], i + 1, temp, res);
       temp.pop_back();
+    }
+  }
+};
+```
+
+## Solution 2: DFS
+
+这道题目的变化, 就是不能够重复使用元素, 如果出现重复的情况, 要去掉
+
+```cpp
+class Solution {
+ public:
+  vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
+    vector<vector<int>> ans;
+    sort(candidates.begin(), candidates.end());
+    vector<int> out;
+    combinationSum2DFS(candidates, target, 0, out, ans);
+    return ans;
+  }
+
+ private:
+  void combinationSum2DFS(vector<int>& c, int target, int index, vector<int>& out, vector<vector<int>>& ans) {
+    if (target == 0) {
+      ans.emplace_back(out);
+      return;
+    }
+    for (int i = index; i < c.size(); ++i) {
+      if (i > index && c[i] == c[i - 1]) continue;
+      if (c[i] > target) break;
+      out.emplace_back(c[i]);
+      combinationSum2DFS(c, target - c[i], i + 1, out, ans);
+      out.pop_back();
     }
   }
 };

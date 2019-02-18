@@ -37,6 +37,38 @@ Example:
 
 # Solution
 
+## Solution 1 : DFS
+
+```cpp
+// Runtime: 8 ms, faster than 100.00% of C++ online submissions for Subsets.
+// Memory Usage: 9 MB, less than 100.00% of C++ online submissions for Subsets.
+class Solution {
+ public:
+  vector<vector<int>> subsets(vector<int>& nums) {
+    if (nums.empty()) return {{}};
+    sort(nums.begin(), nums.end());
+    vector<vector<int>> ans;
+    vector<int> out;
+    ans.emplace_back(out);
+    subsetsDFS(nums, 0, out, ans);
+    return ans;
+  }
+
+ private:
+  void subsetsDFS(vector<int>& nums, int index, vector<int>& out, vector<vector<int>>& ans) {
+    if (index == nums.size()) return;
+    for (int i = index; i < nums.size(); ++i) {
+      out.emplace_back(nums[i]);
+      ans.emplace_back(out);
+      subsetsDFS(nums, i + 1, out, ans);
+      out.pop_back();
+    }
+  }
+};
+```
+
+## Solution 2: BFS
+
 ```cpp
 // Non-recursion
 class Solution {

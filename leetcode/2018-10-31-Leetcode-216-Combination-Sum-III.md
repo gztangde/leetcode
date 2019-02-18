@@ -56,3 +56,30 @@ class Solution {
   }
 };
 ```
+
+## Solution 1 : DFS
+
+```cpp
+class Solution {
+ public:
+  vector<vector<int>> combinationSum3(int k, int n) {
+    vector<vector<int>> ans;
+    vector<int> out;
+    combinationSum3DFS(k, n, 1, out, ans);
+    return ans;
+  }
+
+ private:
+  void combinationSum3DFS(int k, int target, int index, vector<int>& out, vector<vector<int>>& ans) {
+    if (out.size() == k) {
+      if (target == 0) ans.emplace_back(out);
+      return;
+    }
+    for (int i = index; i < 10; ++i) {
+      out.emplace_back(i);
+      combinationSum3DFS(k, target - i, i + 1, out, ans);
+      out.pop_back();
+    }
+  }
+};
+```
