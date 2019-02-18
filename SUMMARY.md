@@ -478,3 +478,4 @@
 * [Leetcode 994. Rotting Oranges](./Leetcode-994-Rotting-Oranges.md)
 
 * [Leetcode 943. Find the Shortest Superstring](./Leetcode-943-Find-the-Shortest-Superstring.md)
+* [Leetcode 996. Number of Squareful Arrays](./Leetcode-996-Number-of-Squareful-Arrays.md)
