@@ -5,6 +5,8 @@
 * [Tree Summary](./summary/2019-01-12-Leetcode-Tree-Summary.md)
   * [Build Binary Tree](./summary/2019-02-03-Leetcode-Tree-Build.md)
 * [Sorting](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
+* Search
+  * [Combination](./summary/2019-02-18-Leetcode-Search-problems.md)
 * [Binary Search](./summary/2019-01-15-Algorithms-Binary-Search.md)
 * [Recursion And Dynamic Programming](./summary/2019-01-10-Leetcode-Recursion-And-Dynamic-Programming.md)
 * [Arrays and Strings](./summary/2019-02-10-Leetcode-Arrays-And-Strings-Summary.md)
@@ -59,9 +61,6 @@
   * [Excel Sheet Column Title](./Leetcode-168-Excel-Sheet-Column-Title.md)
   * [Excel Sheet Column Number](./Leetcode-171-Excel-Sheet-Column-Number.md)
   * [Max Consecutive Ones](./Leetcode-485-Max-Consecutive-Ones.md)
-  * [Subsets](./Leetcode-78-Subsets.md)
-  * [TODO:Subset II](./Leetcode-90-Subset-II.md)
-  * [Combinations](./Leetcode-77-Combinations.md)
   * [Array Partition I](./Leetcode-561-Array-Partition-I.md)
   * [Valid Mountain Array](./Leetcode-941-Valid-Mountain-Array.md)
   * [Partition Array into Disjoint Intervals](./Leetcode-915-Partition-Array-into-Disjoint-Intervals.md)
@@ -306,6 +305,34 @@
 
 ------------
 
+## Search
+
+* [Combination](./summary/2019-02-18-Leetcode-Search-problems.md)
+  * [Letter Combinations of a Phone Number](./Leetcode-17-Letter-Combinations-of-a-Phone-Number.md)
+  * [Combinations](./Leetcode-77-Combinations.md)
+  * [Combination Sum](./Leetcode-39-Combination-Sum.md)
+  * [Combination Sum II](./Leetcode-40-Combination-Sum-II.md)
+  * [Combination Sum III](./Leetcode-216-Combination-Sum-III.md)
+  * [Subsets](./Leetcode-78-Subsets.md)
+  * [Subset II](./Leetcode-90-Subset-II.md)
+* Permutation(BackTracking)
+  * [Permutations](./Leetcode-46-Permutations.md)
+  * [Permutations II](./Leetcode-47-Permutations-II.md)
+  * [Letter Case Permutation](./Leetcode-784-Letter-Case-Permutation.md)
+
+## Depth-First-Search
+
+* [Palindrome Partitioning](./Leetcode-131-Palindrome-Partitioning.md)
+* [Palindrome Partitioning II](./Leetcode-132-Palindrome-Partitioning-II.md)
+* [Restore IP Addresses](./Leetcode-93-Restore-IP-Addresses.md)
+* [Generate Parentheses](./Leetcode-22-Generate-Parentheses.md)
+* [Word Search](./Leetcode-79-Word-Search.md)
+* [Word Search II](./Leetcode-212-Word-Search-II.md)
+* [Unique Paths](./Leetcode-62-Unique-Paths.md)
+* [Unique Paths II](./Leetcode-63-Unique-Paths-II.md)
+* [Unique Paths III](./Leetcode-980-Unique-Paths-III.md)
+
+
 ## Binary Search
 
 * [Summary](./summary/2019-01-15-Algorithms-Binary-Search.md)
@@ -322,20 +349,6 @@
 * [Search a 2D Matrix](./Leetcode-74-Search-a-2D-Matrix.md)
 * [Sqrt x 3](./Leetcode-69-Sqrt-x-3.md)
 
-## Depth-First-Search
-
-* [Palindrome Partitioning](./Leetcode-131-Palindrome-Partitioning.md)
-* [Palindrome Partitioning II](./Leetcode-132-Palindrome-Partitioning-II.md)
-* [Restore IP Addresses](./Leetcode-93-Restore-IP-Addresses.md)
-* [Combination Sum](./Leetcode-39-Combination-Sum.md)
-* [Combination Sum II](./Leetcode-40-Combination-Sum-II.md)
-* [Combination Sum III](./Leetcode-216-Combination-Sum-III.md)
-* [Generate Parentheses](./Leetcode-22-Generate-Parentheses.md)
-* [Word Search](./Leetcode-79-Word-Search.md)
-* [Word Search II](./Leetcode-212-Word-Search-II.md)
-* [Unique Paths](./Leetcode-62-Unique-Paths.md)
-* [Unique Paths II](./Leetcode-63-Unique-Paths-II.md)
-* [Unique Paths III](./Leetcode-980-Unique-Paths-III.md)
 
 ## Breadth-First-Search
 
@@ -404,11 +417,6 @@
 * [LRU Cache](./Leetcode-146-LRU-Cache.md)
 * [Random Pick with Blacklist](./Leetcode-710-Random-Pick-with-Blacklist.md)
 
-## BackTracking
-
-* [Permutations](./Leetcode-46-Permutations.md)
-* [Permutations II](./Leetcode-47-Permutations-II.md)
-
 ## Others
 
 * [Valid Palindrome](./Leetcode-125-Valid-Palindrome.md)
@@ -459,7 +467,8 @@
 * [Leetcode 763. Partition Labels](./Leetcode-763-Partition-Labels.md)
 * [Leetcode 844. Backspace String Compare](./Leetcode-844-Backspace-String-Compare.md)
 * [Leetcode 581. Shortest Unsorted Continuous Subarray](./Leetcode-581-Shortest-Unsorted-Continuous-Subarray.md)
-* [Leetcode 260. Single Number III](./Leetcode-260-Single-Number-III.md)* [Leetcode 992. Subarrays with K Different Integers](./Leetcode-992-Subarrays-with-K-Different-Integers.md)
+* [Leetcode 260. Single Number III](./Leetcode-260-Single-Number-III.md)
+* [Leetcode 992. Subarrays with K Different Integers](./Leetcode-992-Subarrays-with-K-Different-Integers.md)
 * [Leetcode 989. Add to Array Form of Integer](./Leetcode-989-Add-to-Array-Form-of-Integer.md)
 * [Leetcode 990. Satisfiability of Equality Equations](./Leetcode-990-Satisfiability-of-Equality-Equations.md)
 * [Leetcode 962. Maximum Width Ramp](./Leetcode-962-Maximum-Width-Ramp.md)
@@ -469,4 +478,4 @@
 
 * [Leetcode 993. Cousins in Binary Tree](./Leetcode-993-Cousins-in-Binary-Tree.md)
 * [Leetcode 994. Rotting Oranges](./Leetcode-994-Rotting-Oranges.md)
-* [Leetcode 17. Letter Combinations of a Phone Number](./Leetcode-17-Letter-Combinations-of-a-Phone-Number.md)
+
