@@ -89,3 +89,11 @@ Computer sciencist Abstraction
 * Don't worry about irrelevant low-level details when thinking about a high-level idea.
 * However, this doesn't mean you can ignore the low-level details -- these may have a large impact on performance, and can sometimes cause unexpected behavior.
 * It often helps to know as much of technology **Stack** as possible ...
+
+
+
+Column A | Column B | Column C
+---------|----------|---------
+iPens X1智能触控手写笔] | 6880 | C1
+ A2 | B2 | C2
+ A3 | B3 | C3

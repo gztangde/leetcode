@@ -38,7 +38,7 @@ The  **same**  repeated number may be chosen from  `candidates` unlimited number
   [3,5]
 ]
 
-<!-- moret -->
+<!-- more -->
 
 ---------------
 

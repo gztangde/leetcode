@@ -67,6 +67,7 @@ class Solution {
   vector<vector<int>> combine(int n, int k) {
     vector<vector<int>> ans;
     vector<int> out;
+    ans.reserve(k);
     combineDFS(n, k, 1, out, ans);
     return ans;
   }

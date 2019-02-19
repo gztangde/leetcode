@@ -4,4 +4,4 @@
 
 > 每个人都要学会如何 Debug 代码, 解决 Point 的问题
 
-Double-Linked_list 这种可以从两个方向去搜索
+Double-Linked_list 这种可以从两个方向去搜索 
