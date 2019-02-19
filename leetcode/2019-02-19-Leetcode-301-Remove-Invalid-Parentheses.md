@@ -100,9 +100,7 @@ class Solution {
 
 <!-- TODO: Understand the following solution. -->
 
-<!-- https://leetcode.com/problems/remove-invalid-parentheses/discuss/75027/easy-short-concise-and-fast-java-dfs-3-ms-solution -->
-
-另外一种解法:
+另外一种解法:[Link](https://leetcode.com/problems/remove-invalid-parentheses/discuss/75027/easy-short-concise-and-fast-java-dfs-3-ms-solution)
 
 ```cpp
 class Solution {
