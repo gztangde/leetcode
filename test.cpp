@@ -1,21 +1,34 @@
 class Solution {
-  vector<string> results;
-
  public:
-  vector<string> generateParenthesis(int n) {
-    string str;
-    DFS(0, 0, str, n);
-    return results;
+  vector<string> removeInvalidParentheses(string s) {
+    vector<string> ans;
+    dfs(s, 0, 0, ans, "()");
+    return ans;
   }
 
-  void DFS(int left, int right, string& str, int n) {
-    if (left == n && right == n)
-      results.push_back(str);
-    else if (left > n || right > left)
+ private:
+  void dfs(const string &s, int last_i, int last_j, vector<string> &res, string p) {
+    int n = s.size();
+    int cnt = 0;
+    for (int i = last_i; i < n; ++i) {
+      if (s[i] == p[0])
+        ++cnt;
+      else if (s[i] == p[1])
+        --cnt;
+      if (cnt >= 0) continue;
+
+      for (int j = last_j; j <= i; ++j) {
+        if (s[j] != p[1]) continue;
+        if (j > last_j && s[j - 1] == p[1]) continue;
+        dfs(s.substr(0, j) + s.substr(j + 1, n - j - 1), i, j, res, p);
+      }
       return;
-    else {
-      DFS(left + 1, right, str + "(", n);
-      DFS(left, right + 1, str + ")", n);
     }
+    string s1 = s;
+    reverse(s1.begin(), s1.end());
+    if (p[0] == '(')
+      dfs(s1, 0, 0, res, ")(");
+    else
+      res.push_back(s1);
   }
 };
