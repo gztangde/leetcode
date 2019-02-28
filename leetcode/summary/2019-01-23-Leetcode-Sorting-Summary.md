@@ -22,6 +22,8 @@ Time complexity of different sorting algorithms. You can go to wiki to see basic
 
 > BinSort, Radix Sort and CountSort use different set of assumptions than the rest, and so they are not "general" sorting methods.
 
+There is a link about the 15 sorting: [15 Sorting Algorithms in 6 Minutes](https://www.youtube.com/watch?v=kPRA0W1kECg)
+
 <!-- more -->
 
 ## 1. 冒泡排序 (Bubble Sort)
