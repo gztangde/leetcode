@@ -40,53 +40,20 @@ Could you do this in one pass?
 # Solution
 
 ```cpp
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
 class Solution {
  public:
   ListNode* removeNthFromEnd(ListNode* head, int n) {
-    if (head->next == NULL) return NULL;
-    ListNode *left = head, *right = head;
-    for (int i = 0; i < n; ++i) right = right->next;
-    if (right == NULL) return head->next;
-    while (right->next) {
-      right = right->next;
-      left = left->next;
+    ListNode *slow = head, *fast = head;
+    while (fast && n--) fast = fast->next;
+    if (!fast) return head->next;
+
+    while (fast->next) {
+      fast = fast->next;
+      slow = slow->next;
     }
-    left->next = left->next->next;
+
+    slow->next = slow->next->next;
     return head;
-  }
-};
-```
-
-**Solution 2**
-
-```cpp
-class Solution {
- public:
-  ListNode* removeNthFromEnd(ListNode* head, int n) {
-    ListNode dummy(-1);
-    dummy.next = head;
-    ListNode *left = &dummy, *right = &dummy;
-
-    for (int i = 0; i < n; i++) {
-      right = right->next;
-    }
-
-    while (right->next) {
-      right = right->next;
-      left = left->next;
-    }
-    ListNode* tmp = left->next;
-    left->next = left->next->next;
-    delete tmp;
-    return dummy.next;
   }
 };
 ```

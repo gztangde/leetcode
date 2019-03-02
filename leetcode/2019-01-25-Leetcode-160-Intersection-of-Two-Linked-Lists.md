@@ -69,7 +69,6 @@ begin to intersect at node c1.
 class Solution {
  public:
   ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-    if (!headA || !headB) return NULL;
     ListNode *a = headA, *b = headB;
     while (a != b) {
       a = a ? a->next : headB;
@@ -79,5 +78,3 @@ class Solution {
   }
 };
 ```
-
-
