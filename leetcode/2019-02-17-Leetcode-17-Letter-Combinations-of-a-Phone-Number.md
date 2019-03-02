@@ -9,7 +9,7 @@ mathjax: true
 top:
 ---
 
-# Question
+# Leetcode 17. Letter Combinations of a Phone Number
 
 Given a string containing digits from  `2-9`  inclusive, return all possible letter combinations that the number could represent.
 
@@ -31,10 +31,6 @@ Although the above answer is in lexicographical order, your answer could be in a
 **Category**:
 
 <!-- more -->
-
-------------
-
-# Analyze
 
 ------------
 
@@ -73,6 +69,8 @@ class Solution {
 
 在这一种解法里面, 使用到了一种API. ans.swap(temp) , 可以用来交换两个 `vector`.
 
+在这里需要的是將 ans 付一个初值， 这样才能够进入循环进行计算 `for (char& digit : digits)`
+
 ```cpp
 class Solution {
  public:
@@ -93,3 +91,7 @@ class Solution {
   }
 };
 ```
+
+# Update
+
+03/01/2019 Review (BSF: 10 mins)
