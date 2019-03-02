@@ -25,38 +25,41 @@ Reverse a singly linked list.
 
 ------------
 
-# Analyze
-
-------------
-
 # Solution
 
+Tracking prev / curr / next node
+Time complexity: O(n)
+Space complexity: O(1)
+
 ```cpp
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
 class Solution {
  public:
   ListNode* reverseList(ListNode* head) {
-    if (!head) return head;
-    ListNode dummy(-1);
-    dummy.next = head;
-
-    ListNode* const start = &dummy;
-    ListNode* prev = head;
-    ListNode* cur = head->next;
+    ListNode *prev = nullptr, *cur = head, *next = nullptr;
     while (cur) {
-      prev->next = cur->next;
-      cur->next = start->next;
-      start->next = cur;
-      cur = prev->next;
+      next = cur->next;
+      cur->next = prev;
+      prev = cur;
+      cur = next;
     }
-    return dummy.next;
+    return prev;
+  }
+};
+```
+
+## Solution 2: recursive
+
+```cpp
+class Solution {
+ public:
+  ListNode* reverseList(ListNode* head) {
+    if (!head || !head->next) return head;
+
+    ListNode* last = head->next;
+    ListNode* right = reverseList(head->next);
+    last->next = head;
+    head->next = nullptr;
+    return right;
   }
 };
 ```
