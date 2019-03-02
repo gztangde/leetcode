@@ -94,4 +94,4 @@ class Solution {
 
 # Update
 
-03/01/2019 Review (BSF: 10 mins)
+03/01/2019 Review (BSF: 10 mins, DFS: 8mins)
