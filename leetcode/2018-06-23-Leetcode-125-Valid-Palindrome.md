@@ -53,3 +53,29 @@ public:
     }
 };
 ```
+
+使用两根指针遍历整个字符串即可, 假定有指针i, j, 其中i是从前往后遍历, j是从后往前遍历. 当i在j左边时继续循环, 每一次将i右移到数字/字母上, j左移到数字/字母上, 比较二者对应的字符串内的字符是否相同,不相同则原字符串不是回文串. 如果全部的比较都相同, 说明是回文串.
+
+```cpp
+class Solution {
+ public:
+  bool isPalindrome(string s) {
+    int n = s.length();
+    int left = 0, right = n - 1;
+    while (left < right) {
+      while (left < n && !isalpha(s[left]) && !isdigit(s[left])) ++left;
+      while (right >= 0 && !isalpha(s[right]) && !isdigit(s[right])) --right;
+
+      if (left == n) return true;
+
+      if (tolower(s[left]) != tolower(s[right]))
+        return false;
+      else {
+        ++left;
+        --right;
+      }
+    }
+    return true;
+  }
+};
+```
