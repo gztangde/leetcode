@@ -82,6 +82,25 @@ class Solution {
 };
 ```
 
+
+```cpp
+class Solution {
+ public:
+  int minSubArrayLen(int s, vector<int>& nums) {
+    int n = nums.size(), left = 0, right = 0, ans = INT_MAX;
+    int sum = 0;
+    for (right = 0; right < n; ++right) {
+      sum += nums[right];
+      while (sum >= s) {
+        ans = min(ans, right - left + 1);
+        sum -= nums[left++];
+      }
+    }
+    return ans == INT_MAX ? 0 : ans;
+  }
+};
+```
+
 # Relative problem
 
 * [Leetcode 76. Minimum Window Substring](./Leetcode-76-Minimum-Window-Substring/)
