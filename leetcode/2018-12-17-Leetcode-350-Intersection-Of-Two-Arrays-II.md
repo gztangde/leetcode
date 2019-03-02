@@ -51,17 +51,16 @@ Given two arrays, write a function to compute their intersection.
 class Solution {
  public:
   vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
-    unordered_map<int, int> num_map;
-    vector<int> res;
-    for (int i : nums1) num_map[i]++;
-    for (int i : nums2) {
-      if (num_map[i]) {
-        res.emplace_back(i);
-        num_map[i]--;
+    vector<int> ans;
+    unordered_map<int, int> cnts;
+    for (int& num : nums1) ++cnts[num];
+    for (int& num : nums2) {
+      if (cnts[num]) {
+        ans.emplace_back(num);
+        --cnts[num];
       }
     }
-    return res;
+    return ans;
   }
 };
-
 ```
