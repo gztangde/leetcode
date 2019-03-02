@@ -67,3 +67,43 @@ class Solution {
   }
 };
 ```
+
+Non-regex version
+
+```cpp
+class Solution {
+ public:
+  bool isNumber(string s) {
+    int n = s.length();
+    int left = 0, right = n - 1;
+    // Deal with the space
+    while (left <= right && isspace(s[left])) ++left;
+    if (left > right) return false;
+    while (left <= right && isspace(s[right])) --right;
+
+    // Deal with the first + or -
+    if (s[left] == '+' || s[left] == '-') ++left;
+
+    bool num = false, dot = false, exp = false;
+    while (left <= right) {
+      char c = s[left];
+      if (isdigit(c)) {
+        num = true;
+      } else if (c == '.') {
+        if (exp || dot) return false;
+        dot = true;
+      } else if (c == 'e') {
+        if (exp || num == false) return false;
+        exp = true;
+        num = false;
+      } else if (c == '+' || c == '-') {
+        if (s[left - 1] != 'e') return false;
+      } else {
+        return false;
+      }
+      ++left;
+    }
+    return num;
+  }
+};
+```

@@ -33,6 +33,7 @@ Given a non-empty string  `s`, you may delete  **at most**  one character. Judge
 # Solution
 
 ```cpp
+// O(n) Time O(1) Space
 class Solution {
  public:
   bool validPalindrome(string s) {
