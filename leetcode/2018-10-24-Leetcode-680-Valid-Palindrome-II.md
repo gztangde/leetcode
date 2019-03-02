@@ -34,29 +34,22 @@ Given a non-empty string  `s`, you may delete  **at most**  one character. Judge
 
 ```cpp
 class Solution {
-public:
-    bool validPalindrome(string s) {
-      int left = 0, right = s.size()-1;
-      while(left < right) {
-        if(s[left] == s[right]) {
-          ++left;
-          --right;
-        }else {
-          int left_2 = left, right_2 = right - 1;
-          while(left_2 < right_2) {
-            if(s[left_2] != s[right_2]) break;
-            ++left_2; --right_2;
-            if(left_2 >= right_2) return true;
-          } 
-          
-          ++left;
-          while(left < right) {
-            if(s[left] != s[right]) return false;
-            ++left; --right;
-          }
-        }
-      } 
-      return true;
+ public:
+  bool validPalindrome(string s) {
+    int n = s.length();
+    int left = 0, right = n - 1;
+    while (left < right) {
+      if (s[left++] != s[right--]) return isPalindromic(s, left, right + 1) || isPalindromic(s, left - 1, right);
     }
+    return true;
+  }
+
+ private:
+  bool isPalindromic(string s, int left, int right) {
+    while (left < right) {
+      if (s[left++] != s[right--]) return false;
+    }
+    return true;
+  }
 };
 ```
