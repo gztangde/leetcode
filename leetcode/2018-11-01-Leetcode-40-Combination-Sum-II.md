@@ -45,6 +45,8 @@ Each number in  `candidates` may only be used  **once**  in the combination.
 
 # Solution
 
+里面注意去掉重复元素的方式： `if (i > index && candidates[i] == candidates[i - 1]) continue;`
+
 ```cpp
 class Solution {
  public:
@@ -101,3 +103,7 @@ class Solution {
   }
 };
 ```
+
+# Updated
+
+* 03/01/2019 Review(BFS, 6mins)
