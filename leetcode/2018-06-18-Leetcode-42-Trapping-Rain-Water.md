@@ -29,7 +29,9 @@ The above elevation map is represented by array [0,1,0,2,1,0,1,3,2,1,2,1]. In th
 
 *****
 
-## Solution
+# Solution
+
+## Solution 1: DP 
 
 ```cpp
 class Solution {
@@ -37,13 +39,16 @@ class Solution {
   int trap(vector<int>& height) {
     int res = 0, left_max = 0, right_max = 0;
     vector<int> diff(height.size(), 0);
-
+    // Get the left max_hight
+    // For i, the left heightes is the left_max;
     for (int i = 0; i < height.size(); ++i) {
       diff[i] = left_max;
       left_max = max(left_max, height[i]);
     }
 
     for (int i = height.size() - 1; i >= 0; --i) {
+      // Find the min for the left_max and right_max, and
+      // use this height as the diff value;
       diff[i] = min(right_max, diff[i]);
       right_max = max(right_max, height[i]);
       if (diff[i] > height[i]) res += diff[i] - height[i];
