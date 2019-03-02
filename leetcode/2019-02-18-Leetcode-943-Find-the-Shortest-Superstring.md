@@ -33,7 +33,7 @@ We may assume that no string in  `A`  is substring of another string in  `A`.
 
 **Difficulty**:Hard
 
-**Category**: 
+**Category**:
 
 <!-- more -->
 

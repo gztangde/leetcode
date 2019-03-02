@@ -104,6 +104,7 @@ class Solution {
     for (int i = 0; i < nums.size(); ++i) {
       if (used[i]) continue;
       // Same number can be only used once at each depth.
+      // !used[i-1] 表示上一个没有使用的话， 表示已经用上一个计算过一次了
       if (i > 0 && nums[i] == nums[i - 1] && !used[i - 1]) continue;
       used[i] = 1;
       out.emplace_back(nums[i]);

@@ -41,13 +41,13 @@ Given an array  `nums`, write a function to move all  `0`'s to the end of it whi
 
 ```cpp
 class Solution {
- public:
-  void moveZeroes(vector<int>& nums) {
-    for (int i = 0, j = 0; i < nums.size(); ++i) {
-      if (nums[i] != 0) swap(nums[i], nums[j++]);
+public:
+    void moveZeroes(vector<int>& nums) {
+      for (int i = 0, j = 0; i < nums.size(); ++i) {
+        // If nums[i] != 0, then we can swap with the first zero....
+        // nums[j] is zero....
+        if (nums[i] != 0) swap(nums[i], nums[j++]);
+      }
     }
-  }
 };
 ```
-
-

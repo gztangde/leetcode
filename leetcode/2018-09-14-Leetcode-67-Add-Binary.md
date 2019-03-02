@@ -39,20 +39,18 @@ The input strings are both  **non-empty**  and contains only characters  `1`  or
 class Solution {
  public:
   string addBinary(string a, string b) {
-    std::string res = "";
-    int m = a.size() - 1, n = b.size() - 1;
-
+    string ans;
+    int len_a = a.length() - 1, len_b = b.length() - 1;
     int carry = 0;
-    while (m >= 0 || n >= 0) {
-      int p = m >= 0 ? a[m--] - '0' : 0;
-      int q = n >= 0 ? b[n--] - '0' : 0;
+    while (len_a >= 0 || len_b >= 0) {
+      int m = len_a >= 0 ? a[len_a--] - '0' : 0;
+      int n = len_b >= 0 ? b[len_b--] - '0' : 0;
 
-      int sum = p + q + carry;
-
-      res = std::to_string(sum % 2) + res;
+      int sum = m + n + carry;
+      ans = to_string(sum % 2) + ans;
       carry = sum / 2;
     }
-    return carry == 1 ? ('1' + res) : res;
+    return carry == 1 ? to_string(carry) + ans : ans;
   }
 };
 ```
