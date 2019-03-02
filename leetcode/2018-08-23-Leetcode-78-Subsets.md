@@ -35,6 +35,8 @@ Example:
 
 求子集集合的问题，我们可以每次处理一个元素，将当前的元素加到之前存在的所有子集里面，这样能够很方便的处理。
 
+需要提前压进去一个空集
+
 # Solution
 
 ## Solution 1 : DFS
@@ -87,3 +89,7 @@ class Solution {
   }
 };
 ```
+
+# Updated
+
+* 03/01/2019 Review(BFS: 5mins)
