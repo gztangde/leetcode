@@ -32,8 +32,6 @@ Although the above answer is in lexicographical order, your answer could be in a
 
 <!-- more -->
 
-------------
-
 # Solution
 
 ## Solution 1: DFS

@@ -1,25 +1,43 @@
+const int N = 40;
+const int INF = 1 << 29;
+int dp[N][N];
+int sum[N];
+
 class Solution {
  public:
-  vector<string> letterCombinations(string digits) {
-    if (digits.empty()) return {};
-    vector<string> ans;
-    string dict[] = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-    string cur;
-    dfs(digits, dict, 0, cur, ans);
-    return ans;
+  int k;
+  vector<int> a;
+  int solve(int L, int R) {
+    int& ret = dp[L][R];
+    if (ret >= 0) return ret;
+    if (R - L == 1) return 0;
+    ret = INF;
+    vector<int> d(N, INF), e(N);
+    for (int i = L + 1; i < R; ++i) {
+      if ((R - i - 1) % (k - 1) == 0) d[i] = solve(i, R);
+    }
+    for (int i = L; i < R; ++i) cout << d[i] << " " << endl;
+    for (int u = 1; u < k; ++u) {
+      fill(e.begin(), e.end(), INF);
+      for (int i = L; i < R; ++i) {
+        for (int j = i + 1; j < R; ++j) {
+          if ((j - i - 1) % (k - 1)) continue;
+          e[i] = min(e[i], solve(i, j) + d[j]);
+        }
+      }
+      swap(d, e);
+    }
+    ret = d[L] + sum[R] - sum[L];
+    return ret;
   }
-
- private:
-  void dfs(string digits, string dict[], int dep, string& cur, vector<string>& ans) {
-    if (dep == digits.length()) {
-      ans.push_back(cur);
-      return;
-    }
-
-    for (char& c : dict[digits[dep] - '0']) {
-      cur.push_back(c);
-      dfs(digits, dict, dep + 1, cur, ans);
-      cur.pop_back();
-    }
+  int mergeStones(vector<int>& a, int k) {
+    this->a = a;
+    this->k = k;
+    int n = a.size();
+    if ((n - 1) % (k - 1)) return -1;
+    for (int i = 1; i <= n; ++i) sum[i] = sum[i - 1] + a[i - 1];
+    memset(dp, 255, sizeof(dp));
+    int ret = solve(0, n);
+    return ret;
   }
 };
