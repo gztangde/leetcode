@@ -29,10 +29,6 @@ Note: For the purpose of this problem, we define empty string as valid palindrom
 <!--more-->
 ******
 
-# Analyze
-
-******
-
 # Solution
 
 ```cpp
@@ -60,20 +56,15 @@ public:
 class Solution {
  public:
   bool isPalindrome(string s) {
-    int n = s.length();
-    int left = 0, right = n - 1;
+    int left = 0, right = s.length() - 1;
+    // Move to the
     while (left < right) {
-      while (left < n && !isalpha(s[left]) && !isdigit(s[left])) ++left;
-      while (right >= 0 && !isalpha(s[right]) && !isdigit(s[right])) --right;
+      while (left < s.length() && !isdigit(s[left]) && !isalpha(s[left])) ++left;
+      while (right >= 0 && !isdigit(s[right]) && !isalpha(s[right])) --right;
 
-      if (left == n) return true;
+      if (left == s.length()) return true;
 
-      if (tolower(s[left]) != tolower(s[right]))
-        return false;
-      else {
-        ++left;
-        --right;
-      }
+      if (tolower(s[left++]) != tolower(s[right--])) return false;
     }
     return true;
   }

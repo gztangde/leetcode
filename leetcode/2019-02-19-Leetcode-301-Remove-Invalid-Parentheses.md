@@ -31,11 +31,12 @@ Remove the minimum number of invalid parentheses in order to make the input stri
 **Output:** [""]
 
 **Difficulty**:Hard
+
 **Category**:DFS, BFS
 
-<!-- more -->
+题目大意：给你一个字符串，由”(” “)”和其他字符构成。让你删除数量最少的括号使得表达式合法（括号都匹配）。输出所有的合法表达式。
 
-------------
+<!-- more -->
 
 # Solution
 
@@ -44,6 +45,9 @@ Remove the minimum number of invalid parentheses in order to make the input stri
 ```cpp
 // Runtime: 8 ms, faster than 97.09% of C++ online submissions for Remove Invalid Parentheses.
 // Memory Usage: 9.5 MB, less than 100.00% of C++ online submissions for Remove Invalid Parentheses.
+// Solution: DFS
+// Step 1. Count how many parentheses we need to remove
+// Step 2. dfs function --- Try to remove each parentheses.
 class Solution {
  public:
   vector<string> removeInvalidParentheses(string s) {
@@ -52,10 +56,8 @@ class Solution {
 
     // l_cnt and r_cnt is the number "()" which we need to remove;
     for (char& c : s) {
-      if (c == '(')
-        ++l_cnt;
-      else if (c == ')')
-        l_cnt == 0 ? ++r_cnt : --l_cnt;
+      if (c == '(') ++l_cnt;
+      else if (c == ')') l_cnt == 0 ? ++r_cnt : --l_cnt;
     }
 
     dfs(s, 0, l_cnt, r_cnt, ans);
@@ -64,18 +66,6 @@ class Solution {
   }
 
  private:
-  bool isValidParentheses(string& s) {
-    int cnt = 0;
-    for (char& a : s) {
-      if (a == '(')
-        cnt++;
-      else if (a == ')')
-        cnt--;
-      if (cnt < 0) return false;
-    }
-    return cnt == 0;
-  }
-
   void dfs(string& s, int start, int l_cnt, int r_cnt, vector<string>& ans) {
     if (l_cnt == 0 && r_cnt == 0) {
       if (isValidParentheses(s)) ans.emplace_back(s);
@@ -84,7 +74,7 @@ class Solution {
 
     for (int i = start; i < s.length(); ++i) {
       // deal with the repetitive element.
-      if (i != start && s[i] == s[i - 1]) continue;
+      if (i > start && s[i] == s[i - 1]) continue;
       if (s[i] == '(' || s[i] == ')') {
         string cur = s;
         cur.erase(i, 1);
@@ -96,6 +86,16 @@ class Solution {
     }
   }
 };
+  // Judge the s is valid parentheses, if not, return false. Otherwise, return true.
+  bool isValidParentheses(string& s) {
+    int cnt = 0;
+    for (char& a : s) {
+      if (a == '(') cnt++;
+      else if (a == ')') cnt--;
+      if (cnt < 0) return false;
+    }
+    return cnt == 0;
+  }
 ```
 
 <!-- TODO: Understand the following solution. -->
