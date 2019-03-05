@@ -27,6 +27,7 @@ Note: For the purpose of this problem, we define empty string as valid palindrom
 **Category**:
 
 <!--more-->
+
 ******
 
 # Solution
