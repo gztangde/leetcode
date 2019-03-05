@@ -8,7 +8,9 @@ notshow: true
 top:
 ---
 
-# Question
+# Leetcode 121. Best Time to Buy and Sell Stock
+
+题目大意: 给你一只股票每天的价格，如果只能做一次交易（一次买进一次卖出）问你最多能赚多少钱。
 
 Say you have an array for which the  _i_th  element is the price of a given stock on day  _i_.
 
@@ -29,9 +31,9 @@ Note that you cannot sell a stock before you buy one.
 
 <!-- more -->
 
-------------
-
 # Solution
+
+![](../images/2019-03-05-10-47-20.png)
 
 ```cpp
 class Solution {
@@ -51,6 +53,53 @@ class Solution {
       }
     }
     return maxPrice;
+  }
+};
+```
+
+## Solution 1: DP
+
+只需要遍历一次数组，用一个变量记录遍历过数中的最小值，然后每次计算当前值和这个最小值之间的差值最为利润，然后每次选较大的利润来更新。当遍历完成后当前利润即为所求
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+```cpp
+class Solution {
+ public:
+  int maxProfit(vector<int>& prices) {
+    int res = 0, buy = INT_MAX;
+    for (int price : prices) {
+      buy = min(buy, price);
+      res = max(res, price - buy);
+    }
+    return res;
+  }
+};
+```
+
+## Solution 2: Maximum Subarray question
+
+```cpp
+class Solution {
+ public:
+  int maxProfit(vector<int>& prices) {
+    int n = prices.size();
+    if (n < 2) return 0;
+    vector<int> gains(n - 1, 0);
+    for (int i = 1; i < n; ++i) gains[i - 1] = prices[i] - prices[i - 1];
+    return max(0, maxSubArray(gains));
+  }
+
+ private:
+  // From LC 53. Maximum Subarray
+  int maxSubArray(vector<int>& nums) {
+    vector<int> f(nums.size());
+    f[0] = nums[0];
+
+    for (int i = 1; i < nums.size(); ++i) f[i] = max(f[i - 1] + nums[i], nums[i]);
+
+    return *std::max_element(f.begin(), f.end());
   }
 };
 ```
