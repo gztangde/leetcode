@@ -91,23 +91,23 @@ p = "a*c?b"
 ```cpp
 class Solution {
  public:
-  bool isMatch(char *s, char *p) {
-    char *scur = s, *pcur = p, *sstar = NULL, *pstar = NULL;
-    while (*scur) {
-      if (*scur == *pcur || *pcur == '?') {
-        ++scur;
-        ++pcur;
-      } else if (*pcur == '*') {
-        pstar = pcur++;
-        sstar = scur;
-      } else if (pstar) {
-        pcur = pstar + 1;
-        scur = ++sstar;
+  bool isMatch(string s, string p) {
+    int i = 0, j = 0, iStar = -1, jStar = -1;
+    while (i < s.size()) {
+      if (s[i] == p[j] || p[j] == '?') {
+        ++i;
+        ++j;
+      } else if (p[j] == '*') {
+        iStar = i;
+        jStar = j++;
+      } else if (iStar >= 0) {
+        i = ++iStar;
+        j = jStar + 1;
       } else
         return false;
     }
-    while (*pcur == '*') ++pcur;
-    return !*pcur;
+    while (p[j] == '*') ++j;
+    return j == p.size();
   }
 };
 ```
