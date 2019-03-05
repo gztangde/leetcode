@@ -23,6 +23,8 @@ Example:
 
 # Solution
 
+这道混合插入有序链表和我之前那篇混合插入有序数组非常的相似Merge Sorted Array，仅仅是数据结构由数组换成了链表而已，代码写起来反而更简洁。具体思想就是新建一个链表，然后比较两个链表中的元素值，把较小的那个链到新链表中，由于两个输入链表的长度可能不同，所以最终会有一个链表先完成插入所有元素，则直接另一个未完成的链表直接链入新链表的末尾。
+
 ## Solution 1: Iterative
 
 Time complexity: O(n)
@@ -54,6 +56,8 @@ class Solution {
 
 ## Solution 2: Recursive
 
+递归的写法，当某个链表为空了，就返回另一个。然后核心还是比较当前两个节点值大小，如果l1的小，那么对于l1的下一个节点和l2调用递归函数，将返回值赋值给l1.next，然后返回l1；否则就对于l2的下一个节点和l1调用递归函数，将返回值赋值给l2.next，然后返回l2
+
 Time complexity: O(n)
 Space complexity: O(n)
 
@@ -74,6 +78,19 @@ class Solution {
       l2->next = mergeTwoLists(l1, l2->next);
       return l2;
     }
+  }
+};
+```
+
+对上述的代码可以做一些精简：
+
+```cpp
+class Solution {
+ public:
+  ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+    if (!l1 || (l2 && l1->val > l2->val)) swap(l1, l2);
+    if (l1) l1->next = mergeTwoLists(l1->next, l2);
+    return l1;
   }
 };
 ```
