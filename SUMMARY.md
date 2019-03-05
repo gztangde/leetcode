@@ -6,9 +6,9 @@
 * Linked List
 * [Tree And Graph](./summary/2019-01-12-Leetcode-Tree-Summary.md)
   * [Build Binary Tree](./summary/2019-02-03-Leetcode-Tree-Build.md)
-* [Sorting](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
-* Search
-  * [Combination](./summary/2019-02-18-Leetcode-Search-problems.md)
+* Sorting And Searching
+  * [Sorting](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
+  * [Search Combination](./summary/2019-02-18-Leetcode-Search-problems.md)
 * [Binary Search](./summary/2019-01-15-Algorithms-Binary-Search.md)
 * [Recursion And Dynamic Programming](./summary/2019-01-10-Leetcode-Recursion-And-Dynamic-Programming.md)
 
@@ -31,8 +31,6 @@
   * [Remove Duplicates From Sorted Array](./Leetcode-26-Remove-Duplicates-From-Sorted-Array.md)
   * [Remove Duplicates From Sorted Array II](./Leetcode-80-Remove-Duplicates-From-Sorted-Array-II.md)
   * [Longest Consecutive Sequence](./Leetcode-128-Longest-Consecutive-Sequence.md)
-  * [Remove Duplicates From Sorted List II](./Leetcode-82-Remove-Duplicates-From-Sorted-List-II.md)
-  * [Remove Duplicates From Sorted List](./Leetcode-83-Remove-Duplicates-From-Sorted-List.md)
   * [Median of Two Sorted Arrays](./Leetcode-4-Median-of-Two-Sorted-Arrays.md)
   * [Remove Element](./Leetcode-27-Remove-Element.md)
   * [Single Number II](./Leetcode-137-Single-Number-II.md)
@@ -70,6 +68,8 @@
   * [Fair Candy Swap](./Leetcode-888-Fair-Candy-Swap.md)
 
 * [Linked List](./Leetcode-20-Valid-Parentheses.md)
+  * [Remove Duplicates From Sorted List](./Leetcode-83-Remove-Duplicates-From-Sorted-List.md)
+  * [Remove Duplicates From Sorted List II](./Leetcode-82-Remove-Duplicates-From-Sorted-List-II.md)
   * [Remove Nth Node From End Of List](./Leetcode-19-Remove-Nth-Node-From-End-Of-List.md)
   * [Merge K Sorted Lists](./Leetcode-23-Merge-K-Sorted-Lists.md)
   * [Sort List](./Leetcode-148-Sort-List.md)
