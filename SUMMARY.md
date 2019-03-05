@@ -484,3 +484,4 @@
 * [Leetcode 37. Sudoku Solver](./Leetcode-37-Sudoku-Solver.md)
 * [Leetcode 325. Minimum Size Subarray Sum II](./Leetcode-325-Minimum-Size-Subarray-Sum-II.md)
 * [Leetcode 727. Minimum Window Subsequence](./Leetcode-727-Minimum-Window-Subsequence.md)
+* [Leetcode 689. Maximum Sum of 3 Non Overlapping Subarrays](./Leetcode-689-Maximum-Sum-of-3-Non-Overlapping-Subarrays.md)
