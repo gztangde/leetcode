@@ -37,16 +37,12 @@ List 3: [5, 18, 22, 30], 22 is in range [20,24].
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 输入是一些数组, 都是排好序的, 我们需要找到一个最小的数据范围, 使得这个范围至少能够包括每个数组中的一个数字. 我们可以考虑按照以下方式进行处理:
 
 * 將这些数组合并成为一个大的数组并且保留其序号, 使用`vector<pair<int, int>>`, 然后排序.
-* 这样等同于, 我们找到一个最小的窗口, 然后这个窗口里面要同时包含所有数组中的至少一个数字.
-
-------------
+* 这样等同于, 我们`找到一个最小的窗口`, 然后这个窗口里面要同时包含所有数组中的至少一个数字.
 
 # Solution
 
@@ -58,10 +54,14 @@ class Solution {
     vector<pair<int, int>> v;
     unordered_map<int, int> m;
     int n = nums.size();
+    // Merge all array in one vector, and save the index in the vector
     for (int i = 0; i < n; ++i)
       for (int& num : nums[i]) v.push_back({num, i});
 
+    // Sort the array by the first val in the pair.
     sort(v.begin(), v.end());
+
+    // Find the smallest window which include at least one number from each array.
     int left = 0, len = v.size(), cnt = 0, diff = INT_MAX;
     for (int right = 0; right < len; ++right) {
       if (m[v[right].second] == 0) cnt++;
