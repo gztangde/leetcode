@@ -33,7 +33,7 @@ Space complexity: O(1) in-place
 > Runtime: 12 ms, faster than 100.00% of C++ online submissions for Merge Two Sorted Lists.
 > Memory Usage: 9.9 MB, less than 90.59% of C++ online submissions for Merge Two Sorted Lists.
 
-```c++
+```cpp
 class Solution {
  public:
   ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
