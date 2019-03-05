@@ -8,7 +8,7 @@ notshow: true
 top:
 ---
 
-# Question
+# Leetcode 88. Merge Sorted Array
 
 Given two sorted integer arrays  _nums1_  and  _nums2_, merge  _nums2_  into  _nums1_  as one sorted array.
 
@@ -30,11 +30,14 @@ Given two sorted integer arrays  _nums1_  and  _nums2_, merge  _nums2_  into  _n
 
 <!-- more -->
 
-------------
-
 # Solution
 
 ## Solution1: Two Points
+
+混合插入有序数组，由于两个数组都是有序的，所有只要按顺序比较大小即可。
+
+Time complexity: O(m + n)
+Space complexity: O(m + n)
 
 ```cpp
 class Solution {
@@ -42,33 +45,25 @@ class Solution {
   void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
     if (n == 0) return;
     vector<int> temp = nums1;
-    int index = 0;
+
     int p = 0, q = 0;
-    for (int i = 0; i < m + n; ++i) {
-      if (q < n && temp[p] >= nums2[q] || p == m) {
-        nums1[i] = nums2[q];
-        q++;
-      } else {
-        nums1[i] = temp[p];
-        p++;
-      }
-    }
+    for (int i = 0; i < m + n; ++i) nums1[i] = q < n && temp[p] >= nums2[q] || p == m ? nums2[q++] : temp[p++];
   }
 };
 ```
 
-## Solution2: Two Points, 倒过来处理
+## Solution2: Two Points
+
+Fill nums1 from back to front
+Time complexity: O(m + n)
+Space complexity: O(1) in-place
 
 ```cpp
 class Solution {
  public:
   void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
-    int p_a = m - 1, p_b = n - 1, p_merge = m + n - 1;
-    while (p_a >= 0 && p_b >= 0) 
-      nums1[p_merge--] = nums1[p_a] >= nums2[p_b] ? nums1[p_a--] : nums2[p_b--];
-
-    while (p_b >= 0) 
-      nums1[p_merge--] = nums2[p_b--];
+    int p = m - 1, q = n - 1, tail = m + n - 1;
+    while (q >= 0) nums1[tail--] = (p >= 0 && nums1[p] >= nums2[q]) ? nums1[p--] : nums2[q--];
   }
 };
 ```
