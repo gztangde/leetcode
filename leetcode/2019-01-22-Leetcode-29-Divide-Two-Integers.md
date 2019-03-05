@@ -45,6 +45,8 @@ The integer division should truncate toward zero.
 
 这道题目规定我们不能使用乘法，除法以及取余操作。我们可以考虑在这道题目使用 `Bit Operation`
 
+## Solution 1: Implement
+
 ```cpp
 class Solution {
  public:
@@ -60,6 +62,27 @@ class Solution {
       res += p;
       m -= t;
     }
+    if ((dividend < 0) ^ (divisor < 0)) res = -res;
+    return res > INT_MAX ? INT_MAX : res;
+  }
+};
+```
+
+## Solution 2: Recursion
+
+```cpp
+class Solution {
+ public:
+  int divide(int dividend, int divisor) {
+    long long res = 0;
+    long long m = abs((long long)dividend), n = abs((long long)divisor);
+    if (m < n) return 0;
+    long long t = n, p = 1;
+    while (m > (t << 1)) {
+      t <<= 1;
+      p <<= 1;
+    }
+    res += p + divide(m - t, n);
     if ((dividend < 0) ^ (divisor < 0)) res = -res;
     return res > INT_MAX ? INT_MAX : res;
   }
