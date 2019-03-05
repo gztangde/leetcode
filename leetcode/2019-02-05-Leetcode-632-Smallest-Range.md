@@ -67,6 +67,7 @@ class Solution {
       if (m[v[right].second] == 0) cnt++;
       ++m[v[right].second];
 
+      // If there are n array's element in this big array.
       while (cnt == n && left <= right) {
         if (diff > v[right].first - v[left].first) {
           diff = v[right].first - v[left].first;
