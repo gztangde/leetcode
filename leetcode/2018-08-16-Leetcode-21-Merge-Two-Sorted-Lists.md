@@ -7,7 +7,7 @@ tags: Leetcode
 notshow: true
 ---
 
-# Question
+# Leetcode 21. Merge Two Sorted Lists
 
 Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
 
@@ -18,20 +18,20 @@ Example:
 **Difficulty**:Easy
 
 **Category**:Linked-List
+
 <!--more-->
-*****
 
 # Solution
 
+## Solution 1: Iterative
+
+Time complexity: O(n)
+Space complexity: O(1) in-place
+
+> Runtime: 12 ms, faster than 100.00% of C++ online submissions for Merge Two Sorted Lists.
+> Memory Usage: 9.9 MB, less than 90.59% of C++ online submissions for Merge Two Sorted Lists.
+
 ```c++
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
 class Solution {
  public:
   ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -48,6 +48,32 @@ class Solution {
     }
     cur->next = l1 ? l1 : l2;
     return mergelist->next;
+  }
+};
+```
+
+## Solution 2: Recursive
+
+Time complexity: O(n)
+Space complexity: O(n)
+
+> Runtime: 12 ms, faster than 100.00% of C++ online submissions for Merge Two Sorted Lists.
+> Memory Usage: 10.3 MB, less than 11.45% of C++ online submissions for Merge Two Sorted Lists.
+
+```cpp
+class Solution {
+ public:
+  ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+    // If one of the list is emptry, return the other one.
+    if (!l1 || !l2) return l1 ? l1 : l2;
+    // The smaller one becomes the head.
+    if (l1->val < l2->val) {
+      l1->next = mergeTwoLists(l1->next, l2);
+      return l1;
+    } else {
+      l2->next = mergeTwoLists(l1, l2->next);
+      return l2;
+    }
   }
 };
 ```
