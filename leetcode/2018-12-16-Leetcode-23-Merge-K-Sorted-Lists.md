@@ -8,7 +8,7 @@ notshow: true
 top:
 ---
 
-# Question
+# Leetcode 23. Merge k Sorted Lists
 
 ![](/images/in-post/2018-12-16-Leetcode-23-Merge-K-Sorted-Lists/2018-12-16-14-24-04.png)
 
@@ -18,8 +18,6 @@ top:
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 我们在前面做过类似的合并两个`Sorted List的题目`, 在这里, 我们先考虑两两合并`Lists`, 这就是我们的`Solution 1`,依次两两合并List, 最终得到一个合并之后完整的List. 参考另外一道题目: [Merge Two Sorted Lists](./Leetcode-21-Merge-Two-Sorted-Lists.md)
@@ -27,8 +25,6 @@ top:
 这种方式性能很不好,因为左边的List可能长度很长,而右边的`Lists`则长度很短,这就会使得每次计算的时间复杂度很高.
   
 针对处理`N`个类似工作的过程,我们考虑使用分治法, 不停的对`n`个链表进行二分`n/2, n/4, n/8...`, 直到最后的元素个数为`1`或`2`个为止. 然后再向上进行合并.
-
-------------
 
 # Solution
 
