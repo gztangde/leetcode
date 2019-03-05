@@ -15,15 +15,18 @@
 
 * [Summary](./summary/2019-01-26-Leetcode-Algorithm-Linked-List-Array.md)
 * [Array](./Leetcode-20-Valid-Parentheses.md)
-  * Subarray
+  * [Subarray](./summary/2019-01-26-Leetcode-Algorithm-Linked-List-Array.md)
     * [Subarray Sum Equals K](./Leetcode-560-Subarray-Sum-Equals-K.md)
     * [Longest Turbulent Subarray](./Leetcode-978-Longest-Turbulent-Subarray.md)
     * [Minimum Size Subarray Sum](./Leetcode-209-Minimum-Size-Subarray-Sum.md)
     * [Subarray Sums Divisible by K](./Leetcode-974-Subarray-Sums-Divisible-by-K.md)
-  * [Two Sum-HashTable](./Leetcode-1-Two-Sum.md)
-  * [3Sum](./Leetcode-15-3Sum.md)
-  * [3Sum Closest](./Leetcode-16-3Sum-Closest.md)
-  * [4Sum](./Leetcode-18-4Sum.md)
+    * [Minimum Size Subarray Sum II](./Leetcode-325-Minimum-Size-Subarray-Sum-II.md)
+  * [Sum](./summary/2019-01-26-Leetcode-Algorithm-Linked-List-Array.md)
+    * [Two Sum-HashTable](./Leetcode-1-Two-Sum.md)
+    * [3Sum](./Leetcode-15-3Sum.md)
+    * [3Sum Closest](./Leetcode-16-3Sum-Closest.md)
+    * [4Sum](./Leetcode-18-4Sum.md)
+    * [Two Sum II Input Array Is Sorted](./Leetcode-167-Two-Sum-II-Input-Array-Is-Sorted.md)
   * [Remove Duplicates From Sorted Array](./Leetcode-26-Remove-Duplicates-From-Sorted-Array.md)
   * [Remove Duplicates From Sorted Array II](./Leetcode-80-Remove-Duplicates-From-Sorted-Array-II.md)
   * [Longest Consecutive Sequence](./Leetcode-128-Longest-Consecutive-Sequence.md)
@@ -43,7 +46,6 @@
   * [Rotate Array](./Leetcode-189-Rotate-Array.md)
   * [Largest Number](./Leetcode-179-Largest-Number.md)
   * [First Missing Positive](./Leetcode-41-First-Missing-Positive.md)
-  * [Two Sum II Input Array Is Sorted](./Leetcode-167-Two-Sum-II-Input-Array-Is-Sorted.md)
   * [Pascal Triangle](./Leetcode-118-Pascal-Triangle.md)
   * [Pascal Triangle II](./Leetcode-119-Pascal-Triangle-II.md)
   * [Misssing Number](./Leetcode-268-Misssing-Number.md)
@@ -87,7 +89,7 @@
   * [Partition List](./Leetcode-86-Partition-List.md)
 
 * [Matrix](./summary/2019-02-03-Leetcode-Matrix-Summary.md)
-  * Spiral And Flip
+  * [Spiral And Flip](./summary/2019-02-03-Leetcode-Matrix-Summary.md)
     * [Spiral Matrix](./Leetcode-54-Spiral-Matrix.md)
     * [Spiral Matrix II](./Leetcode-59-Spiral-Matrix-II.md)
     * [Spiral Matrix III](./Leetcode-885-Spiral-Matrix-III.md)
@@ -178,6 +180,17 @@
   * [N ary Tree Postorder Traversal](./Leetcode-590-N-ary-Tree-Postorder-Traversal.md)
   * [N ary Tree Level Order Traversal](./Leetcode-429-N-ary-Tree-Level-Order-Traversal.md)
 
+* [Build Binary Tree](./summary/2019-02-03-Leetcode-Tree-Build.md)
+  * [Construct Binary Tree From Preorder and Inorder Traversal](./Leetcode-105-Construct-Binary-Tree-From-Preorder-and-Inorder-Traversal.md)
+  * [Construct Binary Tree From Inorder And Postorder Traversal](./Leetcode-106-Construct-Binary-Tree-From-Inorder-And-Postorder-Traversal.md)
+  * [Convert Sorted Array To Binary Search Tree](./Leetcode-108-Convert-Sorted-Array-To-Binary-Search-Tree.md)
+  * [Convert Sorted List to Binary Search Tree](./Leetcode-109-Convert-Sorted-List-to-Binary-Search-Tree.md)
+  * [Invert Binary Tree](./Leetcode-226-Invert-Binary-Tree.md)
+  * [Merge Two Binary Trees](./Leetcode-617-Merge-Two-Binary-Trees.md)
+  * [Univalued Binary Tree](./Leetcode-965-Univalued-Binary-Tree.md)
+  * [Convert BST to Greater Tree](./Leetcode-538-Convert-BST-to-Greater-Tree.md)
+  * [Serialize and Deserialize BST](./Leetcode-449-Serialize-and-Deserialize-BST.md)
+
 * [Tree Quality](./summary/summary.md)
   * [Minimum Depth of Binary Tree](./Leetcode-111-Minimum-Depth-of-Binary-Tree.md)
   * [Maximum Depth of Binary Tree](./Leetcode-104-Maximum-Depth-of-Binary-Tree.md)
@@ -202,17 +215,6 @@
   * [Find Largest Value in Each Tree Row](./Leetcode-515-Find-Largest-Value-in-Each-Tree-Row.md)
   * [Flip Equivalent Binary Trees](./Leetcode-951-Flip-Equivalent-Binary-Trees.md)
   * [Binary Tree Tilt](./Leetcode-563-Binary-Tree-Tilt.md)
-
-* [Build Binary Tree](./summary/2019-02-03-Leetcode-Tree-Build.md)
-  * [Convert Sorted Array To Binary Search Tree](./Leetcode-108-Convert-Sorted-Array-To-Binary-Search-Tree.md)
-  * [Convert Sorted List to Binary Search Tree](./Leetcode-109-Convert-Sorted-List-to-Binary-Search-Tree.md)
-  * [Construct Binary Tree From Preorder and Inorder Traversal](./Leetcode-105-Construct-Binary-Tree-From-Preorder-and-Inorder-Traversal.md)
-  * [Construct Binary Tree From Inorder And Postorder Traversal](./Leetcode-106-Construct-Binary-Tree-From-Inorder-And-Postorder-Traversal.md)
-  * [Invert Binary Tree](./Leetcode-226-Invert-Binary-Tree.md)
-  * [Merge Two Binary Trees](./Leetcode-617-Merge-Two-Binary-Trees.md)
-  * [Univalued Binary Tree](./Leetcode-965-Univalued-Binary-Tree.md)
-  * [Convert BST to Greater Tree](./Leetcode-538-Convert-BST-to-Greater-Tree.md)
-  * [Serialize and Deserialize BST](./Leetcode-449-Serialize-and-Deserialize-BST.md)
 
 * [Binary Search Tree](./summary/summary.md)
   * [Validate Binary Search Tree](./Leetcode-98-Validate-Binary-Search-Tree.md)
@@ -303,8 +305,6 @@
   * [Merge Intervals](./Leetcode-56-Merge-Intervals.md)
   * [Interval List Intersections](./Leetcode-986-Interval-List-Intersections.md)
 
-------------
-
 ## Search
 
 * [Combination](./summary/2019-02-18-Leetcode-Search-problems.md)
@@ -322,7 +322,7 @@
   * [Find the Shortest Superstring](./Leetcode-943-Find-the-Shortest-Superstring.md)
   * [Number of Squareful Arrays](./Leetcode-996-Number-of-Squareful-Arrays.md)
 
-## Depth-First-Search
+## DFS and BFS
 
 * [Palindrome Partitioning](./Leetcode-131-Palindrome-Partitioning.md)
 * [Palindrome Partitioning II](./Leetcode-132-Palindrome-Partitioning-II.md)
@@ -333,7 +333,6 @@
 * [Unique Paths](./Leetcode-62-Unique-Paths.md)
 * [Unique Paths II](./Leetcode-63-Unique-Paths-II.md)
 * [Unique Paths III](./Leetcode-980-Unique-Paths-III.md)
-
 
 ## Binary Search
 
@@ -482,6 +481,5 @@
 
 * [Leetcode 301. Remove Invalid Parentheses](./Leetcode-301-Remove-Invalid-Parentheses.md)
 * [Leetcode 37. Sudoku Solver](./Leetcode-37-Sudoku-Solver.md)
-* [Leetcode 325. Minimum Size Subarray Sum II](./Leetcode-325-Minimum-Size-Subarray-Sum-II.md)
 * [Leetcode 727. Minimum Window Subsequence](./Leetcode-727-Minimum-Window-Subsequence.md)
 * [Leetcode 689. Maximum Sum of 3 Non Overlapping Subarrays](./Leetcode-689-Maximum-Sum-of-3-Non-Overlapping-Subarrays.md)
