@@ -53,6 +53,27 @@ Both the input and output have TreeNode type.
 
 # Solution
 
+## Solution 1: Recursion
+
+Time complexity: O(n)
+Space complexity: O(n)
+
 ```cpp
+class Solution {
+ public:
+  TreeNode* subtreeWithAllDeepest(TreeNode* root) { 
+    return depth(root).second;
+  }
+
+ private:
+  pair<int, TreeNode*> depth(TreeNode* root) {
+    if (root == nullptr) return {-1, nullptr};
+    auto left = depth(root->left);
+    auto right = depth(root->right);
+    int dl = left.first;
+    int dr = right.first;
+    return {max(dl, dr) + 1, dl == dr ? root : (dl > dr) ? left.second : right.second};
+  }
+};
 
 ```
