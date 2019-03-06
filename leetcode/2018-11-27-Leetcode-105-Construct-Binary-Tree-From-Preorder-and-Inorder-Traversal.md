@@ -34,9 +34,9 @@ Given preorder and inorder traversal of a tree, construct the binary tree.
 
 图片来自于:[Construct a Binary Tree from Given Inorder and Depth-First-Search](https://algorithms.tutorialhorizon.com/construct-a-binary-tree-from-given-inorder-and-depth-first-search/) 
 
-------------
-
 # Solution
+
+参考博客：[Construct Binary Tree from Preorder and Inorder Traversal 由先序和中序遍历建立二叉树](http://www.cnblogs.com/grandyang/p/4296500.html)
 
 **Solution 1:**递归方案
 
@@ -50,15 +50,18 @@ class Solution {
   TreeNode* buildTree(vector<int>& preorder, int pLeft, int pRight, vector<int>& inorder, int iLeft, int iRight) {
     if (pLeft > pRight || iLeft > iRight) return nullptr;
 
+    // Get the root value for each subtree
     TreeNode* root = new TreeNode(preorder[pLeft]);
 
-    int i = 0;
-    for (i = iLeft; i <= iRight; ++i) {
+    // Move the i to the root->val in the inorder array
+    int i = iLeft;
+    for (; i <= iRight; ++i) {
       if (preorder[pLeft] == inorder[i]) break;
     }
-    // Left of the root in the precorder: pLeft+1, pLeft + (i-iLeft)
-    // Right of the root in the preorder: pLeft+(i-iLeft) + 1, pRight
-    root->left = buildTree(preorder, pLeft + 1, pLeft + i - iLeft, inorder, iLeft, i - 1);
+
+    // Left of the root in the precorder: pLeft+1, pLeft + (i - iLeft)
+    // Right of the root in the preorder: pLeft+(i - iLeft) + 1, pRight
+    root->left = buildTree(preorder, pLeft + 1, pLeft + (i - iLeft), inorder, iLeft, i - 1);
     root->right = buildTree(preorder, pLeft + i - iLeft + 1, pRight, inorder, i + 1, iRight);
     return root;
   }
