@@ -33,21 +33,23 @@ Given an array  `nums`, write a function to move all  `0`'s to the end of it whi
 
 ------------
 
-# Analyze
-
-------------
-
 # Solution
+
+把非零数前移，要求不能改变非零数的相对应的位置关系，而且不能拷贝额外的数组，那么只能用替换法in-place来做，需要用两个指针，一个不停的向后扫，找到非零位置，然后和前面那个指针交换位置即可，参见下面的代码：
+
+Time complexity: O(n)
+Space complexity: O(1)
 
 ```cpp
 class Solution {
-public:
-    void moveZeroes(vector<int>& nums) {
-      for (int i = 0, j = 0; i < nums.size(); ++i) {
-        // If nums[i] != 0, then we can swap with the first zero....
-        // nums[j] is zero....
-        if (nums[i] != 0) swap(nums[i], nums[j++]);
-      }
+ public:
+  void moveZeroes(vector<int>& nums) {
+    int left = 0, right = 0;
+    for (; right < nums.size(); ++right) {
+      // If nums[i] != 0, then we can swap with the first zero....
+      // nums[j] is zero....
+      if (nums[right] != 0) swap(nums[right], nums[left++]);
     }
+  }
 };
 ```

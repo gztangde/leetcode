@@ -35,6 +35,9 @@ The input strings are both  **non-empty**  and contains only characters  `1`  or
 
 # Solution
 
+Time complexity: O(max(len_a, len_b))
+Space complexity: O(n)
+
 ```cpp
 class Solution {
  public:

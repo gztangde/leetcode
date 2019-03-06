@@ -42,24 +42,20 @@ Given a sequence of  `words` written in the alien language, and the  `order`  of
 
 **Category**:Hash-Table
 
-<!-- more -->
-
-------------
-
-# Analyze
-
-------------
-
 # Solution
+
+Time complexity: O(n)
+Space complexity: O(n)
 
 ```cpp
 class Solution {
  public:
   bool isAlienSorted(vector<string>& words, string order) {
     vector<char> m(26);
-    for (int i = 0; i < 26; ++i) {
-      m[order[i] - 'a'] = 'a' + i;
-    }
+    // Build the map table
+    for (int i = 0; i < 26; ++i) m[order[i] - 'a'] = 'a' + i;
+
+    // Transfer the Alien dictinoary to the normal dictionary
     for (int i = 0; i < words.size(); ++i) {
       for (int j = 0; j < words[i].length(); ++j) {
         words[i][j] = m[words[i][j] - 'a'];
