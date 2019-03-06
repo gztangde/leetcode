@@ -35,7 +35,6 @@ Space Complexity: O(n)
 > Runtime: 8 ms, faster than 100.00% of C++ online submissions for Binary Tree Paths.
 > Memory Usage: 13 MB, less than 30.23% of C++ online submissions for Binary Tree Paths.
 
-
 ```cpp
 class Solution {
  public:

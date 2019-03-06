@@ -10,7 +10,8 @@ notshow: true
 top:
 ---
 
-# Question
+# Leetcode 543. Diameter of Binary Tree
+
 Given a binary tree, you need to compute the length of the diameter of the tree. The diameter of a binary tree is the length of the  **longest**  path between any two nodes in a tree. This path may or may not pass through the root.
 
 **Example:**  
@@ -39,8 +40,13 @@ Return  **3**, which is the length of the path [4,2,1,3] or [5,2,1,3].
 
 # Solution
 
+Time complexity: O(n)
+Space complexity: O(n)
+
+> Runtime: 16 ms, faster than 99.52% of C++ online submissions for Diameter of Binary Tree.
+> Memory Usage: 20.5 MB, less than 43.81% of C++ online submissions for Diameter of Binary Tree.
+
 ```cpp
-// Runtime: 8ms
 class Solution {
  public:
   int diameterOfBinaryTree(TreeNode* root) {
@@ -52,10 +58,13 @@ class Solution {
  private:
   int dfs(TreeNode* root, int& max_len) {
     if (!root) return 0;
-    int l = dfs(root->left, max_len);
-    int r = dfs(root->right, max_len);
-    max_len = max(max_len, l + r);
-    return max(l, r) + 1;
+
+    int left = dfs(root->left, max_len);
+    int right = dfs(root->right, max_len);
+
+    // Count the edge [left -> root] and [right -> root]
+    max_len = max(max_len, left + right);
+    return max(right, left) + 1;
   }
 };
 ```
