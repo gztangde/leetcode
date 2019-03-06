@@ -75,6 +75,9 @@ class Solution {
 
 使用BFS来遍历图，使用队列queue进行辅助，还是需要一个HashMap来建立原图结点和克隆结点之间的映射。先克隆当前结点，然后建立映射，并加入queue中，进行while循环。在循环中，取出队首结点，遍历其所有neighbor结点，若不在HashMap中，我们根据 neighbor 结点值克隆一个新 neighbor 结点，建立映射，并且排入queue中。然后将 neighbor 结点在 HashMap 中的映射结点加入到克隆结点的 neighbors 数组中即可.
 
+Time complexity: O(V+E)
+Space complexity: O(V+E)
+
 ```cpp
 class Solution {
  public:
