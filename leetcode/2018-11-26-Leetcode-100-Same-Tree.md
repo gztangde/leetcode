@@ -20,15 +20,12 @@ Two binary trees are considered the same if they are structurally identical and 
 
 **Category**:Tree, Depth-first-Search
 
-<!-- more -->
-
-------------
-
-# Analyze
-
-------------
-
 # Solution
+
+## Solution 1: Recursion
+
+Time complexity: O(n)
+Space complexity: O(n)
 
 ```cpp
 class Solution {
@@ -38,6 +35,37 @@ class Solution {
     if (!p || !q) return false;
     return p->val == q->val && isSameTree(p->left, q->left) &&
            isSameTree(p->right, q->right);
+  }
+};
+```
+
+# Follow up
+
+如何判断其中一个树是另外一个树的 `subtree`
+
+* [LeetCode 572. Subtree of Another Tree](./2019-01-14-Leetcode-572-Subtree-of-Another-Tree/)
+
+**Solution: Recursion**
+
+Time complexity: O(max(n, m))
+Space complexity: O(max(n, m))
+
+```cpp
+class Solution {
+public:
+  bool isSubtree(TreeNode* s, TreeNode* t) {
+    if (t == nullptr) return true;
+    if (s == nullptr) return false;
+    if (isSameTree(s, t)) return true;
+    return isSubtree(s->left, t) || isSubtree(s->right, t);
+  }
+private:
+  bool isSameTree(TreeNode* s, TreeNode* t) {
+    if (s == nullptr && t == nullptr) return true;
+    if (s == nullptr || t == nullptr) return false;
+    return (s->val == t->val)
+           && isSameTree(s->left, t->left) 
+           && isSameTree(s->right, t->right);
   }
 };
 ```
