@@ -49,6 +49,9 @@ Cite: [Convert Binary Search Tree to Sorted Doubly Linked List 将二叉搜索�
 
 ## Solution 1: Recursive
 
+Time complexity: O(n)
+Space complexity: O(1)
+
 ```cpp
 class Solution {
  public:
