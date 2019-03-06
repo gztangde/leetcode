@@ -34,11 +34,9 @@ Return  **3**, which is the length of the path [4,2,1,3] or [5,2,1,3].
 
 **Category**:Tree
 
-<!-- more -->
-
-------------
-
 # Solution
+
+## Solution 1: Recursion
 
 Time complexity: O(n)
 Space complexity: O(n)
@@ -65,6 +63,46 @@ class Solution {
     // Count the edge [left -> root] and [right -> root]
     max_len = max(max_len, left + right);
     return max(right, left) + 1;
+  }
+};
+```
+
+## Iteration
+
+Simulate recursion with a stack. We also need to track the return value of each node.
+
+Time complexity: O(n)
+Space complexity: O(1)
+
+> Runtime: 20 ms, faster than 69.08% of C++ online submissions for Diameter of Binary Tree.
+> Memory Usage: 20.8 MB, less than 8.09% of C++ online submissions for Diameter of Binary Tree.
+
+```cpp
+class Solution {
+ public:
+  int diameterOfBinaryTree(TreeNode* root) {
+    if (!root) return 0;
+    int ans = 0;
+    unordered_map<TreeNode*, int> d{{nullptr, -1}};
+    stack<TreeNode*> s;
+    s.push(root);
+    while (!s.empty()) {
+      TreeNode* node = s.top();
+      if (d.count(node->left) && d.count(node->right)) {
+        int l = d[node->left] + 1;
+        int r = d[node->right] + 1;
+        ans = max(ans, l + r);
+        d[node] = max(l, r);
+        // children's results will never be used again, safe to delete here.
+        if (node->left) d.erase(node->left);
+        if (node->right) d.erase(node->right);
+        s.pop();
+      } else {
+        if (node->left) s.push(node->left);
+        if (node->right) s.push(node->right);
+      }
+    }
+    return ans;
   }
 };
 ```
