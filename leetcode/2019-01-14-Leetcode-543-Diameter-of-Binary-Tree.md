@@ -67,7 +67,9 @@ class Solution {
 };
 ```
 
-## Iteration
+## Solution 2: Iteration
+
+> Cite: [LeetCode 543. Diameter of Binary Tree](https://zxi.mytechroad.com/blog/tree/leetcode-543-diameter-of-binary-tree/)
 
 Simulate recursion with a stack. We also need to track the return value of each node.
 

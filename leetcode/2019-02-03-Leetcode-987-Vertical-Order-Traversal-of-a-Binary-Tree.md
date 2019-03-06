@@ -53,15 +53,58 @@ However, in the report "[1,5,6]", the node value of 5 comes first since 5 is sma
 
 **Category**:Tree
 
-<!-- more -->
-
-------------
-
 # Analyze
 
-------------
+题目要求遍历二叉树，并把每一列存入一个二维数组，我们应该如何来确定列的顺序呢？ 在列内部， 我们又如何确定顺序呢？
+
+我们可以把根节点给个序号0，然后开始层序遍历，凡是左子节点则序号减1，右子节点序号加1，这样我们可以通过序号来把相同列的节点值放到一起，我们用一个TreeMap来建立序号和其对应的节点值的映射，用TreeMap的另一个好处是其自动排序功能可以让我们的列从左到右，由于层序遍历需要用到queue，我们此时queue里不能只存节点，而是要存序号和节点组成的pair，这样我们每次取出就可以操作序号，而且排入队中的节点也赋上其正确的序号
 
 # Solution
+
+## Solution 1: Ordered_Map + Ordered_set
+
+Time complexity: O(nlogn)
+Space complexity: O(n)
+
+```cpp
+class Solution {
+ public:
+  vector<vector<int>> verticalTraversal(TreeNode* root) {
+    if (!root) return {};
+    int min_col = INT_MAX;
+    int max_col = INT_MIN;
+
+    // Sort by the row value in the map, second sort by the col value
+    // In the set, sort by the value
+    map<pair<int, int>, set<int>> rec;  // {row, col} -> {vals}
+    traverse(root, 0, 0, rec, min_col, max_col);
+
+    vector<vector<int>> ans(max_col - min_col + 1);  // max_x - min_x = number of the col
+    for (const auto& m : rec) {
+      int x = m.first.second - min_col;  // Get the col val and map to ans
+
+      // Insert the elements at the last of the vector.
+      ans[x].insert(ans[x].end(), m.second.begin(), m.second.end());
+    }
+    return ans;
+  }
+
+ private:
+  void traverse(TreeNode* root, int col, int row, map<pair<int, int>, set<int>>& rec, int& min_col, int& max_col) {
+    if (!root) return;
+    min_col = min(min_col, col);
+    max_col = max(max_col, col);
+    rec[{row, col}].insert(root->val);
+    traverse(root->left, col - 1, row + 1, rec, min_col, max_col);
+    traverse(root->right, col + 1, row + 1, rec, min_col, max_col);
+  }
+};
+```
+
+## Solution 2: Recursive
+
+> Runtime: 12 ms, faster than 93.08% of C++ online submissions for Vertical Order Traversal of a Binary Tree.
+> Memory Usage: 16.6 MB, less than 18.02% of C++ online submissions for Vertical Order Traversal of a Binary Tree.
 
 ```cpp
 class Solution {
@@ -88,5 +131,33 @@ class Solution {
   }
 
   map<int, map<int, set<int>>> ans;
+};
+```
+
+## Solution 3: Iteration (Error)
+
+这种做法没有考虑列里面的顺序，可用在 [Leetcode 314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal)
+
+```cpp
+class Solution {
+ public:
+  vector<vector<int>> verticalOrder(TreeNode* root) {
+    vector<vector<int>> res;
+    if (!root) return res;
+    map<int, vector<int>> m;
+    queue<pair<int, TreeNode*>> q;
+    q.push({0, root});
+    while (!q.empty()) {
+      auto a = q.front();
+      q.pop();
+      m[a.first].push_back(a.second->val);
+      if (a.second->left) q.push({a.first - 1, a.second->left});
+      if (a.second->right) q.push({a.first + 1, a.second->right});
+    }
+    for (auto a : m) {
+      res.push_back(a.second);
+    }
+    return res;
+  }
 };
 ```
