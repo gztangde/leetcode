@@ -29,21 +29,17 @@ Assume a BST is defined as follows:
 
 **Category**:Tree, Depth-First-Search
 
-<!-- more -->
-
-------------
-
-# Analyze
-
-------------
-
 # Solution
+
+Note: in order to cover the range of -2^31 ~ 2^31-1, we need to use long or nullable integer.
+
+Time complexity: O(n)
+Space complexity: O(n)
 
 ```cpp
 class Solution {
  public:
   bool isValidBST(TreeNode* root) {
-    if (!root) return true;
     long pre = LONG_MIN;
     return inorder(root, pre);
   }
@@ -51,14 +47,41 @@ class Solution {
  private:
   bool inorder(TreeNode* root, long& pre) {
     if (!root) return true;
-    bool l = inorder(root->left, pre);
+    bool left = inorder(root->left, pre);
+    // Deal with root->val
     if (root->val <= pre)
       return false;
     else
       pre = root->val;
 
-    bool r = inorder(root->right, pre);
-    return r & l;
+    bool right = inorder(root->right, pre);
+    return left && right;
+  }
+};
+```
+
+# Follow up
+
+如果限制不能使用 `long` 的数据类型的话， 我们可以考虑使用 `TreeNode*`.
+
+Traverse the tree and limit the range of each subtree and check whether root’s value is in the range.
+
+Time complexity: O(n)
+Space complexity: O(n)
+
+```cpp
+class Solution {
+ public:
+  bool isValidBST(TreeNode* root) { 
+    return isValidBST(root, nullptr, nullptr);
+  }
+
+ private:
+  bool isValidBST(TreeNode* root, int* min_val, int* max_val) {
+    if (!root) return true;
+    if ((min_val && root->val <= *min_val) || (max_val && root->val >= *max_val)) return false;
+
+    return isValidBST(root->left, min_val, &root->val) && isValidBST(root->right, &root->val, max_val);
   }
 };
 ```
