@@ -10,47 +10,93 @@ top:
 
 # Question
 
-Given the head of a graph, return a deep copy (clone) of the graph. Each node in the graph contains a  `label` (`int`) and a list (`List[UndirectedGraphNode]`) of its  `neighbors`. There is an edge between the given node and each of the nodes in its neighbors.
+题目大意：无向图的深度复制
 
-**OJ's undirected graph serialization (so you can understand error output):**
+Given a reference of a node in a **[connected](https://en.wikipedia.org/wiki/Connectivity_(graph_theory)#Connected_graph)** undirected graph, return a  [**deep copy**](https://en.wikipedia.org/wiki/Object_copying#Deep_copy)  (clone) of the graph. Each node in the graph contains a val (`int`) and a list (`List[Node]`) of its neighbors.
 
-Nodes are labeled uniquely.
+**Example:**
 
-We use  `#`  as a separator for each node, and  `,`  as a separator for node label and each neighbor of the node.
+![](https://assets.leetcode.com/uploads/2019/02/19/113_sample.png)
 
-As an example, consider the serialized graph  `{0,1,2#1,2#2,2}`.
+**Input:** `{"$id":"1","neighbors":[{"$id":"2","neighbors":[{"$ref":"1"},{"$id":"3","neighbors":[{"$ref":"2"},{"$id":"4","neighbors":[{"$ref":"3"},{"$ref":"1"}],"val":4}],"val":3}],"val":2},{"$ref":"4"}],"val":1}`
 
-The graph has a total of three nodes, and therefore contains three parts as separated by  `#`.
+**Explanation:**
+Node 1's value is 1, and it has two neighbors: Node 2 and 4.
+Node 2's value is 2, and it has two neighbors: Node 1 and 3.
+Node 3's value is 3, and it has two neighbors: Node 2 and 4.
+Node 4's value is 4, and it has two neighbors: Node 1 and 3.
 
-1. First node is labeled as  `0`. Connect node  `0`  to both nodes  `1`  and  `2`.
-2. Second node is labeled as  `1`. Connect node  `1`  to node  `2`.
-3. Third node is labeled as  `2`. Connect node  `2`  to node  `2`  (itself), thus forming a self-cycle.
+**Note:**
 
-Visually, the graph looks like the following:
-
-       1
-      / \
-     /   \
-    0 --- 2
-         / \
-         \_/
-
-**Note**: The information about the tree serialization is only meant so that you can understand error output if you get a wrong answer. You don't need to understand the serialization to solve the problem.
+1. The number of nodes will be between 1 and 100.
+2. The undirected graph is a  [simple graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)#Simple_graph), which means no repeated edges and no self-loops in the graph.
+3. Since the graph is undirected, if node  _p_ has node  _q_ as neighbor, then node  _q_ must have node  _p_ as neighbor too.
+4. You must return the  **copy of the given node**  as a reference to the cloned graph.
 
 **Difficulty**:Medium
 
 **Category**:Depth-First-Search, Breadth-First-Search, Graph
 
-<!-- more -->
-
-------------
-
 # Analyze
 
-------------
+cite:[Clone Graph 克隆无向图](http://www.cnblogs.com/grandyang/p/4267628.html)
+
+**如何处理每一个节点的neighbors**
+
+由于所有的结点都具有不同的数值，所以我们可以使用`HashMap`来对应原图中的结点和新生成的克隆图中的结点。图的遍历的基本方法是 `DFS` 和 `BFS`. 在递归函数中，首先判断是否为空`m.count(node)`，然后再看当前的结点是否已经被克隆过了，若在 `HashMap` 中存在，则直接返回其映射结点。否则就克隆当前结点，并在 `HashMap` 中建立映射，然后遍历当前结点的所有neihbor结点，调用递归函数并且加到克隆结点的 `neighbors` 数组中即可.
 
 # Solution
 
-```cpp
+## Solution 1: DFS
 
+```cpp
+class Solution {
+ public:
+  Node* cloneGraph(Node* node) {
+    unordered_map<Node*, Node*> m;
+    return helper(node, m);
+  }
+
+ private
+  Node* helper(Node* node, unordered_map<Node*, Node*>& m) {
+    if (!node) return nullptr;
+    if (m.count(node)) return m[node];
+    Node* clone = new Node(node->val);
+    m[node] = clone;
+    for (Node* neighbor : node->neighbors) {
+      clone->neighbors.push_back(helper(neighbor, m));
+    }
+    return clone;
+  }
+};
+```
+
+## Solution 2: BFS--Queue + HashTable
+
+使用BFS来遍历图，使用队列queue进行辅助，还是需要一个HashMap来建立原图结点和克隆结点之间的映射。先克隆当前结点，然后建立映射，并加入queue中，进行while循环。在循环中，取出队首结点，遍历其所有neighbor结点，若不在HashMap中，我们根据neigbor结点值克隆一个新neighbor结点，建立映射，并且排入queue中。然后将neighbor结点在HashMap中的映射结点加入到克隆结点的neighbors数组中即可
+
+```cpp
+class Solution {
+ public:
+  Node *cloneGraph(Node *node) {
+    if (!node) return NULL;
+    unordered_map<Node *, Node *> m;
+    queue<Node *> q{{node}};
+
+    Node *clone = new Node(node->val);
+    m[node] = clone;
+    while (!q.empty()) {
+      Node *t = q.front();
+      q.pop();
+      for (Node *neighbor : t->neighbors) {
+        if (!m.count(neighbor)) {
+          m[neighbor] = new Node(neighbor->val);
+          q.push(neighbor);
+        }
+        m[t]->neighbors.push_back(m[neighbor]);
+      }
+    }
+    return clone;
+  }
+};
 ```
