@@ -38,7 +38,7 @@ Given preorder and inorder traversal of a tree, construct the binary tree.
 
 参考博客：[Construct Binary Tree from Preorder and Inorder Traversal 由先序和中序遍历建立二叉树](http://www.cnblogs.com/grandyang/p/4296500.html)
 
-**Solution 1:**递归方案
+## Solution 1:递归方案
 
 ```cpp
 class Solution {
