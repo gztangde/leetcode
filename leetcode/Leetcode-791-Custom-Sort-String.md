@@ -34,3 +34,24 @@ Since "d" does not appear in S, it can be at any position in T. "dcba", "cdba", 
 <!--more-->
 
 # Solution
+
+```cpp
+class Solution {
+ public:
+  string customSortString(string S, string T) {
+    string ans;
+    vector<int> rec(26, 0);
+    for (char& c : T) rec[c - 'a']++;
+    for (int i = 0; i < S.length(); ++i)
+      while (rec[S[i] - 'a']--) ans += S[i];
+
+    for (int i = 0; i < rec.size(); ++i) {
+      while (rec[i] > 0) {
+        ans += i + 'a';
+        rec[i]--;
+      }
+    }
+    return ans;
+  }
+};
+```

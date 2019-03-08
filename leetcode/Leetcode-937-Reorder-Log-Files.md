@@ -1,12 +1,11 @@
 ---
 title: Leetcode 937. Reorder Log Files
-date: 2019-01-22 00:12:34
-updated: 2019-01-22 00:12:34
+date: 2019-02-04 12:53:39
+updated: 2019-02-04 12:53:39
 categories: 
 - [Leetcode]
-- [Leetcode, String]
 tags: Leetcode
-notshow: true
+mathjax: true
 top:
 ---
 
@@ -38,7 +37,7 @@ Return the final order of the logs.
 
 **Difficulty**:Easy
 
-**Category**:String
+**Category**:
 
 <!-- more -->
 
@@ -46,12 +45,28 @@ Return the final order of the logs.
 
 # Analyze
 
+Log的格式是第一个单词是Log的索引，后面的都是Log的内容。有两种Log，一种内容是纯数字的，一种内容是纯英文字符的。现在要求，把所有的英文Log放到数字Log前面。而且如果是纯英文的字符Log，需要按照内容对Log进行排序，当内容相同的时候按照索引排序；如果是数字Log，保持原来的顺序。
+
 ------------
 
 # Solution
 
 ```cpp
-
+bool myCompare(string a, string b) {
+  int i = a.find(' ');
+  int j = b.find(' ');
+  if (!isdigit(a[i + 1]) && !isdigit(b[j + 1]))
+    return a.substr(i + 1) < b.substr(j + 1);
+  else {
+    if (!isdigit(a[i + 1])) return true;
+    return false;
+  }
+}
+class Solution {
+ public:
+  vector<string> reorderLogFiles(vector<string>& logs) {
+    stable_sort(logs.begin(), logs.end(), myCompare);
+    return logs;
+  }
+};
 ```
-
-
