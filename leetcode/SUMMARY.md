@@ -57,8 +57,6 @@
     * [Largest Number](./Leetcode-179-Largest-Number.md)
     * [Pascal Triangle](./Leetcode-118-Pascal-Triangle.md)
     * [Pascal Triangle II](./Leetcode-119-Pascal-Triangle-II.md)
-    * [Excel Sheet Column Title](./Leetcode-168-Excel-Sheet-Column-Title.md)
-    * [Excel Sheet Column Number](./Leetcode-171-Excel-Sheet-Column-Number.md)
   * [Array操作](./summary/Leetcode-Array-String-Summary.md)
     * [Rotate Array](./Leetcode-189-Rotate-Array.md)
     * [Remove Element](./Leetcode-27-Remove-Element.md)
@@ -79,15 +77,24 @@
   * [Array Partition I](./Leetcode-561-Array-Partition-I.md)
   * [Partition Array into Disjoint Intervals](./Leetcode-915-Partition-Array-into-Disjoint-Intervals.md)
 * [String](./Leetcode-20-Valid-Parentheses.md)
+  * [String基本操作](./summary/Leetcode-Array-String-Summary.md)
+  * [回文](./summary/Leetcode-Array-String-Summary.md)
+    * [Palindromic Substrings](./Leetcode-647-Palindromic-Substrings.md)
+    * [Longest Palindromic Substring](./Leetcode-5-Longest-Palindromic-Substring.md)
+  * [正则匹配问题](./summary/Leetcode-Array-String-Summary.md)
+    * [Regular Expression Match](./Leetcode-10-Regular-Expression-Match.md)
+    * [Wildcard Matching](./Leetcode-44-Wildcard-Matching.md)
+  * [INT-STRING转换问题]
+    * [To Lower Case](./Leetcode-709-To-Lower-Case.md)
+    * [Excel Sheet Column Title](./Leetcode-168-Excel-Sheet-Column-Title.md)
+    * [Excel Sheet Column Number](./Leetcode-171-Excel-Sheet-Column-Number.md)
+    * [Integer to Roman](./Leetcode-12-Integer-to-Roman.md)
+    * [Roman to Integer](./Leetcode-13-Roman-to-Integer.md)
+    * [String to Integer](./Leetcode-8-String-to-Integer.md)
   * [Implement StrStr](./Leetcode-28-Implement-StrStr.md)
   * [Add Binary](./Leetcode-67-Add-Binary.md)
-  * [Longest Palindromic Substring](./Leetcode-5-Longest-Palindromic-Substring.md)
-  * [Regular Expression Match](./Leetcode-10-Regular-Expression-Match.md)
-  * [Wildcard Matching](./Leetcode-44-Wildcard-Matching.md)
   * [Longest Common Prefix](./Leetcode-14-Longest-Common-Prefix.md)
   * [Valid Number](./Leetcode-65-Valid-Number.md)
-  * [Integer to Roman](./Leetcode-12-Integer-to-Roman.md)
-  * [Roman to Integer](./Leetcode-13-Roman-to-Integer.md)
   * [Count And Say](./Leetcode-38-Count-And-Say.md)
   * [Longgest Substring Without Repeating Characters](./Leetcode-3-Longgest-Substring-Without-Repeating-Characters.md)
   * [Reverse String](./Leetcode-344-Reverse-String.md)
@@ -98,14 +105,12 @@
   * [Repeated Substring Pattern](./Leetcode-459-Repeated-Substring-Pattern.md)
   * [Reverse String II](./Leetcode-541-Reverse-String-II.md)
   * [Reverse Words in a String III](./Leetcode-557-Reverse-Words-in-a-String-III.md)
-  * [Palindromic Substrings](./Leetcode-647-Palindromic-Substrings.md)
   * [Repeated String Match](./Leetcode-686-Repeated-String-Match.md)
   * [Count Binary Substrings](./Leetcode-696-Count-Binary-Substrings.md)
   * [Custom Sort String](./Leetcode-791-Custom-Sort-String.md)
   * [DI String Match](./Leetcode-942-DI-String-Match.md)
   * [Groups Of Special_equivalent Strings](./Leetcode-893-Groups-Of-Special_equivalent-Strings.md)
   * [Buddy Strings](./Leetcode-859-Buddy-Strings.md)
-  * [String to Integer](./Leetcode-8-String-to-Integer.md)
   * [Scramble String](./Leetcode-87-Scramble-String.md)
   * [Length of Last Word](./Leetcode-58-Length-of-Last-Word.md)
   * [Longest Word in Dictionary](./Leetcode-720-Longest-Word-in-Dictionary.md)
@@ -116,7 +121,6 @@
   * [Uncommon Words from Two Sentences](./Leetcode-884-Uncommon-Words-from-Two-Sentences.md)
   * [Positions of Large Groups](./Leetcode-830-Positions-of-Large-Groups.md)
   * [Number of Matching Subsequences](./Leetcode-792-Number-of-Matching-Subsequences.md)
-  * [To Lower Case](./Leetcode-709-To-Lower-Case.md)
   * [Detect Capital](./Leetcode-520-Detect-Capital.md)
   * [Longest Word in Dictionary through Deleting](./Leetcode-524-Longest-Word-in-Dictionary-through-Deleting.md)
   * [Reorder Log Files](./Leetcode-937-Reorder-Log-Files.md)
@@ -357,7 +361,6 @@
 * [Search a 2D Matrix](./Leetcode-74-Search-a-2D-Matrix.md)
 * [Sqrt x 3](./Leetcode-69-Sqrt-x-3.md)
 
-
 ## Breadth-First-Search
 
 ----
@@ -484,8 +487,6 @@
 
 * [Leetcode 993. Cousins in Binary Tree](./Leetcode-993-Cousins-in-Binary-Tree.md)
 * [Leetcode 994. Rotting Oranges](./Leetcode-994-Rotting-Oranges.md)
-
-
 * [Leetcode 301. Remove Invalid Parentheses](./Leetcode-301-Remove-Invalid-Parentheses.md)
 * [Leetcode 37. Sudoku Solver](./Leetcode-37-Sudoku-Solver.md)
 * [Leetcode 727. Minimum Window Subsequence](./Leetcode-727-Minimum-Window-Subsequence.md)
