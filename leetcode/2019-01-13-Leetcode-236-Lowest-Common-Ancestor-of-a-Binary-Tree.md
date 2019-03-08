@@ -12,6 +12,8 @@ top:
 
 # Question
 
+题目大意： 求二叉树的最小共同父节点的题
+
 Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
 
 According to the  [definition of LCA on Wikipedia](https://en.wikipedia.org/wiki/Lowest_common_ancestor): “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow  **a node to be a descendant of itself**).”
@@ -41,26 +43,18 @@ Given the following binary tree: root = [3,5,1,6,2,0,8,null,null,7,4]
 
 **Category**:Tree
 
-<!-- more -->
-
-------------
-
-# Analyze
-
-------------
-
 # Solution
 
+使用递归来求解，在递归函数中，我们首先看当前结点是否为空，若为空则直接返回空，若为p或q中的任意一个，也直接返回当前结点。否则的话就对其左右子结点分别调用递归函数，由于这道题限制了p和q一定都在二叉树中存在，那么如果当前结点不等于p或q，p和q要么分别位于左右子树中，要么同时位于左子树，或者同时位于右子树，那么我们分别来讨论：
+
+* 若 **p 和 q 要么分别位于左右子树**中，那么对左右子结点调用递归函数，会分别返回p和q结点的位置，而当前结点正好就是p和q的最小共同父结点，直接返回当前结点即可，这就是题目中的例子1的情况。
+* 若 **p 和 q 同时位于左子树**，这里有两种情况，一种情况是left会返回p和q中较高的那个位置，而right会返回空，所以我们最终返回非空的left即可，这就是题目中的例子2的情况。还有一种情况是会返回p和q的最小父结点，就是说当前结点的左子树中的某个结点才是p和q的最小父结点，会被返回。
+* 若 **p 和 q 同时位于右子树**，同样这里有两种情况，一种情况是right会返回p和q中较高的那个位置，而left会返回空，所以我们最终返回非空的right即可，还有一种情况是会返回p和q的最小父结点，就是说当前结点的右子树中的某个结点才是p和q的最小父结点，会被返回，写法很简洁
+
+Time complexity: O(n)
+Space complexity: O(n)
+
 ```cpp
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
 class Solution {
  public:
   TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -72,7 +66,3 @@ class Solution {
   }
 };
 ```
-
-
-
-
