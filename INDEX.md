@@ -51,5 +51,5 @@ table th:nth-of-type(2) {
 </style>
 
 <!--more-->
-| #    | Title | Difficulty | Topics | Times |
-| :--- | :---- | :--------- | :----- | :---- |
+| #    | Title | Difficulty | Topics |
+| :--- | :---- | :--------- | :----- |
