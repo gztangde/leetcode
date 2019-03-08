@@ -61,15 +61,6 @@
         "count": true
       }]
     },
-    "prism": {
-      "ignore": [
-        "mermaid",
-        "eval-js"
-      ],
-      "css": [
-        "prismjs/themes/prism-solarizedlight.css"
-      ]
-    },
     "editlink": {
       "base": "https://github.com/guozetang/leetcode/blob/master/leetcode/",
       "label": "Edit",
