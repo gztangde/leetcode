@@ -57,9 +57,11 @@
   * [Integer(数字操作)](./summary/Leetcode-Array-String-Summary.md)
     * [Reverse Integer](./Leetcode-7-Reverse-Integer.md)
     * [Divide Two Integers](./Leetcode-29-Divide-Two-Integers.md)
+    * [Add to Array Form of Integer(LC.989)](./Leetcode-989-Add-to-Array-Form-of-Integer.md)
     * [Largest Number](./Leetcode-179-Largest-Number.md)
     * [Pascal Triangle](./Leetcode-118-Pascal-Triangle.md)
     * [Pascal Triangle II](./Leetcode-119-Pascal-Triangle-II.md)
+    * [Fibonacci Number(LC.509)](./Leetcode-509-Fibonacci-Number.md)
   * [Array操作](./summary/Leetcode-Array-String-Summary.md)
     * [Rotate Array](./Leetcode-189-Rotate-Array.md)
     * [Remove Element](./Leetcode-27-Remove-Element.md)
@@ -87,6 +89,7 @@
     * [Reverse Only Letters](./Leetcode-917-Reverse-Only-Letters.md)
     * [Reverse Vowels of a String](./Leetcode-345-Reverse-Vowels-of-a-String.md)
     * [Detect Capital](./Leetcode-520-Detect-Capital.md)
+    * [Find And Replace in String(LC.833)](./Leetcode-833-Find-And-Replace-in-String.md)
   * [重复问题](./summary/Leetcode-Array-String-Summary.md)
     * [Repeated Substring Pattern](./Leetcode-459-Repeated-Substring-Pattern.md)
     * [Find All Anagrams in a String](./Leetcode-438-Find-All-Anagrams-in-a-String.md)
@@ -109,6 +112,7 @@
   * [Add Binary](./Leetcode-67-Add-Binary.md)
   * [Longest Common Prefix](./Leetcode-14-Longest-Common-Prefix.md)
   * [Valid Number](./Leetcode-65-Valid-Number.md)
+  * [Unique Email Addresses(LC.929)](./Leetcode-929-Unique-Email-Addresses.md)
   * [Longgest Substring Without Repeating Characters](./Leetcode-3-Longgest-Substring-Without-Repeating-Characters.md)
   * [Number of Segments in a String](./Leetcode-434-Number-of-Segments-in-a-String.md)
   * [Repeated String Match](./Leetcode-686-Repeated-String-Match.md)
@@ -144,6 +148,7 @@
   * [Toeplitz Matrix](./Leetcode-766-Toeplitz-Matrix.md)
   * [Reshape the Matrix](./Leetcode-566-Reshape-the-Matrix.md)
   * [Valid Sudoku](./Leetcode-36-Valid-Sudoku.md)
+  * [Minimum Area Rectangle II(LC.963)](./Leetcode-963-Minimum-Area-Rectangle-II.md)
 
 ## Linked List
 
@@ -458,7 +463,6 @@
 
 ## New Problems
 
-* [Leetcode 509. Fibonacci Number](./Leetcode-509-Fibonacci-Number.md)
 * [Leetcode 739. Daily Temperatures](./Leetcode-739-Daily-Temperatures.md)
 * [Leetcode 946. Validate Stack Sequences](./Leetcode-946-Validate-Stack-Sequences.md)
 * [Leetcode 503. Next Greater Element II](./Leetcode-503-Next-Greater-Element-II.md)
@@ -466,23 +470,18 @@
 * [Leetcode 975. Odd Even Jump](./Leetcode-975-Odd-Even-Jump.md)
 * [Leetcode 985. Sum of Even Numbers After Queries](./Leetcode-985-Sum-of-Even-Numbers-After-Queries.md)
 * [Leetcode 682. Baseball Game](./Leetcode-682-Baseball-Game.md)
-* [Leetcode 929. Unique Email Addresses](./Leetcode-929-Unique-Email-Addresses.md)
 * [Leetcode 791. Custom Sort String](./Leetcode-791-Custom-Sort-String.md)
 * [Leetcode 937. Reorder Log Files](./Leetcode-937-Reorder-Log-Files.md)
 * [Leetcode 761. Special Binary String](./Leetcode-761-Special-Binary-String.md)
 * [Leetcode 49. Group Anagrams](./Leetcode-49-Group-Anagrams.md)
-
-* [Leetcode 833. Find And Replace in String](./Leetcode-833-Find-And-Replace-in-String.md)
 * [Leetcode 984. String Without AAA or BBB](./Leetcode-984-String-Without-AAA-or-BBB.md)
 * [Leetcode 632. Smallest Range](./Leetcode-632-Smallest-Range.md)
 * [Leetcode 76. Minimum Window Substring](./Leetcode-76-Minimum-Window-Substring.md)
 * [Leetcode 718. Maximum Length of Repeated Subarray](./Leetcode-718-Maximum-Length-of-Repeated-Subarray.md)
 * [Leetcode 763. Partition Labels](./Leetcode-763-Partition-Labels.md)
 * [Leetcode 844. Backspace String Compare](./Leetcode-844-Backspace-String-Compare.md)
-* [Leetcode 989. Add to Array Form of Integer](./Leetcode-989-Add-to-Array-Form-of-Integer.md)
 * [Leetcode 990. Satisfiability of Equality Equations](./Leetcode-990-Satisfiability-of-Equality-Equations.md)
 * [Leetcode 962. Maximum Width Ramp](./Leetcode-962-Maximum-Width-Ramp.md)
-* [Leetcode 963. Minimum Area Rectangle II](./Leetcode-963-Minimum-Area-Rectangle-II.md)
 * [Leetcode 958. Check Completeness of a Binary Tree](./Leetcode-958-Check-Completeness-of-a-Binary-Tree.md)
 * [Leetcode 957. Prison Cells After N Days](./Leetcode-957-Prison-Cells-After-N-Days.md)
 * [Leetcode 993. Cousins in Binary Tree](./Leetcode-993-Cousins-in-Binary-Tree.md)
