@@ -32,6 +32,7 @@
     * [Two Sum II Input Array Is Sorted](./Leetcode-167-Two-Sum-II-Input-Array-Is-Sorted.md)
   * [Duplicate(出现次数问题)](./summary/Leetcode-Array-String-Summary.md)
     * [Single Element in a Sorted Array](./Leetcode-540-Single-Element-in-a-Sorted-Array.md)
+    * [Single Number(unsorted)](./Leetcode-136-Single-Number.md)
     * [Single Number II](./Leetcode-137-Single-Number-II.md)
     * [Majority Element](./Leetcode-169-Majority-Element.md)
     * [Find All Duplicates In An Array](./Leetcode-442-Find-All-Duplicates-In-An-Array.md)
@@ -260,7 +261,6 @@
 ## Bit-Manipulation
 
 * [Summary](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
-* [Single Number](./Leetcode-136-Single-Number.md)
 * [Hamming Distance](./Leetcode-461-Hamming-Distance.md)
 * [Letter Case Permutation](./Leetcode-784-Letter-Case-Permutation.md)
 * [Find the Difference](./Leetcode-389-Find-the-Difference.md)
