@@ -67,7 +67,6 @@
   * [Valid Mountain Array](./Leetcode-941-Valid-Mountain-Array.md)
   * [Partition Array into Disjoint Intervals](./Leetcode-915-Partition-Array-into-Disjoint-Intervals.md)
   * [Fair Candy Swap](./Leetcode-888-Fair-Candy-Swap.md)
-
 * [String](./Leetcode-20-Valid-Parentheses.md)
   * [Implement StrStr](./Leetcode-28-Implement-StrStr.md)
   * [Add Binary](./Leetcode-67-Add-Binary.md)
@@ -112,7 +111,6 @@
   * [Reorder Log Files](./Leetcode-937-Reorder-Log-Files.md)
   * [Reverse Only Letters](./Leetcode-917-Reverse-Only-Letters.md)
   * [Goat Latin](./Leetcode-824-Goat-Latin.md)
-
 * [Matrix](./summary/2019-02-03-Leetcode-Matrix-Summary.md)
   * [Spiral And Flip](./summary/2019-02-03-Leetcode-Matrix-Summary.md)
     * [Spiral Matrix](./Leetcode-54-Spiral-Matrix.md)
