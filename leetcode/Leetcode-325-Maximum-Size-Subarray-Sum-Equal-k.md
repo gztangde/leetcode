@@ -1,5 +1,5 @@
 ---
-title: Leetcode 325. Minimum Size Subarray Sum II
+title: Leetcode 325. Maximum Size Subarray Sum Equals k
 date: 2019-03-02 16:41:46
 updated: 2019-03-02 16:41:46
 categories: 
@@ -9,7 +9,7 @@ mathjax: true
 top:
 ---
 
-# Leetcode 325. Minimum Size Subarray Sum II
+# Leetcode 325. Maximum Size Subarray Sum Equals k
 
 Given an array  _nums_  and a target value  _k_, find the maximum length of a subarray that sums to  _k_. If there isn't one, return 0 instead.
 
