@@ -54,8 +54,6 @@ Valid operators are  `+`,  `-`,  `*`,  `/`. Each operand may be an integer or an
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

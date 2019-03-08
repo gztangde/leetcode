@@ -24,8 +24,6 @@ Given a binary tree, return the bottom-up level order traversal of its nodes' va
 
 ![](/images/in-post/leetcode/2018-11-26-00-23-11.png)
 
-------------
-
 # Solution
 
 ```cpp

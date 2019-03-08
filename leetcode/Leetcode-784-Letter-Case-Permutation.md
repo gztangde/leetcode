@@ -37,8 +37,6 @@ Given a string S, we can transform every letter individually to be lowercase or 
 
 # Analyze
 
-------------
-
 # Solution
 
 ##　Solution 1: DFS

@@ -33,9 +33,7 @@ If it is, return the  **index**  of the largest element, otherwise return -1.
 
 <!-- more -->
 
--------------
-
-# Solution
+-# Solution
 
 ```cpp
 class Solution {

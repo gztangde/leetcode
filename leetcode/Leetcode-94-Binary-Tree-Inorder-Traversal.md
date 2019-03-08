@@ -50,8 +50,6 @@ void _InOrderNR(pNode _pRoot) {
 }
 ```
 
-------------
-
 # Solution
 
 ## Solution 1: 使用递归的方式完成

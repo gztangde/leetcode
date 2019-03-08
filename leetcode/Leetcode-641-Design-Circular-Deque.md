@@ -54,8 +54,6 @@ circularDeque.getFront();			// return 4
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

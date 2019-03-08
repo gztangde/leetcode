@@ -35,8 +35,6 @@ You may  **not**  modify the values in the list's nodes, only nodes itself may b
 
 利用快慢节点的方式，找到中间的节点，然后断开两个部分，然后将后面的链表翻转，在合并两个部分的单链表。
 
-------------
-
 # Solution
 
 ```cpp

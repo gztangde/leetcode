@@ -36,8 +36,6 @@ Given an unsorted array of integers, find the length of longest  `continuous`  i
 
 # Analyze
 
-------------
-
 # Solution
 
 ## Solution 1: 动态规划求解

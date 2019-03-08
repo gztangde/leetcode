@@ -41,8 +41,6 @@ A partition like "ababcbacadefegde", "hijhklij" is incorrect, because it splits 
 
 ![](/images/2019-02-06-00-16-24.png)
 
-------------
-
 # Solution
 
 ## Solution 1: Brute Force

@@ -39,8 +39,6 @@ Given  _n_  non-negative integers representing the histogram's bar height where 
 
 在这一题中，我们要把大于栈顶的连续数字进入堆栈，而当遇到小于栈顶元素的数字时，就要取出栈顶元素进行处理了，那取出的顺序就是从高板子到矮板子了，于是乎遇到的较小的数字只是一个触发，开始计算矩形面积了，为了使得最后一块板子也被处理，这里用了个小trick，在高度数组最后面加上一个0，这样原先的最后一个板子也可以被处理了。(引自于[博客](http://www.cnblogs.com/grandyang/p/4322653.html))
 
-------------
-
 # Solution
 
 ## Solution 1

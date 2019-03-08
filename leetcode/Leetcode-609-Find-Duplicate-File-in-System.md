@@ -49,9 +49,7 @@ The  **output**  is a list of group of duplicate file paths. For each group, it 
 4. What is the time complexity of your modified solution? What is the most time-consuming part and memory consuming part of it? How to optimize?
 5. How to make sure the duplicated files you find are not false positive?
 
---------------
-
-# Solution
+--# Solution
 
 ## Solution 1
 

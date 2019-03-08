@@ -53,8 +53,6 @@ _(As a reminder, any shorter prefix of a string is lexicographically smaller: fo
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

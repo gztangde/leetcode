@@ -78,8 +78,6 @@ class Solution {
 
 只需要在最后将结果转换为`string`返回即可。
 
-------------
-
 # Solution
 
 ```cpp

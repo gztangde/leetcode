@@ -43,8 +43,6 @@ Given two integers  `A`  and  `B`, return  **any**  string  `S`  such that:
 
 # Analyze
 
-------------
-
 # Solution
 
 来自于讨论区的一个解法: [Clean C++/python solution](https://leetcode.com/problems/string-without-aaa-or-bbb/discuss/226740/Clean-C%2B%2Bpython-solution)

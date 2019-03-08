@@ -28,8 +28,6 @@ For example, given a  `3-ary`  tree:
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

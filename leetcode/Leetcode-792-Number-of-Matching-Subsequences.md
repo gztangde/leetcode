@@ -46,8 +46,6 @@ words = ["a", "bb", "acd", "ace"]
 ![](/images/in-post/2019-01-21-Leetcode-792-Number-of-Matching-Subsequences/2019-01-21-17-32-40.png)
 
 
-------------
-
 # Solution
 
 ## Solution 1: Brute Force

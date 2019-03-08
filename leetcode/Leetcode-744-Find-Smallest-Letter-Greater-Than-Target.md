@@ -64,8 +64,6 @@ Letters also wrap around. For example, if the target is  `target = 'z'`and  `let
 
 # Analyze
 
-------------
-
 # Solution
 
 ## Solution 1: Line Scan

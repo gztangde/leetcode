@@ -46,8 +46,6 @@ Return the  **length**  of  `left`  after such a partitioning(分割). It is gua
 
 # Analyze
 
-------------
-
 # Solution
 
 ## Solution: Search

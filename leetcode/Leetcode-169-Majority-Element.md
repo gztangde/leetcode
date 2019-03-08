@@ -34,8 +34,6 @@ You may assume that the array is non-empty and the majority element always exist
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

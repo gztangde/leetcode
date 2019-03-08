@@ -44,8 +44,6 @@ push(5), pop() -> 5, pop() -> 3, pop() -> 2, pop() -> 1
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

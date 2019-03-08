@@ -35,8 +35,6 @@ Could you do it without extra space and in O(_n_) runtime? You may assume the re
 
 这道题目可以说是： [Leetcode 41. First Missing Positive](../Leetcode-41-First-Missing-Positive/)题目的升级版，只需要将找到的丢失的数据一次存下来就好了，可以延续使用那一道题目的代码。
 
-------------
-
 # Solution
 
 ```cpp

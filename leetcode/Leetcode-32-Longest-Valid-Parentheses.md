@@ -34,8 +34,6 @@ Given a string containing just the characters  `'('`  and  `')'`, find the lengt
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

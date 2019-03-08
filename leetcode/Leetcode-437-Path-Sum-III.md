@@ -34,8 +34,6 @@ The tree has no more than 1,000 nodes and the values are in the range -1,000,000
 
 # Analyze
 
-------------
-
 # Solution
 
 <!-- TODO: This solution is not very good for this question -->

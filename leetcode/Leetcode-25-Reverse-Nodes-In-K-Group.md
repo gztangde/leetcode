@@ -37,8 +37,6 @@ For  _k_  = 3, you should return:  `3->2->1->4->5`
 
 # Analyze
 
-------------
-
 # Solution
 
 **Soulution 1**：错误的解决方案，理解错误题目含义，以为是翻转前面n个节点

@@ -34,8 +34,6 @@ Given an unsorted array of integers, find the length of longest increasing subse
 
 # Analyze
 
-------------
-
 # Solution
 
 ## Solution 1: DP

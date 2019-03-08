@@ -42,8 +42,6 @@ The transpose of a matrix is the matrix flipped over it's main diagonal, switchi
 How can we solve this problem in-place.
 * In-Place Inverse Perfect Shuffle
 
-------------
-
 # Solution
 
 ```cpp

@@ -35,8 +35,6 @@ The tilt of the  **whole tree**  is defined as the sum of all nodes' tilt.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

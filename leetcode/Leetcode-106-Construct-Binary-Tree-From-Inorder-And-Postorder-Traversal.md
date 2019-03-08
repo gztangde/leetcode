@@ -34,8 +34,6 @@ Given inorder and postorder traversal of a tree, construct the binary tree.
 
 图片来自于:[Construct a Binary Tree from Given Inorder and Depth-First-Search](https://algorithms.tutorialhorizon.com/construct-a-binary-tree-from-given-inorder-and-depth-first-search/) 
 
-------------
-
 # Solution
 
 ```cpp

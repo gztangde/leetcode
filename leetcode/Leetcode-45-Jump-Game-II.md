@@ -36,8 +36,6 @@ You can assume that you can always reach the last index.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

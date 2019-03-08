@@ -32,8 +32,6 @@ Can you solve it without using extra space?
 > - 如果他们相差一个格子，那么下一步就能够追上
 > - 如果他们相差两个格子，那么两步之后也可以追上。
 
-------------
-
 # Solution
 
 ```cpp

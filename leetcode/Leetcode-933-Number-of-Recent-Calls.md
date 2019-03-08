@@ -55,8 +55,6 @@ We can easily use the data structure `Queue` to solve this problem.
 - If the cur `ping - q.front < 3000 `, then we need to push the cur's time in the queue.
 - We use the queue's size as the return value.
 
-------------
-
 # Solution
 
 ## Solution 1: Queue

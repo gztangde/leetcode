@@ -52,8 +52,6 @@ You may return the answer in any order. The answer is guaranteed to be unique (e
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

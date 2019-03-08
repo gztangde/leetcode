@@ -53,8 +53,6 @@ Return `true` if and only if the nodes corresponding to the values  `x`  and  `y
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

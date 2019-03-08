@@ -50,8 +50,6 @@ What is the  `K`-th smallest fraction considered? Return your answer as an array
 
 根据input的数据大小,确定使用的方法是`Binary-search`.
 
-------------
-
 # Solution
 
 ```cpp

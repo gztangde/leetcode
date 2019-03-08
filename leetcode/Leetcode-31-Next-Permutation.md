@@ -42,8 +42,6 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 
 图片来自有：[《Leetcode 题解》](https://github.com/soulmachine/leetcode) 第19页
 
-------------
-
 # Solution
 
 **Solution 1**

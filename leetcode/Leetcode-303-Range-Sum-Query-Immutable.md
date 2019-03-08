@@ -34,8 +34,6 @@ Given an integer array  _nums_, find the sum of the elements between indices  _i
 
 # Analyze
 
-------------
-
 # Solution
 
 ## Solution 1: 直接使用求解的方式

@@ -40,8 +40,6 @@ Return the number of good subarrays of  `A`.
 
 # Analyze
 
-------------
-
 # Solution
 
 ## Solution 1:

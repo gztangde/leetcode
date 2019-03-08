@@ -33,8 +33,6 @@ Given a  **non-negative**  integer n, count all numbers with unique digits, x, w
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

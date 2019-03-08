@@ -24,8 +24,6 @@ Given a binary tree, check whether it is a mirror of itself (ie, symmetric aroun
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

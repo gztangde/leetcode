@@ -39,8 +39,6 @@ For example, given the dungeon below, the initial health of the knight must be a
 
 # Analyze
 
-------------
-
 # Solution
 
 ![](/images/in-post/2019-01-07-Leetcode-174-Dungeon-Game/2019-01-07-17-07-20.png)

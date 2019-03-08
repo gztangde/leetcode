@@ -48,8 +48,6 @@ There are four steps for this template:
   
 Post: [Tree Question Summary](../Leetcode-Tree-Summary/)
 
-------------
-
 # Solution
 
 ```cpp

@@ -60,8 +60,6 @@ global[i][j] = max(local[i][j], global[i - 1][j])
 
 所谓的全局最大利润：`global[i][j] = max(local[i][j], global[i - 1][j])`就是今天的局部最大利润，或者昨天的第‘j’次交易的最大利润（这说明昨天到今天没有利润的）
 
-------------
-
 # Solution
 
 ```cpp

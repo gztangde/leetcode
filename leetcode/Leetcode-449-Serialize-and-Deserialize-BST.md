@@ -30,8 +30,6 @@ Design an algorithm to serialize and deserialize a  **binary search tree**. Ther
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

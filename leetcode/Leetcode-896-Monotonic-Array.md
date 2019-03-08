@@ -56,8 +56,6 @@ Return  `true`  if and only if the given array  `A`  is monotonic.
 
 # Analyze
 
-------------
-
 # Solution
 
 ## Solution 1

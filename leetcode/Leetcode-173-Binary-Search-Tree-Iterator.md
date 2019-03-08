@@ -37,8 +37,6 @@ Calling  `next()`  will return the next smallest number in the BST.
 
 # Analyze
 
-------------
-
 # Solution
 
 Using stack solve this problem.

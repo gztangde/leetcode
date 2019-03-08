@@ -33,8 +33,6 @@ Could you do it without extra space and in O(_n_) runtime?
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

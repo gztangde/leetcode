@@ -40,8 +40,6 @@ The solution set must not contain duplicate quadruplets.
 
 方案二： 使用一个`Hashmap`先缓存两个数的和，时间复杂度：平均`O(n^2)`, 最差`O(n^4)`, 空间复杂度`O(n^2)`
 
-------------
-
 # Solution
 
 **Solution 1（方案一）:先排序固定两个数值，然后夹逼的方式**

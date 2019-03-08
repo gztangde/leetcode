@@ -51,8 +51,6 @@ Can you solve it without using extra space?
 
 所以如果在相遇的时候，重新定义一个`slow2`的慢指针，每次走一步，那么他们一定可以在环的起点位置相遇的。
 
-------------
-
 # Solution
 
 ```cpp

@@ -55,8 +55,6 @@ Understanding the Problem, some requirments for this problem:
 ![](/images/in-post/2019-01-21-Leetcode-729-My-Calendar-I/2019-01-21-21-11-16.png)
 
 
-------------
-
 # Solution
 
 ```cpp 

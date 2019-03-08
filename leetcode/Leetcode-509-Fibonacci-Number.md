@@ -50,8 +50,6 @@ Given  `N`, calculate  `F(N)`.
 
 # Analyze
 
-------------
-
 # Solution
 
 # SOlution 1: 递归方案:

@@ -30,8 +30,6 @@ You need to merge them into a new binary tree. The merge rule is that if two nod
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

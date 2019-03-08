@@ -52,8 +52,6 @@ Return the  **length**  of a maximum size turbulent subarray of A.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

@@ -57,8 +57,6 @@ The order of elements can be changed. It doesn't matter what you leave beyond th
 方案一： 直接跳过重复的元素， 时间复杂度`O(n)`, 空间复杂度`O(1)`
 方案二： 使用`Remove`函数，时间复杂度`O(n)`, 空间复杂度`O(1)`
 
-------------
-
 # Solution
 
 **Solution 1(方案一)：** 直接跳过目标位置

@@ -47,8 +47,6 @@ The final answer should be in lexicographic order.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

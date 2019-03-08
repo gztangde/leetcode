@@ -36,8 +36,6 @@ Given an array  `A`  of integers, return the number of (contiguous, non-empty) s
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

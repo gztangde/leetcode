@@ -26,8 +26,6 @@ Given a Binary Search Tree (BST), convert it to a Greater Tree such that every k
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

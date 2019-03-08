@@ -41,8 +41,6 @@ return  `[2]`.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

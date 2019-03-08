@@ -42,8 +42,6 @@ Given a list of non-negative integers representing the amount of money of each h
 
 ![](/images/in-post/2019-01-25-Leetcode-198-House-Robber/2019-01-25-20-42-28.png) 
 
-------------
-
 # Solution
 
 ## Solution 1: Recursion + Memorization

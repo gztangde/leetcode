@@ -53,8 +53,6 @@ Notes:
 
 
 
-------------
-
 # Solution
 
 ```cpp

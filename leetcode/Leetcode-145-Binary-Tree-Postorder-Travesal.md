@@ -30,8 +30,6 @@ Given a binary tree, return the postorder traversal of its nodes' values.
 
 图片来自于：[二叉树经典面试题解析一：用非递归实现二叉树的前序遍历，中序遍历，后序遍历](https://blog.csdn.net/sofia_m/article/details/78975165)
 
-------------
-
 # Solution
 
 ```cpp

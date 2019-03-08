@@ -53,8 +53,6 @@ Given a string, sort it in decreasing order based on the frequency of characters
 
 # Analyze
 
-------------
-
 # Solution
 
 ## Solution 1: Bubble Sort

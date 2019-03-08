@@ -75,8 +75,6 @@ We would like to write an expression with the least number of operators such tha
 动态规划的解答方式如下图所示：
 ![](/images/in-post/2019-01-07-Leetcode-964-Least-Operators-to-Express-Number/2019-01-07-15-02-49.png)
 
-------------
-
 # Solution
 
 ## Solution 1: set

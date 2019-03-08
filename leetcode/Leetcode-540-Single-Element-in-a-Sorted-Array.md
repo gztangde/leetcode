@@ -36,8 +36,6 @@ Given a sorted array consisting of only integers where every element appears twi
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

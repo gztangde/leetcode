@@ -58,8 +58,6 @@ You have the following 3 operations permitted on a word:
 
 ![](/images/in-post/2018-12-23-Leetcode-72-Edit-Distance/2018-12-23-23-13-17.png)
 
-------------
-
 # Solution
 
 ```cpp

@@ -57,8 +57,6 @@ If there are multiple answers, you may return any one of them. It is guaranteed 
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

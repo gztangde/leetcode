@@ -64,8 +64,6 @@ Given a tree, rearrange the tree in  **in-order**  so that the leftmost node in 
 
 # Analyze
 
-------------
-
 # Solution
 
 ## Solution 1:使用递归: Time Limit Exceeded

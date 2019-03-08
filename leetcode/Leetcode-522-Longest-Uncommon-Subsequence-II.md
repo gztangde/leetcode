@@ -34,8 +34,6 @@ The input will be a list of strings, and the output needs to be the length of th
 
 <!-- TODO:Write some information about how to analyze this quesiton. -->
 
-------------
-
 # Solution
 
 ```cpp

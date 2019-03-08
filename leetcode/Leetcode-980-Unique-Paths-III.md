@@ -73,8 +73,6 @@ Note that the starting and ending square can be anywhere in the grid.
 
 使用DFS来完成这道题目.
 
-------------
-
 # Solution
 
 ## Solution 1: 使用DFS完成

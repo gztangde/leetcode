@@ -33,8 +33,6 @@ According to the  [definition of h-index on Wikipedia](https://en.wikipedia.org/
 1. 将其发表的所有[SCI](https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E5%BC%95%E6%96%87%E7%B4%A2%E5%BC%95 "科学引文索引")论文按被引次数从高到低排序；
 2. 从前往后查找排序后的列表，直到某篇论文的序号大于该论文被引次数。所得序号减一即为H指数。
 
-------------
-
 # Solution
 
 ```cpp

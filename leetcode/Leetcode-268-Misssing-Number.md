@@ -26,8 +26,6 @@ Given an array containing  _n_  distinct numbers taken from  `0, 1, 2, ..., n`, 
 
 <!-- more -->
 
-------------
-
 # Solution
 
 ```cpp

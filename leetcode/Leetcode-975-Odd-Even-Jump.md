@@ -78,8 +78,6 @@ We can reach the end from starting indexes 1, 2, and 4.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

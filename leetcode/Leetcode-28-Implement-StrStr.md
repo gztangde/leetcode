@@ -40,8 +40,6 @@ For the purpose of this problem, we will return 0 when  `needle`  is an empty st
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

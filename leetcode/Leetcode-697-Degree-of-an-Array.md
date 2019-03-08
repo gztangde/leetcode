@@ -42,8 +42,6 @@ Your task is to find the smallest possible length of a (contiguous) subarray of 
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

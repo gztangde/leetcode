@@ -46,8 +46,6 @@ You may return the list in any order.
 
 这道题目要求求解在两个`string`的句子里面，只出现过一次的单词，將两个`string`里面的单词全部放在`unordered_map`中统计各个单词的数量，然后输出只出现了一次的单词即可。
 
-------------
-
 # Solution
 
 ```cpp

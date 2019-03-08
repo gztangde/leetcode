@@ -47,8 +47,6 @@ We may assume that no string in  `A`  is substring of another string in  `A`.
 
 可以將这道题目转化为图的问题来进行求解，
 
-------------
-
 # Solution
 
 ```cpp

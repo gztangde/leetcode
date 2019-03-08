@@ -60,8 +60,6 @@ Return  `true` if and only if it is possible to assign integers to variable name
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

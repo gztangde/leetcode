@@ -32,8 +32,6 @@ Bonus point if you are able to do this using only  _O_(_n_) extra space, where  
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

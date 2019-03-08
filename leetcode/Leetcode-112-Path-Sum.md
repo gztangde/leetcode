@@ -39,8 +39,6 @@ There are four steps for this template:
 3. recursive call funciton
 4. compare ouput value
 
-------------
-
 # Solution
 
 ```cpp

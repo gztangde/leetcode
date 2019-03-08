@@ -36,8 +36,6 @@ Given an unsorted array of integers, find the number of longest increasing subse
 
 # Analyze
 
-------------
-
 # Solution
 
 ## Solution 1:　递归

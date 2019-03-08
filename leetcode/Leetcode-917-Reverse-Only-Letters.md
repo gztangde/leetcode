@@ -43,8 +43,6 @@ Given a string  `S`, return the "reversed" string where all characters that are 
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

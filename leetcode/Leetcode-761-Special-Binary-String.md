@@ -50,8 +50,6 @@ This is the lexicographically largest string possible after some number of swaps
 
 这里要求我们能够通过交换字符串的方式, 生成字母顺序最大的特色字符串,.
 
-------------
-
 # Solution
 
 ```cpp

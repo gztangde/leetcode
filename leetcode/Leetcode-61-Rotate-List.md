@@ -40,8 +40,6 @@ Given a linked list, rotate the list to the right by  _k_  places, where  _k_  i
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

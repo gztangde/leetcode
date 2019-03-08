@@ -43,8 +43,6 @@ Return 0 if the array contains less than 2 elements.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

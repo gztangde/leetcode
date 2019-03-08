@@ -23,8 +23,6 @@ Reverse a singly linked list.
 
 <!-- more -->
 
-------------
-
 # Solution
 
 Tracking prev / curr / next node

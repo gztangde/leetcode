@@ -61,8 +61,6 @@ begin to intersect at node c1.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

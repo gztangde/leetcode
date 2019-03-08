@@ -42,8 +42,6 @@ Return the number of permutations of A that are squareful. Two permutations  `A1
 
 # Analyze
 
-------------
-
 # Solution 1: DFS
 
 Time complexity: O(n!)

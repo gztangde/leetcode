@@ -45,8 +45,6 @@ The average value of nodes on level 0 is 3,  on level 1 is 14.5, and on level 2 
 
 # Analyze
 
-------------
-
 # Solution
 
 ## Solution 1: DFS

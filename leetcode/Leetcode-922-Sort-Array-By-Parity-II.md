@@ -38,8 +38,6 @@ You may return any answer array that satisfies this condition.
 
 # Analyze
 
-------------
-
 # Solution
 
 ## Solution 2 (Error: Memory Limit Exceeded)

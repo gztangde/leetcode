@@ -35,8 +35,6 @@ You need to find the  **shortest**  such subarray and output its length.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

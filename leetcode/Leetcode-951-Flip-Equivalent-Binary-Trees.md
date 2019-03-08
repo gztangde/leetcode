@@ -30,8 +30,6 @@ Write a function that determines whether two binary trees are  _flip equivalent_
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

@@ -43,8 +43,6 @@ Above is a 7 x 3 grid. How many possible unique paths are there?
 
 <!-- more -->
 
-------------
-
 # Solution
 
 ## Solution 1: Recursive(递归) Time Limit Exceeded

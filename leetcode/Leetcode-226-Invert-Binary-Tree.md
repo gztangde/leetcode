@@ -32,8 +32,6 @@ This problem was inspired by  [this original tweet](https://twitter.com/mxcl/sta
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

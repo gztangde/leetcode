@@ -44,8 +44,6 @@ There are four steps for this template:
 
 > There is a small mistake in the picture, the last line for this question. Use: min function
 
-------------
-
 # Solution
 
 ```cpp

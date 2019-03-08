@@ -34,8 +34,6 @@ Your algorithm should run in O(_n_) complexity.
 
 **时间复杂度:** O(n)
 
-------------
-
 # Solution
 
 ## Solution 1: Unodered_map, expand to two side

@@ -36,8 +36,6 @@ You may assume that the intervals were initially sorted according to their start
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

@@ -40,8 +40,6 @@ For example,  `f(3) = 0`  because 3! = 6 has no zeroes at the end, while  `f(11)
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

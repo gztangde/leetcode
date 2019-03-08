@@ -29,8 +29,6 @@ Reverse a linked list from position  _m_  to  _n_. Do it in one-pass.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

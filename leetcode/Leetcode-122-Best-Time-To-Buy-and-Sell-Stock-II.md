@@ -36,8 +36,6 @@ Design an algorithm to find the maximum profit. You may complete as many transac
 
 <!-- more -->
 
-------------
-
 # Solution
 
 ```cpp

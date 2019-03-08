@@ -64,8 +64,6 @@ Could you solve it using only O(1) extra space?
 - 如果`right`指针指向的元素不等于指针`left`指向的元素，那么就将指针`left`的值赋值给最开始的一个元素，然后`left`自加1;如果此时`right-left ==1`，那么就跳出这一次循环，如果没有，那么就将`right-left`赋值给`char[cur++]`实现将大约1的元素个数存到元素字母的后面。
 - 返回`cur`
 
-------------
-
 # Solution
 
 ```cpp

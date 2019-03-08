@@ -29,8 +29,6 @@ You should preserve the original relative order of the nodes in each of the two 
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

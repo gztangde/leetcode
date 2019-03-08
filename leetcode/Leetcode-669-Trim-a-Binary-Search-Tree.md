@@ -65,8 +65,6 @@ Given a binary search tree and the lowest and highest boundaries as  `L`  and  `
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

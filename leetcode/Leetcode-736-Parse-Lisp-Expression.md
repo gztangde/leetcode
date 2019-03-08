@@ -103,8 +103,6 @@ The syntax for these expressions is given as follows.
 
 在这一个题目中，变量的名字是可以嵌套的的，这就是在里面的话，是没有办法得到外面的变量数据的的，只能使用内部的变量数据，这就会使得处理过程比较复杂了。在这里可能需要使用到`stack`的方式，来处理。并且在function call之后的话进行退栈。
 
-------------
-
 # Solution
 
 ```cpp

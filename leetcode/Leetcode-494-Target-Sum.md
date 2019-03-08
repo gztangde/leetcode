@@ -50,8 +50,6 @@ There are 5 ways to assign symbols to make the sum of nums be target 3.
 
 # Analyze
 
-------------
-
 # Solution
 
 ## Solution 1: DFS

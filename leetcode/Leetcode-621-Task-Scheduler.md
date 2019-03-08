@@ -43,8 +43,6 @@ You need to return the  **least**  number of intervals the CPU will take to fini
 
 # Analyze
 
-------------
-
 # Solution
 
 <!-- TODO: You need to know why they need to add the other number of max_count -->

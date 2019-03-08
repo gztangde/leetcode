@@ -30,8 +30,6 @@ Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle con
 - 每一行向上的部分看成是一个直方图，我们只需要对每一行计算一次直方图的数值，就可以了
 - 输入的矩阵有多少行，就计算多少次直方图的数值
 
-------------
-
 # Solution
 
 ```cpp

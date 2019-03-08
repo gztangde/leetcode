@@ -21,8 +21,6 @@ top:
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

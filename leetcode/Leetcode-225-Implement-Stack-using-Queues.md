@@ -46,8 +46,6 @@ stack.empty(); // returns false
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

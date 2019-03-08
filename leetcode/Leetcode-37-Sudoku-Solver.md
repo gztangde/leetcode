@@ -43,8 +43,6 @@ A sudoku puzzle...
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

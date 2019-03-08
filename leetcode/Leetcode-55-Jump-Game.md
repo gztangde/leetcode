@@ -39,8 +39,6 @@ Determine if you are able to reach the last index.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

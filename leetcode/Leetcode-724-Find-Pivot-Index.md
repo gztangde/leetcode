@@ -39,9 +39,7 @@ If no such index exists, we should return -1. If there are multiple pivot indexe
 
 <!-- more -->
 
--------------
-
-# Solution
+-# Solution
 
 ```cpp
 class Solution {

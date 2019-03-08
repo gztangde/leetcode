@@ -41,8 +41,6 @@ Find the letter that was added in  **_t_**.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

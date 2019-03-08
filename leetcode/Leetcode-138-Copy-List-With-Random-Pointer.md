@@ -30,8 +30,6 @@ Return a deep copy of the list.
 - 完成`rondom`节点内容的拷贝工作
 - 分解两个List
 
-------------
-
 # Solution
 
 ```cpp

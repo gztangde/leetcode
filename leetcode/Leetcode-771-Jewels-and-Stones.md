@@ -41,8 +41,6 @@ The letters in  `J`  are guaranteed distinct, and all characters in  `J`  and  `
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

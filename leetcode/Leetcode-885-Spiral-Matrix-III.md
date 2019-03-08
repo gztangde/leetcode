@@ -67,8 +67,6 @@ Return a list of coordinates representing the positions of the grid in the order
 
 记录转方向的次数为i, 所以可以得到每一次走的步数是 `i/2 + 1`
 
-------------
-
 # Solution
 
 ```cpp

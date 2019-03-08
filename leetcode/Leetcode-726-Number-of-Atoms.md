@@ -72,8 +72,6 @@ Given a formula, output the count of all elements as a string in the following f
 
 - 使用`Map`存储每个部分得到的`ATOM`和‘Count’
 
-------------
-
 # Solution
 
 ## 递归的方案

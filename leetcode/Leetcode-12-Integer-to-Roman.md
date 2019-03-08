@@ -83,9 +83,7 @@ Given an integer, convert it to a roman numeral. Input is guaranteed to be withi
 
 我们可以分为四类，100到300一类，400一类，500到800一类，900最后一类。每一位上的情况都是类似的，代码如下：
 
--------------
-
-# Solution
+-# Solution
 
 ```cpp
 class Solution {

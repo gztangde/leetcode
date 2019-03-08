@@ -39,8 +39,6 @@ Since the return type is an integer, the decimal digits are truncated and only t
 
 # Analyze
 
-------------
-
 # Solution
 
 ## Solution 1

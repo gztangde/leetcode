@@ -37,8 +37,6 @@ You call a pre-defined API  `guess(int num)`  which returns 3 possible results (
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

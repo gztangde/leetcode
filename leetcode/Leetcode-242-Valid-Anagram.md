@@ -39,8 +39,6 @@ What if the inputs contain unicode characters? How would you adapt your solution
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

@@ -41,8 +41,6 @@ Return the answer as a string of length 5. If no valid time can be made, return 
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

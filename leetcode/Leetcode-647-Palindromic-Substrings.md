@@ -32,8 +32,6 @@ The substrings with different start indexes or end indexes are counted as differ
 
 <!-- more -->
 
-------------
-
 # Solution
 
 ```cpp

@@ -59,8 +59,6 @@ If no such second minimum value exists, output -1 instead.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

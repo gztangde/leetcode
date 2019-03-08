@@ -37,8 +37,6 @@ Given an array of numbers  `nums`, in which exactly two elements appear only onc
 
 根据 `d &= -d`可以得到最右边不为0的位, 这一位就是这两个不同的元素的其中一个不同的地方, 我们利用这一位, 將所有元素分成两类, 分别在进行异或一次, 就可以筛选出来不同的元素. 时间复杂度: O(n)
 
-------------
-
 # Solution
 
 ```cpp

@@ -32,8 +32,6 @@ A subsequence of a string is a new string which is formed from the original stri
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

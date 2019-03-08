@@ -32,8 +32,6 @@ You need to return whether the student could be rewarded according to his attend
 
 <!--more--->
 
-------------
-
 # Solution
 
 ```cpp

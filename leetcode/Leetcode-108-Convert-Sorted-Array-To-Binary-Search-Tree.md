@@ -26,8 +26,6 @@ For this problem, a height-balanced binary tree is defined as a binary tree in w
 
 # Analyze
 
-------------
-
 # Solution
 
 ## Solution 1: Create any BST

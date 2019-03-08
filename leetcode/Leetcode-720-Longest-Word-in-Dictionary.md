@@ -49,8 +49,6 @@ If there is no answer, return the empty string.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

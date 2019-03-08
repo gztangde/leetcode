@@ -34,8 +34,6 @@ Given two words  _word1_  and  _word2_, find the minimum number of steps require
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

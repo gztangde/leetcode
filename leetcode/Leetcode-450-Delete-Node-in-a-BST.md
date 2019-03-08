@@ -33,8 +33,6 @@ Basically, the deletion can be divided into two stages:
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

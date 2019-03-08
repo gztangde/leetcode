@@ -44,8 +44,6 @@ Given a  **non-empty**  string  _s_  and a dictionary  _wordDict_  containing a 
 
 # Analyze
 
-------------
-
 # Solution
 
 # Solution１:Error--Time Limit Exceeded---DFS

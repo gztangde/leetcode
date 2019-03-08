@@ -39,8 +39,6 @@ If you have figured out the O(_n_) solution, try coding another solution using t
 
 解决方案：如`Solution1`
 
-------------
-
 # Solution
 
 ```cpp

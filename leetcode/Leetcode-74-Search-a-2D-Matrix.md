@@ -27,8 +27,6 @@ Write an efficient algorithm that searches for a value in an  _m_  x  _n_  matri
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

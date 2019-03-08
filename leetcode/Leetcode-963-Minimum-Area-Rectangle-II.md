@@ -62,8 +62,6 @@ If there isn't any rectangle, return 0.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

@@ -54,8 +54,6 @@ circularQueue.Rear();  // return 4
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

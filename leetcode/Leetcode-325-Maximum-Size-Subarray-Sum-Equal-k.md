@@ -38,8 +38,6 @@ Can you do it in O(_n_) time?
 
 这道题给我们一个一维数组nums，让我们求和为k最大子数组，默认子数组必须连续，题目中提醒我们必须要在O(n)的时间复杂度完成. 
 
-------------
-
 # Solution
 
 该方案来自于博客文章：[Maximum Size Subarray Sum Equals k 最大子数组之和为k](http://www.cnblogs.com/grandyang/p/5336668.html)

@@ -49,8 +49,6 @@ Recall that A is a mountain array if and only if:
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

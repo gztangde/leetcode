@@ -42,8 +42,6 @@ We should return its level order traversal:
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

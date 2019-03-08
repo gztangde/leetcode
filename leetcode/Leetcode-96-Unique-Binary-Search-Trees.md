@@ -49,8 +49,6 @@ Given  _n_, how many structurally unique  **BST's**  (binary search trees) that 
 - 三个元素: f(3) = f(0) * f(2) + f(1) * f(1) + f(2) * f(0);
 - $f(i) = \sum_{k-1}^i f(k-1) * f(i-k)$
 
-------------
-
 # Solution
 
 ```cpp

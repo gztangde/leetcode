@@ -45,8 +45,6 @@ Given a string of numbers and operators, return all possible results from comput
 
 ![](/images/in-post/2019-01-07-Leetcode-241-Different-Ways-to-Add-Parentheses/2019-01-07-22-43-54.png)
 
-------------
-
 # Solution
 
 ```cpp

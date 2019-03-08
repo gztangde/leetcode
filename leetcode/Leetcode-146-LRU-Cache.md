@@ -57,8 +57,6 @@ Could you do both operations in  **O(1)**  time complexity?
 - 没有当前元素，超出容量的话：删除最少使用的元素; 然后将当前元素插入到`cacheList`的第一个位置，并设置`cacheMap`里面的数值。
 - 如果有当前元素：直接通过`Hashmap`修改元素在List里面的数值，并将这个元素转移到List的最前面。
 
-------------
-
 # Solution
 
 ```cpp

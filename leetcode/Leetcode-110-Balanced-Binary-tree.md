@@ -28,8 +28,6 @@ For this problem, a height-balanced binary tree is defined as:
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

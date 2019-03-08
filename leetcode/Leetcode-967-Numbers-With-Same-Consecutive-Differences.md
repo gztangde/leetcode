@@ -43,8 +43,6 @@ You may return the answer in any order.
 
 # Analyze
 
-------------
-
 # Solution 1
 
 ```cpp

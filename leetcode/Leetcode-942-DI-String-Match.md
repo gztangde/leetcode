@@ -42,8 +42,6 @@ Return  **any**  permutation  `A`  of  `[0, 1, ..., N]`  such that for all  `i =
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

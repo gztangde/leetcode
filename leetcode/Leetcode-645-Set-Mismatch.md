@@ -37,8 +37,6 @@ Given an array  `nums`  representing the data status of this set after the error
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

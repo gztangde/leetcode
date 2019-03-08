@@ -28,8 +28,6 @@ Return all possible palindrome partitioning of  _s_.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

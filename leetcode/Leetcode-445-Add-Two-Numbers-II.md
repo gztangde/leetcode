@@ -33,8 +33,6 @@ What if you cannot modify the input lists? In other words, reversing the lists i
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

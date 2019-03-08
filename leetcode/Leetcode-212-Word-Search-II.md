@@ -31,8 +31,6 @@ Each word must be constructed from letters of sequentially adjacent cell, where 
 
 This question is similar with the Leetcode 79: Word Search, I reused the `wordsearch` recursion function in that problem and change the loop in the `findWords` to search for each words. As a result, the runtime around `800ms`.
 
-------------
-
 # Solution
 
 <!-- TODO:Change this function to more powerful, the runtime is so long. Consider use the tree in this quesiton -->

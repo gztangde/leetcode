@@ -76,8 +76,6 @@ return false;
 
 ![](/images/in-post/2019-01-09-Leetcode-464-Can-I-Win/2019-01-10-17-25-19.png)
 
-------------
-
 # Solution
 
 ```cpp

@@ -52,8 +52,6 @@ For example:
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

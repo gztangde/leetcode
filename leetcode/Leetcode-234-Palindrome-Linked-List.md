@@ -38,8 +38,6 @@ Could you do it in O(n) time and O(1) space?
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

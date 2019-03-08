@@ -44,8 +44,6 @@ Given the following binary tree,
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

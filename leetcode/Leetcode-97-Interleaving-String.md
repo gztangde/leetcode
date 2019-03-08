@@ -63,8 +63,6 @@ for (unsigned int i = 1; i <= s2.length(); ++i) {
 }
 ```
 
-------------
-
 # Solution
 
 ```cpp

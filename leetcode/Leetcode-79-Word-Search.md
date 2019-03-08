@@ -39,8 +39,6 @@ This problem have these features:
 - If board is empty, then the function return false;
 - If the wordsearch function doesn't find the word in the board, then return fasle.
 
-------------
-
 # Solution
 
 ```cpp

@@ -51,8 +51,6 @@ Initially, all next pointers are set to  `NULL`.
 
 方案二：迭代 (Solution 2)
 
-------------
-
 # Solution
 
 **Solution 1:**递归的解决方案

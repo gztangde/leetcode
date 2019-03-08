@@ -49,8 +49,6 @@ Given an integer array, return the k-th smallest  **distance**  among all the pa
 
 ![](/images/in-post/2019-01-21-Leetcode-719-Find-K-th-Smallest-Pair-Distance/2019-01-21-23-09-02.png)
 
-------------
-
 # Solution
 
 ```cpp

@@ -44,8 +44,6 @@ The above arrows point to positions where the corresponding bits are different.
 
 # Analyze
 
-------------
-
 # Solution
 
 ## Solution 1

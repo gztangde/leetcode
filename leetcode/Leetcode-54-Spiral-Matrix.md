@@ -33,9 +33,7 @@ Given a matrix of  _m_  x  _n_  elements (_m_  rows,  _n_  columns), return all 
 
 <!-- more -->
 
--------------------
-
-# Solution
+-------# Solution
 
 ```cpp
 class Solution {

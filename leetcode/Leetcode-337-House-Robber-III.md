@@ -29,8 +29,6 @@ Determine the maximum amount of money the thief can rob tonight without alerting
 
 # Analyze
 
-------------
-
 # Solution
 
 <!-- TODO: You need to find a better solution to do this question. -->

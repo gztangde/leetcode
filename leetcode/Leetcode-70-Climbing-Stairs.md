@@ -55,8 +55,6 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
 
 ![](/images/in-post/2018-11-19-Leetcode-70-Climbing-Stairs/2018-11-19-18-19-42.png)
 
-------------
-
 # Solution
 
 ## Solution 1: Top-Down Dynamic Programming(Or Memoization

@@ -32,8 +32,6 @@ Sort a linked list in  _O_(_n_  log  _n_) time using constant space complexity.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

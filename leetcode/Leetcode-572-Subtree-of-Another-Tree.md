@@ -69,8 +69,6 @@ Return **false**.
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

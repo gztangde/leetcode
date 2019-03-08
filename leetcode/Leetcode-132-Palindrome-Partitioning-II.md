@@ -29,8 +29,6 @@ Return the minimum cuts needed for a palindrome partitioning of  _s_.
 
 # Analyze
 
-------------
-
 # Solution
 
 ## Solution 1: Memory Limit Exceeded 

@@ -27,8 +27,6 @@ Given a  _m_  x  _n_  grid filled with non-negative numbers, find a path from to
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

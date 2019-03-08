@@ -33,8 +33,6 @@ Algorithm of Insertion Sort:**
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

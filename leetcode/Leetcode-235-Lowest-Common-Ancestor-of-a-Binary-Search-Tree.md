@@ -48,8 +48,6 @@ Given binary search tree: root = [6,2,8,0,4,7,9,null,null,3,5]
 
 # Analyze
 
-------------
-
 # Solution
 
 <!-- TODO:You don't need to deal with the values. You can only use the point to make decision. -->

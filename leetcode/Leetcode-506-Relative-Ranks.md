@@ -38,8 +38,6 @@ Given scores of  **N**  athletes, find their relative ranks and the people with 
 
 在这道题目中,给出了你一些人的分数,输入他们的排名, 前面三名使用`Gold, Medal, Silver Medal, Bronze Medal`替代,后面的输出排名的数字号码就好了.
 
-------------
-
 # Solution
 
 ```cpp

@@ -47,8 +47,6 @@ If possible, output any possible result. If not possible, return the empty strin
 
 <!-- TODO:相信自己的设计思路, 去实现代码就好了. -->
 
-------------
-
 # Solution
 
 ## Solution 1: 堆排序

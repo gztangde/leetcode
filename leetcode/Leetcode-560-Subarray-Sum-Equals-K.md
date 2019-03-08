@@ -37,8 +37,6 @@ Given an array of integers and an integer  **k**, you need to find the total num
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

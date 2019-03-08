@@ -35,8 +35,6 @@ Could you do this in one pass?
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

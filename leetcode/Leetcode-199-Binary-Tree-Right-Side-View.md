@@ -28,8 +28,6 @@ Given a binary tree, imagine yourself standing on the  _right_  side of it, retu
 
 # Analyze
 
-------------
-
 # Solution
 
 ```cpp

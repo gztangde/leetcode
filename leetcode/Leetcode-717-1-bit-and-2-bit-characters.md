@@ -36,9 +36,7 @@ Now given a string represented by several bits. Return whether the last characte
 
 <!-- more -->
 
--------------
-
-# Solution
+-# Solution
 
 ```cpp
 class Solution {
