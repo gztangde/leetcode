@@ -59,8 +59,6 @@ Return the number of moves required to make every node have exactly one coin.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

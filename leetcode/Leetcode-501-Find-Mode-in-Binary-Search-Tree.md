@@ -37,8 +37,6 @@ return  `[2]`.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

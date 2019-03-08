@@ -49,8 +49,6 @@ You examine the  `typed` characters of the keyboard. Return  `True`  if it is po
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 这道题目使用两个指针分别定位`name`和`typed`，当左边和右边不相等的时候，判断是否和上一位相等，如果和`name`的上一位相等，那么指针`l`就向右移动一位。

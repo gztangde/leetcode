@@ -20,8 +20,6 @@ Given preorder and inorder traversal of a tree, construct the binary tree.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 题目给定了`先序`和`中序`，并且里面的元素不重复，可以得到这样几个条件：

@@ -32,8 +32,6 @@ You may assume k is always valid, 1 ≤ k ≤ array's length.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 这道题目是要求找到 k-th Largest Element in An Array, 可以考虑使用堆排序. Leetcode Discuss: [C++ STL, partition and heapsort](https://leetcode.com/problems/kth-largest-element-in-an-array/discuss/60309/C%2B%2B-STL-partition-and-heapsort)

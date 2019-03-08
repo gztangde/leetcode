@@ -39,8 +39,6 @@ You need to return the  **least**  number of intervals the CPU will take to fini
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

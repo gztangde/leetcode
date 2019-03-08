@@ -65,8 +65,6 @@ Return **false**.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

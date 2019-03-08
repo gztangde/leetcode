@@ -29,8 +29,6 @@ Given an array of  **2n**  integers, your task is to group these integers into  
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

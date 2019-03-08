@@ -40,8 +40,6 @@ Given the following binary tree,
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

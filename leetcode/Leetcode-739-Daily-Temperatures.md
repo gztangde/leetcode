@@ -23,8 +23,6 @@ For example, given the list of temperatures  `T = [73, 74, 75, 71, 69, 72, 76, 7
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

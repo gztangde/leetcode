@@ -34,8 +34,6 @@ Given an array of strings, group anagrams together.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

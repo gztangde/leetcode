@@ -29,8 +29,6 @@ Algorithm of Insertion Sort:**
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

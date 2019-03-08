@@ -58,8 +58,6 @@ Given a formula, output the count of all elements as a string in the following f
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 题目描述：

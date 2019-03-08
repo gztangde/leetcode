@@ -35,8 +35,6 @@ For example, given the dungeon below, the initial health of the knight must be a
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

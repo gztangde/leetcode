@@ -65,8 +65,6 @@ Note that the starting and ending square can be anywhere in the grid.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 这是一道周赛的题目, 参考了讨论区的[解法](https://leetcode.com/problems/unique-paths-iii/discuss/221941/C%2B%2B-brute-force-DFS)

@@ -28,8 +28,6 @@ Given a sorted linked list, delete all nodes that have duplicate numbers, leavin
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

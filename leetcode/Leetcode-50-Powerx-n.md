@@ -34,8 +34,6 @@ Implement  [pow(_x_,  _n_)](http://www.cplusplus.com/reference/valarray/pow/), w
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 使用分治法，解决求解一半的情况： double half = power(x, n/2);

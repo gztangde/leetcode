@@ -33,8 +33,6 @@ The repeated subarray with maximum length is [3, 2, 1].
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

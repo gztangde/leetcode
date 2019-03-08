@@ -42,8 +42,6 @@ You can always assume that  `maxChoosableInteger`  will not be larger than 20 an
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 有一个博弈论相关的方式，使用递归，每次走最好的一步，默认对手也走最好的一步. 这道题目需要求解第一个`player`有没有机会取得胜利，但是这可能会让另外一个`player`没有机会胜利的情况也是返回`true`的。

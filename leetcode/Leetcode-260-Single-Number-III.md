@@ -29,8 +29,6 @@ Given an array of numbers  `nums`, in which exactly two elements appear only onc
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 两个不相等的元素一定有一位是不相同的, 所有当我们將所有元素都异或之后, 得到的是两个不存在重复的两个元素异或的结果:

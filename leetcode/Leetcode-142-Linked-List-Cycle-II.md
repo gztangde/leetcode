@@ -23,8 +23,6 @@ Can you solve it without using extra space?
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 这道题目，感觉更多的是考虑数学公式的推导的样子，如果是一个环，可以得到下面这个图形：

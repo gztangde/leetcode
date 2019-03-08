@@ -18,8 +18,6 @@ top:
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 ![](/images/in-post/2018-11-22-Leetcode-144-Binary-Tree-Preorder-Traversal/2018-11-22-19-57-03.png)

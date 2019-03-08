@@ -29,8 +29,6 @@ Basically, the deletion can be divided into two stages:
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

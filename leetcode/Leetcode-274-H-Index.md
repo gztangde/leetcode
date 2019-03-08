@@ -24,8 +24,6 @@ According to the  [definition of h-index on Wikipedia](https://en.wikipedia.org/
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 可以按照如下方法确定某人的H指数：

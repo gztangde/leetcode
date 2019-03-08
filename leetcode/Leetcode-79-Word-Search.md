@@ -25,8 +25,6 @@ The word can be constructed from letters of sequentially adjacent cell, where "a
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 This problem have these features:

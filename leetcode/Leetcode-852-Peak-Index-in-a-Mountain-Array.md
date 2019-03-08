@@ -42,8 +42,6 @@ Given an array that is definitely a mountain, return any `i` such that `A[0] < A
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

@@ -44,8 +44,6 @@ After adding 2 to A[3], the array is [-2,-1,3,6], and the sum of even values is 
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

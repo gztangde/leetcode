@@ -26,8 +26,6 @@ Design an algorithm to serialize and deserialize a  **binary search tree**. Ther
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

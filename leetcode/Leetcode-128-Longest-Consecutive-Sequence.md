@@ -24,8 +24,6 @@ Your algorithm should run in O(_n_) complexity.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 本题目要求的是O(n)的时间复杂度，因为序列中的元素是无序的，而且要求了O(n)的时间复杂度，所以这道题尝试使用哈希表去完成。

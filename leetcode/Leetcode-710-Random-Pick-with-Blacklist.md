@@ -51,8 +51,6 @@ The input is two lists: the subroutines called and their arguments. `Solution`'s
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

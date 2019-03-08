@@ -50,8 +50,6 @@ circularQueue.Rear();  // return 4
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

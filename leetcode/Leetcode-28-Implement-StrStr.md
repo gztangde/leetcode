@@ -36,8 +36,6 @@ For the purpose of this problem, we will return 0 when  `needle`  is an empty st
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

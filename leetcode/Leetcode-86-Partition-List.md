@@ -25,8 +25,6 @@ You should preserve the original relative order of the nodes in each of the two 
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

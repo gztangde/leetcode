@@ -37,8 +37,6 @@ Given a string array  `words`, find the maximum value of  `length(word[i]) * len
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 题目描述：字符串数组的字符串只含有小写字符。求解字符串数组中两个字符串长度的最大乘积，要求这两个字符串不能含有相同字符。

@@ -20,8 +20,6 @@ Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle con
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 这到题目是在二位矩阵上面求解最大的矩形面积。

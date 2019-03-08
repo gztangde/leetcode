@@ -36,8 +36,6 @@ Return the number of good subarrays of  `A`.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

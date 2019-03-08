@@ -32,8 +32,6 @@ The solution set must not contain duplicate quadruplets.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 方案一： 对数组进行排序，然后固定两个值，寻找另外两个数值，左右夹逼的方式，这种情况的时间复杂度是`O(n^3)`

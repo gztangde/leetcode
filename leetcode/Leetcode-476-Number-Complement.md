@@ -36,8 +36,6 @@ Given a positive integer, output its complement number. The complement strategy 
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 This idea is come from the [leetcode discuss](https://leetcode.com/problems/number-complement/discuss/96017/3-line-C%2B%2B). The actual process for the solution like:

@@ -35,8 +35,6 @@ Given a string of numbers and operators, return all possible results from comput
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 寻找一个位置，对表达式进行分割，要求分割的位置是在各个操作符的地方。下面的图片来自于博客：[花花酱 LeetCode 241. Different Ways to Add Parentheses](http://zxi.mytechroad.com/blog/leetcode/leetcode-241-different-ways-to-add-parentheses/)

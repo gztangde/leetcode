@@ -28,8 +28,6 @@ This problem was inspired by  [this original tweet](https://twitter.com/mxcl/sta
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

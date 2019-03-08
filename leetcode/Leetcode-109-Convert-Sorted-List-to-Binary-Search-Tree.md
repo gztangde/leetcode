@@ -39,8 +39,6 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

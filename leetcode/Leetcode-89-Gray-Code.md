@@ -44,8 +44,6 @@ For example, [0,2,3,1] is also a valid gray code sequence.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 这到题目是关于格雷码的，难点也就是理解格雷码的转换过程。格雷码的转换过程可以如下图所示：

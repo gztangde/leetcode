@@ -28,8 +28,6 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 这一道题目，需要找到排列中的下一个顺序（从小到大），如果当前已经是最大的一个排列方式的话，那么下一个就跳转到最小的排列方式。两种情况：

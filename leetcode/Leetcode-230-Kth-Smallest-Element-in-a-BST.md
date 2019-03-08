@@ -28,8 +28,6 @@ What if the BST is modified (insert/delete operations) often and you need to fin
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 In order to get the k-th smallest element in a BST, we can use the inorder traversal property to get a sorted array. (`left < root < right`). There are two ways to solve this problem: recursive or no-recursive.

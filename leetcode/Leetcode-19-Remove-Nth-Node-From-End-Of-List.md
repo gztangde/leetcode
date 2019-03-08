@@ -31,8 +31,6 @@ Could you do this in one pass?
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

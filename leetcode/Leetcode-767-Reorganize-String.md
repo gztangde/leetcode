@@ -35,8 +35,6 @@ If possible, output any possible result. If not possible, return the empty strin
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 在这道题中考虑使用`堆排序`, 处理步骤如下:

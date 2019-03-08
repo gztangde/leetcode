@@ -48,8 +48,6 @@ If it is impossible to form any triangle of non-zero area, return  `0`.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

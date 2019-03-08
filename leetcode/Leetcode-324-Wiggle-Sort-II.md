@@ -39,8 +39,6 @@ Can you do it in O(n) time and/or in-place with O(1) extra space?
 
 https://leetcode.com/problems/wiggle-sort-ii/
 
-------------
-
 # Analyze
 
 # Solution

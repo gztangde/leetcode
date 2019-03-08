@@ -30,8 +30,6 @@ The tree has no more than 1,000 nodes and the values are in the range -1,000,000
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

@@ -60,8 +60,6 @@ Letters also wrap around. For example, if the target is  `target = 'z'`and  `let
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

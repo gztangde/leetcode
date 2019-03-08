@@ -31,8 +31,6 @@ Find the maximum coins you can collect by bursting the balloons wisely.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

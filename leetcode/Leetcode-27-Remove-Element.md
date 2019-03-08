@@ -48,8 +48,6 @@ The order of elements can be changed. It doesn't matter what you leave beyond th
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 这道题目只需要去除与目标数值相同的元素既可， 可以有以下几种方式去实现：

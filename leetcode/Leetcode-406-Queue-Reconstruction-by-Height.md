@@ -30,8 +30,6 @@ The number of people is less than 1,100.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

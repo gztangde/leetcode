@@ -44,8 +44,6 @@ Given binary search tree: root = [6,2,8,0,4,7,9,null,null,3,5]
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

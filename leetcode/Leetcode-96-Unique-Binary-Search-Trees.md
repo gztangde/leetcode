@@ -32,8 +32,6 @@ Given  _n_, how many structurally unique  **BST's**  (binary search trees) that 
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 修改一下上图中展示的顺序:

@@ -34,8 +34,6 @@ Here, we will use the integers 0, 1, and 2 to represent the color red, white, an
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

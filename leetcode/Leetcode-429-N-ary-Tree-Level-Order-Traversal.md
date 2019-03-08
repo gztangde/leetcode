@@ -38,8 +38,6 @@ We should return its level order traversal:
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

@@ -35,8 +35,6 @@ Given a non negative integer number  **num**. For every numbers  **i**  in the r
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

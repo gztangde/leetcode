@@ -37,8 +37,6 @@ _(Formally, a closed interval  `[a, b]`  (with  `a <= b`) denotes the set of rea
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

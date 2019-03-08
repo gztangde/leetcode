@@ -54,8 +54,6 @@ The 6-th smallest number is 6 (1, 2, 2, 3, 4, 6).
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 **在矩阵中使用二分搜索**

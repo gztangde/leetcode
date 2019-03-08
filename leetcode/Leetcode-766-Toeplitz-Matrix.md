@@ -33,8 +33,6 @@ Now given an  `M x N`  matrix, return `True` if and only if the matrix is  _Toep
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

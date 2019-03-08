@@ -29,8 +29,6 @@ Could you do it without extra space and in O(_n_) runtime?
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

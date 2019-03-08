@@ -48,8 +48,6 @@ The above output corresponds to the 5 unique BST's shown below:
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

@@ -31,8 +31,6 @@ Given a collection of  **distinct**  integers, return all possible permutations.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 这到题是找到数字的所有排列，按照顺序排序，我们在`Leetcode 31. Next Permutation` 这个题目是已经完成了求解给定排列的下一个排列的情况，所以这道题目，我们直接使用那道题目的函数来循环`n!`次求解就好。

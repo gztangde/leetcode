@@ -60,8 +60,6 @@ Round 7: You could get 9 + 5 = 14 points. The sum is 27.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

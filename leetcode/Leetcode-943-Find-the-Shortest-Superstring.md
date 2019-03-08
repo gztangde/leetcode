@@ -37,8 +37,6 @@ We may assume that no string in  `A`  is substring of another string in  `A`.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 在这道题目的输入规模情况，可以得到， 这个规模可以 $O(n^2)$

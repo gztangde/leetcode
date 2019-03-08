@@ -20,8 +20,6 @@ Given a binary tree, return the postorder traversal of its nodes' values.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 非递归的实现按照下图中的方式进行实现：

@@ -44,8 +44,6 @@ You have the following 3 operations permitted on a word:
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 在这道题目中，使用动态规划的方式来求解。设状态`f[i][j]`表示`A[0,i]`和`B[0,j]`之间的最小编辑距离，假设两个`string`分别为`word1`和`word2`.

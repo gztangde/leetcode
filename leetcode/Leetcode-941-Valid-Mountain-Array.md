@@ -45,8 +45,6 @@ Recall that A is a mountain array if and only if:
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

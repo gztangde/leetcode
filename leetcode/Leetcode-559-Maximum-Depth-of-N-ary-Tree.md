@@ -26,8 +26,6 @@ For example, given a  `3-ary`  tree:
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 So we use the template code for this `Tree Question`.

@@ -53,8 +53,6 @@ Could you solve it using only O(1) extra space?
 
 <!--more-->
 
-------------
-
 # Analyze
 
 这道题目是计算排序好的字母的每个重复个数，然后转换成其他方式输出出来，如果超过1个的字母就输入字母+个数。处理方式如下：

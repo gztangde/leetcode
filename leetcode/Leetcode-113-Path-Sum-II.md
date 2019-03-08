@@ -28,8 +28,6 @@ Given the below binary tree and  `sum = 22`,
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

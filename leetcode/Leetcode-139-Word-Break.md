@@ -40,8 +40,6 @@ Given a  **non-empty**  string  _s_  and a dictionary  _wordDict_  containing a 
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

@@ -25,8 +25,6 @@ Given  _n_  non-negative integers representing the histogram's bar height where 
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 **问题：** 求直方图里面的最大矩形面积

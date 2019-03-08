@@ -39,8 +39,6 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 假设`f(n)`表示爬到`n`阶阶梯，的不同方法数量，为了爬到第`n`阶阶梯，有两种情况：

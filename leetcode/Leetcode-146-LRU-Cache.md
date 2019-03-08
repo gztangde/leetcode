@@ -35,8 +35,6 @@ Could you do both operations in  **O(1)**  time complexity?
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 刚开始没看明白要实现什么东西，看了一些LRU缓存器的介绍之后，明白了这就是实现一个LRU(Least Recently Used)最近最少使用的缓存器，这个缓存器有两个函数。

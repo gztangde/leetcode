@@ -39,8 +39,6 @@ Given two integers  `A`  and  `B`, return  **any**  string  `S`  such that:
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

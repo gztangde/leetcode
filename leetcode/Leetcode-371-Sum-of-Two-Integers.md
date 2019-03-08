@@ -29,8 +29,6 @@ Calculate the sum of two integers  _a_  and  _b_, but you are  **not allowed**  
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 ------------

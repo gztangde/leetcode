@@ -32,8 +32,6 @@ If the target is not found in the array, return  `[-1, -1]`.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

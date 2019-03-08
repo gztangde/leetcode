@@ -43,8 +43,6 @@ The final answer should be in lexicographic order.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

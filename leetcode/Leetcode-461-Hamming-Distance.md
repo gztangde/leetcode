@@ -40,8 +40,6 @@ The above arrows point to positions where the corresponding bits are different.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

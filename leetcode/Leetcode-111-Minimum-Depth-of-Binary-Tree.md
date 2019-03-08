@@ -28,8 +28,6 @@ The minimum depth is the number of nodes along the shortest path from the root n
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 ## Template 1: One root

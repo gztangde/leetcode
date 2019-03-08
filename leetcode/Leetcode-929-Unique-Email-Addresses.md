@@ -42,8 +42,6 @@ Given a list of  `emails`, we send one email to each address in the list. How ma
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

@@ -27,8 +27,6 @@ The maximum depth is the number of nodes along the longest path from the root no
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 This is a easy question for the tree problem. This question have these feature:

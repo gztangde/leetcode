@@ -44,8 +44,6 @@ Given  _n_  and  _k_, return the  _k_th  permutation sequence.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 这到题是找到数字的排列中的第`k`个，我们在`Leetcode 31. Next Permutation` 这个题目是已经完成了求解给定排列的下一个排列的情况，所以这道题目，我们直接使用那道题目的函数来循环`k`次求解第k个排列就好了。

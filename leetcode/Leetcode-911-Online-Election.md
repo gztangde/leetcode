@@ -42,8 +42,6 @@ Votes cast at time  `t`  will count towards our query. In the case of a tie, the
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 **Understand Question**

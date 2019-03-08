@@ -38,8 +38,6 @@ Initially, all next pointers are set to  `NULL`.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 方案一：递归 (Solution 1)

@@ -43,8 +43,6 @@ Your class will be called like this: `MyCalendar cal = new MyCalendar();`  `MyCa
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 Understanding the Problem, some requirments for this problem:

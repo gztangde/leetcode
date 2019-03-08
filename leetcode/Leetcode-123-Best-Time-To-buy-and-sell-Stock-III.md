@@ -40,8 +40,6 @@ Design an algorithm to find the maximum profit. You may complete at most  _two_ 
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 思路参考[博客](http://www.cnblogs.com/grandyang/p/4281975.html), 在这道题目中我们使用了两个变量：

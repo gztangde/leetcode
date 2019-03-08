@@ -38,8 +38,6 @@ It is guaranteed that every call to  `ping`  uses a strictly larger value of `t`
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 这道题目，一眼看过去，没有搞明白这个题目说的是什么东西。就是找出最近的`3000`毫秒内有多少个调用的请求，每个调用请求对应的是就是`pint(t)`函数，其中的`t`就是请求的时间，可以保证每一次`ping`的参数`t`是不大于前面３０００．

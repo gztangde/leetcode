@@ -24,8 +24,6 @@ Return all possible palindrome partitioning of  _s_.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

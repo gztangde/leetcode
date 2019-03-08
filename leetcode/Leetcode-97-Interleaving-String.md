@@ -28,8 +28,6 @@ Given  _s1_,  _s2_,  _s3_, find whether  _s3_  is formed by the interleaving of 
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 这一道题目先判断前提条件是否符合： `字符串s1和字符串s2的长度之和必须等于字符串s3的长度。`， 并且如果s1和s2是空值的时候，直接返回`true`。这道题目使用动态规划来求解。

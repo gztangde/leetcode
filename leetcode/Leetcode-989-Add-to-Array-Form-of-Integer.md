@@ -52,8 +52,6 @@ Given the array-form  `A`  of a non-negative integer  `X`, return the array-form
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 这是123次周赛的比赛题目, 使用`C++`来解决这个问题的时候,显得十分笨重, 在后面的题目中,会同时考虑使用 Python 来刷Leetcode的题目.

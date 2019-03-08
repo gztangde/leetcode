@@ -29,8 +29,6 @@ If you have figured out the  _O_(_n_) solution, try coding another solution of w
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

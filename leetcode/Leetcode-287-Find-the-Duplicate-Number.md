@@ -39,8 +39,6 @@ Given an array  _nums_  containing  _n_  + 1 integers where each integer is betw
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

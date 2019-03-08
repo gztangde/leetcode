@@ -60,8 +60,6 @@ Given a tree, rearrange the tree in  **in-order**  so that the leftmost node in 
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

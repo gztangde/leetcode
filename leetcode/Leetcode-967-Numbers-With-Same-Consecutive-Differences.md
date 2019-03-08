@@ -39,8 +39,6 @@ You may return the answer in any order.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution 1

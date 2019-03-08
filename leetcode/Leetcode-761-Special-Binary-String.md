@@ -39,8 +39,6 @@ This is the lexicographically largest string possible after some number of swaps
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 输入,输出都是一个特色的二进制字符串, 需要满足要求为:

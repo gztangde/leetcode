@@ -36,8 +36,6 @@ Given an array of integers  `A` sorted in non-decreasing order, return an array 
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

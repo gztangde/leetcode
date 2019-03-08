@@ -35,8 +35,6 @@ The transpose of a matrix is the matrix flipped over it's main diagonal, switchi
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 How can we solve this problem in-place.

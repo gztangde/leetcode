@@ -46,8 +46,6 @@ You may return the answer in any order. In your answer, each value should occur 
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

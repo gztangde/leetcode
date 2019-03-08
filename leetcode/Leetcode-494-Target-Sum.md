@@ -46,8 +46,6 @@ There are 5 ways to assign symbols to make the sum of nums be target 3.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

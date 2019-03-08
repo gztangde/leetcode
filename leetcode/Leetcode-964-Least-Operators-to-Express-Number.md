@@ -50,8 +50,6 @@ We would like to write an expression with the least number of operators such tha
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 分析思路参考了博客： [花花酱 LeetCode 964. Least Operators to Express Number](https://zxi.mytechroad.com/blog/uncategorized/leetcode-964-least-operators-to-express-number/)

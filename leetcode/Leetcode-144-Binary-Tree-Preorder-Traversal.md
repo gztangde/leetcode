@@ -20,8 +20,6 @@ Given a binary tree, return the preorder traversal of its nodes' values.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 这一道题目考察的是二叉树的深度遍历里面的`前序遍历`，在深度遍历里面有下面几种情况：

@@ -35,8 +35,6 @@ What if the inputs contain unicode characters? How would you adapt your solution
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

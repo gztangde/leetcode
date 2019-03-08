@@ -44,8 +44,6 @@ Return the smallest possible difference between the maximum value of  `B` and th
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 这道题目的输入是一个整数的集合以及一个目标数值`k`,要求对于`A[i]`的任何一个元素，我们都可以选择一个`-K <= x <= K`的整数，并將藏歌整数加入到这个集合里面去，找到每一项中加入的数值的最大值和最小值的最小差。(其实就是向中间值靠拢)

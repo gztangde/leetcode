@@ -29,8 +29,6 @@ Given a circular array (the next element of the last element is the first elemen
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 这里的输入数组是一个循环数组, 我们首先想到的是循环遍历数组, 每一个元素向后找到第一个比它大的元素, 找到第一个之后就停止.

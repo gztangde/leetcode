@@ -40,8 +40,6 @@ What is the  `K`-th smallest fraction considered? Return your answer as an array
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 在Leetcode里面有好几个类似的题目是利用了`Binary-Search`的方式去查找第`k`小的数.

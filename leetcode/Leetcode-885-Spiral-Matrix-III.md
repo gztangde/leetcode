@@ -51,8 +51,6 @@ Return a list of coordinates representing the positions of the grid in the order
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 走的步数的规律:

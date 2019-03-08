@@ -28,8 +28,6 @@ If you have figured out the O(_n_) solution, try coding another solution using t
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 这道题目是求解最大的连续子序列和，依次处理每个元素：

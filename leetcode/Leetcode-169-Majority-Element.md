@@ -30,8 +30,6 @@ You may assume that the array is non-empty and the majority element always exist
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

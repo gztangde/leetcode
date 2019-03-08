@@ -75,8 +75,6 @@ The syntax for these expressions is given as follows.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 **嵌套的问题一般使用递归来解决**

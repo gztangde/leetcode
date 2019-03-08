@@ -33,8 +33,6 @@ A partition like "ababcbacadefegde", "hijhklij" is incorrect, because it splits 
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 分析参考博客: [花花酱 LeetCode 763. Partition Labels](https://zxi.mytechroad.com/blog/string/leetcode-763-partition-labels/)

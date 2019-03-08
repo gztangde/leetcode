@@ -42,8 +42,6 @@ stack.empty(); // returns false
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

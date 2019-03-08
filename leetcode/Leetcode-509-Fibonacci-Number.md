@@ -46,8 +46,6 @@ Given  `N`, calculate  `F(N)`.
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution

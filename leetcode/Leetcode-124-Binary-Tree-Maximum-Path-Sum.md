@@ -24,8 +24,6 @@ For this problem, a path is defined as any sequence of nodes from some starting 
 
 <!-- more -->
 
-------------
-
 # Analyze
 
 # Solution
