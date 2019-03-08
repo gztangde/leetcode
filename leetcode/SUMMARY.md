@@ -45,10 +45,10 @@
     * [Median of Two Sorted Arrays](./Leetcode-4-Median-of-Two-Sorted-Arrays.md)
     * [Intersection of two Arrays](./Leetcode-349-Intersection-of-two-Arrays.md)
     * [Intersection Of Two Arrays II](./Leetcode-350-Intersection-Of-Two-Arrays-II.md)
+  * [Integer(数字操作)](./summary/Leetcode-Array-String-Summary.md)
+    * [Reverse Integer](./Leetcode-7-Reverse-Integer.md)
+    * [Divide Two Integers](./Leetcode-29-Divide-Two-Integers.md)
   * [Remove Element](./Leetcode-27-Remove-Element.md)
-  * [Add Two Numbers](./Leetcode-2-Add-Two-Numbers.md)
-  * [Reverse Integer](./Leetcode-7-Reverse-Integer.md)
-  * [Divide Two Integers](./Leetcode-29-Divide-Two-Integers.md)
   * [Next Permutation](./Leetcode-31-Next-Permutation.md)
   * [Find First And Last Position Of Element In Sorted Array](./Leetcode-34-Find-First-And-Last-Position-Of-Element-In-Sorted-Array.md)
   * [Target Sum](./Leetcode-494-Target-Sum.md)
@@ -132,6 +132,7 @@
 
 ## Linked List
 
+* [Add Two Numbers](./Leetcode-2-Add-Two-Numbers.md)
 * [Remove Duplicates From Sorted List](./Leetcode-83-Remove-Duplicates-From-Sorted-List.md)
 * [Remove Duplicates From Sorted List II](./Leetcode-82-Remove-Duplicates-From-Sorted-List-II.md)
 * [Remove Nth Node From End Of List](./Leetcode-19-Remove-Nth-Node-From-End-Of-List.md)
