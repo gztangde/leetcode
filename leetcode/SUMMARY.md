@@ -178,7 +178,6 @@
   * [N ary Tree Preorder Traversal](./Leetcode-589-N-ary-Tree-Preorder-Traversal.md)
   * [N ary Tree Postorder Traversal](./Leetcode-590-N-ary-Tree-Postorder-Traversal.md)
   * [N ary Tree Level Order Traversal](./Leetcode-429-N-ary-Tree-Level-Order-Traversal.md)
-
 * [Build Binary Tree](./summary/2019-02-03-Leetcode-Tree-Build.md)
   * [Construct Binary Tree From Preorder and Inorder Traversal](./Leetcode-105-Construct-Binary-Tree-From-Preorder-and-Inorder-Traversal.md)
   * [Construct Binary Tree From Inorder And Postorder Traversal](./Leetcode-106-Construct-Binary-Tree-From-Inorder-And-Postorder-Traversal.md)
@@ -189,7 +188,6 @@
   * [Univalued Binary Tree](./Leetcode-965-Univalued-Binary-Tree.md)
   * [Convert BST to Greater Tree](./Leetcode-538-Convert-BST-to-Greater-Tree.md)
   * [Serialize and Deserialize BST](./Leetcode-449-Serialize-and-Deserialize-BST.md)
-
 * [Tree Quality](./summary/summary.md)
   * [Minimum Depth of Binary Tree](./Leetcode-111-Minimum-Depth-of-Binary-Tree.md)
   * [Maximum Depth of Binary Tree](./Leetcode-104-Maximum-Depth-of-Binary-Tree.md)
@@ -214,7 +212,6 @@
   * [Find Largest Value in Each Tree Row](./Leetcode-515-Find-Largest-Value-in-Each-Tree-Row.md)
   * [Flip Equivalent Binary Trees](./Leetcode-951-Flip-Equivalent-Binary-Trees.md)
   * [Binary Tree Tilt](./Leetcode-563-Binary-Tree-Tilt.md)
-
 * [Binary Search Tree](./summary/summary.md)
   * [Validate Binary Search Tree](./Leetcode-98-Validate-Binary-Search-Tree.md)
   * [Unique Binary Search Trees](./Leetcode-96-Unique-Binary-Search-Trees.md)
@@ -230,7 +227,6 @@
   * [Trim a Binary Search Tree](./Leetcode-669-Trim-a-Binary-Search-Tree.md)
   * [Increasing Order Search Tree](./Leetcode-897-Increasing-Order-Search-Tree.md)
   * [Distribute Coins in Binary Tree](./Leetcode-979-Distribute-Coins-in-Binary-Tree.md)
-
 * [Sum](./summary/summary.md)
   * [Path Sum](./Leetcode-112-Path-Sum.md)
   * [Path Sum II](./Leetcode-113-Path-Sum-II.md)
