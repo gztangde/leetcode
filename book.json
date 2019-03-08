@@ -16,7 +16,7 @@
   },
   "structure": {
     "readme": "INDEX.md",
-    "summary": "./leetcode/SUMMARY.md"
+    "summary": "SUMMARY.md"
   },
   "plugins": [
     "-lunr",
