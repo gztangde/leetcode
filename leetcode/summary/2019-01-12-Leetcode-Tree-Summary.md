@@ -9,6 +9,26 @@ notshow: true
 top:
 ---
 
+<!-- TOC -->
+
+- [Summary](#summary)
+- [Definition of a Binary Tree Node](#definition-of-a-binary-tree-node)
+- [Binary Search Tree](#binary-search-tree)
+- [Balanced Binary Tree](#balanced-binary-tree)
+- [Tree Traversal](#tree-traversal)
+- [How to Create a BST](#how-to-create-a-bst)
+- [Key to solve the tree problem.](#key-to-solve-the-tree-problem)
+- [Templates](#templates)
+  - [Template 1: One root](#template-1-one-root)
+  - [Template 2: Two root](#template-2-two-root)
+- [Tree Problems](#tree-problems)
+    - [1.Binary Tree Traversal](#1binary-tree-traversal)
+    - [2.Build Binary Tree](#2build-binary-tree)
+    - [3. Binary search Tree](#3-binary-search-tree)
+    - [4. Recursion (Binary Tree)](#4-recursion-binary-tree)
+
+<!-- /TOC -->
+
 > All the pictures in this post are coming from the video: 
 > [花花酱 LeetCode Binary Trees 二叉树 - 刷题找工作 SP12](https://www.youtube.com/watch?v=PbGl8_-bZxI&list=PLLuMmzMTgVK7ug02DDoQsf50OtwVDL1xd) 
 
