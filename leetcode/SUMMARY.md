@@ -172,6 +172,7 @@
 * [Ransom Note](./Leetcode-383-Ransom-Note.md)
 * [Unique Morse Code Words](./Leetcode-804-Unique-Morse-Code-Words.md)
 * [Maximum Minimum Path(Interview)](./Leetcode-Interview-Amazon-OA2-Maximum-Minimum-Path.md)
+* [Most Common Word](./Leetcode-819-Most-Common-Word.md)
 
 ## Linked List
 
@@ -479,7 +480,6 @@
 * [Find Pivot Index](./Leetcode-724-Find-Pivot-Index.md)
 * [Largest Number At Least Twice Of Others](./Leetcode-747-Largest-Number-At-Least-Twice-Of-Others.md)
 * [Rotated Digits](./Leetcode-788-Rotated-Digits.md)
-* [Most Common Word](./Leetcode-819-Most-Common-Word.md)
 * [Find And Replace Pattern](./Leetcode-890-Find-And-Replace-Pattern.md)
 
 ## New Problems
