@@ -18,12 +18,15 @@ notifications:
 
 install:
   - npm install -g gitbook-cli
+  - npm install gitbook-pdf -g
   - gitbook install
 
 script:
   - chmod +x ./scripts/hexotogitbook.sh
   - ./scripts/hexotogitbook.sh
   - mv ./leetcode/* .
+  - gitbook pdf ./
+  - ls
   - gitbook build
 
 after_script:

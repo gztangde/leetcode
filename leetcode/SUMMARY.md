@@ -418,10 +418,9 @@
 
 ## DP
 
-* Two Words Distance
-  * [Edit Distance](./Leetcode-72-Edit-Distance.md)
-  * [Leetcode 583. Delete Operation for Two Strings](./Leetcode-583-Delete-Operation-for-Two-Strings.md)
-  * [Leetcode 712. Minimum ASCII Delete Sum for Two Strings](./Leetcode-712-Minimum-ASCII-Delete-Sum-for-Two-Strings.md)
+* [Edit Distance(LC.72)](./Leetcode-72-Edit-Distance.md)
+* [Delete Operation for Two Strings(LC.583)](./Leetcode-583-Delete-Operation-for-Two-Strings.md)
+* [Minimum ASCII Delete Sum for Two Strings(LC.712)](./Leetcode-712-Minimum-ASCII-Delete-Sum-for-Two-Strings.md)
 * [Triangle](./Leetcode-120-Triangle.md)
 * [Maximum Subarray](./Leetcode-53-Maximum-Subarray.md)
 * [Maximal Rectangle](./Leetcode-85-Maximal-Rectangle.md)
