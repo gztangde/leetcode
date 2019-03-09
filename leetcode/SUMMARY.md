@@ -267,12 +267,14 @@
   * [Increasing Order Search Tree](./Leetcode-897-Increasing-Order-Search-Tree.md)
   * [Distribute Coins in Binary Tree](./Leetcode-979-Distribute-Coins-in-Binary-Tree.md)
 * [Sum](./summary/summary.md)
-  * [Path Sum](./Leetcode-112-Path-Sum.md)
-  * [Path Sum II](./Leetcode-113-Path-Sum-II.md)
-  * [Path Sum III](./Leetcode-437-Path-Sum-III.md)
-  * [Sum Root to Leaf Numbers](./Leetcode-129-Sum-Root-to-Leaf-Numbers.md)
-  * [Smallest String Starting From Leaf](./Leetcode-988-Smallest-String-Starting-From-Leaf.md)
-  * [Binary Tree Maximum Path Sum](./Leetcode-124-Binary-Tree-Maximum-Path-Sum.md)
+  * [Path Sum(LC.112)](./Leetcode-112-Path-Sum.md)
+  * [Path Sum II(LC.113)](./Leetcode-113-Path-Sum-II.md)
+  * [Path Sum III(LC.437)](./Leetcode-437-Path-Sum-III.md)
+  * [Sum Root to Leaf Numbers(LC.129)](./Leetcode-129-Sum-Root-to-Leaf-Numbers.md)
+  * [Smallest String Starting From Leaf(LC.988)](./Leetcode-988-Smallest-String-Starting-From-Leaf.md)
+  * [Binary Tree Maximum Path Sum(LC.124)](./Leetcode-124-Binary-Tree-Maximum-Path-Sum.md)
+* [Subtree: Maximum Average Node(Interview)](./Leetcode-Interview-Amazon-OA2-Subtree-Maximum-average-node.md)
+* [Cousins in Binary Tree(LC.933)](./Leetcode-993-Cousins-in-Binary-Tree.md)
 
 ## Graph
 
@@ -490,7 +492,6 @@
 * [Leetcode 990. Satisfiability of Equality Equations](./Leetcode-990-Satisfiability-of-Equality-Equations.md)
 * [Leetcode 962. Maximum Width Ramp](./Leetcode-962-Maximum-Width-Ramp.md)
 * [Leetcode 957. Prison Cells After N Days](./Leetcode-957-Prison-Cells-After-N-Days.md)
-* [Leetcode 993. Cousins in Binary Tree](./Leetcode-993-Cousins-in-Binary-Tree.md)
 * [Leetcode 994. Rotting Oranges](./Leetcode-994-Rotting-Oranges.md)
 * [Leetcode 689. Maximum Sum of 3 Non Overlapping Subarrays](./Leetcode-689-Maximum-Sum-of-3-Non-Overlapping-Subarrays.md)
 * [Leetcode 416. Partition Equal Subset Sum](./Leetcode-416-Partition-Equal-Subset-Sum.md)
@@ -501,4 +502,3 @@
 * [Maximum Minimum Path(Interview)](./Leetcode-Interview-Amazon-OA2-Maximum-Minimum-Path.md)
 * [K Nearest Points(Interview)](./Leetcode-Interview-Amazon-OA2-K-Nearest-Points.md)
 * [City Connection(Interview)](./Leetcode-Interview-Amazon-OA2-City-Connection.md)
-* [Subtree: Maximum Average Node(Interview)](./Leetcode-Interview-Amazon-OA2-Subtree-Maximum-average-node.md)
