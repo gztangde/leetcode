@@ -58,6 +58,7 @@
     * [Intersection Of Two Arrays II(LC.350)](./Leetcode-350-Intersection-Of-Two-Arrays-II.md)
     * [Maximum Length of Repeated Subarray(LC.718)](./Leetcode-718-Maximum-Length-of-Repeated-Subarray.md)
     * [Fair Candy Swap](./Leetcode-888-Fair-Candy-Swap.md)
+    * [Smallest Range(LC.632)](./Leetcode-632-Smallest-Range.md)
   * [Integer(数字操作)](./summary/Leetcode-Array-String-Summary.md)
     * [Reverse Integer](./Leetcode-7-Reverse-Integer.md)
     * [Divide Two Integers](./Leetcode-29-Divide-Two-Integers.md)
@@ -120,6 +121,7 @@
   * [String Compression](./Leetcode-443-String-Compression.md)
 * [回文](./summary/Leetcode-Array-String-Summary.md)
   * [Valid Palindrome](./Leetcode-125-Valid-Palindrome.md)
+  * [Valid Palindrome II](./Leetcode-680-Valid-Palindrome-II.md)
   * [Palindromic Substrings](./Leetcode-647-Palindromic-Substrings.md)
   * [Longest Palindromic Substring](./Leetcode-5-Longest-Palindromic-Substring.md)
 * [正则匹配问题](./summary/Leetcode-Array-String-Summary.md)
@@ -169,6 +171,7 @@
 * [Longest Uncommon Subsequence II](./Leetcode-522-Longest-Uncommon-Subsequence-II.md)
 * [Ransom Note](./Leetcode-383-Ransom-Note.md)
 * [Unique Morse Code Words](./Leetcode-804-Unique-Morse-Code-Words.md)
+* [Maximum Minimum Path(Interview)](./Leetcode-Interview-Amazon-OA2-Maximum-Minimum-Path.md)
 
 ## Linked List
 
@@ -200,16 +203,17 @@
 * [Longest Valid Parentheses(LC.32)](./Leetcode-32-Longest-Valid-Parentheses.md)
 * [Remove Invalid Parentheses(LC.301)](./Leetcode-301-Remove-Invalid-Parentheses.md)
 * [Minimum Add to Make Parentheses Valid(LC.921)](./Leetcode-921-Minimum-Add-to-Make-Parentheses-Valid.md)
+* [Score Of Parentheses(LC.856)](./Leetcode-856-Score-Of-Parentheses.md)
 * [Validate Stack Sequences(LC.946)](./Leetcode-946-Validate-Stack-Sequences.md)
-* [Implement Stack using Queues](./Leetcode-225-Implement-Stack-using-Queues.md)
-* [Min Stack](./Leetcode-155-Min-Stack.md)
-* [Largest Rectangle in histogram](./Leetcode-84-Largest-Rectangle-in-histogram.md)
-* [Evaluate Reverse Polish Notation](./Leetcode-150-Evaluate-Reverse-Polish-Notation.md)
-* [Number of Recent Calls](./Leetcode-933-Number-of-Recent-Calls.md)
-* [Queue Reconstruction by Height](./Leetcode-406-Queue-Reconstruction-by-Height.md)
-* [Shortest Subarray with Sum at Least K](./Leetcode-862-Shortest-Subarray-with-Sum-at-Least-K.md)
-* [Design Circular Queue](./Leetcode-622-Design-Circular-Queue.md)
-* [Design Circular Deque](./Leetcode-641-Design-Circular-Deque.md)
+* [Implement Stack using Queues(LC.225)](./Leetcode-225-Implement-Stack-using-Queues.md)
+* [Min Stack(LC.155)](./Leetcode-155-Min-Stack.md)
+* [Largest Rectangle in histogram(LC.84)](./Leetcode-84-Largest-Rectangle-in-histogram.md)
+* [Evaluate Reverse Polish Notation(LC.150)](./Leetcode-150-Evaluate-Reverse-Polish-Notation.md)
+* [Number of Recent Calls(LC.933)](./Leetcode-933-Number-of-Recent-Calls.md)
+* [Queue Reconstruction by Height(LC.406)](./Leetcode-406-Queue-Reconstruction-by-Height.md)
+* [Shortest Subarray with Sum at Least K(LC.862)](./Leetcode-862-Shortest-Subarray-with-Sum-at-Least-K.md)
+* [Design Circular Queue(LC.622)](./Leetcode-622-Design-Circular-Queue.md)
+* [Design Circular Deque(Lc.641)](./Leetcode-641-Design-Circular-Deque.md)
 
 ## Tree, Tries & Graph
 
@@ -369,7 +373,7 @@
   * [Find the Shortest Superstring](./Leetcode-943-Find-the-Shortest-Superstring.md)
   * [Number of Squareful Arrays](./Leetcode-996-Number-of-Squareful-Arrays.md)
 
-## DFS and BFS
+## DFS & BFS
 
 * [Palindrome Partitioning](./Leetcode-131-Palindrome-Partitioning.md)
 * [Palindrome Partitioning II](./Leetcode-132-Palindrome-Partitioning-II.md)
@@ -398,8 +402,6 @@
 * [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
 * [Search a 2D Matrix](./Leetcode-74-Search-a-2D-Matrix.md)
 * [Sqrt x 3](./Leetcode-69-Sqrt-x-3.md)
-
-## Breadth-First-Search
 
 ----
 
@@ -473,13 +475,11 @@
 * [Permutation in String](./Leetcode-567-Permutation-in-String.md)
 * [Robot Return To Origin](./Leetcode-657-Robot-Return-To-Origin.md)
 * [Number of Longest Increasing Subsequence](./Leetcode-673-Number-of-Longest-Increasing-Subsequence.md)
-* [Valid Palindrome II](./Leetcode-680-Valid-Palindrome-II.md)
 * [1 bit and 2 bit characters](./Leetcode-717-1-bit-and-2-bit-characters.md)
 * [Find Pivot Index](./Leetcode-724-Find-Pivot-Index.md)
 * [Largest Number At Least Twice Of Others](./Leetcode-747-Largest-Number-At-Least-Twice-Of-Others.md)
 * [Rotated Digits](./Leetcode-788-Rotated-Digits.md)
 * [Most Common Word](./Leetcode-819-Most-Common-Word.md)
-* [Score Of Parentheses](./Leetcode-856-Score-Of-Parentheses.md)
 * [Find And Replace Pattern](./Leetcode-890-Find-And-Replace-Pattern.md)
 
 ## New Problems
@@ -493,13 +493,11 @@
 * [Leetcode 791. Custom Sort String](./Leetcode-791-Custom-Sort-String.md)
 * [Leetcode 937. Reorder Log Files](./Leetcode-937-Reorder-Log-Files.md)
 * [Leetcode 761. Special Binary String](./Leetcode-761-Special-Binary-String.md)
-* [Leetcode 632. Smallest Range](./Leetcode-632-Smallest-Range.md)
 * [Leetcode 990. Satisfiability of Equality Equations](./Leetcode-990-Satisfiability-of-Equality-Equations.md)
 * [Leetcode 962. Maximum Width Ramp](./Leetcode-962-Maximum-Width-Ramp.md)
 * [Leetcode 957. Prison Cells After N Days](./Leetcode-957-Prison-Cells-After-N-Days.md)
 * [Leetcode 994. Rotting Oranges](./Leetcode-994-Rotting-Oranges.md)
 * [Leetcode 689. Maximum Sum of 3 Non Overlapping Subarrays](./Leetcode-689-Maximum-Sum-of-3-Non-Overlapping-Subarrays.md)
 * [Hightest Five(Interview)](./Leetcode-Interview-Hight-Five.md)
-* [Maximum Minimum Path(Interview)](./Leetcode-Interview-Amazon-OA2-Maximum-Minimum-Path.md)
 * [K Nearest Points(Interview)](./Leetcode-Interview-Amazon-OA2-K-Nearest-Points.md)
 * [City Connection(Interview)](./Leetcode-Interview-Amazon-OA2-City-Connection.md)
