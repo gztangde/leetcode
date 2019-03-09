@@ -16,7 +16,7 @@
 ## Array & String
 
 * [Summary](./summary/Leetcode-Array-String-Summary.md)
-* [Array](./Leetcode-20-Valid-Parentheses.md)
+* [Array](./summary/Leetcode-Array-String-Summary.md)
   * [Subarray(子数组)](./summary/Leetcode-Array-String-Summary.md)
     * [Minimum Size Subarray Sum](./Leetcode-209-Minimum-Size-Subarray-Sum.md)
     * [Maximum Size Subarray Sum Equals k](./Leetcode-325-Minimum-Size-Subarray-Sum-II.md)
@@ -82,7 +82,7 @@
   * [Squares of a Sorted Array](./Leetcode-977-Squares-of-a-Sorted-Array.md)
   * [Array Partition I](./Leetcode-561-Array-Partition-I.md)
   * [Partition Array into Disjoint Intervals](./Leetcode-915-Partition-Array-into-Disjoint-Intervals.md)
-* [String](./Leetcode-20-Valid-Parentheses.md)
+* [String](./summary/Leetcode-Array-String-Summary.md)
   * [String基本操作](./summary/Leetcode-Array-String-Summary.md)
     * [Reverse String](./Leetcode-344-Reverse-String.md)
     * [Reverse String II](./Leetcode-541-Reverse-String-II.md)
@@ -177,11 +177,13 @@
 
 ## Stack & Queue
 
-* [Valid Parentheses](./Leetcode-20-Valid-Parentheses.md)
-* [Minimum Add to Make Parentheses Valid](./Leetcode-921-Minimum-Add-to-Make-Parentheses-Valid.md)
+* [Valid Parentheses(LC.20)](./Leetcode-20-Valid-Parentheses.md)
+* [Longest Valid Parentheses(LC.32)](./Leetcode-32-Longest-Valid-Parentheses.md)
+* [Remove Invalid Parentheses(LC.301)](./Leetcode-301-Remove-Invalid-Parentheses.md)
+* [Minimum Add to Make Parentheses Valid(LC.921)](./Leetcode-921-Minimum-Add-to-Make-Parentheses-Valid.md)
+* [Validate Stack Sequences(LC.946)](./Leetcode-946-Validate-Stack-Sequences.md)
 * [Implement Stack using Queues](./Leetcode-225-Implement-Stack-using-Queues.md)
 * [Min Stack](./Leetcode-155-Min-Stack.md)
-* [Longest Valid Parentheses](./Leetcode-32-Longest-Valid-Parentheses.md)
 * [Largest Rectangle in histogram](./Leetcode-84-Largest-Rectangle-in-histogram.md)
 * [Evaluate Reverse Polish Notation](./Leetcode-150-Evaluate-Reverse-Polish-Notation.md)
 * [Number of Recent Calls](./Leetcode-933-Number-of-Recent-Calls.md)
@@ -465,7 +467,6 @@
 ## New Problems
 
 * [Leetcode 739. Daily Temperatures](./Leetcode-739-Daily-Temperatures.md)
-* [Leetcode 946. Validate Stack Sequences](./Leetcode-946-Validate-Stack-Sequences.md)
 * [Leetcode 503. Next Greater Element II](./Leetcode-503-Next-Greater-Element-II.md)
 * [Leetcode 636. Exclusive Time of Functions](./Leetcode-636-Exclusive-Time-of-Functions.md)
 * [Leetcode 975. Odd Even Jump](./Leetcode-975-Odd-Even-Jump.md)
@@ -487,7 +488,6 @@
 * [Leetcode 957. Prison Cells After N Days](./Leetcode-957-Prison-Cells-After-N-Days.md)
 * [Leetcode 993. Cousins in Binary Tree](./Leetcode-993-Cousins-in-Binary-Tree.md)
 * [Leetcode 994. Rotting Oranges](./Leetcode-994-Rotting-Oranges.md)
-* [Leetcode 301. Remove Invalid Parentheses](./Leetcode-301-Remove-Invalid-Parentheses.md)
 * [Leetcode 37. Sudoku Solver](./Leetcode-37-Sudoku-Solver.md)
 * [Leetcode 727. Minimum Window Subsequence](./Leetcode-727-Minimum-Window-Subsequence.md)
 * [Leetcode 689. Maximum Sum of 3 Non Overlapping Subarrays](./Leetcode-689-Maximum-Sum-of-3-Non-Overlapping-Subarrays.md)
@@ -498,9 +498,8 @@
 * [Leetcode 489. Robot Room Cleaner](./Leetcode-489-Robot-Room-Cleaner.md)
 * [Leetcode 865. Smallest Subtree with all the Deepest Nodes](./Leetcode-865-Smallest-Subtree-with-all-the-Deepest-Nodes.md)
 * [Leetcode 49. GroupAnagrams](./Leetcode-49-GroupAnagrams.md)
-* [](./Leetcode-Interview-Hight-Five.md)
-* [](./Leetcode-Interview-Amazon-OA2-Maximum-Minimum-Path.md)
-* [](./Leetcode-Interview-Amazon-OA2-K-Nearest-Points.md)
-
-* [](./Leetcode-Interview-Amazon-OA2-City-Connection.md)
-* [](./Leetcode-Interview-Amazon-OA2-Subtree-Maximum-average-node.md)
+* [Hightest Five(Interview)](./Leetcode-Interview-Hight-Five.md)
+* [Maximum Minimum Path(Interview)](./Leetcode-Interview-Amazon-OA2-Maximum-Minimum-Path.md)
+* [K Nearest Points(Interview)](./Leetcode-Interview-Amazon-OA2-K-Nearest-Points.md)
+* [City Connection(Interview)](./Leetcode-Interview-Amazon-OA2-City-Connection.md)
+* [Subtree: Maximum Average Node(Interview)](./Leetcode-Interview-Amazon-OA2-Subtree-Maximum-average-node.md)
