@@ -8,7 +8,7 @@ notshow: true
 top:
 ---
 
-# Question
+# Leetcode 819. Most Common Words
 
 Given a paragraph and a list of banned words, return the most frequent word that is not in the list of banned words. It is guaranteed there is at least one word that isn't banned, and that the answer is unique.
 
@@ -37,7 +37,7 @@ Note that words in the paragraph are not case sensitive, that punctuation is ign
 
 <!--more-->
 
-# Analzye
+# Analyze
 
 这一道题目只需要排查被禁止的词汇,找到里面重复最高频率的词汇就可以了，处理方式如下：
 
@@ -49,6 +49,8 @@ Note that words in the paragraph are not case sensitive, that punctuation is ign
 ----------
 
 # Solution
+
+## Solution 1: istringstream
 
 ```cpp
 class Solution {
@@ -91,5 +93,52 @@ class Solution {
     return arg_max;
   }
 };
-
 ```
+
+## Solution 2: Hashtable
+
+使用一个`set`来保存需要屏蔽的词汇， 然后使用`Ｈashmap`统计每个单词出现的频率，如果这个单词在屏蔽名单里面出现过， 那么就不使用这个单词来计算最高的频率。分为3步：
+
+* 遍历句子，将标点符号替换为空格，将大写字母转换为小写字母O（n=字符串“句子”长度）
+
+`for (auto & c: p) c = isalpha(c) ? tolower(c) : ' ';`
+
+* 用一个unordered_set来记录“黑名单”, O（m=字符串“黑名单”长度）
+* 遍历句子中的字符串，用unordered_map来记录各字符串出现的次数，同时需要检查是否在“黑名单”中。同时记录最高频词汇的pair, O（n）
+第三步中，句子用stringstream来分割空格, 时间复杂度为O（m+n）
+
+**Hashtable**
+
+```cpp
+class Solution {
+public:
+  string mostCommonWord(string paragraph, vector<string>& banned) {
+    // Record the banned words set
+    unordered_set<string> b(banned.begin(), banned.end());
+    unordered_map<string, int> counts;
+    const string pattern = "!?',;. ";
+    int best = 0;
+    string ans;
+    const int n = paragraph.size();
+    string word;
+    for (int i = 0; i <= n; ++i) {
+      // If the element is not in the "!?',;. ", then this is a words (Deal with in the else branch).
+      if (i == n || pattern.find(paragraph[i]) != string::npos) {
+        // Deal with one whole word
+        if (++counts[word] > best && !b.count(word) && word.size() > 0) {
+          best = counts[word];
+          ans = word;
+        }
+        word.clear();
+      } else {
+        word += tolower(paragraph[i]);
+      }
+    }
+    return ans;
+  }
+};
+```
+
+## Follow up
+
+如果需要返回的是几个出现最高频率的单词，应该怎么做。

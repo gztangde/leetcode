@@ -21,9 +21,10 @@ Note: The solution set must not contain duplicate triplets.
 
 ***
 
-## 思路
+## Solution
 
 ### 思路1：夹逼法(时间复杂度O(n^2))
+
 先排序，然后查每一个数后面两数之和为当前数相反数的所有可能。
 
 ### 思路2（未实现）
@@ -65,9 +66,6 @@ class Solution {
   }
 };
 ```
-
-
-
 
 思路:求三数之和，比之前那道Two Sum要复杂一些
 

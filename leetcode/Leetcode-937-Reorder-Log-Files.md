@@ -43,6 +43,8 @@ Return the final order of the logs.
 
 # Analyze
 
+给若干行，每一行是以一个identifier开头，后面跟着以空格分隔的若干字符串，除了identifier外，一行中要不全是字母组成的字符串，要不全是数字。要求将所有“字母行”放到最上边，而且要排好序，排序的原则是除identifier外，一行与另一行进行字母序比较。若相同，则再比较identifier；而“数字行”则维持原来的先后顺序。
+
 Log的格式是第一个单词是Log的索引，后面的都是Log的内容。有两种Log，一种内容是纯数字的，一种内容是纯英文字符的。现在要求，把所有的英文Log放到数字Log前面。而且如果是纯英文的字符Log，需要按照内容对Log进行排序，当内容相同的时候按照索引排序；如果是数字Log，保持原来的顺序。
 
 # Solution
@@ -64,5 +66,27 @@ class Solution {
     stable_sort(logs.begin(), logs.end(), myCompare);
     return logs;
   }
+};
+```
+
+
+**Solution: Partition + Sort**
+partition the array such that all digit logs are after all letter logs
+sort the letter logs part based on the log content
+Time complexity: O(n + aloga)
+
+Space complexity: O(n)
+
+```cpp
+class Solution {
+public:
+    vector<string> reorderLogFiles(vector<string>& logs) {
+      auto alpha_end = std::stable_partition(begin(logs),  end(logs), 
+        [](const string& log){ return isalpha(log.back()); });
+      std::sort(begin(logs), alpha_end, [](const string& a, const string& b){
+        return a.substr(a.find(' ')) < b.substr(b.find(' '));
+      });
+      return logs;
+    }
 };
 ```

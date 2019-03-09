@@ -28,47 +28,6 @@ tags: Leetcode
 
 # Solution
 
-<!-- ```java
-class Solution {
-    public int lengthOfLongestSubstring(String s) {
-        char[] sc = s.toCharArray(); //string to char 
-
-        Map<Character, Integer> cm = new HashMap<Character, Integer>();  //build a hashmap to save 
-
-        int j = 0, maxLen = 0;
-        for(int i = 0;i < sc.length; ++i) { //follow the order to find which is note the similar letter 
-            char cur = sc[i];
-            if(cm.containsKey(cur)) { 
-//if there are some letter which were belonged to Hashmap, then this is a same letter
-
-                maxLen = Math.max(i - j, maxLen); 
-// i-j is 
-                j = Math.max(j, cm.get(cur) + 1);
-//j = length 
-            }
-            cm.put(cur, i);  //put the char to Hashmap(char, order)
-        }
-        return Math.max(sc.length - j, maxLen);
-    }
-}
-```
-
-# Follow up
-
-```java
-Java String toCharArray()
-The java string toCharArray() method converts this string into character array. It returns a newly created character array, its length is similar to this string and its contents are initialized with the characters of this string.
-
-public class StringToCharArrayExample{  
-public static void main(String args[]){  
-String s1="hello";  
-char[] ch=s1.toCharArray();  
-for(int i=0;i<ch.length;i++){  
-System.out.print(ch[i]);  
-}  
-}} 
-```  -->
-
 1.蛮力法（Brute Force）
 首先试了试暴力搜索，遍历一次字符串，遍历过程中，对每个字符都有一个 O(N^2)的处理时间，因为需要遍历该字符之后的字符串，对每个字符，需要和已有的子串相比较，如果不重复，则加入子串，不然就遍历下一个字符。加起来时间复杂度为 O(N^3)。
 

@@ -9,8 +9,7 @@ mathjax: true
 top:
 ---
 
-# Question
-
+# Leetcode 992. Subarrays with K Different Integers
 
 Given an array  `A`  of positive integers, call a (contiguous, not necessarily distinct) subarray of  `A`  _good_  if the number of different integers in that subarray is exactly  `K`.
 
@@ -152,6 +151,40 @@ class Solution {
       ans += j;
     }
     return ans;
+  }
+};
+```
+
+# Follow up
+
+Give an array of letters and a window size k, return subarrays of size k with no duplicates
+
+Solution: Two pointers + indirection
+Let f(x) denote the number of subarrays with x or less distinct numbers.
+ans = f(K) – f(K-1)
+It takes O(n) Time and O(n) Space to compute f(x)
+
+```cpp
+// Author: Huahua
+// vector: 56 ms, 10.1 MB
+// Hashtable: 126 ms, 25 MB
+class Solution {
+ public:
+  int subarraysWithKDistinct(vector<int>& A, int K) {
+    // Returns the number of subarrays with k or less distinct numbers.
+    auto subarrys = [&A](int k) {
+      vector<int> count(A.size() + 1);
+      int ans = 0;
+      int i = 0;
+      for (int j = 0; j < A.size(); ++j) {
+        if (count[A[j]]++ == 0) --k;
+        while (k < 0)
+          if (--count[A[i++]] == 0) ++k;
+        ans += j - i + 1;
+      }
+      return ans;
+    };
+    return subarrys(K) - subarrys(K - 1);
   }
 };
 ```

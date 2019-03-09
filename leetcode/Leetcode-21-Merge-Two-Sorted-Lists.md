@@ -94,3 +94,26 @@ class Solution {
   }
 };
 ```
+
+另外一种解法
+
+```cpp
+// Merge Two Sorted Lists (LeetCode)
+ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+  ListNode dummy(-1);
+  ListNode *p = l1, *q = l2, *r = &dummy;
+  while (p && q) {
+    if (p->val < q->val) {
+      r->next = p;
+      r = p;
+      p = p->next;
+    } else {
+      r->next = q;
+      r = q;
+      q = q->next;
+    }
+  }
+  r->next = (p ? p : q);
+  return dummy.next;
+}
+```
