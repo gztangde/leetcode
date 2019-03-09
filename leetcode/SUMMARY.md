@@ -87,7 +87,6 @@
   * [Partition Array into Disjoint Intervals(LC.915)](./Leetcode-915-Partition-Array-into-Disjoint-Intervals.md)
   * [Find the Celebrity(LC.277)](./Leetcode-277-Find-the-Celebrity.md)
   * [Partition Equal Subset Sum(LC.416)](./Leetcode-416-Partition-Equal-Subset-Sum.md)
-
 * [Matrix](./summary/2019-02-03-Leetcode-Matrix-Summary.md)
   * [Spiral And Flip](./summary/2019-02-03-Leetcode-Matrix-Summary.md)
     * [Spiral Matrix](./Leetcode-54-Spiral-Matrix.md)
