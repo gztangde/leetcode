@@ -24,8 +24,6 @@ script:
   - chmod +x ./scripts/hexotogitbook.sh
   - ./scripts/hexotogitbook.sh
   - mv ./leetcode/* .
-  - gitbook pdf ./
-  - ls
   - gitbook build
 
 after_script:
