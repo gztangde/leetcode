@@ -53,9 +53,9 @@ class Solution {
 
       // There are sorted elements in the left part.
       if (nums[left] <= nums[mid]) {
-        nums[left] <= target&& nums[mid] >= target ? right = mid : left = mid + 1;
-      } else {  // There are sorted elements in the right part.
-        nums[mid] < target&& nums[right - 1] >= target ? left = mid + 1 : right = mid;
+        nums[mid] > target && nums[left] <= target ? right = mid : left = mid + 1;
+      } else {
+        nums[mid] < target && nums[right - 1] >= target ? left = mid + 1 : right = mid; 
       }
     }
 

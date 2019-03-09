@@ -36,6 +36,47 @@ If the target is not found in the array, return  `[-1, -1]`.
 
 # Solution
 
+## Solution 1: Binary Search
+
+在第一个　Binary Search 里面，　寻找　lower bound 的时候，有两种情况：
+* 如果目标数字比数组中所有数值都要大，那么　Left 指针会一直移动到超出数组索引
+* 如果目标数字比数组中所有数字都要小的话，　那么，right指针会一直移动到０的位置
+
+所以在这个位置的去数值要比较特殊：如果使用的是：`int left = 0, right = nums.size();`, 那么在使用`left` or `right`进行索引的时候，　一定要判断是否超出索引。
+
+```cpp
+class Solution {
+ public:
+  vector<int> searchRange(vector<int>& nums, int target) {
+    vector<int> res(2, -1);
+    int left = 0, right = nums.size() - 1;
+    while (left < right) {
+      int mid = left + (right - left) / 2;
+      if (nums[mid] < target)
+        left = mid + 1;
+      else
+        right = mid;
+    }
+    if (nums[right] != target) return res;
+    res[0] = right;
+
+    // Do the second Binary Search
+    right = nums.size();
+    while (left < right) {
+      int mid = left + (right - left) / 2;
+      if (nums[mid] <= target)
+        left = mid + 1;
+      else
+        right = mid;
+    }
+    res[1] = left - 1;
+    return res;
+  }
+};
+```
+
+# Solution 2: DFS
+
 ```cpp
 class Solution {
  public:
@@ -76,3 +117,4 @@ class Solution {
   }
 };
 ```
+

@@ -8,7 +8,7 @@ notshow: true
 top:
 ---
 
-# Question
+# Leetcode 69. Sqrt(x)
 
 Implement  `int sqrt(int x)`.
 
@@ -27,8 +27,6 @@ Since the return type is an integer, the decimal digits are truncated and only t
 > **Output:** 2
 > **Explanation:** The square root of 8 is 2.82842..., and since the decimal part is truncated, 2 is returned.
 
-----------
-
 **Difficulty**:Easy
 
 **Category**:Math, Binary-Search
@@ -39,45 +37,23 @@ Since the return type is an integer, the decimal digits are truncated and only t
 
 # Solution
 
-## Solution 1
+## Solution 1: Binary Search
+
+Time Complexity: O(log n), Space Complexity: O(1)
 
 ```cpp
 class Solution {
- public:
+public:
   int mySqrt(int x) {
     if (x < 2) return x;
-    int left = 1, right = x / 2;
-    int last_mid;
-    while (left <= right) {
+    int left = 0, right = x / 2 + 1;
+    while (left < right) {
       int mid = left + (right - left) / 2;
-      if (x / mid > mid) {
-        left = mid + 1;
-        last_mid = mid;
-      } else if (x / mid < mid) {
-        right = mid - 1;
-      } else
-        return mid;
+      // Move left == right, then we need to move left back
+      x / mid < mid ? right = mid : left = mid + 1;
     }
-    return last_mid;
-  }
-};
-```
 
-## Solution 2: Binary Search
-
-```cpp
-class Solution {
- public:
-  int mySqrt(int x) {
-    int l = 0, r = x + 1;
-    while (l < r) {
-      int m = l + (r - l) / 2;
-      if (m * m > x)
-        r = m;
-      else
-        l = m + 1;
-    }
-    return l - 1;
+    return left - 1;
   }
 };
 ```
