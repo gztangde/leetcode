@@ -18,7 +18,6 @@ notifications:
 
 install:
   - npm install -g gitbook-cli
-  - npm install gitbook-pdf -g
   - gitbook install
 
 script:
