@@ -136,6 +136,9 @@
   * [String to Integer](./Leetcode-8-String-to-Integer.md)
   * [Count And Say](./Leetcode-38-Count-And-Say.md)
   * [String Without AAA or BBB(LC.984)](./Leetcode-984-String-Without-AAA-or-BBB.md)
+* [Distance(距离问题)](./summary/Leetcode-Array-String-Summary.md)
+  * [Edit Distance(LC.72)](./Leetcode-72-Edit-Distance.md)
+  * [One Edit Distance(LC.161)](./Leetcode-161-One-Edit-Distance.md)
 * [Implement StrStr](./Leetcode-28-Implement-StrStr.md)
 * [Add Binary](./Leetcode-67-Add-Binary.md)
 * [Longest Common Prefix](./Leetcode-14-Longest-Common-Prefix.md)
@@ -504,3 +507,7 @@
 * [City Connection(Interview)](./Leetcode-Interview-Amazon-OA2-City-Connection.md)
 * [Leetcode 704. Binary Search](./Leetcode-704-Binary-Search.md)
 * [Leetcode 981. Time Based Key Value Store](./Leetcode-981-Time-Based-Key-Value-Store.md)
+* [Leetcode 153. Find Minimum in Rotated Sorted Array](./Leetcode-153-Find-Minimum-in-Rotated-Sorted-Array.md)
+
+* [Leetcode 1005. Maximize Sum Of Array After K Negations](./Leetcode-1005-Maximize-Sum-Of-Array-After-K-Negations.md)
+* [Leetcode 1006. Clumsy Factorial](./Leetcode-1006-Clumsy-Factorial.md)

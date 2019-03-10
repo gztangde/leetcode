@@ -45,5 +45,4 @@ class Solution {
     return false;
   }
 };
-
 ```

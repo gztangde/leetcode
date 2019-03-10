@@ -27,9 +27,9 @@ Given a  **sorted**  (in ascending order) integer array  `nums`  of  `n`  elemen
 
 **Note:**
 
-1.  You may assume that all elements in  `nums`  are unique.
-2.  `n`  will be in the range  `[1, 10000]`.
-3.  The value of each element in  `nums`  will be in the range  `[-9999, 9999]`.
+1. You may assume that all elements in  `nums`  are unique.
+2. `n`  will be in the range  `[1, 10000]`.
+3. The value of each element in  `nums`  will be in the range  `[-9999, 9999]`.
 
 **Difficulty**:Medium
 
