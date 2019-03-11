@@ -20,11 +20,7 @@ top:
 - [Template](#template)
   - [Template 1: Unique and sorted elements](#template-1-unique-and-sorted-elements)
   - [Template 2: Repetitive and sorted elements](#template-2-repetitive-and-sorted-elements)
-- [Analyze Relative Questions](#analyze-relative-questions)
-  - [基本类型](#%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B)
-  - [二维空间应用](#%E4%BA%8C%E7%BB%B4%E7%A9%BA%E9%97%B4%E5%BA%94%E7%94%A8)
-  - [部分有序（变体）](#%E9%83%A8%E5%88%86%E6%9C%89%E5%BA%8F%E5%8F%98%E4%BD%93)
-- [Relative Problems](#relative-problems)
+- [Relative Questions](#relative-questions)
   - [Upper Bound](#upper-bound)
     - [Find First And Last Position Of Element In Sorted Array(LC.34)](#find-first-and-last-position-of-element-in-sorted-arraylc34)
     - [Search Insert Position(LC.35)](#search-insert-positionlc35)
@@ -130,7 +126,7 @@ It is not way to find the real number to fit the requrtment. So, we can find the
 
 ![](/images/in-post/2019-01-15-Algorithms-Binary-Search/2019-01-15-22-47-51.png)
 
-# Analyze Relative Questions
+# Relative Questions
 
 二分查找算法在实际使用中可能会出现各种变体，我们要抓住`有序`的特点，一旦发现输入有`有序`的特点，我们就可以考虑是否可以运用二分查找算法来解决该问题。
 
@@ -148,25 +144,6 @@ It is not way to find the real number to fit the requrtment. So, we can find the
 * [Find K th Smallest Pair Distance](../Leetcode-719-Find-K-th-Smallest-Pair-Distance/)
 * [Search a 2D Matrix](../Leetcode-74-Search-a-2D-Matrix/)
 * [Sqrt x 3](../Leetcode-69-Sqrt-x-3/)
-
-## 基本类型
-
-* [Search Insert Position](../Leetcode-35-Search-Insert-Position/) 是基本思路的应用.
-
-##　数值处理相关题目
-
-* [Sqrt x 3](../Leetcode-69-Sqrt-x-3/)
-
-## 二维空间应用
-
-* [Search a 2D Matrix](../Leetcode-74-Search-a-2D-Matrix/)
-
-## 部分有序（变体）
-
-[Search In Rotated Sorted Array](../Leetcode-33-Search-In-Rotated-Sorted-Array/) 和 [Search In Rotated Sorted Array II](../Leetcode-81-Search-In-Rotated-Sorted-Array-II/)
-
-
-# Relative Problems
 
 ## Upper Bound
 
@@ -207,7 +184,7 @@ class Solution {
 
 ### Search Insert Position(LC.35)
 
-在一个有序数组中找到一个位置，插入　target 的数字，插入之后，数组依旧保持有序
+在一个有序数组中找到一个位置，插入 target 的数字，插入之后，数组依旧保持有序
 
 ```cpp
 class Solution {
