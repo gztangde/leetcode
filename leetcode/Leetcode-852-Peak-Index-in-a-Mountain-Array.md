@@ -35,7 +35,6 @@ Given an array that is definitely a mountain, return any `i` such that `A[0] < A
 2. `0 <= A[i] <= 10^6`
 3. A is a mountain, as defined above.
 
-
 **Difficulty**:Easy
 
 **Category**:Binary-Search
@@ -44,9 +43,13 @@ Given an array that is definitely a mountain, return any `i` such that `A[0] < A
 
 # Analyze
 
+这是一道 easy 题目， 可以通过线扫描，找到最大的顶点数值， 也可以通过Binary Search 的方式在 `log n` 的时间内找到。
+
 # Solution
 
-# Solution 1: Line Scan
+## Solution 1: Line Scan
+
+Time Complexity: O(n), Space Complexity: O(1)
 
 ```cpp
 class Solution {
@@ -59,23 +62,22 @@ class Solution {
 };
 ```
 
-# Solution 2: Binary Search
+## Solution 2: Binary Search
+
+Time complexity: O(log n), Space Complexity: O(1)
 
 ```cpp
 class Solution {
  public:
   int peakIndexInMountainArray(vector<int>& A) {
+    // Binary Search
     int left = 0, right = A.size();
     while (left < right) {
       int mid = left + (right - left) / 2;
-      if (A[mid] > A[mid + 1])
-        right = mid;
-      else
-        left = mid + 1;
+      if (A[mid] > A[mid + 1]) right = mid; // For the left part
+      else left = mid + 1;
     }
     return left;
   }
 };
 ```
-
-
