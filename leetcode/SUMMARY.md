@@ -95,8 +95,6 @@
     * [Flipping an Image](./Leetcode-832-Flipping-an-Image.md)
     * [Transpose Matrix](./Leetcode-867-Transpose-Matrix.md)
   * [Set Matrix Zeroes(LC.73)](./Leetcode-73-Set-Matrix-Zeroes.md)
-  * [Kth Smallest Element in a Sorted Matrix(LC.378)](./Leetcode-378-Kth-Smallest-Element-in-a-Sorted-Matrix.md)
-  * [Kth Smallest Number in Multiplication Table(LC.668)](./Leetcode-668-Kth-Smallest-Number-in-Multiplication-Table.md)
   * [Toeplitz Matrix(LC.766)](./Leetcode-766-Toeplitz-Matrix.md)
   * [Reshape the Matrix(LC.566)](./Leetcode-566-Reshape-the-Matrix.md)
   * [Valid Sudoku(LC.36)](./Leetcode-36-Valid-Sudoku.md)
@@ -382,7 +380,6 @@
   * [Word Search(LC.79](./Leetcode-79-Word-Search.md)
   * [Word Search II(LC.212)](./Leetcode-212-Word-Search-II.md)
 * [BFS](./summary/2019-02-18-Leetcode-Search-problems.md)
-
 * [Palindrome Partitioning](./Leetcode-131-Palindrome-Partitioning.md)
 * [Palindrome Partitioning II](./Leetcode-132-Palindrome-Partitioning-II.md)
 * [Restore IP Addresses](./Leetcode-93-Restore-IP-Addresses.md)
@@ -408,14 +405,19 @@
   * [Find Minimum in Rotated Sorted Array II(LC.154)](./Leetcode-154-Find-Minimum-in-Rotated-Sorted-Array-II.md)
   * [Find Peak Element(LC.162)](./Leetcode-162-Find-Peak-Element.md)
   * [Peak Index in a Mountain Array(LC.852)](./Leetcode-852-Peak-Index-in-a-Mountain-Array.md)
+* [kth & Matrix](./summary/2019-01-15-Algorithms-Binary-Search.md)
+  * [Search a 2D Matrix](./Leetcode-74-Search-a-2D-Matrix.md)
+  * [Kth Smallest Element in a Sorted Matrix(LC.378)](./Leetcode-378-Kth-Smallest-Element-in-a-Sorted-Matrix.md)
+  * [Kth Smallest Number in Multiplication Table(LC.668)](./Leetcode-668-Kth-Smallest-Number-in-Multiplication-Table.md)
+* [kth & Two Points](./summary/2019-01-15-Algorithms-Binary-Search.md)
+  * [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
+  * [K th Smallest Prime Fraction](./Leetcode-786-K-th-Smallest-Prime-Fraction.md)
 * [Online Election](./Leetcode-911-Online-Election.md)
 * [Preimage Size of Factorial Zeroes Function](./Leetcode-793-Preimage-Size-of-Factorial-Zeroes-Function.md)
-* [K th Smallest Prime Fraction](./Leetcode-786-K-th-Smallest-Prime-Fraction.md)
 * [Find Smallest Letter Greater Than Target](./Leetcode-744-Find-Smallest-Letter-Greater-Than-Target.md)
 * [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
 * [Relative Ranks](./Leetcode-506-Relative-Ranks.md)
-* [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
-* [Search a 2D Matrix](./Leetcode-74-Search-a-2D-Matrix.md)
+
 
 ----
 
