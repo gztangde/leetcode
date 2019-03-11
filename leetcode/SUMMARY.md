@@ -82,7 +82,6 @@
   * [Guess Number Higher Or Lower](./Leetcode-374-Guess-Number-Higher-Or-Lower.md)
   * [Valid Mountain Array](./Leetcode-941-Valid-Mountain-Array.md)
   * [Monotonic Array](./Leetcode-896-Monotonic-Array.md)
-  * [Peak Index in a Mountain Array](./Leetcode-852-Peak-Index-in-a-Mountain-Array.md)
   * [Squares of a Sorted Array](./Leetcode-977-Squares-of-a-Sorted-Array.md)
   * [Array Partition I(LC.561)](./Leetcode-561-Array-Partition-I.md)
   * [Partition Array into Disjoint Intervals(LC.915)](./Leetcode-915-Partition-Array-into-Disjoint-Intervals.md)
@@ -408,6 +407,7 @@
 * [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
 * [Search a 2D Matrix](./Leetcode-74-Search-a-2D-Matrix.md)
 * [Sqrt x 3](./Leetcode-69-Sqrt-x-3.md)
+* [Peak Index in a Mountain Array](./Leetcode-852-Peak-Index-in-a-Mountain-Array.md)
 
 ----
 
@@ -511,3 +511,4 @@
 
 * [Leetcode 1005. Maximize Sum Of Array After K Negations](./Leetcode-1005-Maximize-Sum-Of-Array-After-K-Negations.md)
 * [Leetcode 1006. Clumsy Factorial](./Leetcode-1006-Clumsy-Factorial.md)
+* [Leetcode 162. Find Peak Element](./Leetcode-162-Find-Peak-Element.md)
