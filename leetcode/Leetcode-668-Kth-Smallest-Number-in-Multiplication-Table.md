@@ -89,11 +89,9 @@ class Solution {
     int count = 0;
     // Count the number for the row
     // Don't ust the i == 0, so this question, i = 1 && i <= m
-    for (int i = 1; i <= m; ++i) 
+    for (int i = 1; i <= m; ++i)
       count += min(n, mid/i);
     return count;
   }
 };
 ```
-
-
