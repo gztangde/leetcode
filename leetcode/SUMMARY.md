@@ -77,7 +77,6 @@
     * [Letter Case Permutation](./Leetcode-784-Letter-Case-Permutation.md)
     * [Find the Shortest Superstring](./Leetcode-943-Find-the-Shortest-Superstring.md)
     * [Number of Squareful Arrays](./Leetcode-996-Number-of-Squareful-Arrays.md)
-  * [Find First And Last Position Of Element In Sorted Array](./Leetcode-34-Find-First-And-Last-Position-Of-Element-In-Sorted-Array.md)
   * [Target Sum](./Leetcode-494-Target-Sum.md)
   * [Guess Number Higher Or Lower](./Leetcode-374-Guess-Number-Higher-Or-Lower.md)
   * [Valid Mountain Array](./Leetcode-941-Valid-Mountain-Array.md)
@@ -395,9 +394,19 @@
 ## Binary Search
 
 * [Summary](./summary/2019-01-15-Algorithms-Binary-Search.md)
-* [Search In Rotated Sorted Array](./Leetcode-33-Search-In-Rotated-Sorted-Array.md)
-* [Search In Rotated Sorted Array II](./Leetcode-81-Search-In-Rotated-Sorted-Array-II.md)
-* [Search Insert Position](./Leetcode-35-Search-Insert-Position.md)
+* [Upper Bound](./summary/2019-01-15-Algorithms-Binary-Search.md)
+  * [Find First And Last Position Of Element In Sorted Array(LC.34)](./Leetcode-34-Find-First-And-Last-Position-Of-Element-In-Sorted-Array.md)
+  * [Search Insert Position(LC.35)](./Leetcode-35-Search-Insert-Position.md)
+  * [Binary Search(LC.704)](./Leetcode-704-Binary-Search.md)
+  * [Time Based Key Value Store(LC.981)](./Leetcode-981-Time-Based-Key-Value-Store.md)
+  * [Sqrt x 3(LC.69)](./Leetcode-69-Sqrt-x-3.md)
+* [Rotated & Peak](./summary/2019-01-15-Algorithms-Binary-Search.md)
+  * [Search In Rotated Sorted Array(LC.33)](./Leetcode-33-Search-In-Rotated-Sorted-Array.md)
+  * [Search In Rotated Sorted Array II(LC.81)](./Leetcode-81-Search-In-Rotated-Sorted-Array-II.md)
+  * [Find Minimum in Rotated Sorted Array(LC.153))](./Leetcode-153-Find-Minimum-in-Rotated-Sorted-Array.md)
+  * [Find Minimum in Rotated Sorted Array II(LC.154)](./Leetcode-154-Find-Minimum-in-Rotated-Sorted-Array-II.md)
+  * [Find Peak Element(LC.162)](./Leetcode-162-Find-Peak-Element.md)
+  * [Peak Index in a Mountain Array(LC.852)](./Leetcode-852-Peak-Index-in-a-Mountain-Array.md)
 * [Online Election](./Leetcode-911-Online-Election.md)
 * [Preimage Size of Factorial Zeroes Function](./Leetcode-793-Preimage-Size-of-Factorial-Zeroes-Function.md)
 * [K th Smallest Prime Fraction](./Leetcode-786-K-th-Smallest-Prime-Fraction.md)
@@ -406,8 +415,7 @@
 * [Relative Ranks](./Leetcode-506-Relative-Ranks.md)
 * [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
 * [Search a 2D Matrix](./Leetcode-74-Search-a-2D-Matrix.md)
-* [Sqrt x 3](./Leetcode-69-Sqrt-x-3.md)
-* [Peak Index in a Mountain Array](./Leetcode-852-Peak-Index-in-a-Mountain-Array.md)
+
 
 ----
 
@@ -505,11 +513,8 @@
 * [Hightest Five(Interview)](./Leetcode-Interview-Hight-Five.md)
 * [K Nearest Points(Interview)](./Leetcode-Interview-Amazon-OA2-K-Nearest-Points.md)
 * [City Connection(Interview)](./Leetcode-Interview-Amazon-OA2-City-Connection.md)
-* [Leetcode 704. Binary Search](./Leetcode-704-Binary-Search.md)
-* [Leetcode 981. Time Based Key Value Store](./Leetcode-981-Time-Based-Key-Value-Store.md)
-* [Leetcode 153. Find Minimum in Rotated Sorted Array](./Leetcode-153-Find-Minimum-in-Rotated-Sorted-Array.md)
+
 
 * [Leetcode 1005. Maximize Sum Of Array After K Negations](./Leetcode-1005-Maximize-Sum-Of-Array-After-K-Negations.md)
 * [Leetcode 1006. Clumsy Factorial](./Leetcode-1006-Clumsy-Factorial.md)
-* [Leetcode 162. Find Peak Element](./Leetcode-162-Find-Peak-Element.md)
-* [Leetcode 154. Find Minimum in Rotated Sorted Array II](./Leetcode-154-Find-Minimum-in-Rotated-Sorted-Array-II.md)
+
