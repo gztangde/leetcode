@@ -31,10 +31,11 @@ When the depth of water is `3`, we can swim anywhere inside the grid.
 
 **Input:** [[0,1,2,3,4],[24,23,22,21,5],[12,13,14,15,16],[11,17,18,19,20],[10,9,8,7,6]]
 **Output:** 16
+
 **Explanation:**
 
  **0  1  2  3  4**
- 
+
 24 23 22 21  **5**
 
 **12 13 14 15 16**
