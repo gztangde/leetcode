@@ -70,6 +70,10 @@ In this case, we can use the `x/i` as the number which can compare with the othe
 
 # Solution
 
+## Solution 1: Binary Search
+
+因为矩阵的每一行都是有序的，并且在这个矩阵中，`min = 左上角的数字`, `max = 右下角的数字`. 这就是我们需要搜索的范围了，我们可以根据这两个数值，计算得`mid = left + (right - left) / 2`. 由于矩阵中不同行之间的元素并不是严格有序的，所以我们要在每一行都查找一下mid，由于乘法表每行都是连续数字1，2，3...乘以当前行号（从1开始计数），所以我们甚至不需要在每行中使用二分查找，而是直接定位出位置。
+
 ```cpp
 class Solution {
  public:
@@ -92,6 +96,60 @@ class Solution {
     for (int i = 1; i <= m; ++i)
       count += min(n, mid/i);
     return count;
+  }
+};
+```
+
+cite: [Kth Smallest Number in Multiplication Table 乘法表中的第K小的数字](http://www.cnblogs.com/grandyang/p/8367505.html)
+
+我们可以在统计小于`mid`的数字的方法进行优化，不用逐行统计。而是从左下角的数字开始统计，如果该数字小于mid，说明该数字及上方所有数字都小于mid，cnt　加上　i个，然后向右移动一位继续比较。如果当前数字小于mid了，那么向上移动一位，直到横纵方向有一个越界停止．
+
+```cpp
+class Solution {
+ public:
+  int findKthNumber(int m, int n, int k) {
+    int left = 1, right = m * n;
+    while (left < right) {
+      int mid = left + (right - left) / 2, cnt = 0, i = m, j = 1;
+      while (i >= 1 && j <= n) {
+        if (i * j <= mid) {
+          cnt += i;
+          ++j;
+        } else {
+          --i;
+        }
+      }
+      if (cnt < k)
+        left = mid + 1;
+      else
+        right = mid;
+    }
+    return right;
+  }
+};
+```
+
+再快一点，使用除法来快速定位新的j值，然后迅速算出当前行的小于mid的数的个数，然后快速更新i的值
+
+```cpp
+class Solution {
+ public:
+  int findKthNumber(int m, int n, int k) {
+    int left = 1, right = m * n;
+    while (left < right) {
+      int mid = left + (right - left) / 2, cnt = 0, i = m, j = 1;
+      while (i >= 1 && j <= n) {
+        int t = j;
+        j = (mid > n * i) ? n + 1 : (mid / i + 1);
+        cnt += (j - t) * i;
+        i = mid / j;
+      }
+      if (cnt < k)
+        left = mid + 1;
+      else
+        right = mid;
+    }
+    return right;
   }
 };
 ```
