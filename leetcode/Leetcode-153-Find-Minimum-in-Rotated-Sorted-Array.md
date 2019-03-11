@@ -67,7 +67,7 @@ class Solution {
 };
 ```
 
-## Solution 2: DFS
+## Solution 2: Divide and conquer
 
 Time complexity: T(n) = O(1) + T(n/2) = O(log n)
 
