@@ -405,8 +405,9 @@
   * [Find Minimum in Rotated Sorted Array II(LC.154)](./Leetcode-154-Find-Minimum-in-Rotated-Sorted-Array-II.md)
   * [Find Peak Element(LC.162)](./Leetcode-162-Find-Peak-Element.md)
   * [Peak Index in a Mountain Array(LC.852)](./Leetcode-852-Peak-Index-in-a-Mountain-Array.md)
-* [kth & Matrix](./summary/2019-01-15-Algorithms-Binary-Search.md)
+* [Matrix](./summary/2019-01-15-Algorithms-Binary-Search.md)
   * [Search a 2D Matrix](./Leetcode-74-Search-a-2D-Matrix.md)
+* [kth & Matrix](./summary/2019-01-15-Algorithms-Binary-Search.md)
   * [Kth Smallest Element in a Sorted Matrix(LC.378)](./Leetcode-378-Kth-Smallest-Element-in-a-Sorted-Matrix.md)
   * [Kth Smallest Number in Multiplication Table(LC.668)](./Leetcode-668-Kth-Smallest-Number-in-Multiplication-Table.md)
 * [kth & Two Points](./summary/2019-01-15-Algorithms-Binary-Search.md)
@@ -417,7 +418,6 @@
 * [Find Smallest Letter Greater Than Target](./Leetcode-744-Find-Smallest-Letter-Greater-Than-Target.md)
 * [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
 * [Relative Ranks](./Leetcode-506-Relative-Ranks.md)
-
 
 ----
 
