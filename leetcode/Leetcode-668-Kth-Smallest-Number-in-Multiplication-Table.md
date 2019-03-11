@@ -23,6 +23,7 @@ Given the height  `m`  and the length  `n`  of a  `m * n`  Multiplication Table,
 **Output:** 
 **Explanation:** 
 The Multiplication Table:
+
 1	2	3
 2	4	6
 3	6	9
