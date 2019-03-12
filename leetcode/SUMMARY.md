@@ -516,3 +516,4 @@
 * [Leetcode 1005. Maximize Sum Of Array After K Negations](./Leetcode-1005-Maximize-Sum-Of-Array-After-K-Negations.md)
 * [Leetcode 1006. Clumsy Factorial](./Leetcode-1006-Clumsy-Factorial.md)
 * [Leetcode 778. Swim in Rising Water](./Leetcode-778-Swim-in-Rising-Water.md)
+* [Leetcode 875. Koko Eating Bananas](./Leetcode-875-Koko-Eating-Bananas.md)
