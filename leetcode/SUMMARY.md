@@ -419,8 +419,6 @@
 * [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
 * [Relative Ranks](./Leetcode-506-Relative-Ranks.md)
 
-----
-
 ## Greed
 
 * [Jump Game](./Leetcode-55-Jump-Game.md)
