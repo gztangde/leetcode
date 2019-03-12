@@ -47,9 +47,8 @@ table th:nth-of-type(1) {
 table th:nth-of-type(2) {
     width: 70%;
 }
-
 </style>
 
 <!--more-->
 | #    | Title | Difficulty | Topics |
-| :--- | :---- | :--------- | :----- |
+| :--- | :---- | :------ | :----- |
