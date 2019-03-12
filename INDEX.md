@@ -2,7 +2,7 @@
 
 <!-- ![](/images/in-post/2018-08-10-All-Leetcode/2019-01-09-19-22-01.png) -->
 
-I have solved **SOLVEDNUMBER / 1001** problems. I use this page to record the questions which I did on the Leetcode.
+I have solved **SOLVEDNUMBER / 1005** problems. I use this page to record the questions which I did on the Leetcode.
 
 **Last Updated:** UPDATETIMESTAMP
 
