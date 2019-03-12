@@ -56,11 +56,9 @@ We need to wait until time 16 so that (0, 0) and (4, 4) are connected.
 
 **Category**:
 
-# Analyze
+# Solution
 
 这道题目输入是一个二维数组，当成一个水池，不同的数字代表了在水池里面台阶的高度。然后水面高度不断的上升，判断在水面高度上升到最低的高度，可以从左上角到达右下角。
-
-# Solution
 
 ## Solution 1: Binary Search + BFS
 
