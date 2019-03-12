@@ -66,7 +66,4 @@ class Solution {
       return num / 5 + countZeros(num / 5);
   }
 };
-
 ```
-
-

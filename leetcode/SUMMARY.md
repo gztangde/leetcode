@@ -395,6 +395,8 @@
 * [Upper Bound](./summary/2019-01-15-Algorithms-Binary-Search.md)
   * [Find First And Last Position Of Element In Sorted Array(LC.34)](./Leetcode-34-Find-First-And-Last-Position-Of-Element-In-Sorted-Array.md)
   * [Search Insert Position(LC.35)](./Leetcode-35-Search-Insert-Position.md)
+  * [Find Smallest Letter Greater Than Target](./Leetcode-744-Find-Smallest-Letter-Greater-Than-Target.md)
+  * [Relative Ranks](./Leetcode-506-Relative-Ranks.md)
   * [Binary Search(LC.704)](./Leetcode-704-Binary-Search.md)
   * [Time Based Key Value Store(LC.981)](./Leetcode-981-Time-Based-Key-Value-Store.md)
   * [Sqrt x 3(LC.69)](./Leetcode-69-Sqrt-x-3.md)
@@ -413,11 +415,12 @@
 * [kth & Two Points](./summary/2019-01-15-Algorithms-Binary-Search.md)
   * [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
   * [K th Smallest Prime Fraction](./Leetcode-786-K-th-Smallest-Prime-Fraction.md)
+* [Guess and Check](./summary/2019-01-15-Algorithms-Binary-Search.md)
+  * [Swim in Rising Water(LC.778)](./Leetcode-778-Swim-in-Rising-Water.md)
+  * [Koko Eating Bananas(LC.875)](./Leetcode-875-Koko-Eating-Bananas.md)
+  * [Preimage Size of Factorial Zeroes Function](./Leetcode-793-Preimage-Size-of-Factorial-Zeroes-Function.md)
+  * [Dungeon Game(LC.175)](./Leetcode-174-Dungeon-Game.md)
 * [Online Election](./Leetcode-911-Online-Election.md)
-* [Preimage Size of Factorial Zeroes Function](./Leetcode-793-Preimage-Size-of-Factorial-Zeroes-Function.md)
-* [Find Smallest Letter Greater Than Target](./Leetcode-744-Find-Smallest-Letter-Greater-Than-Target.md)
-* [Find K th Smallest Pair Distance](./Leetcode-719-Find-K-th-Smallest-Pair-Distance.md)
-* [Relative Ranks](./Leetcode-506-Relative-Ranks.md)
 
 ## Greed
 
@@ -515,5 +518,4 @@
 * [City Connection(Interview)](./Leetcode-Interview-Amazon-OA2-City-Connection.md)
 * [Leetcode 1005. Maximize Sum Of Array After K Negations](./Leetcode-1005-Maximize-Sum-Of-Array-After-K-Negations.md)
 * [Leetcode 1006. Clumsy Factorial](./Leetcode-1006-Clumsy-Factorial.md)
-* [Leetcode 778. Swim in Rising Water](./Leetcode-778-Swim-in-Rising-Water.md)
-* [Leetcode 875. Koko Eating Bananas](./Leetcode-875-Koko-Eating-Bananas.md)
+

@@ -45,6 +45,7 @@ Votes cast at time  `t`  will count towards our query. In the case of a tie, the
 # Analyze
 
 **Understand Question**
+
 一次选举中,在`time[i]`的时候会投票给`person[i]`,然后求在`t`时刻得票最多的候选人. 如果存在票数相等的情况,就选择最新获得投票的候选人.
 
 # Solution
@@ -72,5 +73,3 @@ class TopVotedCandidate {
   map<int, int> lead_;
 };
 ```
-
-
