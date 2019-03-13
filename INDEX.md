@@ -41,7 +41,7 @@ Other algorithm will include: Math, Two Points, Recursion, Divide-And-Conquer, C
 
 <style>
 table th:nth-of-type(1) {
-    width: 45px;
+    width: 30px;
 }
 
 table th:nth-of-type(2) {

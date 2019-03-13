@@ -49,7 +49,7 @@ Return the minimum integer  `K`  such that she can eat all the bananas within  `
 
 ## Solution 1: Binary Search
 
-Time complexity: O(log max_speed), Space complexity: O(1)
+Time complexity: O(log max_speed), Space complexity: O(1) 
 
 ```cpp
 class Solution {

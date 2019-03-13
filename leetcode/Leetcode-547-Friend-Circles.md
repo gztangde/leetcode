@@ -150,6 +150,8 @@ class Solution {
 
 初始时给每一个对象都赋上不同的标签，然后对于属于同一类的对象，在root中查找其标签，如果不同，那么将其中一个对象的标签赋值给另一个对象，注意root数组中的数字跟数字的坐标是有很大关系的，root存的是属于同一组的另一个对象的坐标，这样通过getRoot函数可以使同一个组的对象返回相同的值.
 
+Time complexity: O(n), Space complexity: O(n)
+
 ```cpp
 class UnionFindSet {
  public:

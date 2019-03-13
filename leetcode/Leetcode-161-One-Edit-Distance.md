@@ -95,7 +95,10 @@ class Solution {
     } else {
       int cnt = 0;
       for (int i = 0; i < m; ++i) {
-        if (s[i] != t[i]) ++cnt;
+        if (s[i] != t[i]) {
+          // Remove the same index
+          if (s.substr(i+1) == t.substr(i+1)) return true;
+        }
       }
       return cnt == 1;
     }

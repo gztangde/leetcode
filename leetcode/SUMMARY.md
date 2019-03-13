@@ -520,3 +520,5 @@
 * [Leetcode 1006. Clumsy Factorial](./Leetcode-1006-Clumsy-Factorial.md)
 
 * [Leetcode 547. Friend Circles](./Leetcode-547-Friend-Circles.md)
+* [Leetcode 737. Sentence Similarity II](./Leetcode-737-Sentence-Similarity-II.md)
+* [Leetcode 734. Sentence Similarity](./Leetcode-734-Sentence-Similarity.md)
