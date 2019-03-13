@@ -69,3 +69,7 @@ class Solution {
   }
 };
 ```
+
+# Follow up
+
+如果同义的单词具有传递性，应该怎么处理呢。
