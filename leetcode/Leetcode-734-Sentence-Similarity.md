@@ -37,7 +37,7 @@ Note:
 
 # Solution
 
-cite: [Sentence Similarity 句子相似度](http://www.cnblogs.com/grandyang/p/8016251.html)
+Cite: [Sentence Similarity 句子相似度](http://www.cnblogs.com/grandyang/p/8016251.html)
 
 这道题目判定的条件是：
 
