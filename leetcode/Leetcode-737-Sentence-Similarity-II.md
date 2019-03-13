@@ -203,7 +203,7 @@ class Solution {
 
 ## Solution 2: Recursion + DFS
 
-cite: [Sentence Similarity II 句子相似度之二](http://www.cnblogs.com/grandyang/p/8053934.html)
+Cite: [Sentence Similarity II 句子相似度之二](http://www.cnblogs.com/grandyang/p/8053934.html)
 
 ```cpp
 class Solution {
