@@ -20,9 +20,9 @@ Example 1:
 [[0,0,1,0,0,0,0,1,0,0,0,0,0],
  [0,0,0,0,0,0,0,1,1,1,0,0,0],
  [0,1,1,0,1,0,0,0,0,0,0,0,0],
- [0,1,0,0,1,1,0,0,**1**,0,**1**,0,0],
- [0,1,0,0,1,1,0,0,**1**,**1**,**1**,0,0],
- [0,0,0,0,0,0,0,0,0,0,**1**,0,0],
+ [0,1,0,0,1,1,0,0,1,0,1,0,0],
+ [0,1,0,0,1,1,0,0,1,1,1,0,0],
+ [0,0,0,0,0,0,0,0,0,0,1,0,0],
  [0,0,0,0,0,0,0,1,1,1,0,0,0],
  [0,0,0,0,0,0,0,1,1,0,0,0,0]]
 
@@ -47,5 +47,33 @@ Given the above grid, return `0`.
 # Solution
 
 ```cpp
+class Solution {
+ public:
+  int maxAreaOfIsland(vector<vector<int>>& grid) {
+    if (grid.empty()) return 0;
+    int m = grid.size();
+    int n = grid[0].size();
+    int ans = 0;
+    for (int y = 0; y < m; ++y)
+      for (int x = 0; x < n; ++x) {
+        if (grid[y][x] == 0) continue;
+        // ans += grid[y][x] - '0';
+        int cnt = 1;
+        dfs(grid, x, y, m, n, cnt, ans);
+      }
+    return ans;
+  }
 
+ private:
+  void dfs(vector<vector<int>>& grid, int x, int y, int m, int n, int& cnt, int& ans) {
+    if (x < 0 || y < 0 || x >= n || y >= m || grid[y][x] == 0) return;
+    // Change all the grid[y][x] to '0'
+    ans = max(ans, cnt++);
+    grid[y][x] = 0;
+    dfs(grid, x + 1, y, m, n, cnt, ans);
+    dfs(grid, x - 1, y, m, n, cnt, ans);
+    dfs(grid, x, y + 1, m, n, cnt, ans);
+    dfs(grid, x, y - 1, m, n, cnt, ans);
+  }
+};
 ```
