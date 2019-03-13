@@ -45,11 +45,60 @@ Return an edge that can be removed so that the resulting graph is a tree of N no
 
 **Category**:
 
-# Analyze
-
-
 # Solution
 
-```cpp
+## Solution 1: Union Find
 
+![](/images/2019-03-13-00-12-13.png)
+
+![](/images/2019-03-13-00-12-29.png)
+
+```cpp
+class UnionFindSet {
+ public:
+  UnionFindSet(int n) {
+    parents_ = vector<int>(n + 1, 0);
+    ranks_ = vector<int>(n + 1, 0);
+
+    for (int i = 0; i < parents_.size(); ++i) parents_[i] = i;
+  }
+
+  bool Union(int u, int v) {
+    int pu = Find(u);
+    int pv = Find(v);
+    if (pu == pv) return false;
+
+    if (ranks_[pu] > ranks_[pv]) {
+      parents_[pv] = pu;
+    } else if (ranks_[pv] > ranks_[pu]) {
+      parents_[pu] = pv;
+    } else {
+      parents_[pu] = pv;
+      ++ranks_[pv];
+    }
+
+    return true;
+  }
+
+  int Find(int id) {
+    if (id != parents_[id]) parents_[id] = Find(parents_[id]);
+    return parents_[id];
+  }
+
+ private:
+  vector<int> parents_;
+  vector<int> ranks_;
+};
+
+class Solution {
+ public:
+  vector<int> findRedundantConnection(vector<vector<int>>& edges) {
+    UnionFindSet s(edges.size());
+
+    for (const auto& edge : edges) {
+      if (!s.Union(edge[0], edge[1])) return edge;
+    }
+    return {};
+  }
+};
 ```
