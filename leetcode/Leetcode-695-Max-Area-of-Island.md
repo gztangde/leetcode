@@ -43,6 +43,8 @@ Given the above grid, return `0`.
 
 # Analyze
 
+Cite: [Max Area of Island 岛的最大面积](http://www.cnblogs.com/grandyang/p/7712724.html)
+
 
 # Solution
 
