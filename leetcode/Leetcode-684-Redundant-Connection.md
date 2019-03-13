@@ -44,7 +44,7 @@ Return an edge that can be removed so that the resulting graph is a tree of N no
     4 - 3
 ```
 
-**Note:**  
+**Note:**
 
 - The size of the input 2D-array will be between 3 and 1000.
 - Every integer represented in the 2D-array will be between 1 and N, where N is the size of the input array.
