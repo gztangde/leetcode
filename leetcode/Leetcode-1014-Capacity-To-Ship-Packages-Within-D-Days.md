@@ -68,27 +68,28 @@ A ship capacity of 6 is the minimum to ship all the packages in 3 days like this
 
 ```cpp
 class Solution {
-public:
+ public:
   int shipWithinDays(vector<int>& weights, int D) {
     int left = 0, right = INT_MAX;
     while (left < right) {
       int mid = left + (right - left) / 2;
       bool canfinished = compareDays(weights, mid, D);
       // std::cout << mid << std::endl;
-      if (!canfinished) left = mid + 1;
-      else right = mid;
+      if (!canfinished)
+        left = mid + 1;
+      else
+        right = mid;
     }
     return left;
-
   }
-  
- private: 
+
+ private:
   bool compareDays(vector<int>& weights, int mid, int& max_day) {
     int sum = 0, cnt = 0;
     for (int w : weights) {
       if (w > mid) return false;
       if (cnt > max_day) return false;
-      
+
       sum += w;
       // if (mid == 5) std::cout << sum << std::endl;
       if (sum > mid) {
