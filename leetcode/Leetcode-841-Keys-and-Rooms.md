@@ -73,3 +73,7 @@ class Solution {
   }
 };
 ```
+
+## Solution 2: Union Find
+
+<!-- TODO: Think about how to solve this problem in Union Find -->

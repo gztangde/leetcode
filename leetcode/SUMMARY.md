@@ -525,3 +525,5 @@
 * [Leetcode 684. Redundant Connection](./Leetcode-684-Redundant-Connection.md)
 * [Leetcode 695. Max Area of Island](./Leetcode-695-Max-Area-of-Island.md)
 * [Leetcode 841. Keys and Rooms](./Leetcode-841-Keys-and-Rooms.md)
+* [Leetcode 1012. Complement of Base 10 Integer](./Leetcode-1012-Complement-of-Base-10-Integer.md)
+* [Leetcode 1013. Pairs of Songs With Total Durations Divisible by 60](./Leetcode-1013-Pairs-of-Songs-With-Total-Durations-Divisible-by-60.md)
