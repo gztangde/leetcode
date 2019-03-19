@@ -31,7 +31,7 @@ The above elevation map is represented by array [0,1,0,2,1,0,1,3,2,1,2,1]. In th
 
 # Solution
 
-## Solution 1: DP 
+## Solution 1: DP
 
 ```cpp
 class Solution {

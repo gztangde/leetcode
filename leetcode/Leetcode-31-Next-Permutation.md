@@ -42,7 +42,7 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 
 # Solution
 
-**Solution 1**
+## Solution 1
 
 ```cpp
 class Solution {
@@ -70,7 +70,9 @@ class Solution {
 };
 ```
 
-**Solution 2**： 稍微更加简洁的代码，来自有 [[LeetCode] Next Permutation 下一个排列](http://www.cnblogs.com/grandyang/p/4428207.html)
+## Solution 2
+
+稍微更加简洁的代码，来自有 [[LeetCode] Next Permutation 下一个排列](http://www.cnblogs.com/grandyang/p/4428207.html)
 
 ```cpp
 class Solution {
@@ -87,7 +89,9 @@ class Solution {
 };
 ```
 
-**Solution 3**:使用函数模板的方式解决, 具有普遍通用性，来自有：[《Leetcode 题解》](https://github.com/soulmachine/leetcode) 第20页
+## Solution 3
+
+使用函数模板的方式解决, 具有普遍通用性，来自有：[《Leetcode 题解》](https://github.com/soulmachine/leetcode) 第20页
 
 ```cpp
 class Solution {
