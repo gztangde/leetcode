@@ -529,3 +529,4 @@
 * [Leetcode 1013. Pairs of Songs With Total Durations Divisible by 60](./Leetcode-1013-Pairs-of-Songs-With-Total-Durations-Divisible-by-60.md)
 * [Leetcode 1014. Capacity To Ship Packages Within D Days](./Leetcode-1014-Capacity-To-Ship-Packages-Within-D-Days.md)
 * [Leetcode 307. Range Sum Query Mutable](./Leetcode-307-Range-Sum-Query-Mutable.md)
+* [Leetcode 315. Count of Smaller Numbers After Self](./Leetcode-315-Count-of-Smaller-Numbers-After-Self.md)
