@@ -4,6 +4,7 @@
 * [Leetcode Template](./summary/2019-01-13-Leetcode-Template-Summary.md)
 * [Count Time Complexity](./summary/2019-03-05-How-to-count-complexity.md)
 * [Arrays and Strings](./summary/2019-02-10-Leetcode-Arrays-And-Strings-Summary.md)
+* [Binary Indexed Tree](./summary/2019-03-20-Data-Structure-Binary-Indexed-Tree.md)
 * Linked List
 * [Tree And Graph](./summary/2019-01-12-Leetcode-Tree-Summary.md)
   * [Build Binary Tree](./summary/2019-02-03-Leetcode-Tree-Build.md)

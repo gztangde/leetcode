@@ -1,28 +1,45 @@
 class Solution {
  public:
-  int bitwiseComplement(int N) {
-    if (N == 0) return 1;
-    s_ = "";
-    string num = toBinary(N);
-    int right = num.size() - 1;
-    int cnt = 1, ans = 0;
-  
-    for (; right >= 0; --right) {
-      if (num[right] == '0') {
-        ans += cnt;
-      }
-      cnt *= 2;
+  string longestPalindrome(string s) {
+    string Q = "$#";
+    for (int i = 0; i < s.size(); ++i) {
+      Q += s[i];
+      Q += '#';
     }
-    return ans;
-  }
+    int c = 0, r = 0;  // current center, right limit
+    int P[Q.size()] = {0};
+    for (int i = 1; i < Q.size() - 1; i++) {
+      // find the corresponding letter in the palidrome subString
+      int iMirror = c - (i - c);
 
- private:
-  string s_;
-  string toBinary(int n) {
-    s_ = (n % 2 == 0 ? '0' : '1') + s_;
-    if (n / 2 != 0) {
-      toBinary(n / 2);
+      if (r > i) {
+        P[i] = min(r - i, P[iMirror]);
+      }
+
+      // expanding around center i
+      while (Q[i + 1 + P[i]] == Q[i - 1 - P[i]]) {
+        P[i]++;
+      }
+
+      // Update c,r in case if the palindrome centered at i expands past r,
+      if (i + P[i] > r) {
+        c = i;  // next center = i
+        r = i + P[i];
+      }
     }
-    return s_;
+
+    // Find the longest palindrome length in p.
+
+    int maxPalindrome = 0;
+    int centerIndex = 0;
+
+    for (int i = 1; i < Q.size() - 1; i++) {
+      if (P[i] > maxPalindrome) {
+        maxPalindrome = P[i];
+        centerIndex = i;
+      }
+    }
+
+    return s.substr((centerIndex - 1 - maxPalindrome) / 2, maxPalindrome);
   }
 };
