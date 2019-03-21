@@ -40,3 +40,8 @@ class FenwickTree {
   vector<int> sums_;
 };
 ```
+
+# Relative problems
+
+* [Leetcode 307. Range Sum Query – Mutable](../Leetcode-307-Range-Sum-Query-Mutable.md)
+* [Leetcode 315. Count of Smaller Numbers After Self](../Leetcode-315-Count-of-Smaller-Numbers-After-Self.md)
