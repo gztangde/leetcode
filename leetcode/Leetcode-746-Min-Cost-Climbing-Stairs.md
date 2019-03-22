@@ -41,6 +41,8 @@ Once you pay the cost, you can either climb one or two steps. You need to find m
 
 # Solution
 
+## Solution 1: DP
+
 这道题目不是求步数，而是每个台阶上都有一个cost，让我们求爬到顶端的最小cost是多少。这道题目还是用 `Dynamic Programming` 来做。这里我们定义一个一维的dp数组，其中`dp[i] = 爬到第i层的最小cost`，然后我们来想dp[i]如何推导。我们来思考一下如何才能到第i层呢？是不是只有两种可能性，一个是从第i-2层上直接跳上来，一个是从第i-1层上跳上来。不会再有别的方法，所以我们的dp[i]只和前两层有关系，所以可以写做如下：
 
 `dp[i] = min(dp[i- 2] + cost[i - 2], dp[i - 1] + cost[i - 1])`
