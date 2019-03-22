@@ -49,7 +49,7 @@ We then go to room 3.  Since we were able to go to every room, we return true.
 
 # Solution
 
-![](../images/2019-03-16-19-41-56.png)
+![](/images/2019-03-16-19-41-56.png)
 
 ## Solution 1: DFS
 

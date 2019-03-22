@@ -55,7 +55,7 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
 
 # Solution
 
-## Solution 1: Top-Down Dynamic Programming(Or Memoization
+## Solution 1: Top-Down Dynamic Programming(Or Memoization)
 
 ```cpp
 class Solution {
@@ -67,12 +67,9 @@ class Solution {
 
  private:
   int climbStairs(int n, vector<int>& rec) {
-    if (n == 0) return 1;
-    if (n < 0) return 0;
-  
-    if (rec[n] == 0) {
-      rec[n] = climbStairs(n - 1, rec) + climbStairs(n - 2, rec);
-    }
+    if (n <= 0) return n == 0;
+
+    if (rec[n] == 0) rec[n] = climbStairs(n - 1, rec) + climbStairs(n - 2, rec);
     return rec[n];
   }
 };
@@ -84,15 +81,10 @@ Buttom-Up Dynamic Programming
 class Solution {
  public:
   int climbStairs(int n) {
-    if (n <= 1) return 1;
-    if (n < 0) return 0;
+    if (n <= 1) return n >= 0;
 
-    vector<int> rec(n + 1, 0);
-    rec[0] = 1;
-    rec[1] = 1;
-    for (int i = 2; i < n; ++i) {
-      rec[i] = rec[i - 1] + rec[i - 2];
-    }
+    vector<int> rec(n, 1);　// rec[0] = 1, rec[1] = 1
+    for (int i = 2; i < n; ++i) rec[i] = rec[i - 1] + rec[i - 2];
     return rec[n - 1] + rec[n - 2];
   }
 };
