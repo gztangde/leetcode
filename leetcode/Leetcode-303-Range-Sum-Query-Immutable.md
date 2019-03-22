@@ -70,6 +70,10 @@ class NumArray {
 
 ![](/images/in-post/2019-01-07-Leetcode-303-Range-Sum-Query-Immutable/2019-01-07-17-39-42.png)
 
+Times: O(n) + m*O(1) = O(n+m)
+Spaces: O(n)
+Runtime: 28ms
+
 ```cpp
 class NumArray {
  public:
@@ -89,13 +93,4 @@ class NumArray {
   vector<int> sums_;
 };
 
-/**
- * Your NumArray object will be instantiated and called as such:
- * NumArray obj = new NumArray(nums);
- * int param_1 = obj.sumRange(i,j);
- */
 ```
-
-Times: O(n) + m*O(1) = O(n+m)
-Spaces: O(n)
-Runtime: 28ms
