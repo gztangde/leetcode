@@ -57,6 +57,8 @@ class Solution {
 
 ## Solution 2: Divide and Conquer
 
+Cite: [Maximum Subarray 最大子数组](http://www.cnblogs.com/grandyang/p/4377150.html)
+
 题目还要求我们用分治法Divide and Conquer Approach来解，这个分治法的思想就类似于二分搜索法，我们需要把数组一分为二，分别找出左边和右边的最大子数组之和，然后还要从中间开始向左右分别扫描，求出的最大值分别和左右两边得出的最大值相比较取最大的那一个
 
 ```cpp
