@@ -92,6 +92,8 @@ class Solution {
 };
 ```
 
+> 必须在最开始给ans一个初始化的数值, 这样它才可以进入到循环里面,否则一直输出的都是空值. `vector<string> ans = {""};`
+
 # Update
 
 03/01/2019 Review (BSF: 10 mins, DFS: 8mins)
