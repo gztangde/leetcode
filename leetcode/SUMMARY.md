@@ -533,3 +533,5 @@
 * [Leetcode 307. Range Sum Query Mutable](./Leetcode-307-Range-Sum-Query-Mutable.md)
 * [Leetcode 315. Count of Smaller Numbers After Self](./Leetcode-315-Count-of-Smaller-Numbers-After-Self.md)
 * [Leetcode 213. House Robber II](./Leetcode-213-House-Robber-II.md)
+* [Leetcode 1021. Best Sightseeing Pair](./Leetcode-1021-Best-Sightseeing-Pair.md)
+* [Leetcode 1020. Partition Array Into Three Parts With Equal Sum](./Leetcode-1020-Partition-Array-Into-Three-Parts-With-Equal-Sum.md)
