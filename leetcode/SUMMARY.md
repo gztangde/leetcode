@@ -535,3 +535,4 @@
 * [Leetcode 213. House Robber II](./Leetcode-213-House-Robber-II.md)
 * [Leetcode 1021. Best Sightseeing Pair](./Leetcode-1021-Best-Sightseeing-Pair.md)
 * [Leetcode 1020. Partition Array Into Three Parts With Equal Sum](./Leetcode-1020-Partition-Array-Into-Three-Parts-With-Equal-Sum.md)
+* [Leetcode 1022. Smallest Integer Divisible by K](./Leetcode-1022-Smallest-Integer-Divisible-by-K.md)
