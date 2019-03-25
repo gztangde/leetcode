@@ -9,7 +9,7 @@ mathjax: true
 top:
 ---
 
-# Question
+# Leetcode 209. Minimum Size Subarray Sum
 
 Given an array of  **n**  positive integers and a positive integer  **s**, find the minimal length of a  **contiguous**  subarray of which the sum ≥  **s**. If there isn't one, return 0 instead.
 
@@ -29,30 +29,9 @@ If you have figured out the  _O_(_n_) solution, try coding another solution of w
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
-```cpp
-class Solution {
- public:
-  int minSubArrayLen(int s, vector<int>& nums) {
-    int ans = 0, left = 0, cnt = 0, sum = 0, diff = INT_MAX;
-    for (int right = 0; right < nums.size(); ++right) {
-      sum += nums[right];
-      while (sum >= s) {
-        if (diff > right - left + 1) {
-          diff = right - left + 1;
-          ans = diff;
-        }
-        sum -= nums[left];
-        ++left;
-      }
-    }
-    return ans;
-  }
-};
-```
+Time complexity: O(n), Space complexity: O(1)
 
 ```cpp
 class Solution {
