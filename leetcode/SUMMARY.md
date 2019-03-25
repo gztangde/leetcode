@@ -29,6 +29,7 @@
     * [Max Consecutive Ones](./Leetcode-485-Max-Consecutive-Ones.md)
     * [Subarrays with K Different Integers(LC.992)](./Leetcode-992-Subarrays-with-K-Different-Integers.md)
     * [Shortest Unsorted Continuous Subarray(LC.581)](./Leetcode-581-Shortest-Unsorted-Continuous-Subarray.md)
+    * [Partition Array Into Three Parts With Equal Sum(LC.1020)](./Leetcode-1020-Partition-Array-Into-Three-Parts-With-Equal-Sum.md)
   * [Sum(求和)](./summary/Leetcode-Array-String-Summary.md)
     * [Two Sum-HashTable](./Leetcode-1-Two-Sum.md)
     * [Two Sum II Input Array Is Sorted](./Leetcode-167-Two-Sum-II-Input-Array-Is-Sorted.md)
@@ -520,7 +521,6 @@
 * [City Connection(Interview)](./Leetcode-Interview-Amazon-OA2-City-Connection.md)
 * [Leetcode 1005. Maximize Sum Of Array After K Negations](./Leetcode-1005-Maximize-Sum-Of-Array-After-K-Negations.md)
 * [Leetcode 1006. Clumsy Factorial](./Leetcode-1006-Clumsy-Factorial.md)
-
 * [Leetcode 547. Friend Circles](./Leetcode-547-Friend-Circles.md)
 * [Leetcode 737. Sentence Similarity II](./Leetcode-737-Sentence-Similarity-II.md)
 * [Leetcode 734. Sentence Similarity](./Leetcode-734-Sentence-Similarity.md)
@@ -534,5 +534,4 @@
 * [Leetcode 315. Count of Smaller Numbers After Self](./Leetcode-315-Count-of-Smaller-Numbers-After-Self.md)
 * [Leetcode 213. House Robber II](./Leetcode-213-House-Robber-II.md)
 * [Leetcode 1021. Best Sightseeing Pair](./Leetcode-1021-Best-Sightseeing-Pair.md)
-* [Leetcode 1020. Partition Array Into Three Parts With Equal Sum](./Leetcode-1020-Partition-Array-Into-Three-Parts-With-Equal-Sum.md)
 * [Leetcode 1022. Smallest Integer Divisible by K](./Leetcode-1022-Smallest-Integer-Divisible-by-K.md)
