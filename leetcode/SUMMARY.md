@@ -294,6 +294,7 @@
 * [Subtree: Maximum Average Node(Interview)](./Leetcode-Interview-Amazon-OA2-Subtree-Maximum-average-node.md)
 * [Cousins in Binary Tree(LC.933)](./Leetcode-993-Cousins-in-Binary-Tree.md)
 * [Smallest Subtree with all the Deepest Nodes(LC.865)](./Leetcode-865-Smallest-Subtree-with-all-the-Deepest-Nodes.md)
+* [Friend Circles(LC.547)](./Leetcode-547-Friend-Circles.md)
 
 ## Graph
 
@@ -332,7 +333,7 @@
 
 ------------
 
-## Sorting(Merge, Quick)
+## Sorting and Searching
 
 * [Summary](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
 * [Top K Frequent Elements](./Leetcode-347-Top-K-Frequent-Elements.md)
@@ -358,39 +359,6 @@
   * [Insert Interval](./Leetcode-57-Insert-Interval.md)
   * [Merge Intervals](./Leetcode-56-Merge-Intervals.md)
   * [Interval List Intersections](./Leetcode-986-Interval-List-Intersections.md)
-
-## Search
-
-* [Combination](./summary/2019-02-18-Leetcode-Search-problems.md)
-  * [Letter Combinations of a Phone Number(LC.17)](./Leetcode-17-Letter-Combinations-of-a-Phone-Number.md)
-  * [Combinations(LC.77)](./Leetcode-77-Combinations.md)
-  * [Combination Sum(LC.39)](./Leetcode-39-Combination-Sum.md)
-  * [Combination Sum II(LC.40)](./Leetcode-40-Combination-Sum-II.md)
-  * [Combination Sum III(LC.216)](./Leetcode-216-Combination-Sum-III.md)
-  * [Subsets(LC.78)](./Leetcode-78-Subsets.md)
-  * [Subset II(LC.90)](./Leetcode-90-Subset-II.md)
-* [Permutation(BackTracking)](./summary/2019-02-18-Leetcode-Search-problems.md)
-  * [Permutations](./Leetcode-46-Permutations.md)
-  * [Next Permutation](./Leetcode-31-Next-Permutation.md)
-  * [Permutations II](./Leetcode-47-Permutations-II.md)
-  * [Letter Case Permutation](./Leetcode-784-Letter-Case-Permutation.md)
-  * [Find the Shortest Superstring](./Leetcode-943-Find-the-Shortest-Superstring.md)
-  * [Number of Squareful Arrays](./Leetcode-996-Number-of-Squareful-Arrays.md)
-* [DFS](./summary/2019-02-18-Leetcode-Search-problems.md)
-  * [Generate Parentheses](./Leetcode-22-Generate-Parentheses.md)
-  * [Remove Invalid Parentheses(LC.301)](./Leetcode-301-Remove-Invalid-Parentheses.md)
-  * [Sudoku Solver(LC.37)](./Leetcode-37-Sudoku-Solver.md)
-  * [Word Search(LC.79](./Leetcode-79-Word-Search.md)
-  * [Word Search II(LC.212)](./Leetcode-212-Word-Search-II.md)
-* [BFS](./summary/2019-02-18-Leetcode-Search-problems.md)
-* [Palindrome Partitioning](./Leetcode-131-Palindrome-Partitioning.md)
-* [Palindrome Partitioning II](./Leetcode-132-Palindrome-Partitioning-II.md)
-* [Restore IP Addresses](./Leetcode-93-Restore-IP-Addresses.md)
-* [Unique Paths](./Leetcode-62-Unique-Paths.md)
-* [Unique Paths II](./Leetcode-63-Unique-Paths-II.md)
-* [Unique Paths III](./Leetcode-980-Unique-Paths-III.md)
-* [Number of Islands(LC.200)](./Leetcode-200-Number-of-Islands.md)
-* [Robot Room Cleaner(LC.489)](./Leetcode-489-Robot-Room-Cleaner.md)
 
 ## Binary Search
 
@@ -424,6 +392,40 @@
   * [Preimage Size of Factorial Zeroes Function](./Leetcode-793-Preimage-Size-of-Factorial-Zeroes-Function.md)
   * [Dungeon Game(LC.175)](./Leetcode-174-Dungeon-Game.md)
 * [Online Election](./Leetcode-911-Online-Election.md)
+* [First Bad Version](./Leetcode-278-First-Bad-Version.md)
+
+## Backtracking, DFS, BFS
+
+* [Combination(Backtracking)](./summary/2019-02-18-Leetcode-Search-problems.md)
+  * [Letter Combinations of a Phone Number(LC.17)](./Leetcode-17-Letter-Combinations-of-a-Phone-Number.md)
+  * [Combinations(LC.77)](./Leetcode-77-Combinations.md)
+  * [Combination Sum(LC.39)](./Leetcode-39-Combination-Sum.md)
+  * [Combination Sum II(LC.40)](./Leetcode-40-Combination-Sum-II.md)
+  * [Combination Sum III(LC.216)](./Leetcode-216-Combination-Sum-III.md)
+  * [Subsets(LC.78)](./Leetcode-78-Subsets.md)
+  * [Subset II(LC.90)](./Leetcode-90-Subset-II.md)
+* [Permutation(BackTracking)](./summary/2019-02-18-Leetcode-Search-problems.md)
+  * [Permutations](./Leetcode-46-Permutations.md)
+  * [Permutations II](./Leetcode-47-Permutations-II.md)
+  * [Next Permutation](./Leetcode-31-Next-Permutation.md)
+  * [Letter Case Permutation](./Leetcode-784-Letter-Case-Permutation.md)
+  * [Find the Shortest Superstring](./Leetcode-943-Find-the-Shortest-Superstring.md)
+  * [Number of Squareful Arrays](./Leetcode-996-Number-of-Squareful-Arrays.md)
+* [DFS](./summary/2019-02-18-Leetcode-Search-problems.md)
+  * [Generate Parentheses](./Leetcode-22-Generate-Parentheses.md)
+  * [Remove Invalid Parentheses(LC.301)](./Leetcode-301-Remove-Invalid-Parentheses.md)
+  * [Sudoku Solver(LC.37)](./Leetcode-37-Sudoku-Solver.md)
+  * [Word Search(LC.79](./Leetcode-79-Word-Search.md)
+  * [Word Search II(LC.212)](./Leetcode-212-Word-Search-II.md)
+* [BFS](./summary/2019-02-18-Leetcode-Search-problems.md)
+* [Palindrome Partitioning](./Leetcode-131-Palindrome-Partitioning.md)
+* [Palindrome Partitioning II](./Leetcode-132-Palindrome-Partitioning-II.md)
+* [Restore IP Addresses](./Leetcode-93-Restore-IP-Addresses.md)
+* [Unique Paths](./Leetcode-62-Unique-Paths.md)
+* [Unique Paths II](./Leetcode-63-Unique-Paths-II.md)
+* [Unique Paths III](./Leetcode-980-Unique-Paths-III.md)
+* [Number of Islands(LC.200)](./Leetcode-200-Number-of-Islands.md)
+* [Robot Room Cleaner(LC.489)](./Leetcode-489-Robot-Room-Cleaner.md)
 
 ## Greed
 
@@ -445,7 +447,6 @@
 * [Maximal Rectangle](./Leetcode-85-Maximal-Rectangle.md)
 * [House Robber](./Leetcode-198-House-Robber.md)
 * [Word Break](./Leetcode-139-Word-Break.md)
-* [First Bad Version](./Leetcode-278-First-Bad-Version.md)
 * [Interleaving String](./Leetcode-97-Interleaving-String.md)
 * [Decode Ways](./Leetcode-91-Decode-Ways.md)
 * [Distinct Subsequences](./Leetcode-115-Distinct-Subsequences.md)
@@ -521,7 +522,6 @@
 * [City Connection(Interview)](./Leetcode-Interview-Amazon-OA2-City-Connection.md)
 * [Leetcode 1005. Maximize Sum Of Array After K Negations](./Leetcode-1005-Maximize-Sum-Of-Array-After-K-Negations.md)
 * [Leetcode 1006. Clumsy Factorial](./Leetcode-1006-Clumsy-Factorial.md)
-* [Leetcode 547. Friend Circles](./Leetcode-547-Friend-Circles.md)
 * [Leetcode 737. Sentence Similarity II](./Leetcode-737-Sentence-Similarity-II.md)
 * [Leetcode 734. Sentence Similarity](./Leetcode-734-Sentence-Similarity.md)
 * [Leetcode 684. Redundant Connection](./Leetcode-684-Redundant-Connection.md)
