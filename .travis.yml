@@ -2,7 +2,7 @@ sudo: required
 dist: xenial
 language: node_js
 node_js:
-  - "10"
+  - "node"
 cache: npm
 
 branches:
@@ -16,9 +16,9 @@ notifications:
     on_success: change
     on_failure: always
 
-install:
-  - npm install -g gitbook-cli
-  - gitbook install
+# install:
+#   - npm install -g gitbook-cli
+#   - gitbook install
 
 script:
   - chmod +x ./scripts/hexotogitbook.sh
