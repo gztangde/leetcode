@@ -6,12 +6,10 @@
 * [Arrays and Strings](./summary/2019-02-10-Leetcode-Arrays-And-Strings-Summary.md)
 * [Binary Indexed Tree](./summary/2019-03-20-Data-Structure-Binary-Indexed-Tree.md)
 * [Parentheses Summary](./summary/Leetcode-Parentheses-Summary.md)
-* Linked List
 * [Tree And Graph](./summary/2019-01-12-Leetcode-Tree-Summary.md)
   * [Build Binary Tree](./summary/2019-02-03-Leetcode-Tree-Build.md)
-* Sorting And Searching
-  * [Sorting](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
-  * [Search Combination](./summary/2019-02-18-Leetcode-Search-problems.md)
+* [Sorting](./summary/2019-01-23-Leetcode-Sorting-Summary.md)
+* [Search Combination](./summary/2019-02-18-Leetcode-Search-problems.md)
 * [Binary Search](./summary/2019-01-15-Algorithms-Binary-Search.md)
 * [Recursion And Dynamic Programming](./summary/2019-01-10-Leetcode-Recursion-And-Dynamic-Programming.md)
 
