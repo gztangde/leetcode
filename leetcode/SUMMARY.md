@@ -1,4 +1,6 @@
-## Summary
+# Summary
+
+This is a book to record my solutions for Leetcode questions.
 
 * [All Leetcode Questions](./INDEX.md)
 * [Leetcode Template](./summary/2019-01-13-Leetcode-Template-Summary.md)
