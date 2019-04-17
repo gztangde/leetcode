@@ -18,9 +18,8 @@ notifications:
 
 install:
   - npm install -g gitbook-cli
-  # - gitbook install
-  - wget http://downloads.editor.gitbook.com/download/linux-64-bit
-  - sudo dpkg -i linux-64-bit
+  - gitbook install
+
 script:
   - chmod +x ./scripts/hexotogitbook.sh
   - ./scripts/hexotogitbook.sh
