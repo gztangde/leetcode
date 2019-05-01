@@ -31,7 +31,7 @@ tags: Leetcode
 1.蛮力法（Brute Force）
 首先试了试暴力搜索，遍历一次字符串，遍历过程中，对每个字符都有一个 O(N^2)的处理时间，因为需要遍历该字符之后的字符串，对每个字符，需要和已有的子串相比较，如果不重复，则加入子串，不然就遍历下一个字符。加起来时间复杂度为 O(N^3)。
 
-```c++
+```cpp
 int lengthOfLongestSubstring(string s) {
   int length = s.size();
   int maxlength = 0;

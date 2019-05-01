@@ -40,7 +40,7 @@ Implement  [pow(_x_,  _n_)](http://www.cplusplus.com/reference/valarray/pow/), w
 
 # Solution
 
-```c++
+```cpp
 class Solution {
  public:
   double myPow(double x, int n) {
