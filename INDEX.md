@@ -28,7 +28,7 @@ table th:nth-of-type(3) {
 | Vector/Array/Matrix, string                                               | Breadth-First Search                                            | Bit Manipulation      |
 | [Linked-List](./summary/2019-01-26-Leetcode-Algorithm-Linked-List-Array/) | Depth-First Search                                              | Memory(Stack vs Heap) |
 | [Tree](./summary/2019-01-12-Leetcode-Tree-Summary/), Tries, & Graphs      | [Binary-Search](./summary/2019-01-15-Algorithms-Binary-Search/) | Recursion             |
-| Stack & Queues                                                            | [Sort](../Leetcode-Leetcode-Sorting-Summary/)                   | Dynamic Programming   |
+| Stack & Queues                                                            | [Sort](./summary/2019-01-23-Leetcode-Sorting-Summary/)                   | Dynamic Programming   |
 | Hash-Table                                                                | Merge Sorting                                                   | Big O time & Space    |
 | Heaps                                                                     | Quick Sorting                                                   | Greedy                |
 |                                                                           |                                                                 | Divide-And-Conquer    |
