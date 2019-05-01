@@ -35,7 +35,7 @@ for file in $POSTS; do
     fi
     
     if [ -f $file ]; then
-        codetime=$(echo $file | cut -d'-' -f 1-3)
+        # codetime=$(echo $file | cut -d'-' -f 1-3)
         num=$(echo $file | grep -oE "$leetcode_qnum_re" | grep -oE '[0-9]+')
         linkname=$(echo $file | grep -oE "$leetcode_linkname")
         name=$(echo $linkname | cut -d'-' -f3-)
