@@ -2,7 +2,7 @@ sudo: required
 dist: xenial
 language: node_js
 node_js:
-  - "10"
+  - stable
 cache: npm
 
 branches:
@@ -17,7 +17,7 @@ notifications:
     on_failure: always
 
 install:
-  - npm install -g gitbook-cli
+  - npm install gitbook-cli -g
   - gitbook install
 
 script:

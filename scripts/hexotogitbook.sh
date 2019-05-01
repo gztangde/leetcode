@@ -58,7 +58,7 @@ for file in $POSTS; do
             # echo "$name($num) (../$linkname/) | $difficulty | $category | $codetime |"
             new_file_name="$num. $name"
             new_file=$linkname.md
-            mv $file $new_file
+            # mv $file $new_file
             echo "$new_file_name](./$new_file)" >> $CURRENT_DIR/.temp
             # echo "$num | [$name](./$linkname.html) | $difficulty | $category | $codetime |" >> $CURRENT_DIR/.temp1
             echo "$num | [$name](./$linkname.html) | $difficulty | $category |" >> $CURRENT_DIR/.temp1
