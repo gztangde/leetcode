@@ -228,7 +228,7 @@ mobi: sync_content clean_mobi create_folder_mobi
 	gitbook mobi $(CURRENT_DIR) $(MOBI_FULLNAME) $(GITBOOK_COMMON_FLAGS)
 
 ## Generate all files: website/pdf/epub/mobi
-all: website pdf epub mobi
+all: website
 	@echo ================================================================================
 	@echo Generate All for $(BOOK_NAME)
 
