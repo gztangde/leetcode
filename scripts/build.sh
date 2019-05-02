@@ -1,7 +1,8 @@
 #!/bin/bash
 
 git_push() {
-  cd ./_book
+  # cd ./_book
+  rm -rf .git
   git init
   git remote add origin https://${REF}
   git add .
