@@ -1,5 +1,7 @@
 ################################################################################
 # Global defines
+# This script come from https://github.com/crifan/gitbook_template
+# I changed some information.
 ################################################################################
 
 # COLORS
@@ -21,9 +23,9 @@ endef
 ################################################################################
 # Output current makefile info
 ################################################################################
-Author=crifan.com
-Version=20190410
-Function=Auto use gitbook to generated files: website/pdf/epub/mobi; upload to remote server; commit to github io repo
+Author=guozet.me
+Version=04/12/2019
+Function=Auto use gitbook to generated files: website/pdf and upload to remote server; commit to github io repo
 RunHelp = Run 'make help' to see usage
 $(info --------------------------------------------------------------------------------)
 $(info ${YELLOW}Author${RESET}  : ${GREEN}$(Author)${RESET})
@@ -228,7 +230,7 @@ mobi: sync_content clean_mobi create_folder_mobi
 	gitbook mobi $(CURRENT_DIR) $(MOBI_FULLNAME) $(GITBOOK_COMMON_FLAGS)
 
 ## Generate all files: website/pdf/epub/mobi
-all: website
+all: website pdf
 	@echo ================================================================================
 	@echo Generate All for $(BOOK_NAME)
 

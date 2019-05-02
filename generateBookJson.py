@@ -30,7 +30,7 @@ BookJsonOutputFilename = "book.json"
 
 
 def recursiveMergeDict(aDict, bDict):
-    """
+  """
     Recursively merge dict a to b, return merged dict b
     Note: Sub dict and sub list's won't be overwritten but also updated/merged
 
@@ -98,41 +98,41 @@ Note:
 bDict should use deepcopy, otherwise will be altered after call this function !!!
 
     """
-    aDictItems = None
-    if (sys.version_info[0] == 2): # is python 2
-      aDictItems = aDict.iteritems()
-    else: # is python 3
-      aDictItems = aDict.items()
+  aDictItems = None
+  if (sys.version_info[0] == 2):  # is python 2
+    aDictItems = aDict.iteritems()
+  else:  # is python 3
+    aDictItems = aDict.items()
 
-    for aKey, aValue in aDictItems:
-      # print("------ [%s]=%s" % (aKey, aValue))
-      if aKey not in bDict:
-        bDict[aKey] = aValue
-      else:
-        bValue = bDict[aKey]
-        # print("aValue=%s" % aValue)
-        # print("bValue=%s" % bValue)
-        if isinstance(aValue, dict):
-          recursiveMergeDict(aValue, bValue)
-        elif isinstance(aValue, list):
-          aValueListLen = len(aValue)
-          bValueListLen = len(bValue)
-          bValueListMaxIdx = bValueListLen - 1
-          for aListIdx in range(aValueListLen):
-            # print("---[%d]" % aListIdx)
-            aListItem = aValue[aListIdx]
+  for aKey, aValue in aDictItems:
+    # print("------ [%s]=%s" % (aKey, aValue))
+    if aKey not in bDict:
+      bDict[aKey] = aValue
+    else:
+      bValue = bDict[aKey]
+      # print("aValue=%s" % aValue)
+      # print("bValue=%s" % bValue)
+      if isinstance(aValue, dict):
+        recursiveMergeDict(aValue, bValue)
+      elif isinstance(aValue, list):
+        aValueListLen = len(aValue)
+        bValueListLen = len(bValue)
+        bValueListMaxIdx = bValueListLen - 1
+        for aListIdx in range(aValueListLen):
+          # print("---[%d]" % aListIdx)
+          aListItem = aValue[aListIdx]
+          # print("aListItem=%s" % aListItem)
+          if aListIdx <= bValueListMaxIdx:
+            bListItem = bValue[aListIdx]
+            # print("bListItem=%s" % bListItem)
+            recursiveMergeDict(aListItem, bListItem)
+          else:
+            # print("bDict=%s" % bDict)
+            # print("aKey=%s" % aKey)
             # print("aListItem=%s" % aListItem)
-            if aListIdx <= bValueListMaxIdx:
-              bListItem = bValue[aListIdx]
-              # print("bListItem=%s" % bListItem)
-              recursiveMergeDict(aListItem, bListItem)
-            else:
-              # print("bDict=%s" % bDict)
-              # print("aKey=%s" % aKey)
-              # print("aListItem=%s" % aListItem)
-              bDict[aKey].append(aListItem)
+            bDict[aKey].append(aListItem)
 
-    return bDict
+  return bDict
 
 
 def saveJsonToFile(jsonDict, fullFilename, indent=2, fileEncoding="utf-8"):
@@ -141,7 +141,8 @@ def saveJsonToFile(jsonDict, fullFilename, indent=2, fileEncoding="utf-8"):
     for non-ascii string, output encoded string, without \uxxxx
   """
   with codecs.open(fullFilename, 'w', encoding="utf-8") as outputFp:
-      json.dump(jsonDict, outputFp, indent=indent, ensure_ascii=False)
+    json.dump(jsonDict, outputFp, indent=indent, ensure_ascii=False)
+
 
 ################################################################################
 # Main Part
@@ -172,17 +173,18 @@ bookJsonTemplateFullPath = os.path.join(BookRootPath, BookJsonTemplateFilename)
 # print("bookJsonTemplateFullPath=%s" % bookJsonTemplateFullPath)
 # /Users/crifan/GitBook/Library/Import/book_common.json
 with open(bookJsonTemplateFullPath) as templateJsonFp:
-    templateJson = json.load(templateJsonFp, encoding="utf-8")
-    # templateJson = json.load(templateJsonFp, encoding="utf-8", object_pairs_hook=OrderedDict)
-    # templateJson = OrderedDict(templateJson)
-    # print("type(templateJson)=%s" % (type(templateJson))) #type(templateJson)=<class 'collections.OrderedDict'>
+  templateJson = json.load(templateJsonFp, encoding="utf-8")
+  # templateJson = json.load(templateJsonFp, encoding="utf-8", object_pairs_hook=OrderedDict)
+  # templateJson = OrderedDict(templateJson)
+  # print("type(templateJson)=%s" % (type(templateJson))) #type(templateJson)=<class 'collections.OrderedDict'>
 
-bookJsonCurrentFullPath = os.path.join(BookRootPath, CurrentGitbookName, BookJsonCurrentFilename)
+bookJsonCurrentFullPath = os.path.join(BookRootPath, CurrentGitbookName,
+                                       BookJsonCurrentFilename)
 # print("bookJsonCurrentFullPath=%s" % bookJsonCurrentFullPath)
 with open(bookJsonCurrentFullPath) as currentJsonFp:
-    currentJson = json.load(currentJsonFp, encoding="utf-8")
-    # currentJson = json.load(currentJsonFp, encoding="utf-8", object_pairs_hook=OrderedDict)
-    # currentJson = OrderedDict(currentJson)
+  currentJson = json.load(currentJsonFp, encoding="utf-8")
+  # currentJson = json.load(currentJsonFp, encoding="utf-8", object_pairs_hook=OrderedDict)
+  # currentJson = OrderedDict(currentJson)
 
 # pprint("/"*80)
 # pprint(templateJson)
@@ -202,6 +204,7 @@ bookJson = recursiveMergeDict(templateJson, copy.deepcopy(currentJson))
 # print("type(currentJson)=%s" % (type(currentJson)))
 # print("type(bookJson)=%s" % (type(bookJson)))
 
-bookJsonFullPath = os.path.join(BookRootPath, CurrentGitbookName, BookJsonOutputFilename)
+bookJsonFullPath = os.path.join(BookRootPath, CurrentGitbookName,
+                                BookJsonOutputFilename)
 # print("bookJsonFullPath=%s" % bookJsonFullPath)
 saveJsonToFile(bookJson, bookJsonFullPath)
