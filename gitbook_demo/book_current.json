@@ -5,15 +5,15 @@
     "github-buttons": {
       "buttons": [
         {
-          "repo": "gitbook_demo"
+          "repo": "leetcode"
         }
       ]
     },
     "sitemap-general": {
-      "prefix": "https://book.crifan.com/gitbook/gitbook_demo/website/"
+      "prefix": "https://guozet.me/leetcode"
     },
     "toolbar-button": {
-      "url": "http://book.crifan.com/books/gitbook_demo/pdf/gitbook_demo.pdf"
+      "url": "https://guozet.me/leetcode/pdf/gitbook_demo.pdf"
     }
   }
 }
