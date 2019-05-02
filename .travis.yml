@@ -23,7 +23,7 @@ install:
 
 script:
   - cd leetcode
-  - chmox +x preprocess.sh && ./preprocess.sh
+  - chmod +x preprocess.sh && ./preprocess.sh
   - make init
   - make all
 
