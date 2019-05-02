@@ -144,7 +144,7 @@ clean_generated_book_json:
 	-rm -f book.json
 
 clean_output_dir:
-	-rm -rf $(OUTPUT_PATH)
+	-rm -rf $(CURRENT_DIR)/$(OUTPUT_FOLDER_NAME)
 
 ## Clean gitbook debug
 clean_debug:
