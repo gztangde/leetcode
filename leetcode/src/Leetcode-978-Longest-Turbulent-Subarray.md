@@ -44,11 +44,7 @@ Return the  **length**  of a maximum size turbulent subarray of A.
 
 **Difficulty**:Medium
 
-**Category**:Array
-
-<!-- more -->
-
-# Analyze
+**Category**: Array
 
 # Solution
 
