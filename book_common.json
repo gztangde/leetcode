@@ -26,6 +26,7 @@
     "sharing-plus",
     "tbfed-pagefooter",
     "expandable-chapters-small",
+    "editlink",
     "anchor-navigation-ex",
     "todo",
     "sitemap-general",
@@ -112,6 +113,11 @@
     },
     "sitemap-general": {
       "prefix": "https://book.crifan.com/gitbook/gitbook_name/website/"
+    },
+    "editlink": {
+      "base": "https://github.com/guozetang/leetcode/blob/master/leetcode/",
+      "label": "Edit",
+      "multilingual": false
     },
     "toolbar-button": {
       "icon": "fa-file-pdf-o",
