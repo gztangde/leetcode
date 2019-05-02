@@ -2,7 +2,7 @@
   "title": "Gitbook的书名",
   "description": "gitbook书的描述",
   "author": "Guoze(Terry) Tang <guozet@g.clemson.edu>", 
-  "language": "en",
+  "language": "zh-hans",
   "gitbook": "3.2.3",
   "root": "./src",
   "links": {
@@ -58,7 +58,7 @@
         }, {
           "user": "guozetang",
           "type": "follow",
-          "width": "120",
+          "width": "150",
           "count": false,
           "size": "small"
         }
