@@ -1,16 +1,16 @@
 {
-  "title": "Gitbook演示",
-  "description": "用于演示如何创建一个自己的Gitbook",
+  "title": "Leetcode",
+  "description": "Leetcode题解",
   "pluginsConfig": {
     "github-buttons": {
       "buttons": [
         {
-          "repo": "gitbook_demo"
+          "repo": "leetcode"
         }
       ]
     },
     "sitemap-general": {
-      "prefix": "https://book.crifan.com/gitbook/gitbook_demo/website/"
+      "prefix": "https://guozet.me/leetcode"
     },
     "toolbar-button": {
       "url": "http://book.crifan.com/books/gitbook_demo/pdf/gitbook_demo.pdf"
