@@ -12,8 +12,11 @@
     "sitemap-general": {
       "prefix": "https://guozet.me/leetcode"
     },
+    "editlink": {
+      "base": "https://github.com/guozetang/leetcode/tree/dev/leetcode/src/"
+    },
     "toolbar-button": {
-      "url": "https://guozet.me/leetcode/pdf/leetcode.pdf"
+      "url": "https://guozet.me/leetcode/pdf/gitbook_demo.pdf"
     }
   }
 }
