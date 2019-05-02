@@ -22,7 +22,7 @@ install:
   - npm install gitbook-cli -g
 
 script:
-  - cd gitbook_demo
+  - cd leetcode
   - make init
   - make all
 
