@@ -1,5 +1,5 @@
 {
-  "description": "用于演示如何创建一个自己的Gitbook", 
+  "description": "Leetcode题解", 
   "links": {
     "sidebar": {
       "Home": "http://guozet.me"
@@ -8,14 +8,18 @@
   "author": "Guoze(Terry) Tang <guozet@g.clemson.edu>", 
   "title": "Leetcode", 
   "gitbook": "3.2.3", 
-  "language": "zh-hans", 
+  "language": "en", 
+  "collapsible_menu": true,
+  "level_number": false,
   "plugins": [
     "theme-comscore", 
     "-lunr", 
+    "-highlight", 
     "-search", 
     "search-plus", 
     "disqus", 
-    "-highlight", 
+    "editlink",
+    "katex",
     "prism", 
     "prism-themes", 
     "github-buttons", 
@@ -24,8 +28,10 @@
     "sharing-plus", 
     "tbfed-pagefooter", 
     "expandable-chapters-small", 
+    "anchor-navigation-ex",
     "ga", 
     "donate", 
+    "todo",
     "sitemap-general", 
     "copy-code-button", 
     "callouts", 
@@ -85,10 +91,10 @@
     "github-buttons": {
       "buttons": [
         {
-          "repo": "gitbook_demo", 
+          "repo": "leetcode", 
           "count": true, 
           "type": "star", 
-          "user": "crifan", 
+          "user": "guozetang", 
           "size": "small"
         }, 
         {
@@ -101,7 +107,7 @@
       ]
     }, 
     "disqus": {
-      "shortName": "crifan"
+      "shortName": "guozet-me"
     }, 
     "prism": {
       "css": [
