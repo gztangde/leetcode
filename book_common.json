@@ -2,7 +2,7 @@
   "title": "Gitbook的书名",
   "description": "gitbook书的描述",
   "author": "Guoze(Terry) Tang <guozet@g.clemson.edu>", 
-  "language": "zh-hans",
+  "language": "en",
   "gitbook": "3.2.3",
   "root": "./src",
   "links": {
@@ -60,12 +60,6 @@
           "type": "star",
           "count": true,
           "size": "small"
-        }, {
-          "user": "guozetang",
-          "type": "follow",
-          "width": "150",
-          "count": false,
-          "size": "small"
         }
       ]
     },
@@ -107,7 +101,7 @@
       ]
     },
     "tbfed-pagefooter": {
-      "copyright": "Edit by <a href='https://github.com/guozetang'>guozetang</a>)",
+      "copyright": "Edit by <a href='https://github.com/guozetang'>guozetang</a>",
       "update_label": "Updated：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
