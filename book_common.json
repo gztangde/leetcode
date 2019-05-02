@@ -107,6 +107,7 @@
     },
     "tbfed-pagefooter": {
       "copyright": "By [guozetang](https://github.com/guozetang)",
+      "markdown": true,
       "update_label": "Updated：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
