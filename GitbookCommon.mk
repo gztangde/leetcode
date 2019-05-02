@@ -332,7 +332,6 @@ deploy: upload commit
 
 push:
 	cd $(WEBSITE_PATH)  && \
-	mv ../pdf .  && \
 	git init  && \
   git remote add origin https://${REF}  && \
   git add .  && \
