@@ -3,7 +3,7 @@
 git_push() {
   # cd ./_book
   rm -rf .git
-  cd ./leetcode/leetcode/output/leetcode/website
+  cd ./leetcode/output/leetcode/website/
   git init
   git remote add origin https://${REF}
   git add .
