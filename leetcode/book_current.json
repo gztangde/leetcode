@@ -14,9 +14,6 @@
     },
     "editlink": {
       "base": "https://github.com/guozetang/leetcode/tree/dev/leetcode/src/"
-    },
-    "toolbar-button": {
-      "url": "https://guozet.me/leetcode/pdf/gitbook_demo.pdf"
     }
   }
 }

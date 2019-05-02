@@ -5,6 +5,10 @@
   "language": "en",
   "gitbook": "3.2.3",
   "root": "./src",
+  "structure": {
+    "readme": "INDEX.md",
+    "summary": "SUMMARY.md"
+  },
   "links": {
     "sidebar": {
       "Home": "http://guozet.me"
@@ -112,11 +116,6 @@
       "base": "https://github.com/guozetang/leetcode/blob/master/leetcode/",
       "label": "Edit",
       "multilingual": false
-    },
-    "toolbar-button": {
-      "icon": "fa-file-pdf-o",
-      "label": "PDF",
-      "url": "http://book.crifan.com/books/gitbook_name/pdf/gitbook_name.pdf"
     }
   }
 }
