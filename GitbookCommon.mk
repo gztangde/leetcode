@@ -143,8 +143,8 @@ create_folder_all: create_folder_website create_folder_pdf create_folder_epub cr
 clean_generated_book_json:
 	-rm -f book.json
 
-clean_output_file:
-	-rm -f output
+clean_output_dir:
+	-rm -rf $(OUTPUT_PATH)
 
 ## Clean gitbook debug
 clean_debug:
@@ -167,7 +167,7 @@ clean_mobi:
 	-rm -rf $(MOBI_PATH)
 
 ## Clean all generated files
-clean_all: clean_generated_book_json clean_website clean_pdf clean_epub clean_mobi clean_output_file
+clean_all: clean_generated_book_json clean_website clean_pdf clean_epub clean_mobi clean_output_dir
 
 ################################################################################
 # Gitbook Init / Preparation
