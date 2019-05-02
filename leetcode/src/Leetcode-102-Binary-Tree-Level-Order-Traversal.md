@@ -20,8 +20,6 @@ Given a binary tree, return the level order traversal of its nodes' values. (ie,
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

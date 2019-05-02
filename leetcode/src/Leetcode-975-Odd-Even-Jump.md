@@ -74,8 +74,6 @@ We can reach the end from starting indexes 1, 2, and 4.
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

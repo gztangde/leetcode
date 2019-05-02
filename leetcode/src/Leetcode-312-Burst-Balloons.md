@@ -31,8 +31,6 @@ Find the maximum coins you can collect by bursting the balloons wisely.
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ![](/images/in-post/2019-01-07-Leetcode-312-Burst-Balloons/2019-01-07-20-31-26.png)

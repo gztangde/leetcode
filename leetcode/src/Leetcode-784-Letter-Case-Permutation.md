@@ -33,8 +33,6 @@ Given a string S, we can transform every letter individually to be lowercase or 
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ##　Solution 1: DFS

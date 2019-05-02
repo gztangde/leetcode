@@ -37,8 +37,6 @@ Find the letter that was added in  **_t_**.
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

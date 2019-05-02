@@ -41,8 +41,6 @@ Return the largest possible sum of the array after modifying it in this way.
 
 **Category**:
 
-# Analyze
-
 # Solution
 
 ```cpp

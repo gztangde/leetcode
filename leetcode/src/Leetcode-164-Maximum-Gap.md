@@ -39,8 +39,6 @@ Return 0 if the array contains less than 2 elements.
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

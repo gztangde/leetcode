@@ -33,8 +33,6 @@ Since the return type is an integer, the decimal digits are truncated and only t
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ## Solution 1: Binary Search

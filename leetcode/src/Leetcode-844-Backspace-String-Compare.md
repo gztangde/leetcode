@@ -49,8 +49,6 @@ Given two strings `S` and  `T`, return if they are equal when both are typed int
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

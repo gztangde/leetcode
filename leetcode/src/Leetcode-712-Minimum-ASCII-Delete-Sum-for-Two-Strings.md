@@ -41,8 +41,6 @@ If instead we turned both strings into "lee" or "eet", we would get answers of 4
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

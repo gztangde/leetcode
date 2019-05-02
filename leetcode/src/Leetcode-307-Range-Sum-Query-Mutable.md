@@ -33,8 +33,6 @@ sumRange(0, 2) -> 8
 
 **Category**:
 
-# Analyze
-
 # Solution
 
 ## Solution 1: Fenwick Tree (Binary Indexed Tree)

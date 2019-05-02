@@ -54,8 +54,6 @@ If the 'reshape' operation with given parameters is possible and legal, output t
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

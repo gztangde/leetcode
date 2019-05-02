@@ -33,8 +33,6 @@ Given an unsorted integer array, find the smallest missing positive integer.
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

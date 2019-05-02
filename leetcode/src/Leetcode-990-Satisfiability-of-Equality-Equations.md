@@ -56,8 +56,6 @@ Return  `true` if and only if it is possible to assign integers to variable name
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

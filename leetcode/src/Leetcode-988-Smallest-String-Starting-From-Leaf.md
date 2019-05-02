@@ -49,8 +49,6 @@ _(As a reminder, any shorter prefix of a string is lexicographically smaller: fo
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

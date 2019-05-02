@@ -41,8 +41,6 @@ Return  `true` if and only if the given tree is univalued.
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

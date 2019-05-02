@@ -34,9 +34,6 @@ Given a list of non-negative integers representing the amount of money of each h
 
 **Category**:
 
-# Analyze
-
-
 # Solution
 
 ## Solution 1: DP

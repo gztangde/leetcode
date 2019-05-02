@@ -32,8 +32,6 @@ If there are several possible values for _h_, the maximum one is taken as the h-
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

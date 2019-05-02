@@ -41,8 +41,6 @@ Return the element repeated  `N`  times.
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ## Solution 1: Ust Set

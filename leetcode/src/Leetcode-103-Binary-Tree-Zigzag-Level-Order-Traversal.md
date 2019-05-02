@@ -20,8 +20,6 @@ Given a binary tree, return the zigzag level order traversal of its nodes' value
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

@@ -17,8 +17,6 @@ top:
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

@@ -45,8 +45,6 @@ You need to help them find out their  **common interest**  with the  **least lis
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

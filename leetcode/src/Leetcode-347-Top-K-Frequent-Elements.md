@@ -34,8 +34,6 @@ Given a non-empty array of integers, return the  **_k_**  most frequent elements
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ## Solution 1: 桶排序

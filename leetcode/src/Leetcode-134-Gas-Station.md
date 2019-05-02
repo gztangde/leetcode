@@ -59,8 +59,6 @@ Therefore, you can't travel around the circuit once no matter where you start.
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

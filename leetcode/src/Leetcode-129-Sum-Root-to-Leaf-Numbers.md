@@ -28,8 +28,6 @@ Find the total sum of all root-to-leaf numbers.
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

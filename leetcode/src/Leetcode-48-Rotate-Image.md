@@ -26,8 +26,6 @@ You have to rotate the image  [**in-place**](https://en.wikipedia.org/wiki/In-pl
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

@@ -58,8 +58,6 @@ If there isn't any rectangle, return 0.
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

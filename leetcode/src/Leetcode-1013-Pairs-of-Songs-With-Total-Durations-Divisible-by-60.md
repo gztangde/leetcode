@@ -38,9 +38,6 @@ Return the number of pairs of songs for which their total duration in seconds is
 
 **Category**:
 
-# Analyze
-
-
 # Solution
 
 ```cpp

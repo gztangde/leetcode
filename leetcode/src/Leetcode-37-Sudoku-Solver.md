@@ -39,8 +39,6 @@ A sudoku puzzle...
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

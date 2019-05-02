@@ -37,8 +37,6 @@ Once you pay the cost, you can either climb one or two steps. You need to find m
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ## Solution 1: DP

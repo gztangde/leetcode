@@ -25,8 +25,6 @@ For example, given a  `3-ary`  tree:
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

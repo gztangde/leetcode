@@ -28,8 +28,6 @@ Given a sorted linked list, delete all duplicates such that each element appear 
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

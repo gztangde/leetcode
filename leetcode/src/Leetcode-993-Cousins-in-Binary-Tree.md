@@ -49,8 +49,6 @@ Return `true` if and only if the nodes corresponding to the values  `x`  and  `y
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

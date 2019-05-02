@@ -45,8 +45,6 @@ Return the k-values corresponding to a sequence of pancake flips that sort  `A`.
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 <!-- TODO: Understand -->

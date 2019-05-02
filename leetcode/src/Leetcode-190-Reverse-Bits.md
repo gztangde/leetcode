@@ -40,8 +40,6 @@ If this function is called many times, how would you optimize it?
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 后来看了看发现根本不需要这么麻烦，直接进行位移运算，因为是要翻转过来，所以一边向右位移输入的数字，一边根据右移后原数字跟1的与操作结果来将结果数字左移，最后直接返回就完了，完全不需要转成二进制又转回来，都是一样的。

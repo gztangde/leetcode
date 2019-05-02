@@ -42,9 +42,6 @@ Note:
 
 **Category**:
 
-# Analyze
-
-
 # Solution
 
 ```cpp

@@ -50,8 +50,6 @@ circularDeque.getFront();			// return 4
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

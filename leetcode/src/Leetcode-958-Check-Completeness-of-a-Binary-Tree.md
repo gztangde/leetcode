@@ -42,8 +42,6 @@ In a complete binary tree every level, except possibly the last, is completely f
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

@@ -55,8 +55,6 @@ Return  `true`  if and only if you can choose `X >= 2`  such that it is possible
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

@@ -24,8 +24,6 @@ For this problem, a height-balanced binary tree is defined as:
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

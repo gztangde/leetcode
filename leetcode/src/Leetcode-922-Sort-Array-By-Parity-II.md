@@ -34,8 +34,6 @@ You may return any answer array that satisfies this condition.
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ## Solution 2 (Error: Memory Limit Exceeded)

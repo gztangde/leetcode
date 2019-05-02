@@ -48,8 +48,6 @@ For example:
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

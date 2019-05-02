@@ -61,9 +61,6 @@ A ship capacity of 6 is the minimum to ship all the packages in 3 days like this
 
 **Category**:
 
-# Analyze
-
-
 # Solution
 
 ```cpp

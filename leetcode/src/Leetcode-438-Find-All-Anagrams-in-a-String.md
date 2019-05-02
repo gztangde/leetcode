@@ -53,8 +53,6 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

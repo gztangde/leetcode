@@ -42,8 +42,6 @@ If there is no non-empty subarray with sum at least  `K`, return  `-1`.
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ## Solution 1: Error---Time Limit Exceeded

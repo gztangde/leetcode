@@ -52,8 +52,6 @@ Return the total surface area of the resulting shapes.
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 <!-- TODO: You need to understand this quesiton more powerful. -->

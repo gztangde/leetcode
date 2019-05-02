@@ -50,8 +50,6 @@ Valid operators are  `+`,  `-`,  `*`,  `/`. Each operand may be an integer or an
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

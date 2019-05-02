@@ -32,8 +32,6 @@ Given an integer  _n_, return the number of trailing zeroes in  _n_!.
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

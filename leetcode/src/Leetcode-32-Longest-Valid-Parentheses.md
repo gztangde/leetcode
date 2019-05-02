@@ -30,8 +30,6 @@ Given a string containing just the characters  `'('`  and  `')'`, find the lengt
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

@@ -57,8 +57,6 @@ begin to intersect at node c1.
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

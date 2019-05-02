@@ -38,8 +38,6 @@ Your task is to find the smallest possible length of a (contiguous) subarray of 
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp

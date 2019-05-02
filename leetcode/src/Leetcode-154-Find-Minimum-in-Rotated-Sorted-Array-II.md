@@ -37,8 +37,6 @@ The array may contain duplicates.
 
 **Category**:
 
-# Analyze
-
 # Solution
 
 ## Solution 1: Binary Search

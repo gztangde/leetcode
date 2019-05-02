@@ -42,9 +42,6 @@ For a given number  `N`  in base-10, return the complement of it's binary repres
 
 **Category**:
 
-# Analyze
-
-
 # Solution
 
 ```cpp

@@ -51,9 +51,6 @@ kv.get("foo", 5); //output "bar2"
 
 **Category**:
 
-# Analyze
-
-
 # Solution
 
 ## Solution: HashTable + Map

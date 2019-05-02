@@ -45,8 +45,6 @@ If there is no answer, return the empty string.
 
 <!-- more -->
 
-# Analyze
-
 # Solution
 
 ```cpp
