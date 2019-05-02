@@ -25,11 +25,9 @@ script:
   - cd leetcode
   - make init
   - make all
-  - cd ../
 
 after_script:
-  - chmod +x ./scripts/build.sh
-  - ./scripts/build.sh
+  - make push
 
 env:
   global:
