@@ -20,19 +20,15 @@ notifications:
 install:
   - sudo apt-get install calibre
   - npm install gitbook-cli -g
+
+script:
   - cd gitbook_demo
   - make init
   - make all
 
-# script:
-  # - chmod +x ./scripts/hexotogitbook.sh
-  # - ./scripts/hexotogitbook.sh
-  # - mv ./leetcode/* .
-  # - gitbook build
-
-# after_script:
-#   - chmod +x ./scripts/build.sh
-#   - ./scripts/build.sh
+after_script:
+  - chmod +x ./scripts/build.sh
+  - ./scripts/build.sh
 
 env:
   global:
