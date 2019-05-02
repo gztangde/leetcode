@@ -25,6 +25,7 @@ script:
   - cd gitbook_demo
   - make init
   - make all
+  - cd ../
 
 after_script:
   - chmod +x ./scripts/build.sh
